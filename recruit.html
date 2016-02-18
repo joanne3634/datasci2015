@@ -1,0 +1,955 @@
+<!DOCTYPE html> 
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]--> 
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]--> 
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]--> 
+<!--[if gt IE 8]><!--> 
+<html class="no-js"> 
+    <!--<![endif]-->     
+    <head> 
+        <title>2015台灣資料科學愛好者年會 — Exploring the Potentials of Real-world Data Analytics</title>         
+        <meta charset="utf-8">         
+        <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <![endif]-->         
+        <meta name="description" content="台灣資料科學愛好者年會，主意在推動資料科學在台灣的認知及普及應用，期望能看到台灣的產業甚至政府部門能夠有效利用各自手上的各類型資料，經過適當的資料分析及／或預測技術，來為產業建立更大的價值，提供使用者／大眾更好的服務及生活品質">         
+        <meta name="viewport" content="width=device-width, initial-scale=1">         
+        <meta content="2015 台灣資料科學愛好者年會 — Exploring the Potentials of Real-world Data Analytics" property="og:title">         
+        <meta content="website" property="og:type">         
+        <meta content="台灣資料科學愛好者年會，主意在推動資料科學在台灣的認知及普及應用，期望能看到台灣的產業甚至政府部門能夠有效利用各自手上的各類型資料，經過適當的資料分析及／或預測技術，來為產業建立更大的價值，提供使用者／大眾更好的服務及生活品質。" property="og:description">         
+        <meta content="http://datasci.tw/" property="og:url">
+        <meta content="http://datasci.tw/images/dsc_2015_logo_fb.png" property="og:image">
+        <meta content="image/png" property="og:image:type">
+        <meta content="600" property="og:image:width">
+        <meta content="400" property="og:image:height">
+        <meta content="2015 台灣資料科學愛好者年會 Data Science in Taiwan Conference 2015" property="og:site_name">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->         
+        <link rel="stylesheet" href="css/bootstrap.min.css">         
+        <link rel="stylesheet" href="css/main.css">         
+        <link rel="stylesheet" href="css/animations.css">         
+        <link rel="stylesheet" href="css/fonts.css">         
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>         
+        <!--[if lt IE 9]>
+        <script src="js/vendor/html5shiv.min.js"></script>
+        <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->         
+    </head>     
+    <body> 
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->         
+        <div id="box_wrapper"> 
+            <header id="header"> 
+                <div class="container"> 
+                    <div class="row"> 
+                        <div class="col-sm-12"> 
+                            <a href="index.html" class="navbar-brand"> 
+                                <img src="images/dsc_2015_logo.png" title="2015台灣資料科學愛好者年會">                                 
+                            </a>                             
+                            <nav class="navbar"> 
+                                <div class="navbar-header"> 
+                                    <!-- Brand and toggle get grouped for better mobile display -->                                     
+                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".dsc-collapse"> 
+                                        <span class="sr-only">Toggle navigation</span> 
+                                        <span class="icon-bar"></span> 
+                                        <span class="icon-bar"></span> 
+                                        <span class="icon-bar"></span> 
+                                    </button>                                     
+                                </div>                                 
+                                <!-- Collect the nav links, forms, and other content for toggling -->                                 
+                                <div class="dsc-collapse collapse navbar-collapse">
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li> 
+                                            <a href="about.html"> 
+                                                <img src="images/icon01.png"/> 關於
+                                            </a>                                             
+                                        </li>                                         
+                                        <li>
+                                            <a href="speaker.php">
+                                                <img src="images/icon03.png"/> 講者
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="agenda.php">
+                                                <img src="images/icon04.png"/> 議程
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="traffic.html">
+                                                <img src="images/icon05.png"/> 交通
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="signup.html">
+                                                <img src="images/icon06.png"/> 報名
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="sponsor.html">
+                                                <img src="images/icon07.png"/> 贊助
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="recruit.html">
+                                                <img src="images/icon08.png"/> 企業徵才
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>                                 
+                            </nav>                             
+                        </div>                         
+                    </div>                     
+                </div>                 
+            </header>             
+            <section id="mainslider"> 
+                <div class="container"> 
+                    <div class="row"> 
+</div>                     
+                </div>                 
+            </section>             
+            <section class="signup"> 
+                <div class="container"> 
+                    <div class="row"> 
+                        <div class="col-md-12"> 
+                            <h3>企業徵才</h3>
+
+<!-- acc -->
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+				
+<div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="heading12">
+        <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse12" aria-expanded="false" aria-controls="collapse12">
+                <span class="badge">新北市新店區</span> <strong>大數據 Java/Scala 工程師</strong> / 隆中網絡
+            </a>
+        </h4>
+    </div>
+    <div id="collapse12" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading12">
+        <div class="panel-body">
+            <table class="table table-striped" style="background-color:#fff;">
+                <tr>
+                    <td style="width:20%;">需求人數</td>
+                    <td style="width:80%;">2 人</td>
+                </tr>
+                <tr>
+                    <td>工作內容</td>
+                    <td>
+                        1. Java/Scala大數據開發工程師(Big Data back-end developers)<br/>
+                        2. Front-end 前端 / Full Stack 全端開發工程師(Front-end / Full Stack Developers)
+                    </td>
+                </tr>
+                <tr>
+                    <td>需求條件 / 技能條件</td>
+                    <td>
+                        1. Java/Scala大數據開發工程師(Big Data back-end developers): 有撰寫 Scala 程式開發經驗或是有撰寫 Java 及設計範式（design pattern）程式開發經驗，詳細工作說明，請參考: <a href="https://www.104.com.tw/job/?jobno=4hnwd" target="_blank">https://www.104.com.tw/job/?jobno=4hnwd</a><br/>
+                        2. Front-end 前端 / Full Stack 全端開發工程師(Front-end / Full Stack Developers): <a href="https://www.104.com.tw/job/?jobno=4lavo" target="_blank">https://www.104.com.tw/job/?jobno=4lavo</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>工作地點</td>
+                    <td>新北市新店區</td>
+                </tr>
+                <tr>
+                    <td>薪資範圍</td>
+                    <td>High</td>
+                </tr>
+                <tr>
+                    <td>公司福利</td>
+                    <td>
+                        1. 績效獎金<br/>
+                        2. 彈性上下班制度<br/>
+                        3. 首年即享12天特休與10天全薪病假。<br/>
+                        4. 週休二日<br/>
+                        5. 完善的教育訓練<br/>
+                        6. 除勞健保、勞退外，另享公司團保福利<br/>
+                        7. 公司聚餐<br/>
+                        8. 國內、外旅遊補助<br/>
+                        9. 3C電子產品補助方案<br/>
+                        10.TOEIC英語學分補助<br/>
+                        11. Happy Hour<br/>
+                        12. 生日假
+                    </td>
+                </tr>
+                <tr>
+                    <td>應徵方式</td>
+                    <td>人力資源聯絡信箱：craychao ( AT ) netappstore.net</td>
+                </tr>
+            </table>
+            <div class="text-center">
+                <a href="http://www.pubgame.tw/" class="btn btn-success" target="_blank">公司網站</a>
+                <a href="https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=483a422444463e683c423b1d1d1d1d5f2443a363189j56" class="btn btn-success" target="_blank">徵才網站</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="heading11">
+        <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse11" aria-expanded="false" aria-controls="collapse11">
+                <span class="badge">新竹縣竹東鎮</span> <strong>巨量資料研發工程師</strong> / 工業技術研究院 巨量資訊科技中心
+            </a>
+        </h4>
+    </div>
+    <div id="collapse11" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading11">
+        <div class="panel-body">
+            <table class="table table-striped" style="background-color:#fff;">
+                <tr>
+                    <td style="width:20%;">需求人數</td>
+                    <td style="width:80%;">30 人</td>
+                </tr>
+                <tr>
+                    <td>工作內容</td>
+                    <td>
+                        1. 巨量資料創新技術研發：<br/>
+                            (1) 巨量資料分析、機器學習、統計分析、資料視覺化呈現等相關技術研發<br/>
+                            (2) 巨量資料運算平台建構與技術研發</br>
+                        2. 巨量資料智慧應用研發：智慧製造、智慧商務等相關領域之巨量資料分析加值應用研發
+                    </td>
+                </tr>
+                <tr>
+                    <td>需求條件 / 技能條件</td>
+                    <td>
+                        1. 碩士 (含) 以上，資訊、統計、應數、電機、工工等相關系所<br/>
+                        2. 具備以下專業知識 (一項或多項)：資料探勘、機器學習、演算法設計、自然語言處理、開放源碼 (Hadoop, Hbase, Hive, Pig, Drill, Storm, GraphLab 等) 或商業 (IBM, Oracle, SAP) 巨量資料應用分析工具實務使用經驗<br/>
+                        3. 熟悉以下語言 (一項或多項)：C, C++, C#, Java, Python 等程式開發，具平行運算或資料庫實務經驗尤佳<br/>
+                        4. 具備智慧製造、智慧商務等相關領域之巨量資料分析實務經驗尤佳
+                    </td>
+                </tr>
+                <tr>
+                    <td>工作地點</td>
+                    <td>台灣新竹縣竹東鎮中興路四段195號</td>
+                </tr>
+                <tr>
+                    <td>薪資範圍</td>
+                    <td>月薪：<br/>碩士48,000元(含)以上<br/>博士67,000元(含)以上</td>
+                </tr>
+                <tr>
+                    <td>公司福利</td>
+                    <td>
+                        (1) 前瞻的研發環境，探索新科技、創新發明移轉產業界，參與新創事業—擁有多座國內僅有，且技術能量與國外並駕其驅之實驗室，同時也鼓勵同仁跨單位創新合作，跳脫現有的工作範疇，拓展視野及成長<br/>
+                        (2) 貼心的各項設施—多項運動休閒設施(如游泳池、籃球場、健身房、韻律教室等)、比美五星級的宿舍、農莊景緻的眷屬宿舍、由營養師把關的美食街餐廳以及評鑑績優的幼稚園 / 安親班<br/>
+                        (3) 豐富的知性 / 休閒活動—舉辦各類運動、藝文、旅遊及社團活動，每年並舉辦全院性運動會
+                    </td>
+                </tr>
+                <tr>
+                    <td>應徵方式</td>
+                    <td>人力資源聯絡信箱：yenchiao98@itri.org.tw</td>
+                </tr>
+            </table>
+            <div class="text-center">
+                <a href="https://www.itri.org.tw/chi/index.aspx" class="btn btn-success" target="_blank">公司網站</a>
+                <!--<a href="https://www.104ehr.net/job.do?key=4701F74CD55870C86BDA4FBBAA1A40A3E4C83D16" class="btn btn-success" target="_blank">徵才網站</a>-->
+                <a href="https://www.facebook.com/citc.itri.tw?ref=br_rs" class="btn btn-success" target="_blank">Facebook</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="heading10">
+        <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse10" aria-expanded="false" aria-controls="collapse10">
+                <span class="badge">新北市新店區</span> <strong>PHP, JAVASCRIPT 軟體開發人員</strong> / 勝義科技股份有限公司
+            </a>
+        </h4>
+    </div>
+    <div id="collapse10" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading10">
+        <div class="panel-body">
+            <table class="table table-striped" style="background-color:#fff;">
+                <tr>
+                    <td style="width:20%;">需求人數</td>
+                    <td style="width:80%;">2人</td>
+                </tr>
+                <tr>
+                    <td>工作內容</td>
+                    <td>
+                        1.負責軟體之分析、設計以及程式撰寫。<br/>
+                        2.規劃執行軟體架構及模組之設計，並控管軟體設計進度。<br/>
+                        3.進行軟體之測試與修改。<br/>
+                        4.規劃、執行與維護量產的產品。<br/>
+                        5.協助研發軟體新技術與新工具。
+                    </td>
+                </tr>
+                <tr>
+                    <td>需求條件 / 技能條件</td>
+                    <td>
+                        語文條件: 英文 -- 聽 /中等、說 /中等、讀 /中等、寫 /中等<br/>
+                        擅長工具: Linux、C、C++、Java、Perl、Python、TCP/IP<br/>
+                        工作技能: 系統架構規劃、系統維護操作、軟體工程系統開發、資料通訊與網路應用、軟體程式設計、結構化程式設計、網路程式設計
+                    </td>
+                </tr>
+                <tr>
+                    <td>工作地點</td>
+                    <td>台灣新北市新店區寶橋路88號10樓</td>
+                </tr>
+                <tr>
+                    <td>薪資範圍</td>
+                    <td>依應徵者條件決定</td>
+                </tr>
+                <tr>
+                    <td>公司福利</td>
+                    <td>
+                        勝義，並不只是公司的名稱，也是這個大家庭的代稱！<br/>
+                        透過勝義提供的環境，每位員工就像兄弟姊妹一般，共同為了家庭一起努力與奮鬥！開放式的工作環境，讓員工隨時可以進行小組討論，共同分享彼此的創意與想法，不論何時、何地都可以與不同團隊的成員進行創意討論與發想，透過這樣的交流方式，讓每位員工的創意源源不絕，並且在創意獲得實現時，充份獲得成就感與滿足。<br/>
+                        我們也鼓勵員工發展個人嗜好，從騎單車、瑜珈、廚藝…等，並透過週五的happy hour，由福委會號召同事一起交流分享彼此的興趣。<br/>
+                        歡迎加入勝義，我們隨時都在召募優秀人才。<br/>
+                        公司福利是該有的一定有，你沒想到的，也會有喔!  趕快來應徵吧!!!
+                    </td>
+                </tr>
+                <tr>
+                    <td>應徵方式</td>
+                    <td>
+                        意者請聯繫勝義科技張先生<br/>
+                        email:sfchang@hyxen.com
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingOne">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> <span class="badge">台北市信義區</span> <strong>Data Backend Engineer (Hadoop, Spark related)</strong> / 沛星互動科技 Appier
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body">
+        <table class="table table-striped" style="background-color:#fff;">
+  <tr>
+    <td style="width:20%;">需求人數</td>
+    <td style="width:80%;">1-2人</td>
+  </tr>
+  <tr>
+    <td>工作內容</td>
+    <td>1. Develop and operate backend systems related to data access, collection, processing and storage。<br>
+2. Design and implement a bid data warehousing system。
+  <br>
+  3. Dedicate to large cloud-based distributed computing systems, Spark or MapReduce Algorithms and Big Data toolkits。
+  <br>
+  4. Responsible for laying the foundation for the platform as well as proposing solutions to ease software development, monitoring of software, etc.。
+  <br>
+  5. Handling hundred of terabyte data。</td>
+  </tr>
+  <tr>
+    <td>需求條件 / 技能條件</td>
+    <td>大學以上學歷
+      <br>
+      科系要求:數學及電算機科學學科類
+      <br>
+      語文條件: 英文 -- 聽 /中等、說 /中等、讀 /中等、寫 /中等
+      <br>
+      擅長工具: Linux、C、C++、Java、Perl、Python、TCP/IP
+      <br>
+      工作技能: 系統架構規劃、系統維護操作、軟體工程系統開發、資料通訊與網路應用、軟體程式設計、結構化程式設計、網路程式設計</td>
+  </tr>
+  <tr>
+    <td>工作地點</td>
+    <td>台灣、台北、台北市信義區基隆路一段396號11樓</td>
+  </tr>
+  <tr>
+    <td>薪資範圍</td>
+    <td>面議</td>
+  </tr>
+  <tr>
+    <td>公司福利</td>
+    <td>1、 競爭力薪酬獎金制度
+我們提供優渥的薪資水準、員工分紅、股票選擇權，及各式獎金。
+      <br>
+      2、 員工保險
+除法定保險外，我們更提供員工完善的醫療團體保險，給予更貼心的全面照護。
+      <br>
+      3、 優秀人才推薦獎金制度
+我們希望可以找到願意志同道合一起打拼的好夥伴，透過推薦獎金制度為 Appier 注入新的能量。<br>
+4、 特休假制度
+優於勞基法休假天數，員工到職後(不須滿一年)即可依當年度在職比例享有特休假。
+<br>
+5、 訓練發展
+我們鼓勵員工不斷精進學習，Appier 定期舉辦提升工作能力之內部教育訓練、內部案例分享及研討會、不定期邀約海內外優秀的講者來 Appier 舉辦座談會。
+<br>
+6、 多元福利活動與津貼
+我們提供三節禮金或禮品，並不定期舉辦多元化的聚餐與團隊凝聚活動、每週舉辦 Happy Hour 供應免費茶點、及提供辦公室免費飲料、茶點，給夥伴們隨時滿滿的精力。
+<br>
+7、 優質工作環境
+我們提供寬敞明亮且舒適的辦公環境。
+<br>
+8、 國際化職場環境
+能與國內、外 AI 大數據研發、行銷與管理優秀人才共事，快速提升國際視野及競爭力。<br>
+**我們的福利制度與水準持續成長，歡迎優秀的您趕快加入我們**</td>
+  </tr>
+  <tr>
+  <td>應徵方式</td>
+  <td>蔡小姐
+ Email: vanessa@appier.com</td>
+  </tr>
+
+</table>
+<div class="text-center"> <a href="http://www.appier.com" class="btn btn-success" target="_blank">公司網站</a> <a href="https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=4c684a735e74512a4870436d44363e67540424a733c3e466f444a42252525256754c52463907j99&jobsource=" class="btn btn-primary" target="_blank">徵才網址</a></div>
+
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingTwo">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> <span class="badge">台北市信義區</span> <strong>Machine Learning Scientist</strong> / 沛星互動科技 Appier
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+      <div class="panel-body">
+       <table class="table table-striped" style="background-color:#fff;">
+  <tr>
+    <td style="width:20%;">需求人數</td>
+    <td style="width:80%;">不限</td>
+  </tr>
+  <tr>
+    <td>工作內容</td>
+    <td>1. Use machine learning and analytical techniques to build prediction model for advertising solutions.<br/> 
+2. Experience in analyzing and extracting valuable information from large amounts of business data<br/>
+3. Design, develop and test advanced models for predictive consumer behavior
+4. Co-operate with software engineering teams to drive real-time model implementations and new feature creations<br/>
+5. Design efficient, scalable, automated processes for large scale data analyses, model development, model validation and model implementation<br/>
+6. Research and evaluate pioneering machine learning and statistical model</td>
+  </tr>
+  <tr>
+    <td>需求條件 / 技能條件</td>
+    <td>科系要求:數學及電算機科學學科類、應用數學相關、資訊工程相關<br/>
+語文條件: 英文-- 聽 /中等、說 /中等、讀 /精通、寫 /中等<br/>
+擅長工具: C、C++、Java、Perl、PHP、Python<br/>
+工作技能:軟體程式設計</td>
+  </tr>
+  <tr>
+    <td>工作地點</td>
+    <td>台灣、台北、台北市信義區基隆路一段396號11樓</td>
+  </tr>
+  <tr>
+    <td>薪資範圍</td>
+    <td>面議</td>
+  </tr>
+  <tr>
+    <td>公司福利</td>
+    <td>1、 競爭力薪酬獎金制度
+我們提供優渥的薪資水準、員工分紅、股票選擇權，及各式獎金。
+      <br>
+      2、 員工保險
+除法定保險外，我們更提供員工完善的醫療團體保險，給予更貼心的全面照護。
+      <br>
+      3、 優秀人才推薦獎金制度
+我們希望可以找到願意志同道合一起打拼的好夥伴，透過推薦獎金制度為 Appier 注入新的能量。<br>
+4、 特休假制度
+優於勞基法休假天數，員工到職後(不須滿一年)即可依當年度在職比例享有特休假。
+<br>
+5、 訓練發展
+我們鼓勵員工不斷精進學習，Appier 定期舉辦提升工作能力之內部教育訓練、內部案例分享及研討會、不定期邀約海內外優秀的講者來 Appier 舉辦座談會。
+<br>
+6、 多元福利活動與津貼
+我們提供三節禮金或禮品，並不定期舉辦多元化的聚餐與團隊凝聚活動、每週舉辦 Happy Hour 供應免費茶點、及提供辦公室免費飲料、茶點，給夥伴們隨時滿滿的精力。
+<br>
+7、 優質工作環境
+我們提供寬敞明亮且舒適的辦公環境。
+<br>
+8、 國際化職場環境
+能與國內、外 AI 大數據研發、行銷與管理優秀人才共事，快速提升國際視野及競爭力。<br>
+**我們的福利制度與水準持續成長，歡迎優秀的您趕快加入我們**</td>
+  </tr>
+  <tr>
+  <td>應徵方式</td>
+  <td>蔡小姐
+ Email: vanessa@appier.com</td>
+  </tr>
+
+</table>
+<div class="text-center"> <a href="http://www.appier.com" class="btn btn-success" target="_blank">公司網站</a> <a href="https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=4c684a735e74512a4870436d44363e67540424a733c3e466f444a42252525256754c52463907j99&jobsource=" class="btn btn-primary" target="_blank">徵才網址</a></div>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingThree">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> <span class="badge label-info">台北市中山區</span> <strong>資料視覺化開發人員</strong> / 玉山銀行
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+      <div class="panel-body">
+        <table class="table table-striped" style="background-color:#fff;">
+  <tr>
+    <td style="width:20%;">需求人數</td>
+    <td style="width:80%;">不限</td>
+  </tr>
+  <tr>
+    <td>工作內容</td>
+    <td>1. 透過視覺化工具讓數據分析的結果與價值清楚地被顯現出來<br/>
+2. 熟悉資料視覺化程式開發</td>
+  </tr>
+  <tr>
+    <td>需求條件 / 技能條件</td>
+    <td>1. 主動積極、喜歡接觸新事物<br/>
+2. 具程式撰寫能力<br/>
+3. 觀察力敏銳<br/>
+4. 重視團隊精神、溝通能力佳</td>
+  </tr>
+  <tr>
+    <td>工作地點</td>
+    <td>台北市中山區</td>
+  </tr>
+  <tr>
+    <td>薪資範圍</td>
+    <td>依公司規定</td>
+  </tr>
+  <tr>
+    <td>公司福利</td>
+    <td>1. 完善的教育訓練制度 <br/>
+2. 行員優惠存款 <br/>
+3. 行員優惠貸款<br/>
+4. 員工持股信託基金<br/>
+5. 年終獎金、紅利 <br/>
+6. 職工福利委員會各項補助<br/> 
+7. 團保、勞保、健保、勞退 <br/>
+8. 比照或優於勞基法的人力資源制度</td>
+  </tr>
+  <tr>
+  <td>應徵方式</td>
+  <td>請至<a href="http://www.esunbank.com.tw/" target="_blank">玉山銀行官網</a>「菁英徵選」點選「我要應徵」填寫履歷後送出資料
+<br/>如有任何相關問題請與(02)2175-1313分機8718王先生聯繫</td>
+  </tr>
+
+</table>
+<div class="text-center"> <a href="http://www.esunbank.com.tw/" class="btn btn-success" target="_blank">公司網站</a> <a href="https://www.esunfhc.com.tw/hireexam/modify.asp" class="btn btn-primary" target="_blank">徵才網址</a></div>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="heading4">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4"> <span class="badge">台北市中山區</span> <strong>DGA 數位分析人員</strong> / 玉山銀行
+        </a>
+      </h4>
+    </div>
+    <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
+      <div class="panel-body">
+        <table class="table table-striped" style="background-color:#fff;">
+  <tr>
+    <td style="width:20%;">需求人數</td>
+    <td style="width:80%;">不限</td>
+  </tr>
+  <tr>
+    <td>工作內容</td>
+    <td>1. 數位行為分析，針對跨載具、行銷活動生命週期、頻道經營等產生分析洞察<br/>
+2. 透過路徑、斷點等分析方法，優化使用者體驗，提升轉換率<br/>
+3. 廣告成效分析，進而調整與設計廣告平台年度計畫</td>
+  </tr>
+  <tr>
+    <td>需求條件 / 技能條件</td>
+    <td>1. 主動積極、喜歡接觸新事物<br/>
+2. 善溝通、邏輯清晰<br/>
+3. 具有探索、研發企劃的特質</td>
+  </tr>
+  <tr>
+    <td>工作地點</td>
+    <td>台北市中山區</td>
+  </tr>
+  <tr>
+    <td>薪資範圍</td>
+    <td>依公司規定</td>
+  </tr>
+  <tr>
+    <td>公司福利</td>
+    <td>1. 完善的教育訓練制度 <br/>
+2. 行員優惠存款 <br/>
+3. 行員優惠貸款<br/>
+4. 員工持股信託基金<br/>
+5. 年終獎金、紅利 <br/>
+6. 職工福利委員會各項補助<br/> 
+7. 團保、勞保、健保、勞退 <br/>
+8. 比照或優於勞基法的人力資源制度</td>
+  </tr>
+  <tr>
+  <td>應徵方式</td>
+  <td>請至<a href="http://www.esunbank.com.tw/" target="_blank">玉山銀行官網</a>「菁英徵選」點選「我要應徵」填寫履歷後送出資料
+<br/>如有任何相關問題請與(02)2175-1313分機8718王先生聯繫</td>
+  </tr>
+
+</table>
+<div class="text-center"> <a href="http://www.esunbank.com.tw/" class="btn btn-success" target="_blank">公司網站</a> <a href="https://www.esunfhc.com.tw/hireexam/modify.asp" class="btn btn-primary" target="_blank">徵才網址</a></div>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="heading5">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapse5"> <span class="badge">台北市中山區</span> <strong>Data Mining 建模人員</strong> / 玉山銀行
+        </a>
+      </h4>
+    </div>
+    <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
+      <div class="panel-body">
+        <table class="table table-striped" style="background-color:#fff;">
+  <tr>
+    <td style="width:20%;">需求人數</td>
+    <td style="width:80%;">不限</td>
+  </tr>
+  <tr>
+    <td>工作內容</td>
+    <td>1. 運用資料採礦技術，進行模型建置及上線，並定期監控與報告<br/>
+2. 結合實務經驗及分析技術，協助業務進行商機探索及開發<br/>
+3. 運用大數據資料市集，分析洞察顧客行為，精準掌握顧客風險與價值<br/>
+4. 透過業務行為和系統資訊，進行系統監測作業，並定期監控與報告</td>
+  </tr>
+  <tr>
+    <td>需求條件 / 技能條件</td>
+    <td>1. 有能力及意願學習或具備良好的資料分析處理能力者<br/>
+2. 邏輯能力強或觀察力敏銳<br/>
+3. 喜好主動探索事務或習於思考並積極挑戰者<br/>
+4. 研究所畢業，具數理、統計相關背景</td>
+  </tr>
+  <tr>
+    <td>工作地點</td>
+    <td>台北市中山區</td>
+  </tr>
+  <tr>
+    <td>薪資範圍</td>
+    <td>依公司規定</td>
+  </tr>
+  <tr>
+    <td>公司福利</td>
+    <td>1. 完善的教育訓練制度 <br/>
+2. 行員優惠存款 <br/>
+3. 行員優惠貸款<br/>
+4. 員工持股信託基金<br/>
+5. 年終獎金、紅利 <br/>
+6. 職工福利委員會各項補助<br/> 
+7. 團保、勞保、健保、勞退 <br/>
+8. 比照或優於勞基法的人力資源制度</td>
+  </tr>
+  <tr>
+  <td>應徵方式</td>
+  <td>請至<a href="http://www.esunbank.com.tw/" target="_blank">玉山銀行官網</a>「菁英徵選」點選「我要應徵」填寫履歷後送出資料
+<br/>如有任何相關問題請與(02)2175-1313分機8718王先生聯繫</td>
+  </tr>
+
+</table>
+<div class="text-center"> <a href="http://www.esunbank.com.tw/" class="btn btn-success" target="_blank">公司網站</a> <a href="https://www.esunfhc.com.tw/hireexam/modify.asp" class="btn btn-primary" target="_blank">徵才網址</a></div>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="heading6">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="false" aria-controls="collapse6"> <span class="badge">台北市中山區</span> <strong>Hadoop 平台系統管理與研發人員</strong> / 玉山銀行
+        </a>
+      </h4>
+    </div>
+    <div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6">
+      <div class="panel-body">
+        <table class="table table-striped" style="background-color:#fff;">
+  <tr>
+    <td style="width:20%;">需求人數</td>
+    <td style="width:80%;">不限</td>
+  </tr>
+  <tr>
+    <td>工作內容</td>
+    <td>1. Hadoop Ecosystem管理維護、程式開發設計<br/>
+2. 基於分散式技術的設計模型發展出各種 Big data 方案<br/>
+3. BI/ETL/DW產品整合與客製化開發，協助業務團隊，提升現有業務系統效能</td>
+  </tr>
+  <tr>
+    <td>需求條件 / 技能條件</td>
+    <td>學歷要求：大學以上<br/>
+科系要求：資訊管理相關、資訊工程相關、其他數學及電算機科學相關<br/>
+其他條件：<br/>
+1. 熱愛溝通擅於規劃設計。<br/>
+2. 擁有新技術研發的熱情。<br/>
+3. 熟悉Java平台/.NET平台/iOS App系統開發/商業智慧分析平台/Hadoop程式開發者為佳。</td>
+  </tr>
+  <tr>
+    <td>工作地點</td>
+    <td>台北市中山區</td>
+  </tr>
+  <tr>
+    <td>薪資範圍</td>
+    <td>依公司規定</td>
+  </tr>
+  <tr>
+    <td>公司福利</td>
+    <td>1. 完善的教育訓練制度 <br/>
+2. 行員優惠存款 <br/>
+3. 行員優惠貸款<br/>
+4. 員工持股信託基金<br/>
+5. 年終獎金、紅利 <br/>
+6. 職工福利委員會各項補助<br/> 
+7. 團保、勞保、健保、勞退 <br/>
+8. 比照或優於勞基法的人力資源制度</td>
+  </tr>
+  <tr>
+  <td>應徵方式</td>
+  <td>請至<a href="http://www.esunbank.com.tw/" target="_blank">玉山銀行官網</a>「菁英徵選」點選「我要應徵」填寫履歷後送出資料
+<br/>如有任何相關問題請與(02)2175-1313分機8718王先生聯繫</td>
+  </tr>
+
+</table>
+<div class="text-center"> <a href="http://www.esunbank.com.tw/" class="btn btn-success" target="_blank">公司網站</a> <a href="https://www.esunfhc.com.tw/hireexam/modify.asp" class="btn btn-primary" target="_blank">徵才網址</a></div>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="heading7">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse7" aria-expanded="false" aria-controls="collapse7"> <span class="badge">新北市中和區</span> <strong>Hadoop Software Engineer</strong> / 東森信息科技(股)
+        </a>
+      </h4>
+    </div>
+    <div id="collapse7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading7">
+      <div class="panel-body">
+        <table class="table table-striped" style="background-color:#fff;">
+  <tr>
+    <td style="width:20%;">需求人數</td>
+    <td style="width:80%;">2人</td>
+  </tr>
+  <tr>
+    <td>工作內容</td>
+    <td>Hadoop 系統日常維運<br/>
+Hadoop 資料預處理<br/>
+網站瀏覽行為收集、分析、洞察<br/>
+半非結構資料分析、設計、導入<br/>
+專案整合開發與測試</td>
+  </tr>
+  <tr>
+    <td>需求條件 / 技能條件</td>
+    <td>黯 Linux 管理與指令<br/>
+熟悉 Hadoop Eco-System<br/>
+使用 Pig、Hive、Hbase、Impala 資料處理<br/>
+了解 HDFS 分散式資料架構<br/>
+熟悉 MapReduce 分散式運算<br/>
+基礎程式設計 Python、Java<br/>
+必須熱愛 Open Source、Mahout、BI、DW、ETL<br/>
+具有 Cloudera 認證尤佳</td>
+  </tr>
+  <tr>
+    <td>工作地點</td>
+    <td>台灣、新北市、中和區</td>
+  </tr>
+  <tr>
+    <td>薪資範圍</td>
+    <td>依公司規定</td>
+  </tr>
+  <tr>
+    <td>公司福利</td>
+    <td>公司制度：勞保、健保、員工在職教育訓練<br/>
+獎金福利：年節獎金、員工生日禮金<br/>
+休假福利：男性員工陪產假、育嬰假、生理假<br/>
+保險福利：意外險、員工／眷屬團保、員工體檢、員工及眷屬住院慰問金、勞退提撥金<br/>
+餐飲福利：伙食費<br/>
+設備福利：員工餐廳<br/>
+娛樂福利：國內旅遊、員工定期聚餐<br/>
+補助福利：員工結婚補助、生育補助、子女教育補助、員工國內、外進修補助、員工及眷屬喪葬補助<br/>
+其他福利：員工購物優惠、職工福委會、社團補助</td>
+  </tr>
+  <tr>
+  <td>應徵方式</td>
+  <td>Email : john_chen@eitc.com.tw<br/>
+Mobile : 0933-918-879
+</td>
+  </tr>
+
+</table>
+
+      </div>
+    </div>
+  </div>
+
+<div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="heading9">
+        <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse9" aria-expanded="false" aria-controls="collapse9">
+                <span class="badge">台北市南港區</span> <strong>資料工程師</strong> / 關貿網路(股)公司
+            </a>
+        </h4>
+    </div>
+    <div id="collapse9" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading9">
+        <div class="panel-body">
+            <table class="table table-striped" style="background-color:#fff;">
+                <tr>
+                    <td style="width:20%;">需求人數</td>
+                    <td style="width:80%;">1人</td>
+                </tr>
+                <tr>
+                    <td>工作內容</td>
+                    <td>
+                        1. 在Hadoop環境進行相關程式(Python,R)開發<br/>
+                        2. 分析系統開發與建置<br/>
+                        3. 視覺化報表設計
+                    </td>
+                </tr>
+                <tr>
+                    <td>需求條件 / 技能條件</td>
+                    <td>
+                        一. 工作技能要求:<br/>
+                            1. 對Hadoop有基本認識(ex:接觸過Hbase,HDFS,Impala,Hive,sqoop.....等其中三種工具)<br/>
+                            2. 熟悉java<br/>
+                            3. 熟悉Python或R語言<br/>
+                            4. 有使用Tableau工具經驗尤佳<br/>
+                        二. 經歷要求:至少1年以上工作經驗<br/>
+                        三. 科系要求:資工/資訊系所<br/>
+                        四. 其他條件:對資料分析有熱情與想法,願意花時間研究自學
+                    </td>
+                </tr>
+                <tr>
+                    <td>工作地點</td>
+                    <td>台灣台北市南港區三重路19-13號6樓</td>
+                </tr>
+                <tr>
+                    <td>薪資範圍</td>
+                    <td>依資歷,經驗,技能專長而定</td>
+                </tr>
+                <tr>
+                    <td>公司福利</td>
+                    <td>
+                        1. 三節獎金(端午/中秋/年終)<br/>
+                        2. 優於勞基法的特休假制度與勞健保<br/>
+                        3. 免費提供午餐<br/>
+                        4. 提供相對安穩的工作環境,可以接觸並研究大數據資料<br/>
+                        5. 定期提供內外部教育訓練課程，以實務為導向(ex:技術/業務/系統架構/資安/管理等)，讓同仁自行選擇，並不定期舉辦講座邀業界實務專家進行演講<br/>
+                        6. 福委會定期舉辦員工旅遊,電影欣賞(包場),家庭日,耶誕派對,尾牙等活動助
+                    </td>
+                </tr>
+                <tr>
+                    <td>應徵方式</td>
+                    <td>
+                        意者請聯繫關貿網路林青郁小姐<br/>
+                        e-mail:cindy.lin@tradevan.com.tw<br/>
+                        連絡電話:02-26551188#770
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+</div>
+                        </div>                         
+                    </div>                     
+                    <div class="row" id="signup-volunteer"> 
+</div>                     
+                </div>                 
+            </section>             
+            <section id="services" class="about grey_section" data-pg-collapsed> 
+                <div class="container" data-pg-collapsed> 
+                    <div class="row grid"> 
+                        <div class="col-md-4 col-sm-4"> 
+                            <div class="row"> 
+                                <div class="col-sm-12"> 
+                                    <figure class="grid_about_us"> 
+                                        <img alt="" src="images/fig1.png"/>                                         
+                                        <figcaption> 
+                                            <h2>講者就是你!</h2> 
+                                            <a href="seek.html"></a> 
+                                        </figcaption>                                         
+                                    </figure>                                     
+                                </div>                                 
+                                <div class="clearfix"></div>                                 
+                                <div class="col-sm-12"> 
+                                    <h3>徵求講者、投稿</h3> 
+                                    <p class="text-left">邀請各界在自己的工作場域中第一線進行資料分析的先進來與我們的聽眾分享資料科學的趣味、價值、以及心得...<br></p> 
+                                </div>                                 
+                            </div>                             
+                        </div>                         
+                        <div class="col-md-4 col-sm-4"> 
+                            <div class="row"> 
+                                <div class="col-sm-12"> 
+                                    <figure class="grid_about_us"> 
+                                        <img alt="" src="images/fig2.png"/>                                         
+                                        <figcaption> 
+                                            <h2>熱情志工招募!</h2> 
+                                            <a href="seek.html#signup-volunteer"></a> 
+                                        </figcaption>                                         
+                                    </figure>                                     
+                                </div>                                 
+                                <div class="clearfix"></div>                                 
+                                <div class="col-sm-12"> 
+                                    <h3>徵求志工</h3>
+                                    <p class="text-left">誠摯邀請具有熱情、喜愛學習、個性外向的您一起加入我們，讓我們共同舉辦今年嶄新且擴大規模至四天、預計與會人數超過 1500 人的大型會議...<br></p>
+                                </div>                                 
+                            </div>                             
+                        </div>                         
+                        <div class="col-md-4 col-sm-4"> 
+                            <div class="row"> 
+                                <div class="col-sm-12"> 
+                                    <figure class="grid_about_us"> 
+                                        <img alt="" src="images/fig3.png"/>                                         
+                                        <figcaption> 
+                                            <h2>7/7 起</h2> 
+                                            <a href="signup.html"></a> 
+                                        </figcaption>                                         
+                                    </figure>                                     
+                                </div>                                 
+                                <div class="clearfix"></div>                                 
+                                <div class="col-sm-12"> 
+                                    <h3>報名年會</h3> 
+                                    <p class="text-left">線上報名將於 2015/07/07 中午 12 點開始 至 2015/07/24 止。</p> 
+                                </div>                                 
+                            </div>                             
+                        </div>                         
+                    </div>                     
+                </div>                 
+            </section>             
+            <section id="copyright" class="color_section"> 
+                <div class="container"> 
+                    <div class="row"> 
+                        <div class="col-sm-12 text-center"> 
+                            <p><a href="about.html#organizer" data-toggle="tooltip" data-original-title="">籌辦單位</a> |  <a href="#" data-toggle="tooltip" data-original-title="">媒體夥伴</a> | <a href="about.html#staff" data-toggle="tooltip" data-original-title="">工作人員</a> 
+    | <a href="http://twconf.data-sci.org/" target="_blank">2014 DSC</a>  |  <a href="https://www.facebook.com/twdsconf" target="_blank" title="" data-toggle="tooltip" data-original-title="Facebook">find us on <i class="fa fa-facebook"></i></a></p> 
+                            <p>&copy; Copyright 2015 - 台灣資料科學愛好者年會 </p> 
+                        </div>                         
+                    </div>                     
+                </div>                 
+            </section>             
+        </div>         
+        <!-- eof #box_wrapper -->         
+        <div class="preloader"> 
+            <div class="preloader_image"></div>             
+        </div>         
+        <!-- libraries -->         
+        <script src="js/vendor/jquery-1.11.1.min.js"></script>         
+        <script src="js/vendor/bootstrap.min.js"></script>         
+        <script src="js/vendor/jquery.appear.js"></script>         
+        <!-- superfish menu  -->         
+        <script src="js/vendor/jquery.hoverIntent.js"></script>         
+        <script src="js/vendor/superfish.js"></script>         
+        <!-- page scrolling -->         
+        <script src="js/vendor/jquery.easing.1.3.js"></script>         
+        <script src='js/vendor/jquery.nicescroll.min.js'></script>         
+        <script src="js/vendor/jquery.ui.totop.js"></script>         
+        <script src="js/vendor/jquery.localscroll-min.js"></script>         
+        <script src="js/vendor/jquery.scrollTo-min.js"></script>         
+        <!-- widgets -->         
+        <script src="js/vendor/jquery.easypiechart.min.js"></script>         
+        <!-- pie charts -->         
+        <script src='js/vendor/jquery.countTo.js'></script>         
+        <!-- digits counting -->         
+        <script src="js/vendor/jquery.prettyPhoto.js"></script>         
+        <!-- lightbox photos -->         
+        <script src='js/vendor/jflickrfeed.min.js'></script>         
+        <!-- sliders, filters, carousels -->         
+        <script src="js/vendor/jquery.isotope.min.js"></script>         
+        <script src='js/vendor/owl.carousel.min.js'></script>         
+        <script src='js/vendor/jquery.flexslider-min.js'></script>         
+        <!-- custom scripts -->         
+        <script src="js/plugins.js"></script>         
+        <script src="js/main.js"></script>
+         
+		<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-50828306-2', 'auto');
+ga('send', 'pageview');
+        </script>
+    </body>     
+</html>

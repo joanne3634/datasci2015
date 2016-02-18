@@ -1,0 +1,493 @@
+<?php
+$speakers = array(
+
+'swc' => array(
+    'image' => 'photo/info58.jpg',
+    'name' => '陳昇瑋博士',
+    'engn' => '(Dr. Sheng-Wei Chen)',
+    'title' => array(
+        '台灣資料科學愛好者年會發起人',
+        '中央研究院資訊科學研究所研究員'
+    ),
+    'info' => array(
+        '陳昇瑋博士目前為中央研究院資訊科學研究所研究員，同時是多媒體網路與系統實驗室主持人。他的研究焦點著重在使用者滿意度、多媒體系統、社群計算及計算社會學等領域，在多媒體系統及使用者經驗的量測及管理方面持續有代表性的研究創見。',
+        '陳博士堅信資料及資料分析的價值，長期推廣資料科學及其在各領域的應用，除本身研究皆基於資料來解決實際生活中的問題，2014 年開始主辦「台灣資料科學愛好者年會」，期能將對於資料科學的熱情傳達給大眾，一起來探索資料科學的潛力，將資料科學引入每個人的專業領域之中。他十分期待能夠讓資料分析在台灣不再是口號，而是大家手邊隨時可用來解決問題及創造價值的工具。',
+        '欲瞭解陳博士的研究及心得分享，請至他的<a href="http://www.iis.sinica.edu.tw/~swc/index_c.html" target="_blank">個人網頁</a>一探究竟。'
+    )
+),
+
+'clkao' => array(
+    'image' => 'photo/info59.jpg',
+    'name' => '高嘉良',
+    'engn' => '(Chia-liang Kao)',
+    'title' => array(
+        'g0v.tw 台灣零時政府共同發起人'
+    ),
+    'info' => array(
+        "clkao (高嘉良) - 喜歡寫程式、泡 ♨。參加 1997 年國際資訊奧林匹亞後，進入台大資訊系就讀，即活躍於國內外開放源碼社群，隨後旅居英國倫敦從事軟體開發及顧問工作。2012 年發起 g0v.tw 計畫，現為開放文化基金會董事。"
+    )
+),
+
+'wcchen' => array(
+    'image' => 'photo/info34.jpg',
+    'name' => '陳維超',
+    'engn' => '(Wei-Chao Chen)',
+    'title' => array(
+        'Skywatch 共同創辦人',
+        '台灣大學兼任助理教授'
+    ),
+    'info' => array(
+        "Wei-Chao Chen is a co-founder at Skywatch Innovation, a company that provides cloud-based video products and solutions. He is also an adjunct faculty member at the National Taiwan University. His research interests involve graphics hardware, computational photography, augmented reality, and user interfaces. Dr. Chen was a senior research scientist in Nokia Research Center at Palo Al to between 2007 - 2009, and a 3D Graphics Architect in NVIDIA between 2002 - 2006. Dr. Chen received his MS in Electrical Engineering from National Taiwan University (1996), and MS (2001) and PhD (2002) in Computer Science from the University of North Carolina at Chapel Hill."
+    )
+)
+
+);
+?>
+<!DOCTYPE html> 
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]--> 
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]--> 
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]--> 
+<!--[if gt IE 8]><!--> 
+<html class="no-js"> 
+    <!--<![endif]-->     
+    <head> 
+        <title>資料科學團隊培訓及導入經驗分享會 - 2015台灣資料科學愛好者年會系列活動</title>         
+        <meta charset="utf-8">         
+        <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <![endif]-->         
+        <meta name="description" content="資料科學團隊培訓及導入經驗分享會">         
+        <meta name="viewport" content="width=device-width, initial-scale=1">         
+        <meta content="資料科學團隊培訓及導入經驗分享會 - 2015 台灣資料科學愛好者年會" property="og:title">         
+        <meta content="website" property="og:type">         
+        <meta content="資料科學團隊培訓及導入經驗分享會" property="og:description">         
+        <meta content="http://datasci.tw/" property="og:url">
+        <meta content="http://datasci.tw/images/dsc_2015_logo_fb.png" property="og:image">
+        <meta content="image/png" property="og:image:type">
+        <meta content="600" property="og:image:width">
+        <meta content="400" property="og:image:height">
+        <meta content="資料科學團隊培訓及導入經驗分享會 - 2015台灣資料科學愛好者年會系列活動" property="og:site_name">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->         
+        <link rel="stylesheet" href="css/bootstrap.min.css">         
+        <link rel="stylesheet" href="css/main.css">         
+        <link rel="stylesheet" href="css/animations.css">         
+        <link rel="stylesheet" href="css/fonts.css">         
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>         
+        <!--[if lt IE 9]>
+        <script src="js/vendor/html5shiv.min.js"></script>
+        <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->         
+        <style>
+            .no-bold { font-weight: normal; }
+            td.time { vertical-align: middle !important; }
+            /*.table > tbody > tr.success > td { background-color: #f7ebaa; color: #C36918; }*/
+        </style>
+    </head>
+    <body> 
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->         
+        <div id="box_wrapper"> 
+            <header id="header"> 
+                <div class="container"> 
+                    <div class="row"> 
+                        <div class="col-sm-12"> 
+                            <a href="index.html" class="navbar-brand"> 
+                                資料科學團隊培訓<br/>及導入經驗分享會<!-- - <br/>2015 台灣資料科學愛好者年會-->
+                                <!--2015 台灣資料科學愛好者年會系列活動 －<br/>資料科學團隊培訓及導入經驗分享會-->
+                            </a>
+                            <nav class="navbar"> 
+                                <div class="navbar-header"> 
+                                    <!-- Brand and toggle get grouped for better mobile display -->                                     
+                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".dsc-collapse"> 
+                                        <span class="sr-only">Toggle navigation</span> 
+                                        <span class="icon-bar"></span> 
+                                        <span class="icon-bar"></span> 
+                                        <span class="icon-bar"></span> 
+                                    </button>                                     
+                                </div>                                 
+                                <!-- Collect the nav links, forms, and other content for toggling -->                                 
+                                <div class="dsc-collapse collapse navbar-collapse"> 
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li> 
+                                            <a href="#about_us"> 
+                                                <img src="images/icon01.png"/> 簡介
+                                            </a>                                             
+                                        </li>                                         
+                                       
+                                        <li> 
+                                            <a href="#schedule"> 
+                                                <img src="images/icon04.png"/> 議程
+                                            </a>                                             
+                                        </li>                                         <li> 
+                                            <a href="#speaker"> 
+                                                <img src="images/icon03.png"/> 講者
+                                            </a>                                             
+                                        </li>
+                                        <li> 
+                                            <a href="#ticket"> 
+                                                <img src="images/icon06.png"/> 報名
+                                            </a>                                             
+                                        </li>
+                                        <li> 
+                                            <a href="#traffic"> 
+                                                <img src="images/icon05.png"/> 交通
+                                            </a>                                             
+                                        </li>
+                                    </ul>                                     
+                                </div>                                 
+                            </nav>                             
+                        </div>                         
+                    </div>                     
+                </div>                 
+            </header>             
+            <section id="mainslider"> 
+                <div class="container" style="padding-top:80px;"> 
+                    <div class="row"> 
+                     
+                        <div class="col-md-12"> 
+                            <img src="images/dsc_mainv.png" class="img-responsive logoInline">     
+                            <div class="mainTitle">
+                            
+                            <h2 class="mt">資料科學團隊培訓及導入經驗分享會</h2> 
+                           
+                            </div>                                          <h4 class="text-center maindate"> <i class="fa fa-calendar"></i> 日期: 2015/9/5 (六)
+ &nbsp;&nbsp;&nbsp;<i class="fa fa-map-marker"></i> 地點: 中央研究院人文社會科學館
+</h4>        
+                     
+                        </div> 
+                                     
+                    </div>                     
+                </div>                 
+            </section>             
+            <section id="about_us">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center to_animate" data-animation="pullDown">
+                    <h2 class="section_header text-center">
+                        活動簡介
+                    </h2>                   
+                </div>
+            </div>            
+            <div class="row about_desc">
+                <div class="col-sm-4">
+                    <img src="images/about.png" alt="">  
+                </div>
+                <div class="col-sm-8">
+                    <h4>如何成功建立一個資料科學團隊？</h4>
+                    <h2>讓資料科學專家引領您找出最佳答案</h2>
+                    <p>為迎接大數據的潮流，許多企業漸漸發覺到資料分析將是開啟企業創新或關鍵決策的一大契機，不少企業開始尋找資料科學家一同合作，甚至是在企業內建立資料科學團隊。但是，該去哪裡找到合適的資料科學家？資料科學家要具備什麼特質和能力？如何成功建立一個資料科學團隊？資料科學團隊與傳統的資料倉儲團隊有什麼差別？資料科學團隊在企業內扮演著什麼樣的角色？這都將是企業可能面臨到的一個又一個的問題。</p>
+                    <p>此系列活動將由資料科學愛好者年會總召陳昇瑋博士主講。他將與聽眾分享其協助多家企業培訓資料科學家及導入資料科學團隊的各種經驗，從企業如何跳脫既有框架，讓資料科學團隊盡情揮灑無限創意著手，進而能活用資料、挖掘出潛藏在資料中不為人知的秘密，最終打造高信任度及高效率的工作環境，展現資料分析的價值。誠摯地歡迎您的參與，讓資料科學專家引領您找出最佳答案。</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>             
+     
+    <section id="schedule" class="pic_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center to_animate" data-animation="pullDown">
+                    <h2 class="section_header text-center">
+                        議程
+                    </h2>                   
+                </div>
+            </div>            
+            <div class="row about_desc">
+                
+                <div class="col-md-8 col-md-offset-2">
+                    <table width="100%" class="table table-bordered pagetb to_animate" data-animation="fadeInUp">
+  <tr class="warning">
+    <td class="text-center time">9:00 - 10:30 </td>
+    <td style="width:70%;"><h3>資料科學簡介</h3></td>
+  </tr>
+  <tr>
+    <td class="text-center time">10:30 - 10:50 </td>
+    <td>茶點時間</td>
+  </tr>
+  <tr class="warning">
+    <td class="text-center time">10:50 - 12:20</td>
+    <td><h3>資料分析實例分享</h3></td>
+  </tr>
+  <tr>
+    <td class="text-center time">12:20 - 13:10</td>
+    <td>午餐</td>
+  </tr>
+  <tr class="warning">
+    <td class="text-center time">13:10 - 14:40</td>
+    <td><h3>資料科學家的養成</h3></td>
+  </tr>
+  <tr>
+    <td class="text-center time">14:40 - 15:00</td>
+    <td>茶點時間</td>
+  </tr>
+  <tr class="warning">
+    <td class="text-center time">15:00 - 16:00</td>
+    <td><h3>如何建立資料科學團隊</h3></td>
+  </tr>
+  <tr class="success">
+    <td class="text-center time">16:00 - 17:00</td>
+    <td><h3>互動論壇</h3>與談人 (暫定): 
+                <br>
+                <span data-toggle="modal" data-target="#swc" class="text-primary speaker-info">陳昇瑋 / 年會總召, 中央研究院資訊科學研究所研究員</span>
+                <br>
+                <!--<span data-toggle="modal" data-target="#clkao" class="text-primary speaker-info">高嘉良 / g0v.tw 台灣零時政府共同發起人</span>
+                <br>-->
+              <span data-toggle="modal" data-target="#wcchen" class="text-primary speaker-info">陳維超 / Skywatch共同創辦人, 台灣大學兼任助理教授</span> </td>
+  </tr>
+</table>
+
+<?php
+foreach ( $speakers as $id => $speaker )
+{
+?>
+<div class="modal fade" id="<?php echo $id?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="<?php echo $speaker['image']; ?>" class="img-circle"/></div>
+        <div class="col-md-9"> 
+          <h3 class="modal-title" id="myModalLabel"><?php echo $speaker['name']; ?> <span class="no-bold"><?php echo $speaker['engn']; ?></span></h3>
+          <?php foreach( $speaker['title'] as $title ) { ?><h5><?php echo $title; ?></h5><?php } ?>
+        </div>
+        </div>
+      </div>
+      <div class="modal-body">
+        <?php foreach( $speaker['info'] as $line ) { ?><p><?php echo $line; ?></p><?php } ?>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<?php
+}
+?>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="speaker">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center to_animate" data-animation="pullDown">
+                    <h2 class="section_header text-center">
+                        講者簡介
+                    </h2>                   
+                </div>
+            </div>            
+            <div class="row to_animate" data-animation="fadeInUp">
+<?php
+$speaker = $speakers['swc'];
+?>
+                <div class="col-md-3 text-center" >
+                    <img src="<?php echo $speaker['image']; ?>" class="img-circle">
+                </div>
+                <div class="col-md-9" >
+                    <div>
+                        <div class="caption">
+                            <h3><?php echo $speaker['name']; ?> <span class="no-bold"><?php echo $speaker['engn']; ?></span></h3>
+                            <?php foreach( $speaker['title'] as $title ) { ?><h5><?php echo $title; ?></h5><?php } ?>
+                            <?php foreach( $speaker['info'] as $line ) { ?><p><?php echo $line; ?></p><?php } ?>
+                      </div>
+                    </div>
+                </div>
+<?php
+
+?>
+            </div>
+        </div>
+    </section>
+    
+    <section id="ticket" class="grey_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center to_animate" data-animation="pullDown">
+                    <h2 class="section_header text-center">
+                        報名活動
+                    </h2>                   
+                </div>
+            </div>            
+            <div class="row about_desc">
+                <div class="col-sm-4 col-sm-offset-2">
+                    <img src="images/ticket.png" alt="">  
+                </div>
+              <div class="col-sm-6">
+                    
+                <h2>2015/08/08 開放報名</h2>
+                   
+                    <ul class="list2"><li><span class="badge bg-orange">日期</span> 2015/09/05 (六)
+</li>
+                      <li><span class="badge bg-orange">地點</span> 中央研究院人文社會科學館</li>
+                      <li><span class="badge bg-orange">票價</span> <span class="text-danger">$1500</span> 元</li>
+                </ul>
+   <div>               
+<a class="type-15" href="http://dsc.kktix.cc/events/data-team" target="_blank">
+                       <span>立即購票 <i class="fa fa-arrow-circle-right"></i></span>
+                        <span></span>
+                    </a></div>
+              </div>
+                
+            </div>
+        </div>
+    </section>
+             <section id="traffic"> 
+                <div class="container">
+                <div class="row">
+                <div class="col-sm-12 text-center to_animate" data-animation="pullDown">
+                    <h2 class="section_header text-center">
+                        交通資訊
+                    </h2>
+                </div>
+            </div> 
+                    <div class="row"> 
+                        <div class="col-md-12"> 
+                                                  
+                            <div class="widget widget_trafic"> 
+                                <ul> 
+                                    <li class="h4">公車</li>                                     
+                                    <ul> 
+                                        <li>請搭台北市公車 205、212 (直行/區間)、270、276、306、620、645 任何一班至中研院站 (前一站為中研新村站) 。</li>                                         
+                                    </ul>                                     
+                                    <br/> 
+                                    <li class="h4">捷運</li>                                     
+                                    <ul> 
+                                        <li>請搭捷運板南線至南港站一號出口換乘公車 212 (直行/區間)、270 或藍 25 至中研院站。</li>                                         
+                                        <li>搭捷運文湖線至南港展覽館站 (2號出口) ，走至南港國小對面換乘公車 205、276、306 或 645 至中研院站。</li>                                         
+                                    </ul>                                     
+                                    <br/> 
+                                    <li class="h4">火車</li>                                     
+                                    <ul> 
+                                        <li>請搭火車至南港火車站換乘公車 212、270 或藍 25 至中研院站。</li>                                         
+                                    </ul>                                     
+                                    <br/> 
+                                    <li class="h4">自行開車</li>                                     
+                                    <ul> 
+                                        <li>請參考下方地圖開車至中央研究院院區 (台北市研究院路二段 128 號)。</li>                                         
+                                        <li>車輛可停人文社會科學館 B2 停車場 (空間可停 100 輛)，或停放在中研院區內停車格。</li>                                         
+                                        <li>周一至周五中研院內停車每小時收費 20 元。</li>                                         
+                                    </ul>                                     
+                                </ul>                                 
+                                <p>&nbsp;</p> 
+                                <div class="row"> 
+                                    <div class="col-md-6"> 
+                                        <h3>GOOGLE 地圖</h3> 
+                                        <hr/>                                         
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7229.468323480026!2d121.614417005612!3d25.04309418260665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ab4501e8c151%3A0x2f2b63fe4251d55c!2z5Lit5aSu56CU56m26Zmi!5e0!3m2!1szh-TW!2stw!4v1431276471799" width="600" height="550" frameborder="0" style="border:0"></iframe>                                         
+                                    </div>                                     
+                                    <div class="col-md-6"> 
+                                        <h3>中央研究院院內地圖</h3> 
+                                        <hr/>                                         
+                                        <img src="images/as_map.png" width="600"/>                                         
+                                    </div>                                     
+                                </div>                            
+                            </div>                             
+                        </div>                         
+                    </div>                     
+                </div>                 
+            </section> 
+            <section id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center to_animate" data-animation="pullDown">
+                     <h2 class="section_header">
+                        主辦單位
+                    </h2>                 
+                </div>
+            </div>            
+            <div class="row to_animate_child_blocks">
+            <div class="block col-sm-6 col-md-3"></div>
+                <div class="block col-sm-6 col-md-3 text-center to_animate" data-animation="fadeInUp">
+                    <div class="">
+                        <a href="http://datasci.tw/" target="_blank"><img src="images/dsc_2015_logo_fb.png"></a>
+                        <div class="caption">
+                          <h4><a href="http://datasci.tw/" target="_blank">台灣資料科學愛好者年會</a></h4>  
+                            
+                      </div>
+                        
+                  </div>
+                </div>
+                <div class="block col-sm-6 col-md-3 text-center to_animate" data-animation="fadeInUp">
+                    <div class="">
+                        <a href="http://www.aclclp.org.tw/index_c.php" target="_blank"><img src="images/aclclp.png"></a>
+                        <div class="caption">
+                          <h4><a href="http://www.aclclp.org.tw/index_c.php" target="_blank">中華民國計算語言學學會</a></h4>   
+                          
+                      </div>
+                        
+                  </div>
+                </div>
+                 
+                               
+            </div>
+        </div>
+    </section>         
+            <section id="copyright" class="color_section"> 
+                <div class="container"> 
+                    <div class="row"> 
+                        <div class="col-sm-12 text-center"> 
+                            <p> <a href="https://www.facebook.com/twdsconf" target="_blank" title="" data-toggle="tooltip" data-original-title="Facebook">find us on facebook</a></p> 
+                            <p>&copy; Copyright 2015 - 台灣資料科學愛好者年會 </p> 
+                        </div>                         
+                    </div>                     
+                </div>                 
+            </section>             
+        </div>         
+        <!-- eof #box_wrapper -->         
+        <div class="preloader"> 
+            <div class="preloader_image"></div>             
+        </div>         
+        <!-- libraries -->         
+        <script src="js/vendor/jquery-1.11.1.min.js"></script>         
+        <script src="js/vendor/bootstrap.min.js"></script>         
+        <script src="js/vendor/jquery.appear.js"></script>         
+        <!-- superfish menu  -->         
+        <script src="js/vendor/jquery.hoverIntent.js"></script>         
+        <script src="js/vendor/superfish.js"></script>         
+        <!-- page scrolling -->         
+        <script src="js/vendor/jquery.easing.1.3.js"></script>         
+        <script src='js/vendor/jquery.nicescroll.min.js'></script>         
+        <script src="js/vendor/jquery.ui.totop.js"></script>         
+        <script src="js/vendor/jquery.localscroll-min.js"></script>         
+        <script src="js/vendor/jquery.scrollTo-min.js"></script>         
+        <!-- widgets -->         
+        <script src="js/vendor/jquery.easypiechart.min.js"></script>         
+        <!-- pie charts -->         
+        <script src='js/vendor/jquery.countTo.js'></script>         
+        <!-- digits counting -->         
+        <script src="js/vendor/jquery.prettyPhoto.js"></script>         
+        <!-- lightbox photos -->         
+        <script src='js/vendor/jflickrfeed.min.js'></script>         
+        <!-- sliders, filters, carousels -->         
+        <script src="js/vendor/jquery.isotope.min.js"></script>         
+        <script src='js/vendor/owl.carousel.min.js'></script>         
+        <script src='js/vendor/jquery.flexslider-min.js'></script>         
+        <!-- custom scripts -->         
+        <script src="js/plugins.js"></script>         
+        <script src="js/main.js"></script>
+        <script>
+$(window).on("resize",function() {
+    var rate = $("#mainslider img.logoInline").width() / 1100;
+    var c = 165 * rate;
+    $("header#header a.navbar-brand").css("marginLeft",null);
+    if( $(document.body).width() > 767 ) {
+        var brand = $("header#header a.navbar-brand");
+        var left = ( c - 15 ) - (brand.width()/2);
+        brand.css("marginLeft",left);
+    }
+});
+        </script>
+        <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-50828306-2', 'auto');
+ga('send', 'pageview');
+        </script>
+    </body>     
+</html>

@@ -1,0 +1,190 @@
+<?php
+$title = 'Google 深度學習實作';
+$caption = array( 'Google 深度學習實作' );
+
+$event_date = strtotime('2015-12-29 00:00:00');
+$weekdays = array( '0'=>'日', '1'=>'一', '2'=>'二', '3'=>'三', '4'=>'四', '5'=>'五', '6' => '六' );
+$date_string = date('Y/n/j',$event_date) . ' (' . $weekdays[date('w',$event_date)] . ')';
+
+$kktix_link = 'google-deep-learning';
+$kktix_date = strtotime('2015-11-20 12:00:00');
+$reg_date = strtotime('2015-12-15 12:00:00');
+$reg_time = '中午 12:00';
+$deadline = strtotime('2015-12-23 12:00:00');
+$price = 0;
+
+$about = array(
+    'title' => 'Google 深度學習實作',
+    'content' => array(
+        '近年來深度學習 (Deep Learning) 在各領域舉凡圖片辨識、語音辨識、自然語言處理都有令人驚豔的突破，也逐漸在眾多機器學習演算法中展頭露角。這些蓬勃的發展不僅開創新的研究領域，也逐漸在我們生活週遭的科技產品扮演重要的角色，從手機上的語音識別系統，手寫辨識系統，到各家網站推出的照片分類識別功能中，到處可看到深度學習的影子。',
+        '這場演講將以實用為主軸。前半部先針對理論基礎與應用，介紹深度學習的基本概念，並講解在設計深度學習模型上需具備的理論基礎，接著介紹目前的最新發展與應用，利用成功的例子探討深度學習系統在哪些領域已被證實值得使用。後半部將專注於介紹 Google Brain 的下一代開放源碼機器學習系統 -- TensorFlow，敘述 TensorFlow 整體框架概念，介紹當中的核心元件，並以實例示範講解如何一步步建構深度學習模型的架構，設計訓練與評估的流程，針對如何使用 TensorFlow 做完整的介紹。'
+    )
+);
+
+$schedules = array(
+    '__None__' => array(
+        '9:00 - 10:30' => array(
+            'title' => '深度學習入門',
+            'subtitle' => ' (Introduction to Deep Learning)'
+        ),
+        '10:30 - 10:50' => array( 'title' => '茶點時間' ),
+        '10:50 - 12:20' => array(
+            'title' => '利用 TensorFlow 打造深度學習模型',
+            'subtitle' => ' (Building Deep Learning Models with TensorFlow)'
+        )
+    ),
+    '加開場次' => array(
+        '14:00 - 15:30' => array(
+            'title' => '深度學習入門',
+            'subtitle' => ' (Introduction to Deep Learning)'
+        ),
+        '15:30 - 15:50' => array( 'title' => '茶點時間' ),
+        '15:50 - 17:20' => array(
+            'title' => '利用 TensorFlow 打造深度學習模型',
+            'subtitle' => ' (Building Deep Learning Models with TensorFlow)'
+        )
+    )
+);
+
+$speakers = array(
+    'zzchiu' => array(
+        'detail' => true,
+        'image' => 'zzchiu.jpg',
+        'name' => '邱中鎮 博士',
+        'title' => array(
+            'Google Brain 軟體工程師'
+        ),
+        'info' => array(
+            '邱中鎮博士在 2014 年於美國南加大取得博士學位，畢業後即加入 Google Brain 團隊，目前專注於打造深度學習系統與設計深度學習模型來解決 Google 等級的難題。'
+        )
+    )
+);
+
+$team = array(
+    '主辦單位' => array(
+        array(
+            'name' => '台灣資料科學愛好者年會',
+            'href' => 'http://datasci.tw/',
+            'image' => 'dsc_2015_logo_fb.png'
+        ),
+        array(
+            'name' => '中央研究院資訊科學研究所',
+            'href' => 'http://www.iis.sinica.edu.tw/',
+            'image' => 'iis_s.png'
+        )
+    )
+);
+?>
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+    <!--<![endif]-->
+    <head>
+        <title><?php echo $title ?> - 2015台灣資料科學愛好者年會系列活動</title>
+        <meta charset="utf-8">
+        <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <![endif]-->
+        <meta name="description" content="<?php echo $title ?>">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta content="<?php echo $title ?> - 2015 台灣資料科學愛好者年會" property="og:title">
+        <meta content="website" property="og:type">
+        <meta content="<?php echo $title ?>" property="og:description">
+        <meta content="http://datasci.tw<?php echo $_SERVER['REQUEST_URI']; ?>" property="og:url">
+        <meta content="http://datasci.tw/event/_images/dsc_2015_logo_fb.png" property="og:image">
+        <meta content="image/png" property="og:image:type">
+        <meta content="600" property="og:image:width">
+        <meta content="400" property="og:image:height">
+        <meta content="<?php echo $title ?> - 2015台灣資料科學愛好者年會系列活動" property="og:site_name">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="stylesheet" href="../_css/bootstrap.min.css">
+        <link rel="stylesheet" href="../_css/main.css">
+        <link rel="stylesheet" href="../_css/animations.css">
+        <link rel="stylesheet" href="../_css/fonts.css">
+        <link rel="stylesheet" href="../_css/addon.css">
+        <script src="../_js/vendor/modernizr-2.6.2.min.js"></script>
+        <!--[if lt IE 9]>
+        <script src="../_js/vendor/html5shiv.min.js"></script>
+        <script src="../_js/vendor/respond.min.js"></script>
+    <![endif]-->
+        <style>
+            .no-bold { font-weight: normal; }
+            td.time { vertical-align: middle !important; }
+            /*.table > tbody > tr.success > td { background-color: #f7ebaa; color: #C36918; }*/
+        </style>
+    </head>
+
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div id="box_wrapper">
+            <header id="header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <a href="<?php echo $_SERVER['REQUEST_URI']; ?>" class="navbar-brand" style="line-height:50px;"><?php echo implode('<br/>',$caption); ?></a>
+                            <nav class="navbar">
+                                <div class="navbar-header">
+                                    <!-- Brand and toggle get grouped for better mobile display -->
+                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".dsc-collapse">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+                                <!-- Collect the nav links, forms, and other content for toggling -->
+                                <div class="dsc-collapse collapse navbar-collapse">
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li><a href="#about_us"><img src="../_images/icon01.png"/> 簡介</a></li>
+                                        <li><a href="#schedule"><img src="../_images/icon04.png"/> 議程</a></li>
+                                        <li><a href="#speaker"> <img src="../_images/icon03.png"/> 講者</a></li>
+                                        <li><a href="#ticket">  <img src="../_images/icon06.png"/> 報名</a></li>
+                                        <li><a href="#traffic"> <img src="../_images/icon05.png"/> 交通</a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <section id="mainslider">
+                <div class="container" style="padding-top:80px;">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <img src="../_images/dsc_mainv.png" class="img-responsive logoInline">
+                            <div class="mainTitle"><h2 class="mt"><?php echo $title ?></h2></div>
+                            <h4 class="text-center maindate">
+                                <i class="fa fa-calendar"></i> 日期: <?php echo $date_string; ?> &nbsp;&nbsp;&nbsp;
+                                <i class="fa fa-map-marker"></i> 地點: 中央研究院人文社會科學館
+                            </h4>
+                            <a href="/" style="position:absolute;top:0px;left:4%;display:block;width:24%;height:50%;background-color:transparent;"></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="about_us"><?php include('../_template/about.php'); ?></section>
+            <section id="schedule" class="pic_section"><?php include('../_template/schedule.php'); ?></section>
+            <section id="speaker"><?php include('../_template/speaker.php'); ?></section>
+            <section id="ticket" class="grey_section"><?php include('../_template/ticket.php'); ?></section>
+            <section id="traffic"><?php include('../_template/traffic.php'); ?></section>
+            <section id="team"><?php include('../_template/team.php'); ?></section>
+            <section id="copyright" class="color_section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 text-center">
+                            <p> <a href="https://www.facebook.com/twdsconf" target="_blank" title="" data-toggle="tooltip" data-original-title="Facebook">find us on facebook</a></p>
+                            <p>&copy; Copyright 2015 - 台灣資料科學愛好者年會 </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div><!-- eof #box_wrapper -->
+        <?php include('../_template/script.php'); ?>
+    </body>
+</html>

@@ -1,0 +1,2341 @@
+<!DOCTYPE html> 
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]--> 
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]--> 
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]--> 
+<!--[if gt IE 8]><!--> 
+<html class="no-js"> 
+    <!--<![endif]-->     
+    <head> 
+        <title>2015台灣資料科學愛好者年會 — Exploring the Potentials of Real-world Data Analytics</title>         
+        <meta charset="utf-8">         
+        <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <![endif]-->         
+        <meta name="description" content="台灣資料科學愛好者年會，主意在推動資料科學在台灣的認知及普及應用，期望能看到台灣的產業甚至政府部門能夠有效利用各自手上的各類型資料，經過適當的資料分析及／或預測技術，來為產業建立更大的價值，提供使用者／大眾更好的服務及生活品質">         
+        <meta name="viewport" content="width=device-width, initial-scale=1">         
+        <meta content="2015 台灣資料科學愛好者年會 — Exploring the Potentials of Real-world Data Analytics" property="og:title">         
+        <meta content="website" property="og:type">         
+        <meta content="台灣資料科學愛好者年會，主意在推動資料科學在台灣的認知及普及應用，期望能看到台灣的產業甚至政府部門能夠有效利用各自手上的各類型資料，經過適當的資料分析及／或預測技術，來為產業建立更大的價值，提供使用者／大眾更好的服務及生活品質。" property="og:description">         
+        <meta content="http://datasci.tw/" property="og:url">
+        <meta content="http://datasci.tw/images/dsc_2015_logo_fb.png" property="og:image">
+        <meta content="image/png" property="og:image:type">
+        <meta content="600" property="og:image:width">
+        <meta content="400" property="og:image:height">
+        <meta content="2015 台灣資料科學愛好者年會 Data Science in Taiwan Conference 2015" property="og:site_name">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->         
+        <link rel="stylesheet" href="css/bootstrap.min.css">         
+        <link rel="stylesheet" href="css/main.css">         
+        <link rel="stylesheet" href="css/animations.css">         
+        <link rel="stylesheet" href="css/fonts.css">         
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>         
+        <!--[if lt IE 9]>
+        <script src="js/vendor/html5shiv.min.js"></script>
+        <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->         
+    </head>     
+    <body> 
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->         
+        <div id="box_wrapper"> 
+            <header id="header"> 
+                <div class="container"> 
+                    <div class="row"> 
+                        <div class="col-sm-12"> 
+                            <a href="index.html" class="navbar-brand"> 
+                                <img src="images/dsc_2015_logo.png" title="2015台灣資料科學愛好者年會">                                 
+                            </a>                             
+                            <nav class="navbar"> 
+                                <div class="navbar-header"> 
+                                    <!-- Brand and toggle get grouped for better mobile display -->                                     
+                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".dsc-collapse"> 
+                                        <span class="sr-only">Toggle navigation</span> 
+                                        <span class="icon-bar"></span> 
+                                        <span class="icon-bar"></span> 
+                                        <span class="icon-bar"></span> 
+                                    </button>                                     
+                                </div>                                 
+                                <!-- Collect the nav links, forms, and other content for toggling -->                                 
+                                <div class="dsc-collapse collapse navbar-collapse">
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li> 
+                                            <a href="about.html"> 
+                                                <img src="images/icon01.png"/>                                                                                                        關於
+                                            </a>                                             
+                                        </li>                                         
+                                        <li>
+                                            <a href="speaker.html">
+                                                <img src="images/icon03.png"/>                                                                                                                                                                講者
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="agenda.html">
+                                                <img src="images/icon04.png"/>                                                                                                                                                                議程
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="traffic.html">
+                                                <img src="images/icon05.png"/>                                                                                                                                                                交通
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="signup.html">
+                                                <img src="images/icon06.png"/>                                                                                                                                                                報名
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="sponsor.html">
+                                                <img src="images/icon07.png"/>                                                                                                                                                                贊助
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="recruit.html">
+                                                <img src="images/icon08.png"/>                                                                                                                                                                企業徵才
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>                                 
+                            </nav>                             
+                        </div>                         
+                    </div>                     
+                </div>                 
+            </header>             
+            <section id="mainslider"> 
+                <div class="container"> 
+                    <div class="row"> 
+</div>                     
+                </div>                 
+            </section>             
+            <section class="intro"> 
+                <div class="container"> 
+                    <div class="row"> 
+                        <div class="col-md-12"> 
+                            <ul class="nav nav-tabs" role="tablist">
+                        <li class="active"><a href="#tab1" role="tab" data-toggle="tab">議程總覽</a></li>
+                        <li><a href="#tab2" role="tab" data-toggle="tab">8/20(四)</a></li>
+                        <li class="t3"><a href="#tab3" role="tab" data-toggle="tab">8/21(五)</a></li>
+                        <li class="t4"><a href="#tab4" role="tab" data-toggle="tab">8/22(六)</a></li>
+                        <li class="t5"><a href="#tab5" role="tab" data-toggle="tab">8/23(日)</a></li>
+                    </ul>
+                             <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div class="tab-pane fade in active" id="tab1">
+                            <p>※點選日期瀏覽詳細議程↑↑</p>
+                            <table class="table table-bordered text-center sche">
+                                <thead>
+                                    <tr>
+                                    <th colspan="5" style="background-color: #9cd7d1;">
+                                        <h4>技術活動</h4>
+                                    </th>
+                                    <th class="bg-pink">
+                                        <h4>晚間交流活動</h4>
+                                    </th>
+                                </tr>
+                                <tr class="active">
+                                    <th width="11%">
+                                        日期\地點
+                                    </th>
+                                    <th width="32%">
+                                        國際會議廳
+                                    </th>
+                                    <th width="16%">
+                                        第一會議室
+                                    </th>
+                                    <th width="16%">
+                                        第二會議室
+                                    </th>
+                                    <th width="12%">
+                                        遠距會議室
+                                    </th>
+                                    <th width="13%">
+                                        交誼廳
+                                    </th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                
+                                <tr>
+                                    <td>8/20 (四)</td>
+                                    <td><img src="images/course/s008.png"><br>&nbsp;</td>
+                                    <td><a href="#tab2" role="tab" data-toggle="tab" class="cc01"><img src="images/course/s006.png"><br>Hadoop/Spark
+                                        <br>資料科學快速體驗營</a>
+                                    </td>
+                                    <td><a href="#tab2" role="tab" data-toggle="tab" class="cc01"><img src="images/course/s002.png"><br>R 語言資料分析
+                                        <br>上手課程</a>
+                                    </td>
+                                    <td><a href="#tab2" role="tab" data-toggle="tab" class="cc01"><img src="images/course/s007.png"><br>地圖資料
+                                        <br>視覺化課程</a>
+                                    </td>
+                                    <td><img src="images/course/s008.png"><br>&nbsp;</td>
+                                </tr>
+                                <tr class="bg-orange">
+                                    <td>8/21 (五)</td>
+                                    <td><a href="#tab3" role="tab" data-toggle="tab" class="cc02"><img src="images/course/s004.png"><br>DSP 資料開竅 ▪ 企業論壇</a></td>
+                                    <td><a href="#tab3" role="tab" data-toggle="tab" class="cc02"><img src="images/course/s005.png"><br>資料新聞實戰營<br/>d|Bootcamp Taipei</a></td>
+                                    <td><a href="#tab3" role="tab" data-toggle="tab" class="cc02"><img src="images/course/s002.png"><br>R 語言資料分析
+                                        <br>上手課程</a>
+                                    </td>
+                                    <td><img src="images/course/s008.png"><br>&nbsp;</td>
+                                    <td><img src="images/course/s008.png"><br>&nbsp;</td>
+                                    <!--<td><img src="images/course/s009.png"><br>企業論壇
+                                        <br>晚宴 
+                                    </td>-->
+                                </tr>
+                                <tr>
+                                    <td>8/22 (六)</td>
+                                    <td><a href="#tab4" role="tab" data-toggle="tab" class="cc03"><img src="images/course/s001.png"><br>年會主議程</a></td>
+                                    <td><a href="#tab4" role="tab" data-toggle="tab" class="cc03"><img src="images/course/s003.png"><br>g0v 零時政府
+                                        <br>黑客松</a>
+                                    </td>
+                                    <td><a href="#tab4" role="tab" data-toggle="tab" class="cc03"><img src="images/course/s001.png"><br>年會主議程</a></td>
+                                    <td><img src="images/course/s008.png"><br>&nbsp;</td>
+                                    <td><img src="images/course/s009.png"><br>交流晚宴</td>
+                                </tr>
+                                <tr class="bg-orange">
+                                    <td>8/23 (日)</td>
+                                    <td><a href="#tab5" role="tab" data-toggle="tab" class="cc04"><img src="images/course/s001.png"><br>年會主議程</a></td>
+                                    <td><a href="#tab5" role="tab" data-toggle="tab" class="cc04"><img src="images/course/s003.png"><br>g0v 零時政府
+                                        <br>黑客松</a>
+                                    </td>
+                                    <td><a href="#tab5" role="tab" data-toggle="tab" class="cc04"><img src="images/course/s001.png"><br>年會主議程</a></td>
+                                    <td><img src="images/course/s008.png"><br>&nbsp;</td>
+                                    <td><img src="images/course/s008.png"><br>&nbsp;</td>
+                                </tr>
+                            </tbody>
+                            </table>                            </div>
+                            
+      <!-- 8/20 -->
+      <div class="tab-pane fade in" id="tab2">
+      <table class="table table-bordered text-center">
+  <tbody>
+    <tr class="bg-sch">
+      <td width="15%">活動主題</td>
+      <td width="28%"><a href="intro-hs.html"><img src="images/course/s006.png">
+        <h3>Hadoop/Spark <br>
+        快速體驗營</h3></a></td>
+      <td width="28%"><a href="intro-R.html"><img src="images/course/s002.png" width="90" height="90">
+        <h3>R 語言資料分析<br>
+        上手課程</h3> </a></td>
+      <td width="29%"><a href="intro-mapv.html"><img src="images/course/s007.png" width="90" height="90">
+        <h3>地圖資料<br>
+        視覺化課程</h3></a></td>
+    </tr>
+    <tr>
+      <td class="bg-gery" style="border-bottom: 2px solid #999">地點</td>
+      <td class="bg-gery" style="border-bottom: 2px solid #999"><i class="fa fa-map-marker"></i> 國際會議廳</td>
+      <td class="bg-gery" style="border-bottom: 2px solid #999"> <i class="fa fa-map-marker"></i> 第二會議室</td>
+      <td class="bg-gery" style="border-bottom: 2px solid #999"> <i class="fa fa-map-marker"></i> 遠距會議室</td>
+    </tr>
+    <tr>
+      <td>0900 - 0930</td>
+      <td rowspan="2"><h4>大數據分析介紹</h4>
+        <span data-toggle="modal" data-target="#info01" class="text-primary speaker-info">趙國仁 / 東森科技大數據顧問</span>
+      </td>
+      <td rowspan="3"><h4>R 基本課程</h4>
+        <span data-toggle="modal" data-target="#info05" class="text-primary speaker-info">廖尹禎 / 啟雲科技工程師</span> <br>
+        <span data-toggle="modal" data-target="#info06" class="text-primary speaker-info">陳哲維 / 學生</span> <br>
+        <span data-toggle="modal" data-target="#info07" class="text-primary speaker-info">陳潔寧 / 木刻思共同工作者</span></td>
+      <td rowspan="2"><h4>地圖 (OpenStreetMap) </h4>
+        <span data-toggle="modal" data-target="#info09" class="text-primary speaker-info">李慕約 / SheetHub.com 共同創辦人</span> <br>
+        <span data-toggle="modal" data-target="#info10" class="text-primary speaker-info">王向榮 / SheetHub.com 共同創辦人</span></td>
+    </tr>
+    <tr>
+      <td>0930 - 1000</td>
+    </tr>
+    <tr>
+      <td>1000 - 1030</td>
+      <td><h4>課程介紹與 Hadoop Family 簡介</h4>
+        <span data-toggle="modal" data-target="#info01" class="text-primary speaker-info">趙國仁 / 東森科技大數據顧問</span>
+      </td>
+      <td><h4>資料清理 (以資料清理資料 SheetHub.com)</h4> <span data-toggle="modal" data-target="#info09" class="text-primary speaker-info">李慕約 / SheetHub.com 共同創辦人</span> <br>
+        <span data-toggle="modal" data-target="#info10" class="text-primary speaker-info">王向榮 / SheetHub.com 共同創辦人</span></td>
+    </tr>
+    <tr class="bg-orange">
+      <td >1030 - 1100</td>
+      <td colspan="3" >茶點時間</td>
+      </tr>
+    <tr>
+      <td>1100 - 1130</td>
+      <td><h4>分散式檔案系統整合與管理 (HDFS, Hive)</h4> <span data-toggle="modal" data-target="#info02" class="text-primary speaker-info">許勝淵 / 中華郵政專員</span></td>
+      <td rowspan="2"><h4>R 基本課程</h4> <span data-toggle="modal" data-target="#info05" class="text-primary speaker-info">廖尹禎 / 啟雲科技工程師</span> <br>
+        <span data-toggle="modal" data-target="#info06" class="text-primary speaker-info">陳哲維 / 學生</span> <br>
+        <span data-toggle="modal" data-target="#info07" class="text-primary speaker-info">陳潔寧 / 木刻思共同工作者</span></td>
+      <td rowspan="2"><h4>資料混搭 (統計資料、地理邊界 SheetHub.com)</h4>
+        <span data-toggle="modal" data-target="#info09" class="text-primary speaker-info">李慕約 / SheetHub.com 共同創辦人</span> <br>
+        <span data-toggle="modal" data-target="#info10" class="text-primary speaker-info">王向榮 / SheetHub.com 共同創辦人</span></td>
+    </tr>
+    <tr>
+      <td>1130 - 1230</td>
+      <td><h4>RDB 與分散式檔案系統整合 (Sqoop, Hive)</h4> <span data-toggle="modal" data-target="#info02" class="text-primary speaker-info">許勝淵 / 中華郵政專員</span></td>
+    </tr>
+    <tr class="bg-orange">
+      <td >1230 - 1330</td>
+      <td colspan="3">午餐</td>
+    </tr>
+    <tr>
+      <td>1330 - 1400</td>
+      <td><h4>熱門銷售 in memory 分析 (Hue, Impala)</h4> <span data-toggle="modal" data-target="#info03" class="text-primary speaker-info">葉蕙菱 / 嚮網科技產品經理</span></td>
+      <td rowspan="2"><h4>R 基本課程</h4> <span data-toggle="modal" data-target="#info05" class="text-primary speaker-info">廖尹禎 / 啟雲科技工程師</span> <br>
+        <span data-toggle="modal" data-target="#info06" class="text-primary speaker-info">陳哲維 / 學生</span> <br>
+        <span data-toggle="modal" data-target="#info07" class="text-primary speaker-info">陳潔寧 / 木刻思共同工作者</span></td>
+      <td rowspan="2"><h4>資料分析 (turf.js 地理資訊分析)</h4>
+        <span data-toggle="modal" data-target="#info09" class="text-primary speaker-info">李慕約 / SheetHub.com 共同創辦人</span> <br>
+        <span data-toggle="modal" data-target="#info10" class="text-primary speaker-info">王向榮 / SheetHub.com 共同創辦人</span></td>
+    </tr>
+    <tr>
+      <td>1400 -1500</td>
+      <td><h4>WebLog 分析及銷售組合分析 (Hive, Spark)</h4> <span data-toggle="modal" data-target="#info01" class="text-primary speaker-info">趙國仁 / 東森科技大數據顧問</span> <br>
+        <span data-toggle="modal" data-target="#info02" class="text-primary speaker-info">許勝淵 / 中華郵政專員</span></td>
+    </tr>
+    <tr class="bg-orange">
+      <td >1500 - 1530</td>
+      <td colspan="3">茶點時間</td>
+
+    </tr>
+    <tr>
+      <td>1530 - 1630</td>
+      <td><h4>分散式系統機器學習預測 (Spark, MLlib)</h4> <span data-toggle="modal" data-target="#info01" class="text-primary speaker-info">趙國仁 / 東森科技大數據顧問</span></td>
+      <td rowspan="2"><h4>R 資料前處理</h4> <span data-toggle="modal" data-target="#info08" class="text-primary speaker-info">林鉦育 / 玉山金控助理襄理</span></td>
+      <td rowspan="2"><h4>wit.ai 聲控 / 自然語言</h4>
+        <span data-toggle="modal" data-target="#info09" class="text-primary speaker-info">李慕約 / SheetHub.com 共同創辦人</span> <br>
+        <span data-toggle="modal" data-target="#info10" class="text-primary speaker-info">王向榮 / SheetHub.com 共同創辦人</span></td>
+    </tr>
+    <tr>
+      <td>1630 - 1700</td>
+      <td><h4>小考題測試</h4>
+        <span data-toggle="modal" data-target="#info04" class="text-primary speaker-info">黃道育 / 想上廣告主任工程師</span></td>
+    </tr>
+    <tr>
+      <td>1700 - 1730</td>
+      <td><h4>結業式</h4></td>
+      <td style="border-bottom: 1px solid #fff; border-right:1px solid #fff;"></td>
+      <td style="border-bottom: 1px solid #fff; border-right:1px solid #fff;"></td>
+    </tr>
+   
+  </tbody>
+</table>
+      </div>
+      
+      <!-- 8/21 -->
+     <div class="tab-pane fade in" id="tab3">
+     <table class="table table-bordered text-center">
+  <tbody>
+    <tr class="bg-sch">
+      <td width="15%">活動主題</td>
+      <td width="28%"><a href="intro-DSP.html"><img src="images/course/s004.png">        <h3>DSP 資料開竅 ▪ 企業論壇</h3></a></td>
+      <td width="28%"><a href="intro-R.html"><img src="images/course/s002.png"><h3>R 語言資料分析<br>
+        上手課程</h3></a> </td>
+      <td width="29%"><a href="intro-news.html"><img src="images/course/s005.png">
+        <h3>資料新聞實戰營<br/>d|Bootcamp Taipei</h3></a></td>
+    </tr>
+    <tr>
+      <td class="bg-gery" style="border-bottom: 2px solid #999">地點</td>
+      <td class="bg-gery" style="border-bottom: 2px solid #999"><i class="fa fa-map-marker"></i> 國際會議廳</td>
+      <td class="bg-gery" style="border-bottom: 2px solid #999"><i class="fa fa-map-marker"></i> 第二會議室</td>
+      <td class="bg-gery" style="border-bottom: 2px solid #999"><i class="fa fa-map-marker"></i> 第一會議室</td>
+    </tr>
+    <tr>
+      <td>0900 - 0910</td>
+      <td rowspan="3"><h4>跨域合作，追求企業內部創新</h4> 
+      <span class="label label-warning">主持人</span><br>
+        <span data-toggle="modal" data-target="#info42" class="text-primary speaker-info">劉嘉凱 / DSP 智庫驅動 共同創辦人</span> <br>
+        <span class="label label-primary">與談人</span><br>
+        <span data-toggle="modal" data-target="#info43" class="text-primary speaker-info">楊秀一 / 中華電信 總公司資訊處 科長</span> <br>
+        <span data-toggle="modal" data-target="#info44" class="text-primary speaker-info">徐文正 / 宏碁 物聯網事業處 資深經理</span><br>
+        <span data-toggle="modal" data-target="#info22" class="text-primary speaker-info">簡禎富 / 清華大學工業工程與工程管理學系講座教授</span></td>
+      <td rowspan="3"><h4>R 資料視覺化</h4> <span data-toggle="modal" data-target="#info11" class="text-primary speaker-info">郭孟坤 / 資料科學家</span><br/><span data-toggle="modal" data-target="#info60" class="text-primary speaker-info">陳奎銘 / 普生股份有限公司工程師
+</span><br/><span data-toggle="modal" data-target="#info61" class="text-primary speaker-info">鍾岳軒 / 趨勢科技資料科學家</span></td>
+      <td><h4>開幕式</h4> <span data-toggle="modal" data-target="#info59" class="text-primary speaker-info">高嘉良 / g0v.tw 台灣零時政府共同創辦人</span></td>
+    </tr>
+    <tr>
+      <td>0910 - 0950</td>
+      <td><h4>打造「實用」的新聞</h4> <span data-toggle="modal" data-target="#info14" class="text-primary speaker-info">Justin Arenstein / Founder, Code for Africa</span>
+      <br/>
+      <span class="label label-danger"><i class="fa fa-volume-up"></i> English 英語發音</span>
+      </td>
+    </tr>
+    <tr>
+      <td>0950 - 1030</td>
+      <td><h4>用全新策略提升新聞價值</h4><span data-toggle="modal" data-target="#info62" class="text-primary speaker-info">David Eads / 美國國家公共電台新聞視覺化團隊 News Application 開發者</span><br/>
+      <span class="label label-danger"><i class="fa fa-volume-up"></i> English 英語發音</span></td>
+    </tr>
+    <tr class="bg-orange">
+      <td >1030 - 1100</td>
+      <td colspan="3" >茶點時間</td>
+      </tr>
+    <tr>
+      <td>1100 - 1130</td>
+      <td rowspan="3"><h4>跨國、行動、即時的資料團隊</h4> <span class="label label-warning">主持人</span><br>
+        <span data-toggle="modal" data-target="#info45" class="text-primary speaker-info">蔣居裕 / 知意圖 (Etu) 總經理</span> <br>
+        <span class="label label-primary">與談人</span><br>
+        <span data-toggle="modal" data-target="#info46" class="text-primary speaker-info">吳伯儀 / 通用移動 Gmobi 創辦人暨執行長</span> <br>
+        <span data-toggle="modal" data-target="#info01" class="text-primary speaker-info">趙國仁 / 東森科技大數據顧問</span> <br>
+        <span data-toggle="modal" data-target="#info48" class="text-primary speaker-info">李婉菱 / 沛星互動科技 Appier 營運長</span></td>
+      <td rowspan="3"><h4>R 閃電秀</h4> <span data-toggle="modal" data-target="#info12" class="text-primary speaker-info">張家齊 / 木刻思伴讀書僮</span></td>
+      <td rowspan="2"><h4>穿越時空的資料新聞呈現－簡介與工具介紹</h4> <span data-toggle="modal" data-target="#info15" class="text-primary speaker-info">黃雋 / 財團法人開放文化基金會董事</span><br/>
+      </td>
+    </tr>
+    <tr>
+      <td>1130 - 1200</td>
+      </tr>
+    <tr>
+      <td>1200 - 1230</td>
+      <td rowspan="2" class="bg-orange">午餐</td>
+    </tr>
+    <tr>
+      <td>1230 - 1300</td>
+      <td rowspan="3" class="bg-pink">交流午宴</td>
+      <td rowspan="2" class="bg-orange">午餐</td>
+      </tr>
+    <tr>
+      <td>1300 - 1330</td>
+      <td rowspan="2"><h4>資料在哪裡？</h4> <span data-toggle="modal" data-target="#info10" class="text-primary speaker-info">王向榮 / SheetHub.com 共同創辦人</span></td>
+    </tr>
+    <tr>
+      <td>1330 - 1400</td>
+      <td rowspan="3"><h4>R 專題實習</h4> <span data-toggle="modal" data-target="#info13" class="text-primary speaker-info">吳齊軒 / 台灣大學電機所博士生</span></td>
+      </tr>
+    <tr>
+      <td>1400 - 1430</td>
+      <td rowspan="3"><h4>資料分析，讓交通開竅</h4> <span class="label label-warning">主持人</span><br>
+        <span data-toggle="modal" data-target="#info49" class="text-primary speaker-info">濮大威 / 台北捷運公司顧問</span> <br>
+        <span class="label label-primary">與談人</span><br>
+        <span data-toggle="modal" data-target="#info50" class="text-primary speaker-info">李俊賢 / 鼎漢國際工程顧問董事長</span> <br>
+        <span data-toggle="modal" data-target="#info51" class="text-primary speaker-info">李瓊淑 / 台灣大車隊總經理</span> <br>
+        <span data-toggle="modal" data-target="#info52" class="text-primary speaker-info">解睿凱 / 裕隆電能科長</span> <br>
+        <span data-toggle="modal" data-target="#info53" class="text-primary speaker-info">張子明 / 華創車電經理</span></td>
+      <td rowspan="2"><h4>迎戰壞資料－實用工具與技巧</h4> <span data-toggle="modal" data-target="#info16" class="text-primary speaker-info">吳泰輝 / foundi 房地資訊站共同創辦人</span><br/>
+      </td>
+    </tr>
+    <tr>
+      <td>1430 - 1500</td>
+      </tr>
+    <tr>
+      <td>1500 - 1530</td>
+      <td class="bg-orange">茶點時間</td>
+      <td class="bg-orange">茶點時間</td>
+    </tr>
+    <tr>
+      <td>1530 - 1600</td>
+      <td class="bg-orange">茶點時間</td>
+      <td rowspan="3"><h4>R 專題實習</h4> <span data-toggle="modal" data-target="#info13" class="text-primary speaker-info">吳齊軒 / 台灣大學電機所博士生</span></td>
+      <td rowspan="2"><h4>資料視覺化－入門與討論</h4> <span data-toggle="modal" data-target="#info09" class="text-primary speaker-info">李慕約 / SheetHub.com 共同創辦人</span><br/>
+      </td>
+    </tr>
+    <tr>
+      <td>1600 - 1630</td>
+      <td rowspan="3"><h4>上天下地，無遠弗屆</h4> <span class="label label-warning">主持人</span><br>
+        <span data-toggle="modal" data-target="#info54" class="text-primary speaker-info">劉說安 / 台灣地理資訊中心總經理</span> <br>
+        <span class="label label-primary">與談人</span><br>
+        <span data-toggle="modal" data-target="#info55" class="text-primary speaker-info">陳微鈞 / 瑞竣科技處長</span> <br>
+        <span data-toggle="modal" data-target="#info56" class="text-primary speaker-info">楊昆霖 / 北極星測繪副總經理</span> <br>
+       <span data-toggle="modal" data-target="#info57" class="text-primary speaker-info"> 徐偉城 / 達雲科技總經理</span></td>
+      </tr>
+    <tr>
+      <td>1630 - 1700</td>
+      <td rowspan="2"><h4>「一窺新聞室中的資料新聞」 座談會</h4> <span class="label label-warning">主持人</span><br>
+        <span data-toggle="modal" data-target="#info17" class="text-primary speaker-info">史書華 / 新聞媒體工作者</span> <br>
+        <span class="label label-primary">與談人</span> <br>
+        <span data-toggle="modal" data-target="#info18" class="text-primary speaker-info">馬金馨 / 聯合國開發計畫署亞洲總部創新顧問</span> <br>
+        <span data-toggle="modal" data-target="#info19" class="text-primary speaker-info">岑正倫 / 香港南華早報編輯</span> <br>
+        <span data-toggle="modal" data-target="#info16" class="text-primary speaker-info">吳泰輝 / 知微科技 </span><br/>
+      <span class="label label-success"><i class="fa fa-volume-up"></i> zh 中文發音</span> <span class="label label-danger"><i class="fa fa-volume-up"></i> en 英語發音</span></td>
+    </tr>
+    <tr>
+      <td>1700 - 1730</td>
+      <td style="border-bottom: 1px solid #fff;">&nbsp;</td>
+      </tr>
+    <tr>
+      <td>1730 - 1800</td>
+      <td colspan="2" style="border-bottom: 1px solid #fff;">&nbsp;</td>
+      <td colspan="2"><h4>閉幕式－為零時政府黑客松暖身吧</h4> <span data-toggle="modal" data-target="#info59" class="text-primary speaker-info">高嘉良 / g0v.tw 台灣零時政府共同創辦人</span></td>
+    </tr>
+    
+  </tbody>
+</table>
+     </div> 
+     
+     <!-- 8/22 -->
+     <div class="tab-pane fade in" id="tab4">
+      <table class="table table-bordered text-center">
+             <tbody>
+               <tr class="bg-sch">
+                 <td width="15%">活動主題</td>
+                 <td width="28%"><img src="images/course/s001.png"><h3>專題演講</h3></td>
+                 <td width="28%"><img src="images/course/s001.png"><h3>專題演講</h3></td>
+                 <td width="29%"><a href="intro-g0v.html"><img src="images/course/s003.png"><h3>g0v 零時政府<br/>
+                   黑客松</h3></a></td>
+               </tr>
+               <tr>
+                 <td class="bg-gery" style="border-bottom: 2px solid #999">地點</td>
+                 <td class="bg-gery" style="border-bottom: 2px solid #999"><i class="fa fa-map-marker"></i> 國際會議廳</td>
+                 <td class="bg-gery" style="border-bottom: 2px solid #999"><i class="fa fa-map-marker"></i> 第二會議室</td>
+                 <td class="bg-gery" style="border-bottom: 2px solid #999"><i class="fa fa-map-marker"></i> 第一會議室</td>
+               </tr>
+               <tr>
+                 <td>0900 - 0930</td>
+                 <td colspan="3"><h4>開幕式</h4>
+                   <span data-toggle="modal" data-target="#info58" class="text-primary speaker-info">陳昇瑋 / 年會總召, 中央研究院資訊科學研究所研究員</span> <br>
+                   <span class="label label-primary">致詞嘉賓</span><br>
+                   鄭清水 / 中央研究院統計科學研究所所長</td>
+               </tr>
+               <tr>
+                 <td>0930 - 1030</td>
+                 <td colspan="2"><h4>主題演講 / 為什麼大資料是生死課題？</h4>
+                   <span data-toggle="modal" data-target="#info20" class="text-primary speaker-info">車品覺 / 阿里巴巴集團副總裁</span></td>
+                 <td><h4>專案報告與招募</h4>
+<span data-toggle="modal" data-target="#info59" class="text-primary speaker-info">高嘉良 / g0v.tw 台灣零時政府共同創辦人</span></td>
+               </tr >
+               <tr class="bg-orange">
+                 <td >1030 - 1100</td>
+                 <td colspan="3">茶點與交流時間</td>
+                 
+               </tr>
+               <tr>
+                 <td>1100 - 1200</td>
+                 <td colspan="2"><h4>主題演講 / Evolution of Big Data Frameworks</h4>
+                   <span data-toggle="modal" data-target="#info21" class="text-primary speaker-info">林清詠 / IBM Distinguished Researcher and Chief Scientist, Graph Computing</span></td>
+                 <td rowspan="2"><h4>g0v 黑客松</h4></td>
+               </tr>
+               <tr>
+                 <td>1200 - 1245</td>
+                 <td><h4>智能製造的數位決策</h4>
+                   <span data-toggle="modal" data-target="#info22" class="text-primary speaker-info">簡禎富 / 國立清華大學工業工程與工程管理學系講座教授</span></td>
+                 <td><h4>人口統計應用於選舉預測</h4>
+                   <span data-toggle="modal" data-target="#info23" class="text-primary speaker-info">詹大千 / 中央研究院人文社會科學研究中心助研究員</span></td>
+               </tr>
+               <tr class="bg-orange">
+                 <td>1245 - 1400</td>
+                 <td colspan="3" >午餐</td>
+                 
+               </tr>
+               <tr>
+                 <td>1400 - 1445</td>
+                 <td><h4>巨量與開放資料之創新機會與關鍵挑戰</h4>
+                   <span data-toggle="modal" data-target="#info24" class="text-primary speaker-info">曾新穆 / 國立交通大學資訊工程學系教授</span></td>
+                 <td><h4>以健保資料分析對抗健康新聞的恐慌症候群</h4>
+                   <span data-toggle="modal" data-target="#info25" class="text-primary speaker-info">張俊鴻 / 陽光精神專科醫院主治醫師</span></td>
+                 <td rowspan="2"><h4>g0v 黑客松</h4></td>
+               </tr>
+               <tr>
+                 <td>1445 - 1530</td>
+                 <td><h4>Learning for Big Data</h4>
+                  <span data-toggle="modal" data-target="#info26" class="text-primary speaker-info">林軒田 / 國立臺灣大學資訊工程學系副教授</span></td>
+                 <td><h4>人口統計應用於選舉預測</h4>
+                   <span data-toggle="modal" data-target="#info27" class="text-primary speaker-info">蔡佳泓 / 政治大學選舉研究中心研究員兼中心主任</span></td>
+               </tr>
+               <tr class="bg-orange">
+                 <td >1530 - 1600</td>
+                 <td colspan="3" >茶點與交流時間</td>
+                
+               </tr>
+               <tr>
+                 <td>1600 - 1645</td>
+                 <td><h4>海量視覺資料</h4>
+                   <span data-toggle="modal" data-target="#info28" class="text-primary speaker-info">孫民 / 國立清華大學電機工程學系助理教授</span></td>
+                 <td><h4>由點、線至面：從影像分析角度探討漫畫的組成與風格</h4>
+                   <span data-toggle="modal" data-target="#info29" class="text-primary speaker-info">朱威達 / 國立中正大學資訊工程學系副教授</span></td>
+                 <td rowspan="2"><h4>g0v 黑客松</h4></td>
+               </tr>
+               <tr>
+                 <td>1645 - 1745</td>
+                 <td><h4>資料視覺化閃電秀</h4>
+                   <span data-toggle="modal" data-target="#info09" class="text-primary speaker-info">李慕約 / SheetHub.com 共同創辦人</span></td>
+                 <td><h4>心理學x資料科學</h4>
+                   <span data-toggle="modal" data-target="#info30" class="text-primary speaker-info">黃從仁 / 國立臺灣大學心理學系助理教授</span></td>
+               </tr>
+               <tr>
+                 <td class="bg-pink">1800 - 2000</td>
+                 <td colspan="2" class="bg-pink"><img src="images/course/s009.png" >                   <h4>交流晚宴</h4></td>
+                 <td style="border-bottom:1px solid #fff;border-right:1px solid #fff"></td>
+               </tr>
+               </tbody>
+           </table>
+     </div>
+     
+     <!-- 8/23 -->
+     <div class="tab-pane fade in" id="tab5">
+     <table class="table table-bordered text-center">
+  <tbody>
+    <tr class="bg-sch">
+                 <td width="15%">活動主題</td>
+                 <td width="28%"><img src="images/course/s001.png">                   <h3>專題演講</h3></td>
+                 <td width="28%"><img src="images/course/s001.png"><h3>專題演講</h3></td>
+                 <td width="29%"><a href="intro-g0v.html"><img src="images/course/s003.png"><h3>g0v 零時政府<br/>
+                   黑客松</h3></a></td>
+               </tr>
+    <tr>
+      <td class="bg-gery" style="border-bottom: 2px solid #999">地點</td>
+      <td class="bg-gery" style="border-bottom: 2px solid #999"><i class="fa fa-map-marker"></i> 國際會議廳</td>
+      <td class="bg-gery" style="border-bottom: 2px solid #999"><i class="fa fa-map-marker"></i> 第二會議室</td>
+      <td class="bg-gery" style="border-bottom: 2px solid #999"><i class="fa fa-map-marker"></i> 第一會議室</td>
+    </tr>
+    <tr>
+      <td>0900 -  1000</td>
+      <td colspan="2"><h4>主題演講 / Big Education in the Era of Big Data </h4><span data-toggle="modal" data-target="#info31" class="text-primary speaker-info">金國慶 / 香港中文大學計算機科學及工程學系教授</span></td>
+      <td><h4>g0v 黑客松</h4></td>
+    </tr>
+    <tr class="bg-orange">
+      <td>1000 - 1030</td>
+      <td colspan="3">茶點與交流時間</td>
+     
+    </tr>
+    <tr>
+      <td>1030 - 1115</td>
+      <td><h4>資料科學在數位音樂的實踐與分析</h4> <span data-toggle="modal" data-target="#info41" class="text-primary speaker-info">林佑璟 / KKBOX 研究中心經理</span> <br>
+        <span data-toggle="modal" data-target="#info32" class="text-primary speaker-info">羅經凱 / KKBOX 研究中心資料科學家</span></td>
+      <td><h4>從網頁存取記錄瞭解使用者行為與網頁區塊貢獻分析-實戰篇</h4>
+<span data-toggle="modal" data-target="#info33" class="text-primary speaker-info">崔殷豪 / 雲書 bestbook.com 共同創辦人暨技術長</span></td>
+      <td rowspan="2"><h4>g0v 黑客松</h4></td>
+    </tr>
+    <tr>
+      <td>1115- 1200</td>
+      <td><h4>雲端影音與物聯網平台的軟體工程挑戰：以 Skywatch 為例</h4> <span data-toggle="modal" data-target="#info34" class="text-primary speaker-info">陳維超 / Skywatch 共同創辦人</span></td>
+      <td><h4>使用 Elasticsearch 及 Kibana 進行巨量資料搜尋及視覺化</h4><span data-toggle="modal" data-target="#info35" class="text-primary speaker-info">曾書庭 / Gogolook Data Engineer</span></td>
+      </tr>
+   <tr class="bg-orange">
+      <td>1200 - 1320</td>
+      <td colspan="3">午餐</td>
+
+      </tr>
+    <tr>
+      <td>1320 - 1405</td>
+      <td><h4>開放×資料</h4><span data-toggle="modal" data-target="#info47" class="text-primary speaker-info">唐鳳 / g0v 零時政府貢獻者</span></td>
+      <td><h4>Visualization over Web: Tools and Tips</h4><span data-toggle="modal" data-target="#info16" class="text-primary speaker-info">吳泰輝 / foundi 房地資訊站共同創辦人</span></td>
+      <td rowspan="3"><h4>g0v 黑客松</h4></td>
+    </tr>
+    <tr>
+      <td>14:05-14:50</td>
+      <td><h4>應用資料科學於交通網路解析</h4><span data-toggle="modal" data-target="#info36" class="text-primary speaker-info">闕嘉宏 / 創代科技股份有限公司創辦人兼執行長</span></td>
+      <td><h4>團結力量大？集團企業之解構、分析比較</h4><span data-toggle="modal" data-target="#info37" class="text-primary speaker-info">劉偉宸 / 中央研究院資訊科學研究所研究助理</span></td>
+      </tr>
+    <tr>
+      <td>14:50-15:35</td>
+      <td><h4>社會資訊學？資訊社會學？抑都不是？ 淺論資訊科學與社會學相得益彰的合作契機
+</h4><span data-toggle="modal" data-target="#info38" class="text-primary speaker-info">江彥生 / 香港中文大學社會學系助理教授</span></td>
+      <td><h4>軟工人的資料科學奇航－線上遊戲、網路學習與中華職棒</h4><span data-toggle="modal" data-target="#info39" class="text-primary speaker-info">許懷中 / 中央研究院資訊科學研究所博士後研究員</span></td>
+      </tr>
+    <tr class="bg-orange">
+      <td >15:35-16:05</td>
+      <td colspan="3">茶點與交流時間</td>
+     
+      </tr>
+    <tr>
+      <td>16:05-17:05</td>
+      <td><h4>g0v 黑客松成果展示</h4> <span data-toggle="modal" data-target="#info59" class="text-primary speaker-info">高嘉良 / g0v.tw 台灣零時政府共同創辦人</span></td>
+      <td><h4>社會物理學－以意念流的數據化來打造智慧企業及城市</h4><span data-toggle="modal" data-target="#info40" class="text-primary speaker-info">張毓倫 / 中央研究院資訊科學研究所研究助理</span></td>
+      <td><h4>g0v 黑客松成果展示</h4> <span data-toggle="modal" data-target="#info59" class="text-primary speaker-info">高嘉良 / g0v.tw 台灣零時政府共同創辦人</span></td>
+    </tr>
+    <tr>
+      <td>17:05-17:20</td>
+      <td colspan="3"><h4>閉幕式</h4> <span data-toggle="modal" data-target="#info58" class="text-primary speaker-info">陳昇瑋 / 年會總召, 中央研究院資訊科學研究所研究員</span></td>
+      </tr>
+    
+    
+  </tbody>
+</table>
+     </div>
+      
+      
+      <!-- Speaker Modal -->
+<div class="modal fade" id="info01" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info01.jpg" class="img-circle"/></div>
+        <div class="col-md-9"><h3 class="modal-title" id="myModalLabel">趙國仁 Craig Chao</h3>
+        <h5>大數據顧問／資料科學家</h5></div>
+        </div>
+        
+        
+      </div>
+      <div class="modal-body">
+       創立台灣第一個中文BBS系統、發展全球第一套中文套裝搜索引擎、創立龍捲風科技、曾在國立高雄應用科技大學擔任專任助理教授。有發展文字採礦及行動廣告大數據的經驗，熱愛軟體開發與物聯網創新，獲得20項以上的發明專利，喜歡新創事業商務模式發展、整合性資料分析與探索性研究。
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- model 02 許勝淵 -->
+<div class="modal fade" id="info02" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info02.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> <h3 class="modal-title" id="myModalLabel">許勝淵 Sean Hsu</h3>
+        <h5>中華郵政/專員</h5></div>
+        </div>
+       
+      </div>
+      <div class="modal-body">
+       任職中華郵政電子商務部門，負責購物網站優化、SEO、Kiosk O2O專案等新業務推動，並積極導入電子商務數據分析工具、取得GAIQ認證，協助企業推動Data Driven Business。
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 03 葉蕙菱-->
+<div class="modal fade" id="info03" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info03.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> <h3 class="modal-title" id="myModalLabel">葉蕙菱 Q</h3>
+        <h5>嚮網科技/產品經理</h5></div>
+        </div>
+        
+      </div>
+      <div class="modal-body">
+       擔任過許多海內外地區行銷案的專案負責人與網站PM，曾在GOMC (Google Online Marketing Challenge) 榮獲亞太區優勝，在網站經營與行銷專案上累積不少實戰經驗，深信可以從數據中精煉價值。
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 04 黃道育-->
+<div class="modal fade" id="info04" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info04.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        <h3 class="modal-title" id="myModalLabel">黃道育 Dennis Huang</h3>
+        <h5>想上廣告 / 主任工程師</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+       行走於行銷與技術之中，熟悉SEO與SEM，熱愛網路廣告成效優化，通過Google Analytics 301認證，對於網站流程分析與廣告投遞優化分析擁有許多豐富的經驗，目前任職許多企業網站分析顧問。
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 05 廖尹禎-->
+<div class="modal fade" id="info05" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info05.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">廖尹禎 Dboy</h3>
+        <h5>啟雲科技 / 工程師</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+       職業工程師，業餘數學玩家。常用語言 Python，有時寫寫 R ，喜歡亂玩資料。
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 06 陳哲維-->
+<div class="modal fade" id="info06" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info06.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">陳哲維 Noah</h3>
+        <h5>exFAE / 學生（號稱）</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+       focus on embedded system, data只是補助。原本接觸Data只是看著別人喊燒而接觸，但接觸Data之後，社群的幫忙給了我很多的感謝，進而就想推廣帕里斯通的理念：成為了解Data弱者痛苦的親切推廣大叔。
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 07 陳潔寧-->
+<div class="modal fade" id="info07" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info07.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        
+        <h3 class="modal-title" id="myModalLabel">陳潔寧 Ning Chen</h3>
+        <h5>木刻思 / 共同工作者</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+       熱愛作資料解讀及分析，共同創立TW R Ladies，希望能認識更多同好，一起做好玩且不一樣的事情。
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 08 林鉦育-->
+<div class="modal fade" id="info08" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info08.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">林鉦育 aha</h3>
+        <h5>玉山金控/ 助理襄理</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+       熱愛用資料觀察世界，希望透過資料成為彼得杜拉克說的“社會觀察家”
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- model 09 李慕約-->
+<div class="modal fade" id="info09" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info09.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">李慕約 muyueh</h3>
+        <h5>SheetHub.com / 共同創辦人 </h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+       SheetHub.com 的共同創辦人，以 d3.js 製作資料視覺化。參與中国器官分配与共享系统研究中心 (COTRS) 與 世界衛生組織 (WHO) 的專案，針對 700 家三級甲等醫院資料庫建置視覺分析界面。其他客戶涵蓋台北市政府、天下雜誌等。曾經視覺化的領域橫跨財金、能源、交通、糧食、語言以及漢堡。
+
+<p>在零時政府 g0v.tw 貢獻「發電成本計算機」，其蔬菜價格的研究，獲經濟部頒選為最佳 OpenData 應用。</p>
+<p>
+在各地從事資料相關教學，包含：「世界銀行 DataBootCamp / 新加坡」、「Google Squared Program 香港」、「台大新聞研究所 / 台灣」。</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 10 王向榮-->
+<div class="modal fade" id="info10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info10.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">王向榮 Ronny Wang</h3>
+        <h5>SheetHub.com / 共同創辦人</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+       SheetHub.com 共同創辦人，曾任痞客邦產品開發副理，走吧旅行社
+技術研發協理。熱愛收集資料、爬資料、放資料、用資料。 在零時
+政府發起或參與「新聞小幫手」、「求職小幫手」、「台灣公司
+資料」、「開放政治獻金」... 等專案
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 11 郭孟坤-->
+<div class="modal fade" id="info11" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info11.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">郭孟坤 Mansun</h3>
+        <h5>趨勢科技 / Data Scientist</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+       小時候覺得統計學家是世界上最浪漫的職業，一路分析資料到了被叫大叔也無法反駁的年紀之後其實也不太確定自己是在做甚麼了，使用R也使用其他和資料分析扯得上一點邊的工具，希望有一天不得不寫需要加分號的語言時可以不要再忘記加分號。
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 12 張家齊-->
+<div class="modal fade" id="info12" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info12.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">張家齊 Chia-Chi</h3>
+        <h5>木刻思/伴讀書僮</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+       Taiwan R User Group 共同創辦人，一位喜歡玩數學的攻城獅，平時熱愛學習類型資料 (文字，影像，聲音 ... ) 的各種玩具，並喜歡應用資料協助客戶解決所遭遇的難題，突破困境。因而，也常常有機會去教客戶使用 R 與 Python 來玩手上的資料，或自幹系統！
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 13 吳齊軒 -->
+<div class="modal fade" id="info13" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button><div class="row">
+        <div class="col-md-3"><img src="photo/info13.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">吳齊軒 Wush</h3>
+        <h5>台灣大學電機所/博士生</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+       Taiwan R User Group 共同創辦人，也是許多R 套件的貢獻者與作者。
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 14-->
+<div class="modal fade" id="info14" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info14.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        <h3 class="modal-title" id="myModalLabel">Justin Arenstein</h3>
+        <h5>Founder, Code for Africa</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+       獲獎調查報導記者及數位策略專家。目前與Google和Code for Africa合作，在非洲新聞室推動以實證為基礎的報導，協助新聞媒體使用數位工具、推動資料新聞的發展策略，強化非洲新聞守門員的角色。
+<p>
+Justin同時負責Innovate Africa基金及Impact Africa初創基金，在非洲地區推動新聞與科技結合的HacksHackers運動，並前進各大新聞室，直接在編輯台推動公民報導、行動裝置新聞、虛擬實境新聞等實驗。</p>
+<p>
+在更早之前，Justin曾擔任南非媒體委員，同時服務多個新聞媒體單位及智庫。所撰寫的調查報導，曾讓數位議員及官員最終接受司法制裁。</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 15 黃雋-->
+<div class="modal fade" id="info15" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info15.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">黃雋 Jimmy Huang</h3>
+        <h5>財團法人開放文化基金會</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+       g0v專案：政誌 / 時間地圖 / 賽豬公上太空<br/>
+  雖然資訊工程出身，卻對環境社會特別有感受；<br/>
+  雖然辦了個社會(?)企業，卻對不賺錢的事情特別有興趣；<br/>
+  雖然身處網路的虛擬世代，卻希望總是能與實體相互有交集。
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 16 吳泰輝-->
+<div class="modal fade" id="info16" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info16.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">吳泰輝 Kirby Wu</h3>
+        <h5>知微科技</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+       infographics.tw, g0v.tw, foundi.info 等組織的共同創辦人，亦為資料視覺化領域與網頁技術專家。曾擔任 Google Taiwan DigiCamp(2014) 技術顧問，亦曾受邀至台大、交大、世新、政大等大學之新聞相關課程演講及授課。
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 17 史書華-->
+<div class="modal fade" id="info17" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info17.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+       
+        <h3 class="modal-title" id="myModalLabel">史書華 Silva Shih</h3>
+        <h5>新聞媒體工作者 </h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+      從一個平面記者轉到數位領域，喜歡研究科技怎麼影響新聞、新聞室可以怎麼玩新科技。相關新聞報導和製作曾獲金鼎獎、Society for News Design優勝、亞洲出版協會（SOPA）數位新聞及資料圖像卓越獎。也曾擔任政大新聞系所資料新聞學課程講師。
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 18 馬金馨-->
+<div class="modal fade" id="info18" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info18.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">馬金馨 Yolanda Ma</h3>
+        <h5>聯合國開發計畫署亞洲總部創新顧問</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+       數據中文網聯合創辦人，「開放數據中國」協同發起人。曾任湯森路透（Thomson Reuters）資料新聞助理專案經理，協管資料新聞產品的開發與執行，專案「Connected China」曾獲2013年度全球資料新聞獎。前香港南華早報首任社交媒體編輯，負責專案「公民地圖」獲亞洲出版協會2011年度卓越新聞榮譽獎。現任聯合國開發計畫署亞太總部創新顧問。
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 19 岑正倫-->
+<div class="modal fade" id="info19" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info19.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">岑正倫 Cedruc Sam</h3>
+        <h5>香港南華早報</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+       香港南華早報第一位資料新聞記者，目前為南華早報圖表編輯。畢業於加拿大McGill大學生化系及資工系，2012年取得香港理工大學互動設計碩士。過去曾服務加拿大蒙特婁CBC電視，製作互動圖表。2009年移居香港，在香港大學新聞暨傳媒中心工作，港大知名研究微博審查的觀察網站「微博視野」，岑正倫為初期推手之一。
+<p>
+2013年加入南華早報，為編輯部唯一具有撰寫程式能力的記者，曾參與社內各大數位專輯和資料新聞專案，例如2014年獲獎作品<a href="http://multimedia.scmp.com/tiananmen" targer="_blank">天安門之聲</a>。岑正倫也曾與The New York Times、The Canadian Press、 La Presse、CBC媒體合作專案。他近期最喜愛的開發平台和程式庫為Google Maps API和D3.js。</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 20-->
+<div class="modal fade" id="info20" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info20.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">車品覺 Pun-Kok Chia</h3>
+        <h5>阿里巴巴集團 / 副總裁</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+       車品覺，暢銷書《決戰大數據》作者，多年來致力於研究大數據和互聯網的發展趨勢。現任阿里巴巴集團副總裁 、數據委員會會長，並擔任中國信息協會大數據分會副會長、中國計算數學學會第九屆理事等職務。香港人，曾在美英澳洲等地接受西方教育, 新南威爾士大學畢業，後於清華及 INSEAD 獲得雙碩士學位，先後在 HSBC / PCCW / 微軟 / eBay 等多家跨國公司任高管職務, 未加入阿里巴巴前在敦煌網曾任 CIO 及 CPO 。2010 年發起桑珠助學公益計畫，並於業餘時間經營淘寶公益店舖「桑珠貝瑪」，致力於改善藏區兒童教育。
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 21-->
+<div class="modal fade" id="info21" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info21.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">林清詠 Ching-Yung Lin</h3>
+        <h5>Graph Computing, IBM Watson Research Center / Distinguished Researcher and Chief Scientist</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+       Dr. Ching-Yung Lin is an IBM Distinguished Researcher and the Chief Scientist, Graph Computing. He was the first IEEE Fellow elevated for contributions to Network Science in 2011, and is an IEEE Distinguished Lecturer 2015-16. He manages the Linked Big Data department in IBM Watson Research Center. He is also an Adjunct Professor in Columbia University since 2005, in NYU in 2014, and in the University of Washington 2003-2009. His research focuses on multimodality signal understanding, network science, and social and mobile analytics. Since 2011, Dr. Lin has been leading a team of more than 40 Ph.D. researchers in the worldwide IBM Research Labs and more than 20 professors and researchers in 10 universities, including Columbia, Northeastern, Northwestern, CMU, U Minnesota, Rutgers, U New Mexico, UC-Berkeley, Stanford Research Institute, and USC. He is an author of 160+ publications and 20+ issued patents. His team recently won the Best Paper Award in IEEE BigData 2013 and in ACM CIKM 2012. He received his Ph.D. from Columbia in 2000, and M.S. and B.S. from NTUEE in 1993 and 1991. His Big Data Analytics course webpage is in the top search results, sometimes ranks as high as #3, in the Google search on "Big Data Analytics", out of 102 million results.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 22-->
+<div class="modal fade" id="info22" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info22.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">簡禎富 Chen-Fu Chien</h3>
+        <h5>國立清華大學工業工程與工程管理學系 / 清華講座教授</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+       簡禎富現任清華講座教授、科技部 IC 產業同盟暨清華-台積電卓越製造中心主持人，研究領域包括決策分析、大數據分析、半導體製造和智能製造，2005至2008年曾借調至台積電，並執行多家科技大廠產學合作計畫，已有多項發明專利和技術移轉，榮獲行政院國家品質獎、國科會傑出研究獎、經濟部大學產業經濟貢獻獎、教育部產學合作研究獎及 IEEE TASE Best Paper Award 等學術殊榮，產學經驗豐富，能夠學以致用。
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 23-->
+<div class="modal fade" id="info23" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info23.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">詹大千 Ta-Chien Chan</h3>
+        <h5>中央研究院人文社會科學研究中心 / 助研究員</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+       詹大千博士於2010年畢業於臺灣大學流行病學研究所，其專長在空間流行病學、傳染病流行病學、地理資訊系統、衛生資訊學等領域。至中研院服務之前，曾於2009年通過公務人員高等考試，分發至衛生署中醫藥委員會服務。2012年8月起受聘於中央研究院人文社會科學研究中心之「地理資訊科學專題研究中心」擔任助研究員，研究興趣除了空間流行病學與地理資訊系統等相關應用研究外，亦延伸至社會網絡與健康行為等新興研究主題，目前正負責健康統計區的建置計畫。
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 24-->
+<div class="modal fade" id="info24" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info24.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">曾新穆 Vincent S. Tseng</h3>
+        <h5>國立交通大學資訊工程學系 / 教授</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+       現任交通大學資訊工程系教授，研究方向為巨量資料探勘技術及其跨領域應用，已發表超過300篇期刊與國際會議論文以及多項國內外專利，並擔任多項著名國際期刊之Editor以及多項頂尖國際會議之組織委員。其研究團隊目前致力於發展新一代之巨量資料分析技術，並整合運用於智慧醫療、行動照護、智慧商務、科技製造等領域成為創新性之智慧型應用。
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 25-->
+<div class="modal fade" id="info25" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info25.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">張俊鴻 Chun-Hung Chang</h3>
+        <h5>陽光精神科醫院主治醫師 / 
+中國醫藥大學附設醫院精神科主治醫師</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+       張俊鴻醫師畢業於台大資訊系所<br/> 
+曾協助多項國科會與產學計畫<br/>  
+接受國軍徵召在金門放空兩年後重讀台大醫學系<br/> 
+對於科技與腦部的研究充滿熱情參與DBS,TMS等多項研究<br/> 
+隨後獲得STB獎助至史丹福醫院進修Biodesign一年<br/> 
+目前研究之一為健保庫資料分析
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 26-->
+<div class="modal fade" id="info26" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info26.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">林軒田 Hsuan-Tien Lin</h3>
+        <h5>國立臺灣大學資訊工程學系 / 副教授</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+       林軒田教授於2001年取得台灣大學資訊工程系學士學位，並在2005及2008年相繼在美國加州理工學院取得碩博士學位。2008年返回台灣大學資訊工程系擔任助理教授，2012年升等副教授，2013 與2014年間擔任台灣人工智慧協會秘書長，2014 年起在沛星科技兼任技術顧問。
+<p>
+研究方向為「機器學習的理論基礎與演算法設計」，他合著了在亞馬遜線上書店暢銷的機器學習入門教科書「Learning From Data」，並依此書在 Coursera 平台上開設了「機器學習基石」與「機器學習技法」兩門熱門的大型公開線上課程。</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 27-->
+<div class="modal fade" id="info27" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info27.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">蔡佳泓 Chia-hung Tsai</h3>
+        <h5>政治大學選舉研究中心 / 研究員兼中心主任</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+       個人的專業領域是選舉行為，已經發表三十多篇中英文學術著作，長期使用R分析民意調查資料，並且出版「基礎統計分析：R程式在社會科學之應用」。對貝氏統計以及資料科學有高度興趣，但是半路出家，期許自己不斷精益求精，不要太快被後浪推前浪。
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 28-->
+<div class="modal fade" id="info28" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info28.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">孫民 Min Sun</h3>
+        <h5>國立清華大學電機工程學系 / 博士</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+      Min Sun is an assistant professor in EE department at NTHU. Before joiningNTHU, he was a postdoctoralresearcher in the ComputerScience and Engineering department at the UniversityofWashington (UW) working with Steve Seitz and Ali Farhadi. He graduated from the UniversityofMichigan at Ann Arbor with a Ph.D. degree and Stanford University with a M.Sc. degree. His research interests include object recognition, human pose estimation, and scene understanding in both 2D and 3D. Most recently, he focuses on developing scalable methods forobject categorization and video analysis in the age ofbig data. He has won the best paper award in 3DRR and was also a recipient ofW. MichaelBlumenthal Family Fund Fellowship.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 29-->
+<div class="modal fade" id="info29" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info29.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">朱威達 Wei-Ta Chu</h3>
+        <h5>國立中正大學資訊工程學系 / 副教授</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+      Wei-Ta Chu received the B.S. and M.S. degrees in Computer Science from National Chi Nan University, Taiwan, in 2000 and 2002, and received the Ph.D. degree in Computer Science from National Taiwan University, Taiwan, in 2006. He is now an Associate Professor in the Department of Computer Science and Information Engineering, National Chung Cheng University, Taiwan. His research interests include digital content analysis, multimedia indexing, digital signal process, and pattern recognition. 
+He won the Best Full Technical Paper Award in ACM Multimedia 2006. He was awarded the Distinguished Alumni Award presented by National Chi Nan University in 2014, Best GOLD Member Award presented by IEEE Tainan Section in 2013, the K. T. Li Young Researcher Award presented by Institute of Information & Computing Machinery in 2012, and the Young Faculty Awards presented by National Chung Cheng University in 2011. His advised master students received several thesis awards from Institute of Information & Computing Machinery and the Chinese Institute of Electrical Engineering. He was a visiting scholar at Digital Video & Multimedia Laboratory, Columbia University, from July to August 2008.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 30-->
+<div class="modal fade" id="info30" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info30.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">黃從仁 Tsung-Ren Huang</h3>
+        <h5>國立臺灣大學心理學系 / 助理教授</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+      黃從仁畢業於臺灣大學數學系、臺灣大學物理學研究所、波士頓大學認知與神經系統研究所。他的研究專長為應用數理模型與電腦模擬來解釋人類認知行為。目前他的研究團隊致力於使用資訊科技來進行心理學與神經科學的巨量資料研究，在議題上聚焦於社會認知/學習/記憶。研究之外，他曾擔任科羅拉多大學認知科學研究所以及臺灣大學身體心靈文化整合影像研究中心的資訊系統架構師兼管理員。
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 31-->
+<div class="modal fade" id="info31" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info31.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">金國慶 Irwin King</h3>
+        <h5>香港中文大學計算機科學及工程學系 / 教授</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+      Prof. King's research interests include machine learning, social computing, big data, web intelligence, data mining, and multimedia information processing for Big Data. He is Associate Dean (Education), Faculty of Engineering and Professor at the Department of Computer Science and Engineering, The Chinese University of Hong Kong. He is also Director of the Shenzhen Key Laboratory of Rich Media and Big Data. He received his B.Sc. from Caltech, Pasadena and his M.Sc. and Ph.D. degree from the USC, Los Angeles. He was on leave to AT&T Labs Research on special projects and also taught courses at UC Berkeley on Social Computing and Data Mining. Recently, Prof. King has been an evangelist in the use of education technologies in eLearning for the betterment of teaching and learning.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 32-->
+<div class="modal fade" id="info32" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info32.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">羅經凱 Jing-Kai Lou</h3>
+        <h5>KKBOX 研究中心 / 資料科學家</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+      羅經凱現任 KKBOX 研究中心資料部副理，是一名資料科學家。致力於探勘與分析音樂使用行為。之前研究興趣為觀察並探究遊戲虛擬社會的成長與變遷。相信人人可以自己做分析，為 了朝向此目標而推廣 R 語言給周遭的人。
+<p>
+2014 年於國立臺灣大學電機所取得博士，專業致力於資料探勘(Data Mining)以及社群網絡分析(Social Network Analysis)。2010 年獲 KDD CUP 競賽冠軍殊榮。2013 年研究訪問韓國科學技術院 KAIST，與國際學者合作發表論文探討性別對於遊戲社群行為的影響。</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 33-->
+<div class="modal fade" id="info33" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info33.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">崔殷豪 Ethan Yin-Hao Tsui</h3>
+        <h5>雲書 bestbook.com / 共同創辦人暨技術長</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+      崔殷豪曾在中央研究院資訊科學所三年，研發生物資訊蛋白質體學相關的題目並發表數篇國際期刊論文，也曾獨立接過數十個專案，在學拿過專題競賽與程式設計競賽兩個台灣第一名，是一個熱血程式人，之後共同創立了一間電子書公司，期間發展了簡易且有效的 log 資料分析的方法以及商品推薦與個人化推薦的機制，大幅度提高轉換率，現在在全球電商集團 uitox 下奮鬥中，相信用技術把服務做到很簡單，用技術讓資料自己說話，用技術改變世界。
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 34-->
+<div class="modal fade" id="info34" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info34.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">陳維超 Wei-Chao Chen</h3>
+        <h5>Skywatch /共同創辦人、 台灣大學/兼任助理教授</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+      Wei-Chao Chen is a co-founder at Skywatch Innovation, a company that provides cloud-based video products and solutions. He is also an adjunct facultymember at the National Taiwan University. His research interests involve graphics hardware, computational photography, augmented reality,and user interfaces. Dr. Chen was a seniorresearch scientist in Nokia Research Center at PaloAltobetween 2007-2009, and a 3DGraphics Architect in NVIDIAbetween 2002-2006. Dr. Chen received his MS in ElectricalEngineeringfromNational Taiwan University(1996), and MS(2001)and PhD(2002) in ComputerScience from the UniversityofNorth Carolina at ChapelHill.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 35-->
+<div class="modal fade" id="info35" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info35.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">曾書庭 Suiting Tseng</h3>
+        <h5>Gogolook / Data Engineer</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+      Gogolook 資料攻城獅，興趣是爬山，算數學，及爬山的時候算數學。熱愛使用各種工具解決問題，擅長各種 data/log 的收集、處理及分析，使公司對自家服務與產品有更透徹了解，進而提昇服務品質。雖然是資料攻城獅，但更愛打造讓更多人都可以參與資料分析的系統。
+<p>
+2012 年從台灣大學電機系畢業後，進入國立精神時光屋修煉 1 年。2013 年於中央研究院擔任研究助理，2014 年加入 Gogolook 擔任資料工程師至今。</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 36-->
+<div class="modal fade" id="info36" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info36.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">闕嘉宏 Chia-Hung Chueh</h3>
+        <h5>創代科技股份有限公司 / 創辦人兼執行長</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+      【碩士】國立台灣大學土木工程學系，致力發展 JAVA 動態追蹤演算與預測，實際應用於 ATIS&APTS 系統。碩一後保送博士班。<br/>
+【博士】致力發展 GIS&ITS 應用，取得 ArcGIS 種子教師資格，開發雲端化 Telematics 系統。 獲得運輸學會最佳論文獎。<br/>
+【創業】創辦創代科技股份有限公司，並出任執行長一職，結合 Big Data & Data Mining 技術，提供高階ITS系統服務。<br/>
+- 2006　保送國立台灣大學博士班。<br/>
+- 2010　致力整合 GIS&ITS 聯合應用。<br/>
+- 2011　致力發展雲端化 Telematics 物聯資通服務。<br/>
+- 2013　創辦「創代科技股份有限公司」。
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 37-->
+<div class="modal fade" id="info37" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info37.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">劉偉宸 Wei-ChengLiou (Gilbert)</h3>
+        <h5>中央研究院資訊科學研究所/ 研究助理 <br/>
+Taiwan R User Group 成員</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+      Taiwan R User Group 與 g0v 成員，曾擔任券商風控、交易員等工作逾七年，現於中央研究院資訊科學研究所擔任研究助理一職。 熱愛撰寫程式、視覺化分析及探索資料，嘗試從各種不同角度認識金融市場。
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 38-->
+<div class="modal fade" id="info38" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info38.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">江彥生 Yen-Sheng Chiang</h3>
+        <h5>香港中文大學社會學系 / 助理教授</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+      江彥生是位社會學家，對各式各樣的「社會行為」研究議題都感興趣，他目前任職於香港中文大學，之前曾在美國加州大學(UC-Irvine)以及台灣中央研究院服務過。江博士的研究專長是社會網絡(Social Networks) 與社會心理學 (Social Psychology)，但舉凡任何冠上「社會」兩個字的學科領域，他都有興趣涉獵，包含近年來發展快速的 「計算社會科學」(Computational Social Science)。他熱觀期待不同領域之間能夠互相交流激發出創意的火花，不但對學術發展能有正面的提升，也希望對社會問題的解決方案上有所啟發。
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 39-->
+<div class="modal fade" id="info39" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info39.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">許懷中 Hwai-Jung Hsu</h3>
+        <h5>中央研究院資訊科學研究所 / 博士後研究員</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+     許懷中現為中央研究院資訊科學研究所博士後研究員，他花費十四年的光陰，於國立交通大學資訊工程學系相繼取得了學士、碩士以及博士的學位，原本期待可以直接從交大後門走進園區成為一名軟體工程師，現在卻沈溺於由數據所形成的資料科學之海而不可自拔。
+<p>
+基於對遊戲的熱愛，許懷中以生心理量測技術收集玩家進行遊戲時的生理反應，企圖量化線上、行動遊戲為玩家所帶來的「樂趣」，藉此瞭解人們玩遊戲、或者甘於被遊戲玩的箇中源由；此外，他也與所屬研究團隊緊密合作，分析來自遊戲產業、線上教育以及金融業的數據，試圖為台灣的產業界帶來改變與進步的契機；私底下，許懷中是個職棒球迷，會從網路上蒐集各式相關數據，分析整理後，以「幕後黑手」的身分，供給好友在網路上分享以及筆戰之用。</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 40-->
+<div class="modal fade" id="info40" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info40.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">張毓倫 Helen Chang</h3>
+        <h5>中央研究院資訊科學研究所／研究助理</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+      清大材料所畢，學生時期受的是微觀層級的訓練，後來到傳統產業當PM，做的卻都是巨型產品；每天都比昨天更明白資源的有限，想盡辦法維持動態平衡。現栽入資料海裡載浮載沉，學著觀測人類行為的同時，也藉以修剪自己的偏見謬誤。覺得一切事物都關乎設計，希望世界的冗餘或浪費降到最低。推理迷，不喜歡沒有謎題的故事，也很愛玩拼圖；唯一不可或缺的是音樂，最近都在聽山形瑞秋的歌。
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 41-->
+<div class="modal fade" id="info41" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info41.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">林佑璟 Aaron Lin</h3>
+        <h5>KKBOX 研究中心 / 經理</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+      現任 KKBOX 研究中心經理，畢業於台灣大學電信所碩士。就學期間致力於音樂研究，看到許多優秀的華人研究人員，卻不見相關產業有良好的運用，深深感到可惜。離開聯發科加入 KKBOX 後，致力打造屬於華人的優秀研究團隊，三年內網羅國內優秀人才，期望從機器學習與資料分析的角度，務實地運用在產品上，打造屬於華人獨特且有競爭力的產品。
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 42-->
+<div class="modal fade" id="info42" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info00.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">劉嘉凱 Chia-Kai Liu</h3>
+        <h5>DSP 智庫驅動 / CEO</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+      (近期更新)
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 43-->
+<div class="modal fade" id="info43" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info00.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">林榮賜</h3>
+        <h5>中華電信 / 副總經理</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+      (近期更新)
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 44-->
+<div class="modal fade" id="info44" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info00.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">徐文正</h3>
+        <h5>宏碁 (Acer) / 資深經理（物聯網事業處 - 整合暨技術支援部）</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+      (近期更新)
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 45-->
+<div class="modal fade" id="info45" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info45.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">蔣居裕 Fred Chiang</h3>
+        <h5>Etu / CEO</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+      蔣居裕悠遊於軟體與網路兩大領域 20 餘年，從 2011 年開始，於台灣最大的資訊服務集團精誠資訊內部籌組亞洲原生品牌 Etu (知意圖)，帶領團隊進行 Big Data 平台產品與 End-to-End 行業解決方案的研發、市場營銷、與通路佈建工作。2015 年2 月，Etu 獨立成為公司，蔣居裕擔任首任 CEO，繼續帶領團隊夥伴，走向 Startup 創業與創新之路。
+<P>
+蔣居裕的專長為軟體產業研究、產品發展策略、社群行銷、網路應用，並積極參與台灣開源、開放、與資料科學社群，是 Big Data Taiwan 的發起人，也是「Big Data 跨域整合聯盟」會長與「Open Data 聯盟」副會長，並曾獲頒「103 年資訊月傑出資訊人才獎」與「2014 年 100 MVP」。</P>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 46-->
+<div class="modal fade" id="info46" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info00.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">吳伯儀 Paul Wu</h3>
+        <h5>通用移動 GMobi  /  創辦人暨執行長</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+      A passionate entrepreneur with dedicated spirit toward success<br/>
+Love to help our young generation to start up their new venture.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 47-->
+<div class="modal fade" id="info47" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info47.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">唐鳳 Audrey Tang</h3>
+        <h5>g0v 零時政府 / Contributor 貢獻者</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+      唐鳳，臺灣的自由軟體文化工作者。<br/>
+目前已退休，於蘋果電腦、牛津大學出版社、Socialtext、行政院等機構兼任顧問。<br/>
+主要參與設計、寫作、翻譯的作品有：<br/>
+
+- 1993  《快子．違禁物品》<br/>
+- 1995  《我的電腦探索》<br/>
+- 1996　資訊人 FusionSearch 全文搜尋系統<br/>
+- 1998  《成長戰爭》<br/>
+- 2000　OurNet 社群網站系統<br/>
+- 2002  《Perl 學習手冊》及相關書系<br/>
+- 2003　中研院自由軟體鑄造場 OpenFoundry 系統<br/>
+- 2004  《我的天才噩夢》<br/>
+- 2005　Perl 6 程式語言及 Pugs 運行系統<br/>
+- 2006　IBM OnDemand 中文化報表管理系統<br/>
+- 2007  《她是我哥哥》<br/>
+- 2008　Socialtext 線上協作系統<br/>
+- 2010　Haskell 2010 程式語言及 GHC 運行系統<br/>
+- 2011　EtherCalc 即時協作試算表系統<br/>
+- 2012　Siri 多語系數位助理系統<br/>
+- 2013　MoeDict 萌典多語辭典系統<br/>
+- 2014  《零時政府的第一年》<br/>
+- 2015　vTaiwan.tw 虛擬世界法規調適參與平台
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 48-->
+<div class="modal fade" id="info48" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info48.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">李婉菱 Winnie Lee </h3>
+        <h5>沛星互動科技 (Appier)  / 營運長</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+      Winnie在加入Appier之前，是一位擁有10年免疫學研究經歷的科學家，亦取得史丹佛大學碩士及華盛頓大學博士學位。Winnie發表過多篇頂級學術論文，其中4篇曾刊登在頂尖學術期刊Nature中，所做的研究至今也已累積了將近1,000個引用次數。Winnie平時喜歡購物、游泳、旅遊和學習新事物。
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 49-->
+<div class="modal fade" id="info49" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info00.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">濮大威 David Ta-Wei Poo</h3>
+        <h5>台北捷運公司 / 顧問</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+     濮先生是一位專業運輸規劃師；曾參與台北都會區大眾捷運系統規劃，台灣高速鐵路規劃，及國內外許多交通運輸系統規劃建設。濮先生曾擔任鼎漢國際顧問公司總經理、執行董事；財團法人中華顧問工程司總經理；台北市交通局局長等職務。
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 50-->
+<div class="modal fade" id="info50" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info50.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">李俊賢 Jun Shian, Lee</h3>
+        <h5>鼎漢國際工程顧問公司 / 董事長</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+      1996年獲臺灣大學土木工程工學博士學位。1991取得交通工程技師資格。2010年運輸學會「運輸獎狀」得獎人。曾任高雄中山大學助理教授，高雄市政府研考會委員，大都會汽車客運公司總經理；現任鼎漢國際工程顧問股份有限公司董事長，道路協會理事國際及兩岸事務委員會主任委員，臺北市交通工程技師公會理事長，中華ITS協會理事。先後負責多項交通政策白皮書、捷運系統可行性評估與路網規劃、快速道路路網規劃、施工交通維持計畫、快速道路路網規劃、公路客運轉運站規劃等專案。現從事運輸需求預測、道路交通績效模擬、交通工程規劃設計、交通建設計畫評估等方面之研究。
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 51-->
+<div class="modal fade" id="info51" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info00.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">李瓊淑</h3>
+        <h5>台灣大車隊 / 總經理</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+      (近期更新)
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 52-->
+<div class="modal fade" id="info52" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info00.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">解睿凱 Carrey</h3>
+        <h5>裕隆電能股份有限公司 / 科長</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+      研究所畢業後即進入裕隆集團，參與裕隆集團電動車雲端服務規劃與開發。從電動車/充電座數據上傳到雲端平台之基礎建設；到利用數據進行資料分析、應用服務之規劃，參與了完整的專案推進。<br/>
+在數據應用服務之發展，本人進行車主充電App服務的規劃、設計與開發以及充電站業主監控平台的建置。這些皆以雲端數據為基礎，找出前台使用者潛在的需求，並完成兩者的介接；同時，透過使用者需求訪談，不斷優化這些服務項目。<br/>
+未來希望能透過數據，找出更多可善加利用之分析方法，期望能讓台灣電動車環境更具智慧、更能解決目前困境的完整方案。
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 53-->
+<div class="modal fade" id="info53" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info00.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">張子明 Jamse Chang</h3>
+        <h5>華創車電 / 經理</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+      裕隆汽車工程中心近15年期間參與飛羚、Cefiro、共用引擎等車型之汽車電子系統包含動力系統、電裝空調、診斷系統等之設計、開發及測試驗證，同時負責設計品保之推動包含Design review、可靠度工程與設備量測管理。<br/>
+有四年期間在信通及同致電子負責機車噴射引擎專案之設計、開發及產品開發工作。<br/>
+裕隆集團:中華汽車負責先期研發及Telematics(車載資通訊)開發專案及華創車電(納智捷)自主品牌開發工作及先期技術研究與產學研整合計畫。
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 54-->
+<div class="modal fade" id="info54" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info00.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">劉說安</h3>
+        <h5>台灣地理資訊中心 / 總經理</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+      (近期更新)
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 55-->
+<div class="modal fade" id="info55" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info55.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">陳微鈞 Ann Chen</h3>
+        <h5>瑞竣科技股份有限公司 / 處長</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+      學歷：國立成功大學測量工程學系、國防大學 電子工程研究所<br/>
+經歷：銳俤科技 GIS事業部 主任工程師、瑞竣科技 空間產品事業部 資深經理、處長
+<p>
+簡介：於空間資訊產業服務多年，專職於衛星影像應用領域，一路見證國內外高解析度衛星影像商用化發展。長期協助全球最大衛星影像供應商「美國DigitalGlobe公司」服務臺灣用戶，擅長提供在地性適用遙測影像解決方案。</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 56-->
+<div class="modal fade" id="info56" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info56.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">楊昆霖 Benny Yang</h3>
+        <h5>北極星測繪科技有限公司 / 副總經理</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+      楊坤霖專業專長為空間資料倉儲與地理資訊系統設計，是測量製圖執業技師，目前擔任北極星測繪科技副總經理，並擔任台灣防災產業協會理事與開放資料聯盟空間資料分組召集人。Benny 自 1998 年開始長期投入在國土資訊系統推動與建置。在 GIS 技術發展與市場混沌不明的情況下，從空間資訊產業當逃兵，成為在電子商務迷路的小羔羊，雖然意外發掘了商務顧問的長才，但在血液裡的 GIS 魂與市場不斷招喚下，再度拾起對空間產業的熱情。早在 Google 大力推動雲端服務的概念之前，楊技師所處參與的北極星測繪科技團隊，就建置了國內最知名的航、遙測影像服務，以先驅概念架構與技術工法打造了國土資訊系統第一朵雲端服務，觸發了國土資訊雲端服務的濫觴。近年來則致力推動國土資訊商業化的發展與國土防災技術的國際市場行銷。
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 57-->
+<div class="modal fade" id="info57" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info57.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">徐偉城 Ian Hsu</h3>
+        <h5>達雲科技公司 / 總經理</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+      1995年畢業於成功大學測量及空間資訊學系，1999年取得中央大學太空及遙測研究中心的碩士，並進入工研院服務，於2010年創立達雲科技擔任總經理迄今。是國內最早投入光達點雲的技術開發者，主要從事：光達點雲、衛星影像及三維空間資訊等技術之研發與應用。
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 58-->
+<div class="modal fade" id="info58" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info58.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">陳昇瑋  Sheng-Wei Chen</h3>
+        <h5>年會總召, 中央研究院資訊科學研究所研究員</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+      陳昇瑋博士目前為中央研究院資訊科學研究所研究員，同時是多媒體網路與系統實驗室主持人。他的研究焦點著重在使用者滿意度、多媒體系統、社群計算及計算社會學等領域，在多媒體系統及使用者經驗的量測及管理方面持續有代表性的研究創見。
+<p>
+陳博士堅信資料及資料分析的價值，長期推廣資料科學及其在各領域的應用，除本身研究皆基於資料來解決實際生活中的問題，2014 年開始主辦「台灣資料科學愛好者年會」，期能將對於資料科學的熱情傳達給大眾，一起來探索資料科學的潛力，將資料科學引入每個人的專業領域之中。他十分期待能夠讓資料分析在台灣不再是口號，而是大家手邊隨時可用來解決問題及創造價值的工具。</p>
+<p>
+欲瞭解陳博士的研究及心得分享，請至他的<a href="http://www.iis.sinica.edu.tw/~swc/index_c.html" target="_blank">個人網頁</a>一探究竟。</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 59-->
+<div class="modal fade" id="info59" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info59.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">高嘉良 Chia-liang Kao</h3>
+        <h5>g0v.tw 台灣零時政府共同發起人</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+      clkao (高嘉良) - 喜歡寫程式、泡 ♨。參加 1997 年國際資訊奧林匹亞後，進入台大資訊系就讀，即活躍於國內外開放源碼社群，隨後旅居英國倫敦從事軟體開發及顧問工作。2012 年發起 g0v.tw 計畫，現為開放文化基金會董事。
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 60-->
+<div class="modal fade" id="info60" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info60.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">陳奎銘 Ben</h3>
+        <h5>普生股份有限公司 / 工程師</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+      利用資料的投機者，也是R語言的愛好者，習慣把生活中的疑難雜症都交給R處理，期許自己能夠將資料科學融入生活中。
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 61-->
+<div class="modal fade" id="info61" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info61.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">鍾岳軒 Kyle</h3>
+        <h5>趨勢科技 / 資料科學家</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+      站著工作一年了，感受到身體完全沒有任何變化；自此體會，原來，這世上還是有些其他東西就如同初戀一樣是不會改變的，至為感動。
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- model 62-->
+<div class="modal fade" id="info62" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <div class="row">
+        <div class="col-md-3"><img src="photo/info62.jpg" class="img-circle"/></div>
+        <div class="col-md-9"> 
+        
+        <h3 class="modal-title" id="myModalLabel">David Eads</h3>
+        <h5>美國國家公共電台 / 新聞視覺化團隊 News Application 開發者</h5></div>
+        </div>
+      </div>
+      <div class="modal-body">
+      他為美國國家公共電台視覺化團隊打造新聞應用程式。直到最近，他也為芝加哥論壇報開發新聞 Apps 。除了演講與教授與技術相關的題目，他還組織了一個資料新聞學工作坊、開發了 Tarbell 發佈平台、並協助發起了 FreeGeek Chicago。
+<p>
+        他的作品連接了新聞學、資料與社會議題。他打造並傳授了簡單、直接的方法來幫助新聞記者們更有效率的透過網路敘說故事。他貢獻、也組織了許多關>於民主、多元性與永續性的專案。</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+                          </div>
+                             
+                            
+                        </div>                         
+                    </div>                     
+                </div>                 
+            </section>             
+            <section id="services" class="about grey_section" data-pg-collapsed> 
+                <div class="container" data-pg-collapsed> 
+                    <div class="row grid"> 
+                        <div class="col-md-4 col-sm-4"> 
+                            <div class="row"> 
+                                <div class="col-sm-12"> 
+                                    <figure class="grid_about_us"> 
+                                        <img alt="" src="images/fig1.png"/>                                         
+                                        <figcaption> 
+                                            <h2>講者就是你!</h2> 
+                                            <a href="seek.html"></a> 
+                                        </figcaption>                                         
+                                    </figure>                                     
+                                </div>                                 
+                                <div class="clearfix"></div>                                 
+                                <div class="col-sm-12"> 
+                                    <h3>徵求講者、投稿</h3> 
+                                    <p class="text-left">邀請各界在自己的工作場域中第一線進行資料分析的先進來與我們的聽眾分享資料科學的趣味、價值、以及心得...<br></p> 
+                                </div>                                 
+                            </div>                             
+                        </div>                         
+                        <div class="col-md-4 col-sm-4"> 
+                            <div class="row"> 
+                                <div class="col-sm-12"> 
+                                    <figure class="grid_about_us"> 
+                                        <img alt="" src="images/fig2.png"/>                                         
+                                        <figcaption> 
+                                            <h2>熱情志工招募!</h2> 
+                                            <a href="seek.html#signup-volunteer"></a> 
+                                        </figcaption>                                         
+                                    </figure>                                     
+                                </div>                                 
+                                <div class="clearfix"></div>                                 
+                                <div class="col-sm-12"> 
+                                    <h3>徵求志工</h3>
+                                    <p class="text-left">誠摯邀請具有熱情、喜愛學習、個性外向的您一起加入我們，讓我們共同舉辦今年嶄新且擴大規模至四天、預計與會人數超過 1500人的大型會議...<br></p>
+                                </div>                                 
+                            </div>                             
+                        </div>                         
+                        <div class="col-md-4 col-sm-4"> 
+                            <div class="row"> 
+                                <div class="col-sm-12"> 
+                                    <figure class="grid_about_us"> 
+                                        <img alt="" src="images/fig3.png"/>                                         
+                                        <figcaption> 
+                                            <h2>7/7起</h2> 
+                                            <a href="signup.html"></a> 
+                                        </figcaption>                                         
+                                    </figure>                                     
+                                </div>                                 
+                                <div class="clearfix"></div>                                 
+                                <div class="col-sm-12"> 
+                                    <h3>報名年會</h3> 
+                                    <p class="text-left">線上報名將於2015/07/07 中午12點開始 至 2015/07/24 止。</p> 
+                                </div>                                 
+                            </div>                             
+                        </div>                         
+                    </div>                     
+                </div>                 
+            </section>             
+            <section id="copyright" class="color_section"> 
+                <div class="container"> 
+                    <div class="row"> 
+                        <div class="col-sm-12 text-center"> 
+                            <p><a href="about.html#organizer" data-toggle="tooltip" data-original-title="">籌辦單位</a> |  <a href="#" data-toggle="tooltip" data-original-title="">媒體夥伴</a> | <a href="about.html#staff" data-toggle="tooltip" data-original-title="">工作人員</a> 
+    | <a href="http://twconf.data-sci.org/" target="_blank">2014 DSC</a>  |  <a href="https://www.facebook.com/twdsconf" target="_blank" title="" data-toggle="tooltip" data-original-title="Facebook">find us on <i class="fa fa-facebook"></i></a></p> 
+                            <p>&copy; Copyright 2015 - 台灣資料科學愛好者年會 </p> 
+                        </div>                         
+                    </div>                     
+                </div>                 
+            </section>             
+        </div>         
+        <!-- eof #box_wrapper -->         
+        <div class="preloader"> 
+            <div class="preloader_image"></div>             
+        </div>         
+        <!-- libraries -->         
+        <script src="js/vendor/jquery-1.11.1.min.js"></script>         
+        <script src="js/vendor/bootstrap.min.js"></script>         
+        <script src="js/vendor/jquery.appear.js"></script>         
+        <!-- superfish menu  -->         
+        <script src="js/vendor/jquery.hoverIntent.js"></script>         
+        <script src="js/vendor/superfish.js"></script>         
+        <!-- page scrolling -->         
+        <script src="js/vendor/jquery.easing.1.3.js"></script>         
+        <script src='js/vendor/jquery.nicescroll.min.js'></script>         
+        <script src="js/vendor/jquery.ui.totop.js"></script>         
+        <script src="js/vendor/jquery.localscroll-min.js"></script>         
+        <script src="js/vendor/jquery.scrollTo-min.js"></script>         
+        <!-- widgets -->         
+        <script src="js/vendor/jquery.easypiechart.min.js"></script>         
+        <!-- pie charts -->         
+        <script src='js/vendor/jquery.countTo.js'></script>         
+        <!-- digits counting -->         
+        <script src="js/vendor/jquery.prettyPhoto.js"></script>         
+        <!-- lightbox photos -->         
+        <script src='js/vendor/jflickrfeed.min.js'></script>         
+        <!-- sliders, filters, carousels -->         
+        <script src="js/vendor/jquery.isotope.min.js"></script>         
+        <script src='js/vendor/owl.carousel.min.js'></script>         
+        <script src='js/vendor/jquery.flexslider-min.js'></script>         
+        <!-- custom scripts -->         
+        <script src="js/plugins.js"></script>         
+        <script src="js/main.js"></script> 
+        <script>
+		//link tab
+$('.cc01').click(function(){
+  $('.nav-tabs > .active').next('li').find('a').trigger('click');
+});
+$('.cc02').click(function(){
+  $('.nav-tabs > .active').nextAll('li.t3').find('a').trigger('click');
+});
+$('.cc03').click(function(){
+  $('.nav-tabs > .active').nextAll('li.t4').find('a').trigger('click');
+});
+$('.cc04').click(function(){
+  $('.nav-tabs > .active').nextAll('li.t5').find('a').trigger('click');
+});
+//add permalink to tab
+var hash = window.location.hash,
+hashPart=hash.split('!')[1],
+activeTab=$('ul.nav a[href="#' + hashPart + '"]');
+activeTab && activeTab.tab('show');
+ 
+$('.nav-tabs a').click(function (e) {
+	$(this).tab('show');
+	window.location.hash = '#!'+$(this).attr('href').split('#')[1];
+});
+        </script>       
+    </body>     
+</html>

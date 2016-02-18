@@ -1,0 +1,20 @@
+dt.-fold
+{
+    display: none;
+}
+
+dt.-little img
+{
+    width: 130px;
+    margin: 0px 15px;
+}
+
+dd > p
+{
+    margin-bottom: 0px;
+}
+
+dd.-fold > *:not(h4)
+{
+    display: none;
+}
