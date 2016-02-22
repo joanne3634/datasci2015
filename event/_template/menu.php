@@ -15,13 +15,7 @@
                     </div>
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="dsc-collapse collapse navbar-collapse">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li>
-                                <div class="fb-share-button" style="margin-top:15px;"
-                                    data-href="http://datasci.tw<?php echo $_SERVER['REQUEST_URI']; ?>" 
-                                    data-layout="button_count">
-                                </div>
-                            </li>
+                        <ul class="nav navbar-nav navbar-right">                        
                             <li>
                                 <a href="#about_us">
                                     <img src="../_images/icon01.png"/> 簡介

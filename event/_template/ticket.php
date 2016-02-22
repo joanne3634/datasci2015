@@ -12,10 +12,10 @@ $reg_end = ( isset($deadline) AND $today > $deadline );
     </div>
 
     <div class="row about_desc">
-        <div class="col-sm-4 col-sm-offset-2">
+        <div class="col-xs-offset-2 col-xs-8 col-sm-4 col-sm-offset-2">
             <img src="../_images/ticket.png" alt="">
         </div>
-        <div class="col-sm-6">
+        <div class="col-xs-offset-1 col-xs-10 col-sm-6 col-sm-offset-0">
 <?php
 if ( isset($reg_date) )
 {

@@ -37,6 +37,11 @@ jQuery(document).ready(function() {
 	///////////
 	//Plugins//
 	///////////
+	///
+	///
+    $(".nav>li>a").click(function(){
+        $(".dsc-collapse").collapse('hide');   
+    });
     //contact form processing
     jQuery('form.contact-form').on('submit', function( e ){
         e.preventDefault();
