@@ -1,6 +1,8 @@
-<div class="preloader"> 
+
+<!-- TODO 開發階段先關掉 -->
+<!-- <div class="preloader"> 
     <div class="preloader_image"></div>             
-</div>         
+</div>   -->       
 
 <!-- libraries -->
 <script src="../_js/vendor/jquery-1.11.1.min.js"></script>

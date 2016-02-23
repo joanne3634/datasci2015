@@ -68,14 +68,18 @@ else
 <?php
 if ( isset($kktix_date) AND $today > $kktix_date )
 {
-    $end_string = '已開放報名！';
+    // $end_string = '已開放報名！';
+
     if ( $today > $event_date )
     {
         echo '<div>活動已結束，請期待下一場系列活動！</div>';
     }
-    else if( $reg_end OR isset($ticket_full) )
+    else if( $reg_end )
     {
         echo '<div>報名已經截止，感謝大家的支持！</div>';
+    }else if( isset($ticket_full) ) 
+    {
+        echo '<div>報名名額已額滿，感謝大家的支持！</div>';
     }
     else
     {
