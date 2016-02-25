@@ -32,19 +32,20 @@
                         <li>請參考下方 Google 地圖開車至中央研究院院區 (台北市研究院路二段 128 號)。</li>
                         <li>開車請由正門進入院區。</li>
                         <li>車輛可停人文社會科學館 B2 停車場 (空間可停 100 輛)，或停放在中研院區內停車格。</li>
-                        <li>周一至周五中研院內停車每小時收費 20 元。</li>
+                        <li>週一至週五中研院內停車每小時收費 20 元。</li>
+                        <li>週末中研院內免費停車。</li>
                     </ul>
                 </ul>
                 <p>&nbsp;</p>
                 <div class="row">
                     <div class="col-md-6 text-center">
-                        <h3>GOOGLE 地圖</h3>
+                        <h3>中央研究院位置圖</h3>
                         <hr/>
                         <!--<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5112.053115422075!2d121.61416009472443!3d25.041965742688326!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x53ceacf197917004!2z5Lq65paH56S-5pyD56eR5a246IGv5ZCI5ZyW5pu46aSoL-S4reWkrueglOeptumZog!5e0!3m2!1szh-TW!2stw!4v1447041792966" width="600" height="450" frameborder="0" style="border:0"></iframe>-->
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7229.468323480026!2d121.614417005612!3d25.04309418260665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ab4501e8c151%3A0x2f2b63fe4251d55c!2z5Lit5aSu56CU56m26Zmi!5e0!3m2!1szh-TW!2stw!4v1431276471799" width="600" height="550" frameborder="0" style="border:0"></iframe>
                     </div>
                     <div class="col-md-6 text-center">
-                        <h3>中央研究院院內地圖</h3>
+                        <h3>中央研究院人文社會科學館位置圖</h3>
                         <hr/>
                         <a href="../_images/SinicaMap.png" target="_blank"><img src="../_images/as_map.png" width="600"/></a>
                     </div>

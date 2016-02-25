@@ -29,7 +29,7 @@ foreach($schedules as $caption => $schedule)
                 <tr<?php echo $tr_attr; ?>>
                     <td class="text-center time"><?php echo $t; ?></td>
                     <td style="width:70%;">
-                        <h3><?php echo $data['title']; ?></h3>
+                        <h3 class="schedule-content"><?php echo $data['title']; ?></h3>
                         <?php if ( isset($data['subtitle']) ) { echo $data['subtitle']; } ?>
 <?php
         if ( isset($data['panels']) )

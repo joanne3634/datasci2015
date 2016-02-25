@@ -83,11 +83,11 @@ if ( isset($kktix_date) AND $today > $kktix_date )
     }
     else
     {
-        $prefix = ( $today > $reg_date ) ? '立即' : '預覽';
+        $prefix = ( $today > $reg_date ) ? '立即報名' : '預覽報名頁面';
 ?>
             <div>
                 <a class="type-15" href="http://dsc.kktix.cc/events/<?php echo $kktix_link; ?>" target="_blank">
-                    <span><?php echo $prefix; ?>報名 <i class="fa fa-arrow-circle-right"></i></span>
+                    <span><?php echo $prefix; ?> <i class="fa fa-arrow-circle-right"></i></span>
                     <span></span>
                 </a>
             </div>
