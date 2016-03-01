@@ -219,7 +219,19 @@ $team = array(
                     font-size: 16px;
                 }      
             }
-
+            
+            #header{
+                position: fixed;
+            }
+            .pic_section, .grey_section{
+                padding-top: 30px;
+                padding-bottom: 30px;
+            }
+            .color_section{
+                margin-top: 0px !important;
+                padding-top: 0px !important;
+            }
+            
         </style>
     </head>
 
@@ -230,7 +242,7 @@ $team = array(
         <div id="box_wrapper">
             <?php include('../_template/menu.php'); ?>
             <section id="mainslider">
-                <div class="container" style="padding-top:80px;">
+                <div class="container" style="padding-top:80px;" ><!-- style="padding-top:80px;" -->
                     <div class="row">
                         <div class="col-md-12">
                             <img src="../_images/dsc2016-series_main.png" class="img-responsive logoInline">
@@ -256,11 +268,11 @@ $team = array(
                 </div>
             </section>
             <section id="about_us"><?php include('../_template/about.php'); ?></section>
-            <section id="schedule" class="pic_section"><?php include('../_template/schedule.php'); ?></section>
+            <section id="schedule"><div  class="pic_section" ><?php include('../_template/schedule.php'); ?></div></section>
             <section id="speaker"><?php include('../_template/speaker.php'); ?></section>
-            <section id="content" class="grey_section"><?php include('../_template/content.php'); ?></section>
+            <section id="content" ><div class="grey_section" ><?php include('../_template/content.php'); ?></div></section>
             <section id="ticket"><?php include('../_template/ticket.php'); ?></section>
-            <section id="traffic" class="grey_section"><?php include('../_template/traffic.php'); ?></section>
+            <section id="traffic" ><div class="grey_section" ><?php include('../_template/traffic.php'); ?></div></section>
             <section id="team"><?php include('../_template/team.php'); ?></section>
             <section id="copyright" class="color_section">
                 <div class="container">
