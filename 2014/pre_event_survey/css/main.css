@@ -1,0 +1,156 @@
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'google_noto';
+  src:url('../fonts/NotoSansHant-Light.otf');
+}
+.title_name {
+  text-shadow: 0px 0px 15px #000;
+  color: #FFF;
+  font-size: 3.7em;
+  line-height: 1.1em;
+}
+.speaker_title {
+  background: url("../images/background/background_bottom.png"); 
+  position: absolute;
+  width: 400px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.speaker_title:before {
+  display: inline-block;
+  vertical-align: middle;
+  width: 0;
+  height: 100%;
+}
+.speaker_title p {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 5px;
+  z-index: 2;
+}
+body {
+  background-image: url("../images/background/background_bottom.png"); 
+  background-repeat: repeat;
+  color: #FFF;
+  font-family: 'google_noto', Arial;
+  margin: 1 2em;
+  padding: 0;
+  font-size: 25px;
+  text-align: center;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select:none;
+  user-select:none;
+  unselectable: 'on';
+  onselectstart: 'return false;';
+  onmousedown: 'return false;';
+}
+textarea {
+  width: 75%;
+  font-family: 'google_noto', Arial;
+  font-size: 25px;
+  color: #000;
+  text-align: left;
+  background: url(../images/background/background_input.png) repeat;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px 10px 20px;
+  resize: none;
+  overflow: auto;
+  unselectable: 'off';
+  onselectstart: 'return true;';
+}
+::-webkit-input-placeholder {
+  text-align:center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  text-align:center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  text-align:center;  
+}
+
+:-ms-input-placeholder {  
+  text-align:center; 
+}
+
+.must_answer {
+  color: #CB4343;
+  font-weight: 750;
+}
+/* 表格主要div */
+div.google-form-container {
+  background: url(../images/background/background_form.png) repeat;
+  width: 90%;
+  border: 2px solid #000;
+  border-radius: 10px;
+  line-height: 1.8em;
+  margin: 150px auto;
+  padding: 10px 20px;
+}
+/* 標題元素 */
+h1, h2 {
+  font-family: 'google_noto', Arial;
+  font-weight: normal;
+}
+/* 置頂 Logo 大圖 */
+#header {
+  width: 80%;
+  border-radius: 10px;
+} 
+.banner {
+  position: absolute;
+  left: -2%;
+  width: 20%;
+}
+.banner img {
+  width: 70%;
+  min-width: 120px;
+}
+.small_hr {
+  border: 0;
+  height: 1px;
+  width: 70% ;
+  background-color: #ddd;
+}
+.large_hr {
+  border: 0;
+  height: 2px;
+  width: 95% ;
+  background-color: #888;
+}
+input[type="radio"] {
+  display:none;
+}
+input[type="radio"] + label span {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  margin: -2px 10px 0 0;
+  vertical-align: middle;
+  background: url(../images/check_radio_sheet.png) -38px top no-repeat;
+  cursor: pointer;
+}
+input[type="radio"]:checked + label span {
+  background: url(../images/check_radio_sheet.png) -57px top no-repeat;
+}
+input[type="checkbox"] {
+  display:none;
+}
+input[type="checkbox"] + label span {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  margin: -1px -2px 0 0;
+  vertical-align: middle;
+  background: url(../images/check_radio_sheet.png) left top no-repeat;
+  cursor: pointer;
+}
+input[type="checkbox"]:checked + label span {
+  background: url(../images/check_radio_sheet.png) -19px top no-repeat;
+}

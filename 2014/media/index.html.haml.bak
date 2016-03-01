@@ -1,0 +1,32 @@
+- content_for :title do
+  %title= "協力單位 | #{data['site-title']}"
+
+- content_for :hero do
+  = render "/hero-page"
+
+.section
+  %h2.title 鑽石級贊助
+
+  %a.support.diamond{:href=>"http://www.vpon.com/zh-tw/",:target=>"_new"}
+    .mask{:style=>"background-image:url(/images/vpon.png);"}
+    .title Vpon
+
+  %br
+
+  %h2.title 白金級贊助
+
+  %a.support.gold{:href=>"http://www.bridgewell.com.tw/",:target=>"_new"}
+    .mask{:style=>"background-image:url(/images/bridgewell.png);"}
+    .title 宇匯知識科技(BridgeWell)
+
+  %a.support.gold{:href=>"http://www.etusolution.com/index.php/tw/",:target=>"_new"}
+    .mask{:style=>"background-image:url(/images/etu.png);"}
+    .title Etu
+    
+  %a.support.gold{:href=>"http://whoscall.com/",:target=>"_new"}
+    .mask{:style=>"background-image:url(/images/whoscall.png);"}
+    .title Gogolook
+    
+  %a.support.gold{:href=>"http://www.kkbox.com/",:target=>"_new"}
+    .mask{:style=>"background-image:url(/images/kkbox.png);"}
+    .title KKBox

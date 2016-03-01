@@ -1,0 +1,60 @@
+-
+  title: "籌備委員"
+  people:
+    -
+      name: "陳昇瑋"
+      href: "http://www.iis.sinica.edu.tw/~swc/index_c.html"
+      org: "中央研究院資訊科學研究所"
+      img: "swc.png"
+    -
+      name: "吳齊軒"
+      href: ""
+      org: "台灣大學電機工程學研究所 / Taiwan R User Group Organizer"
+      img: "wu.png"
+    -
+      name: "謝宗震"
+      href: ""
+      org: "清華大學統計學研究所"
+      img: "hsieh.png"
+-
+  title: "工作小組"
+  people:
+    -
+      title: "行政秘書"
+      name: "杜彥蓁"
+      href: ""
+      org: "中央研究院資訊科學研究所"
+      img: "female.png"
+    -
+      title: "會計"
+      name: "林宛瑩"
+      href: ""
+      org: "中央研究院資訊科學研究所"
+      img: "female.png"
+    -
+      title: "網路支援"
+      name: "線路組"
+      href: "https://www.facebook.com/CPRTeam.TW"
+      org: ""
+      img: "cpr.png"
+    -
+      title: "資料小組"
+      name: "王澤浩"
+      href: "http://salmon.tw/"
+      org: ""
+      img: "male.png"
+-
+  title: "網站設計"
+  people:
+    -
+      title: "設計"
+      name: "evendesign"
+      href: "http://cargocollective.com/evendesign"
+      org: ""
+      img: "evendesign.png"
+    -
+      title: "維護"
+      name: "康傑"
+      href: ""
+      org: ""
+      img: "male.png"

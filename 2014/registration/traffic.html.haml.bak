@@ -1,0 +1,19 @@
+- content_for :title do
+  %title= "Venue | #{data['site-title']}"
+
+- content_for :hero do
+  = render "/hero-page"
+
+.row
+  .section
+    %h2.title 交通資訊
+    .content.zh-tw
+      = render "/data/registration/traffic.md"
+
+  .content
+    .title-wrapper
+      %h4.title
+        .span 地圖
+    .location-map
+      .map-wrap
+        .google-map#google-map

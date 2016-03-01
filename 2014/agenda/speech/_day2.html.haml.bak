@@ -1,0 +1,232 @@
+.time-block 08:40
+%section.session.room-rest
+  %h3.title 報到
+  .info
+    %time 08:40-09:15 (45 mins)
+
+.time-block 09:15
+.row
+  %section.session.ceremony
+    .header-info
+      %span 全體活動
+      場次主持：陳昇瑋 (中央研究院資訊科學研究所)
+    %h3.title 資料科學在 Whoscall 產品體系中的角色
+    .info
+      - speaker = speaker_file("jeff");
+      %a.speaker-link{:"href"=>"/speaker##{speaker['tags'][0]}",:"target"=>"_new"}= speaker['name']
+      .speaker-in-speech{:"data-name"=>"#{speaker['tags'].join(",")}"}
+        .speaker-block
+          .mask
+          .speaker-name= speaker['name']
+          - speaker['title'].each do |title|
+            .speaker-title= title
+          - speaker['sites'].each do |site|
+            %a.speaker-info{:href=>"#{site['href']}"}= site['title']
+          .speaker-bio= speaker['bio']
+        %img{:src=>"/images/#{speaker['img']}"}
+      - speaker = speaker_file("yimin");
+      %a.speaker-link{:"href"=>"/speaker##{speaker['tags'][0]}",:"target"=>"_new"}= speaker['name']
+      .speaker-in-speech{:"data-name"=>"#{speaker['tags'].join(",")}"}
+        .speaker-block
+          .mask
+          .speaker-name= speaker['name']
+          - speaker['title'].each do |title|
+            .speaker-title= title
+          - speaker['sites'].each do |site|
+            %a.speaker-info{:href=>"#{site['href']}"}= site['title']
+          .speaker-bio= speaker['bio']
+        %img{:src=>"/images/#{speaker['img']}"}
+      %time 09:15-10:20 (65 mins)
+
+.time-block 10:20
+%section.session.room-rest
+  %h3.title 休息
+  .info
+    %time 10:20 ~ 10:50 (30 mins)
+
+.time-block 10:50
+.row
+  %section.session.speech
+    .header-info
+      %span 邀請演講
+      場次主持：
+    %h3.title 天氣/氣候大數據的應用與展望
+    .info
+      - speaker = speaker_file("cmpeng");
+      %a.speaker-link{:"href"=>"/speaker##{speaker['tags'][0]}",:"target"=>"_new"}= speaker['name']
+      .speaker-in-speech{:"data-name"=>"#{speaker['tags'].join(",")}"}
+        .speaker-block
+          .mask
+          .speaker-name= speaker['name']
+          - speaker['title'].each do |title|
+            .speaker-title= title
+          - speaker['sites'].each do |site|
+            %a.speaker-info{:href=>"#{site['href']}"}= site['title']
+          .speaker-bio= speaker['bio']
+        %img{:src=>"/images/#{speaker['img']}"}
+      %time 10:50–11:35 (45 mins)
+
+.time-block 11:35
+.row
+  %section.session.speech
+    .header-info
+      %span 邀請演講
+      場次主持：何淮中 (中央研究院統計科學研究所)
+    %h3.title 一個賭徒的告白：從預測市場看金融交易
+    .info
+      - speaker = speaker_file("mnwu");
+      %a.speaker-link{:"href"=>"/speaker##{speaker['tags'][0]}",:"target"=>"_new"}= speaker['name']
+      .speaker-in-speech{:"data-name"=>"#{speaker['tags'].join(",")}"}
+        .speaker-block
+          .mask
+          .speaker-name= speaker['name']
+          - speaker['title'].each do |title|
+            .speaker-title= title
+          - speaker['sites'].each do |site|
+            %a.speaker-info{:href=>"#{site['href']}"}= site['title']
+          .speaker-bio= speaker['bio']
+        %img{:src=>"/images/#{speaker['img']}"}
+      %time 11:35–12:20 (45 mins)
+
+.time-block 12:20
+%section.session.room-rest
+  %h3.title 午餐
+  .info
+    %time 12:20 ~ 13:40 (80 mins)
+
+.time-block 13:40
+.row
+  %section.session.speech
+    .header-info
+      %span 邀請演講
+      場次主持：李怡志 (網路媒體工作者)
+    %h3.title 從 2013 社群網絡活動看台灣社會發展趨勢
+    .info
+      - speaker = speaker_file("enrico");
+      %a.speaker-link{:"href"=>"/speaker##{speaker['tags'][0]}",:"target"=>"_new"}= speaker['name']
+      .speaker-in-speech{:"data-name"=>"#{speaker['tags'].join(",")}"}
+        .speaker-block
+          .mask
+          .speaker-name= speaker['name']
+          - speaker['title'].each do |title|
+            .speaker-title= title
+          - speaker['sites'].each do |site|
+            %a.speaker-info{:href=>"#{site['href']}"}= site['title']
+          .speaker-bio= speaker['bio']
+        %img{:src=>"/images/#{speaker['img']}"}
+      %time 13:40–14:25 (45 mins)
+
+.time-block 14:25
+.row
+  %section.session.speech
+    .header-info
+      %span 邀請演講
+      場次主持：
+    %h3.title 從社群資料來看工人(群眾)智慧與人工智慧的結合
+    .info
+      - speaker = speaker_file("gene");
+      %a.speaker-link{:"href"=>"/speaker##{speaker['tags'][0]}",:"target"=>"_new"}= speaker['name']
+      .speaker-in-speech{:"data-name"=>"#{speaker['tags'].join(",")}"}
+        .speaker-block
+          .mask
+          .speaker-name= speaker['name']
+          - speaker['title'].each do |title|
+            .speaker-title= title
+          - speaker['sites'].each do |site|
+            %a.speaker-info{:href=>"#{site['href']}"}= site['title']
+          .speaker-bio= speaker['bio']
+        %img{:src=>"/images/#{speaker['img']}"}
+      %time 14:25–15:10 (45 mins)
+
+.time-block 15:10
+%section.session.room-rest
+  %h3.title 交流時間
+  .info
+    %time 15:10 ~ 15:30 (20 mins)
+
+.time-block 15:30
+.row
+  %section.session.speech
+    .header-info
+      %span 邀請演講
+      場次主持：蔣居裕 (Etu)
+    %h3.title 天下武功唯快不破：<br/>　利用串流資料實做出即時分類器和即時推薦系統
+    .info
+      - speaker = speaker_file("norman");
+      %a.speaker-link{:"href"=>"/speaker##{speaker['tags'][0]}",:"target"=>"_new"}= speaker['name']
+      .speaker-in-speech{:"data-name"=>"#{speaker['tags'].join(",")}"}
+        .speaker-block
+          .mask
+          .speaker-name= speaker['name']
+          - speaker['title'].each do |title|
+            .speaker-title= title
+          - speaker['sites'].each do |site|
+            %a.speaker-info{:href=>"#{site['href']}"}= site['title']
+          .speaker-bio= speaker['bio']
+        %img{:src=>"/images/#{speaker['img']}"}
+      - speaker = speaker_file("jason");
+      .speaker-in-speech{:"data-name"=>"#{speaker['tags'].join(",")}"}
+        .speaker-block
+          .mask
+          .speaker-name= speaker['name']
+          - speaker['title'].each do |title|
+            .speaker-title= title
+          - speaker['sites'].each do |site|
+            %a.speaker-info{:href=>"#{site['href']}"}= site['title']
+          .speaker-bio= speaker['bio']
+        %img{:src=>"/images/#{speaker['img']}"}
+      %time 15:30–16:15 (45 mins)
+
+.time-block 16:15
+.row
+  %section.session.speech
+    .header-info
+      %span 邀請演講
+      場次主持：江彥生 (香港中文大學社會系)
+    %h3.title 讓數字說話：資料的公益責信應用
+    .info
+      - speaker = speaker_file("simon");
+      %a.speaker-link{:"href"=>"/speaker##{speaker['tags'][0]}",:"target"=>"_new"}= speaker['name']
+      .speaker-in-speech{:"data-name"=>"#{speaker['tags'].join(",")}"}
+        .speaker-block
+          .mask
+          .speaker-name= speaker['name']
+          - speaker['title'].each do |title|
+            .speaker-title= title
+          - speaker['sites'].each do |site|
+            %a.speaker-info{:href=>"#{site['href']}"}= site['title']
+          .speaker-bio= speaker['bio']
+        %img{:src=>"/images/#{speaker['img']}"}
+      %time 16:15–17:00 (45 mins)
+
+.time-block 17:00
+.row
+  %section.session.ceremony.long-time
+    .header-info
+      %span 全體活動
+      場次主持：高嘉良 (g0v)
+    %h3.title g0v 黑客松成果展示
+    .info
+      -#- speaker = speaker_file("cjlin");
+      -#%a.speaker-link{:"href"=>"/speaker##{speaker['tags'][0]}",:"target"=>"_new"}= speaker['name']
+      -#.speaker-in-speech{:"data-name"=>"#{speaker['tags'].join(",")}"}
+        .speaker-block
+          .mask
+          .speaker-name= speaker['name']
+          - speaker['title'].each do |title|
+            .speaker-title= title
+          - speaker['sites'].each do |site|
+            %a.speaker-info{:href=>"#{site['href']}"}= site['title']
+          .speaker-bio= speaker['bio']
+        %img{:src=>"/images/#{speaker['img']}"}
+      %time 17:00–18:00 (60 mins)
+
+.time-block 18:00
+%section.session.ceremony
+  .header-info
+    %span 全體活動
+    場次主持：陳昇瑋 (中央研究院資訊科學研究所)
+  %h3.title 閉幕式
+  .info
+    %time 18:00–18:15 (15 mins)
+.time-block 18:15

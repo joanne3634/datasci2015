@@ -1,0 +1,217 @@
+.time-block 08:30
+%section.session.room-rest
+  %h3.title 報到
+  .info
+    %time 08:30-09:00 (30 mins)
+
+.time-block 09:00
+%section.session.ceremony
+  %h3.title 開幕式
+  .info
+    %time 09:00–09:15 (15 mins)
+
+.time-block 09:15
+.row
+  %section.session.ceremony
+    .header-info
+      %span
+        主題演講一
+      場次主持：陳銘憲 (中央研究院資訊科技創新研究中心)
+    %h3.title
+      Big-data analytics: challenges and opportunities
+    .info
+      - speaker = speaker_file("cjlin");
+      .speaker-in-speech{:"data-name"=>"#{speaker['tags'].join(",")}"}
+        .speaker-block
+          .mask
+          .speaker-name= speaker['name']
+          - speaker['title'].each do |title|
+            .speaker-title= title
+          - speaker['sites'].each do |site|
+            %a.speaker-info{:href=>"#{site['href']}"}= site['title']
+          .speaker-bio= speaker['bio']
+        %img{:src=>"/images/#{speaker['img']}"}
+      %time 09:15-10:20 (65 mins)
+
+.time-block 10:20
+%section.session.room-rest
+  %h3.title 休息
+  .info
+    %time 10:20 ~ 10:50 (30 mins)
+
+.time-block 10:50
+.row
+  %section.session.speech
+    .header-info
+      %span
+        邀請演講
+      場次主持：方新舟 (誠致教育基金會)
+    %h3.title 資料、社群、大協作 - 零時政府的數位革命
+    .info
+      - speaker = speaker_file("clkao");
+      .speaker-in-speech{:"data-name"=>"#{speaker['tags'].join(",")}"}
+        .speaker-block
+          .mask
+          .speaker-name= speaker['name']
+          - speaker['title'].each do |title|
+            .speaker-title= title
+          - speaker['sites'].each do |site|
+            %a.speaker-info{:href=>"#{site['href']}"}= site['title']
+          .speaker-bio= speaker['bio']
+        %img{:src=>"/images/#{speaker['img']}"}
+      %time 10:50–11:35 (45 mins)
+
+.time-block 11:35
+.row
+  %section.session.speech
+    .header-info
+      %span
+        邀請演講
+      場次主持：
+    %h3.title 讓你 Z > B 的資料科學
+    .info
+      - speaker = speaker_file("ckliu");
+      .speaker-in-speech{:"data-name"=>"#{speaker['tags'].join(",")}"}
+        .speaker-block
+          .mask
+          .speaker-name= speaker['name']
+          - speaker['title'].each do |title|
+            .speaker-title= title
+          - speaker['sites'].each do |site|
+            %a.speaker-info{:href=>"#{site['href']}"}= site['title']
+          .speaker-bio= speaker['bio']
+        %img{:src=>"/images/#{speaker['img']}"}
+      %time 11:35–12:20 (45 mins)
+
+.time-block 12:20
+%section.session.room-rest
+  %h3.title 午餐
+  .info
+    %time 12:20 ~ 13:40 (80 mins)
+
+.time-block 13:40
+.row
+  %section.session.speech
+    .header-info
+      %span
+        邀請演講
+      場次主持：李育杰 (台灣科技大學資訊工程學系)
+    %h3.title Collaboration with Statistician?
+    .info
+      - speaker = speaker_file("chchen");
+      .speaker-in-speech{:"data-name"=>"#{speaker['tags'].join(",")}"}
+        .speaker-block
+          .mask
+          .speaker-name= speaker['name']
+          - speaker['title'].each do |title|
+            .speaker-title= title
+          - speaker['sites'].each do |site|
+            %a.speaker-info{:href=>"#{site['href']}"}= site['title']
+          .speaker-bio= speaker['bio']
+        %img{:src=>"/images/#{speaker['img']}"}
+      %time 13:40–14:25 (45 mins)
+
+.time-block 14:25
+.row
+  %section.session.speech
+    .header-info
+      %span
+        邀請演講
+      場次主持：
+    %h3.title 行動廣告與大數據資料分析策略與執行
+    .info
+      - speaker = speaker_file("craig");
+      .speaker-in-speech{:"data-name"=>"#{speaker['tags'].join(",")}"}
+        .speaker-block
+          .mask
+          .speaker-name= speaker['name']
+          - speaker['title'].each do |title|
+            .speaker-title= title
+          - speaker['sites'].each do |site|
+            %a.speaker-info{:href=>"#{site['href']}"}= site['title']
+          .speaker-bio= speaker['bio']
+        %img{:src=>"/images/#{speaker['img']}"}
+      %time 14:25–15:10 (45 mins)
+
+.time-block 15:10
+%section.session.room-rest
+  %h3.title 交流時間
+  .info
+    %time 15:10 ~ 15:40 (30 mins)
+
+.time-block 15:40
+.row
+  %section.session.speech
+    .header-info
+      %span
+        邀請演講
+      場次主持：
+    %h3.title 健康資料分析與應用
+    .info
+      - speaker = speaker_file("mlpan");
+      .speaker-in-speech{:"data-name"=>"#{speaker['tags'].join(",")}"}
+        .speaker-block
+          .mask
+          .speaker-name= speaker['name']
+          - speaker['title'].each do |title|
+            .speaker-title= title
+          - speaker['sites'].each do |site|
+            %a.speaker-info{:href=>"#{site['href']}"}= site['title']
+          .speaker-bio= speaker['bio']
+        %img{:src=>"/images/#{speaker['img']}"}
+      %time 15:40–16:25 (45 mins)
+
+.time-block 16:25
+.row
+  %section.session.speech
+    .header-info
+      %span
+        邀請演講
+      場次主持：何孟如 (中央研究院生物多樣性中心)
+    %h3.title 資料科學於預防醫學之應用
+    .info
+      - speaker = speaker_file("chliu");
+      .speaker-in-speech{:"data-name"=>"#{speaker['tags'].join(",")}"}
+        .speaker-block
+          .mask
+          .speaker-name= speaker['name']
+          - speaker['title'].each do |title|
+            .speaker-title= title
+          - speaker['sites'].each do |site|
+            %a.speaker-info{:href=>"#{site['href']}"}= site['title']
+          .speaker-bio= speaker['bio']
+        %img{:src=>"/images/#{speaker['img']}"}
+      %time 16:25–17:10 (45 mins)
+
+.time-block 17:10
+.row
+  %section.session.speech
+    .header-info
+      %span
+        邀請演講
+      場次主持：
+    %h3.title 野生動物喜歡住哪裡？探討野生動物與棲地關係
+    .info
+      - speaker = speaker_file("dllin");
+      .speaker-in-speech{:"data-name"=>"#{speaker['tags'].join(",")}"}
+        .speaker-block
+          .mask
+          .speaker-name= speaker['name']
+          - speaker['title'].each do |title|
+            .speaker-title= title
+          - speaker['sites'].each do |site|
+            %a.speaker-info{:href=>"#{site['href']}"}= site['title']
+          .speaker-bio= speaker['bio']
+        %img{:src=>"/images/#{speaker['img']}"}
+      %time 17:10–17:55 (45 mins)
+
+.time-block 17:55
+%section.session
+  .info
+
+.time-block 18:30
+%section.session.room-rest
+  %h3.title  講師及 VIP 晚宴 (邀請制)
+  .info
+    %time 18:30 ~ 20:30 (120 mins)
+.time-block 20:30

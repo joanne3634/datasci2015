@@ -1,0 +1,11 @@
+- content_for :title do
+  %title= "Speaker | #{data['site-title']}"
+
+- content_for :hero do
+  = render "/hero-page"
+
+.row
+  .section
+    %h2.title 徵求講者
+    .content.zh-tw
+      = render "/data/seek/speaker.md"

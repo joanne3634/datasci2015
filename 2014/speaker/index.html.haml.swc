@@ -1,0 +1,101 @@
+- content_for :title do
+  %title= "Speaker | #{data['site-title']}"
+
+- content_for :hero do
+  = render "/hero-page"
+
+.section.agenda
+  %h2.title 講者介紹
+  %ul#speaker
+    %li{:"data-name"=>"clkao,高嘉良"}
+      .speaker-block
+        .mask
+        .speaker-name 高嘉良 (Chia-liang Kao)
+        .speaker-title g0v.tw 台灣零時政府共同創辦人
+        %a.speaker-info{:href=>"http://blog.clkao.org/",:target=>"_new"} 個人網站
+        .speaker-bio 喜歡寫程式、泡湯。參加 1997 年國際資訊奧林匹亞後，進入台大資訊系就讀，即活躍於國內外開放源碼社群，隨後旅居英國倫敦從事軟體開發及顧問工作。現為美商 Socialtext Inc. 及台灣工業技術研究院軟體開發顧問。2012 年發起 g0v.tw 台灣零時政府。
+      %img{:src=>"/images/clkao.jpg"}
+    %li{:"data-name"=>"jeff,郭建甫"}
+      .speaker-block
+        .mask
+        .speaker-name 郭建甫 (Jeff Kuo)
+        .speaker-title Gogolook 走著瞧公司創辦人兼執行長
+        .speaker-bio 郭博士與鄭勝丰、宋政桓一同創立走著瞧 (Gogolook) 公司，目前擔任 WhosCall 開發團隊執行長。曾就讀於成大工業設計學系，畢業於清華大學工業工程研究所，其專精領域為產品設計與使用者經驗研究。專業經歷為德國 Heinz Nixdorf Institute 研究員、先構技研(股)公司共同創辦人、安通國際(股)公司新事業發展總監等。
+      %img{:src=>"/images/jeff.png"}
+    %li{:"data-name"=>"cjlin,林智仁"}
+      .speaker-block
+        .mask
+        .speaker-name 林智仁 (Chih-Jen Lin)
+        .speaker-title 國立臺灣大學資訊工程學系特聘教授
+        %a.speaker-info{:href=>"http://www.csie.ntu.edu.tw/~cjlin",:target=>"_new"} 個人網站
+        .speaker-bio 林智仁教授畢業於台大數學系，之後前往美國密西根大學獲得碩士與博士學位。他的研究團隊多年來致力於機器學習之相關研究，所發展的資料分類軟體在世界上被廣泛使用，是台灣計算機科學界突出的重要成果。
+      %img{:src=>"/images/cjlin.jpg"}
+    %li{:"data-name"=>"cmpeng,彭啟明"}
+      .speaker-block
+        .mask
+        .speaker-name 彭啟明 (Chi Ming Peng)
+        .speaker-title 天氣風險管理開發公司總經理
+        .speaker-bio 全台第一間民間氣象公司「天氣風險管理開發股份有限公司」擔任總經理，任職大愛新聞 氣象主播、中廣氣象達人節目主持人、中央、文化大學兼任教授、環境保護學會 秘書長、OPEN DATA聯盟 會長。學術專長有天氣風險管理、大氣化學、氣象數位媒體製作行銷與環境教育。
+      %img{:src=>"/images/cmpeng.jpg"}
+    %li{:"data-name"=>"ckliu,劉嘉凱"}
+      .speaker-block
+        .mask
+        .speaker-name 劉嘉凱 (Chia-Kai Liu)
+        .speaker-title 御言堂總經理
+        %a.speaker-info{:href=>"http://citypatterns.blogspot.tw/",:target=>"_new"} 〈城市格局〉部落格
+        .speaker-bio 劉嘉凱 (CK) 曾經在美國從事產業分析與商業顧問諮詢工作多年，目前任職於御言堂，提供企業資料分析顧問服務。他積極參與 Code for Tomorrow，並負責「資料科學計畫」的課程研發工作。他目前關注群眾智慧、開放資料與開放發展，不定時會將個人想法分享於〈城市格局〉部落格。
+      %img{:src=>"/images/ckliu.png"}
+    %li{:"data-name"=>"simon,mhyu,余孟勲"}
+      .speaker-block
+        .mask
+        .speaker-name 余孟勲 (MengHsun Simon Yu)        
+        .speaker-title 台灣公益責信協會發起人兼理事長
+        %a.speaker-info{:href=>"http://www.apa-tw.org/",:target=>"_new"} 台灣公益責信協會
+        .speaker-bio 木柵大學畢業，不熱衷賺錢的 finance major，曾就任會計師事務所查帳員，每年考績第一名卻離職跑去環島及擔任志工。到鹿特丹唸MBA時，以背包客的方式遊歷十三國，學習從脈絡看人生。想要用更有效率的方式改變世界，發起台灣公益責信協會，投入公益團體財務透明及治理能力基礎建設。擅長思考傾聽說話寫字及教導，喜歡動手解決問題介入現實。
+      %img{:src=>"/images/simon.jpg"}
+    %li 還有多位講者待公開，敬請期待...。:)  
+    -# %li{:"data-name"=>"mnwu,吳牧恩"}
+      .speaker-block
+        .mask
+        .speaker-name 吳牧恩 (Mu-En Wu)
+        .speaker-title 東吳大學數學系助理教授
+        %a.speaker-info{:href=>"http://myweb.scu.edu.tw/~mn/",:target=>"_new"} 個人網頁
+        .speaker-bio 從數理專業轉向資訊工程，近年著重於金融資料分析、博弈理論、預測市場…等研究。曾就讀於清大數學系、交大應數所，2009年畢業於清華資工。喜愛探討期權交易知識、熱衷操練鐵人三項。另一身份為幣圖誌專欄〈謀權奪利真英雄〉作家 -- 牧清華。
+      %img{:src=>"/images/mnwu.png"}
+    -# %li{:"data-name"=>"chchen,陳君厚"}
+      .speaker-block
+        .mask
+        .speaker-name 陳君厚 (Chun-Houh Chen)
+        .speaker-title 中央研究院統計科學研究所研究員兼副所長
+        %a.speaker-info{:href=>"http://gap.stat.sinica.edu.tw/Chunhouh/index.htm",:target=>"_new"} 個人網頁
+        .speaker-bio 美國加州大學洛杉磯分校數學博士，專長為 Bioinformatics, Data/Information Visualization, Dimension Reduction。陳博士現任中央研究院統計科學研究所研究員兼副所長、中華機率統計學會理事長及國際統計計算學會亞洲分會主席。
+      %img{:src=>"/images/chchen.jpg"}
+    -# %li{:"data-name"=>"enrico,呂俊宏"}
+      .speaker-block
+        .mask
+        .speaker-name 呂俊宏 (Lu Enrico)
+        .speaker-title 資訊工業策進會創新應用服務研究所研究顧問
+        .speaker-bio 畢業於國立臺灣大學建築與城鄉研究所，為資訊工業策進會創新應用服務研究所資深工程師。專長為巨量資料、知識管理技術、網路服務技術、軟體研發組織管理、自然語言處理。
+      %img{:src=>"/images/enrico.jpg"}
+    -# %li{:"data-name"=>"mlpan,潘美連"}
+      .speaker-block
+        .mask
+        .speaker-name 潘美連 (Mei-Lien Pan)
+        .speaker-title 台灣醫學資訊學會祕書長
+        .speaker-bio 
+      %img{:src=>"/images/"}
+    -# %li{:"data-name"=>"craig,趙國仁"}
+      .speaker-block
+        .mask
+        .speaker-name 趙國仁 (Craig Chao)
+        .speaker-title 
+        .speaker-bio 
+      %img{:src=>"/images/"}
+    -# %li{:"data-name"=>"gene,洪進吉"}
+      .speaker-block
+        .mask
+        .speaker-name 洪進吉 (Gene Hong)
+        .speaker-title 台灣數位文化協會顧問
+        -# %a{:href=>"http://look.urs.tw",:target=>"_new"} 部落格觀察
+        .speaker-bio 洪進吉（黑貘，Genehong）黑貘，「部落格觀察」站長、台灣數位文化協會顧問，協助架設「莫拉克民間災情網路中心」。現任職於博客來網路書店，擔任技術顧問。曾任職於聯絡家、網祿 (顧問)、十大、花蝶、統一數網(顧問)、台灣經濟研究院(顧問)、PCHome、網研(顧問, CIO) Maillist、 IC之音(顧問)、擎邦(顧問)、易康(顧問, CIO) Shesay、資策會(資技處)。
+      %img{:src=>"/images/gene.png"}

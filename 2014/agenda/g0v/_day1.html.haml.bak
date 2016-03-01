@@ -1,0 +1,146 @@
+.time-block 08:30
+%section.session.room-rest
+  %h3.title 報到
+  .info
+    %time 08:30-09:00 (30 mins)
+
+.time-block 09:00
+%section.session.ceremony
+  %h3.title 開幕式
+  .info
+    %time 09:00–09:15 (15 mins)
+
+.time-block 09:15
+.row
+  %section.session.ceremony
+    .header-info
+      %span
+        主題演講一
+      場次主持：
+    %h3.title Big-data analytics: challenges and opportunities
+    .info
+      - speaker = speaker_file("cjlin");
+      .speaker-in-speech{:"data-name"=>"#{speaker['tags'].join(",")}"}
+        .speaker-block
+          .mask
+          .speaker-name= speaker['name']
+          - speaker['title'].each do |title|
+            .speaker-title= title
+          - speaker['sites'].each do |site|
+            %a.speaker-info{:href=>"#{site['href']}"}= site['title']
+          .speaker-bio= speaker['bio']
+        %img{:src=>"/images/#{speaker['img']}"}
+      %time 09:15-10:20 (65 mins)
+
+.time-block 10:20
+%section.session.room-rest
+  %h3.title 休息
+  .info
+    %time 10:20 ~ 10:50 (30 mins)
+
+.time-block 10:50
+.row
+  %section.session.speech
+    .header-info
+      %span 黑客松
+    %h3.title 提案及自我介紹
+    .info
+      -#- speaker = speaker_file("dboy");
+      -#.speaker-in-speech{:"data-name"=>"#{speaker['tags'].join(",")}"}
+        .speaker-block
+          .mask
+          .speaker-name= speaker['name']
+          - speaker['title'].each do |title|
+            .speaker-title= title
+          - speaker['sites'].each do |site|
+            %a.speaker-info{:href=>"#{site['href']}"}= site['title']
+          .speaker-bio= speaker['bio']
+        %img{:src=>"/images/#{speaker['img']}"}
+      -#- speaker = speaker_file("summit");
+      -#.speaker-in-speech{:"data-name"=>"#{speaker['tags'].join(",")}"}
+        .speaker-block
+          .mask
+          .speaker-name= speaker['name']
+          - speaker['title'].each do |title|
+            .speaker-title= title
+          - speaker['sites'].each do |site|
+            %a.speaker-info{:href=>"#{site['href']}"}= site['title']
+          .speaker-bio= speaker['bio']
+        %img{:src=>"/images/#{speaker['img']}"}
+      %time 10:50–12:20 (90 mins)
+
+.time-block 12:20
+%section.session.room-rest
+  %h3.title 午餐
+  .info
+    %time 12:20 ~ 13:40 (80 mins)
+
+.time-block 13:40
+.row
+  %section.session.speech
+    .header-info
+      %span 黑客松
+    %h3.title 黑客松
+    .info
+      -#- speaker = speaker_file("dboy");
+      -#.speaker-in-speech{:"data-name"=>"#{speaker['tags'].join(",")}"}
+        .speaker-block
+          .mask
+          .speaker-name= speaker['name']
+          - speaker['title'].each do |title|
+            .speaker-title= title
+          - speaker['sites'].each do |site|
+            %a.speaker-info{:href=>"#{site['href']}"}= site['title']
+          .speaker-bio= speaker['bio']
+        %img{:src=>"/images/#{speaker['img']}"}
+      -#- speaker = speaker_file("summit");
+      -#.speaker-in-speech{:"data-name"=>"#{speaker['tags'].join(",")}"}
+        .speaker-block
+          .mask
+          .speaker-name= speaker['name']
+          - speaker['title'].each do |title|
+            .speaker-title= title
+          - speaker['sites'].each do |site|
+            %a.speaker-info{:href=>"#{site['href']}"}= site['title']
+          .speaker-bio= speaker['bio']
+        %img{:src=>"/images/#{speaker['img']}"}
+      %time 13:40–15:10 (90 mins)
+
+.time-block 15:10
+%section.session.room-rest
+  %h3.title 交流時間
+  .info
+    %time 15:10 ~ 15:40 (30 mins)
+
+.time-block 15:40
+.row
+  %section.session.speech
+    .header-info
+      %span 黑客松
+    %h3.title 黑客松
+    .info
+      -#- speaker = speaker_file("jiawei");
+      -#.speaker-in-speech{:"data-name"=>"#{speaker['tags'].join(",")}"}
+        .speaker-block
+          .mask
+          .speaker-name= speaker['name']
+          - speaker['title'].each do |title|
+            .speaker-title= title
+          - speaker['sites'].each do |site|
+            %a.speaker-info{:href=>"#{site['href']}"}= site['title']
+          .speaker-bio= speaker['bio']
+        %img{:src=>"/images/#{speaker['img']}"}
+      -#- speaker = speaker_file("aha");
+      -#.speaker-in-speech{:"data-name"=>"#{speaker['tags'].join(",")}"}
+        .speaker-block
+          .mask
+          .speaker-name= speaker['name']
+          - speaker['title'].each do |title|
+            .speaker-title= title
+          - speaker['sites'].each do |site|
+            %a.speaker-info{:href=>"#{site['href']}"}= site['title']
+          .speaker-bio= speaker['bio']
+        %img{:src=>"/images/#{speaker['img']}"}
+      %time 15:40–17:55 (135 mins)
+
+.time-block 17:55

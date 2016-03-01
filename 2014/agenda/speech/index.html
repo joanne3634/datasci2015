@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang='zh-TW'>
+  <head>
+    <meta charset='utf-8'>
+    <title>演講議程 | 2014 台灣資料科學愛好者年會 — Exploring the Potentials of Real-world Data Analytics</title>
+    <link rel="shortcut icon" href="/2014/images/favicon.ico">
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+    <meta content='2014 台灣資料科學愛好者年會 — Exploring the Potentials of Real-world Data Analytics' property='og:title'>
+    <meta content='website' property='og:type'>
+    <meta content='台灣資料科學愛好者年會，主意在推動資料科學在台灣的認知及普及應用，期望能看到台灣的產業甚至政府部門能夠有效利用各自手上的各類型資料，經過適當的資料分析及／或預測技術，來為產業建立更大的價值，提供使用者／大眾更好的服務及生活品質。' property='og:description'>
+    <meta content='http://datasci.tw/2014/' property='og:url'>
+    <meta content='http://datasci.tw/2014/images/logo.png' property='og:image'>
+    <meta content='Data Science in Taiwan Conference 2014' property='og:site_name'>
+    <link href="/2014/stylesheets/font.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="/2014/stylesheets/all.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="/2014/stylesheets/cbox.css" media="all" rel="stylesheet" type="text/css" />
+    <!--[if IE]>
+      <link href="/2014/stylesheets/ie.css" media="all" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class='page-outwrap'>
+      <div class='page-wrap'>
+        <div class='page'>
+          <nav class='main-menu'>
+            <h2 class='title'>Navigator</h2>
+            <ul>
+              <li class='menu-item'><a href="/2014/">首頁</a></li>
+              <li class='menu-item'><a href="/2014/news/">最新消息</a></li>
+              <li class='menu-item'><a href="/2014/speaker/">講師介紹</a></li>
+              <li class='menu-item'><a href="/2014/about/r_tutorial.html">R 課程簡介</a></li>
+              <li class='menu-item'><a href="/2014/about/g0v_hackathon.html">黑客松簡介</a></li>
+              <li class='menu-item'><a href="/2014/faq/">答客問</a></li>
+              <li class='menu-item has-sub-menu'>
+                <h3 class='sub-title'>徵求貢獻</h3>
+                <ul>
+                  <li class='menu-item'><a href="/2014/seek/speaker.html">徵求講者</a></li>
+                  <li class='menu-item'><a href="/2014/seek/volunteer.html">徵求志工</a></li>
+                </ul>
+              </li>
+              <li class='menu-item has-sub-menu'>
+                <h3 class='sub-title'>會議議程</h3>
+                <ul>
+                  <li class='menu-item'><a class="active" href="/2014/agenda/speech/">演講議程</a></li>
+                  <li class='menu-item'><a href="/2014/agenda/tutorial/">資料分析上手課程</a></li>
+                  <li class='menu-item'><a href="/2014/agenda/g0v/">g0v 零時政府黑客松</a></li>
+                </ul>
+              </li>
+              <li class='menu-item has-sub-menu'>
+                <h3 class='sub-title'>活動參與</h3>
+                <ul>
+                  <li class='menu-item'><a href="/2014/registration/signup.html">線上報名</a></li>
+                  <li class='menu-item'><a href="/2014/registration/traffic.html">交通資訊</a></li>
+                  <li class='menu-item'><a href="/2014/registration/location.html">會場資訊</a></li>
+                </ul>
+              </li>
+              <li class='menu-item'><a href="/2014/organizer/">籌辦單位</a></li>
+              <li class='menu-item'><a href="/2014/sponsor/">贊助企業</a></li>
+              <li class='menu-item'><a href="/2014/media/">媒體伙伴</a></li>
+              <li class='menu-item'><a href="/2014/staff/">工作人員</a></li>
+              <li class='menu-item has-sub-menu'>
+                <div class='fb-page' onclick="window.open('https://www.facebook.com/twdsconf','fbpage');" title='facebook粉絲頁'></div>
+              </li>
+            </ul>
+          </nav>
+          <div class='main-content'>
+            <div class='header'>
+              <a class='menu-button'>
+                <div class='line'></div>
+                <div class='line'></div>
+                <div class='line'></div>
+              </a>
+              <h1 class='title'>
+                <a href='/2014/'>
+                  台灣資料科學愛好者年會
+                </a>
+              </h1>
+            </div>
+            <div class='hero-page'>
+              <a class='banner' href='/2014/' style='position:relative;left:-24px;'>
+              </a>
+            </div>
+            <div class='section agenda'>
+              <h2 class='title'>演講議程</h2>
+              <div class='legend'>
+                <div class='color ceremony'></div>
+                年會全體活動
+                <span>國際會議廳</span>
+              </div>
+              <div class='legend'>
+                <div class='color speech'></div>
+                議程活動
+                <span>國際會議廳</span>
+              </div>
+              <div class='legend'>
+                <div class='color room-rest'></div>
+                交流時間
+              </div>
+              <div id='day1'></div>
+              <div class='date-block'>
+                <p>
+                  8/30 議程第一天
+                  <a class='jumper' href='#day2'>跳到第二天 8/31 →</a>
+                </p>
+              </div>
+              <div class='agenda-table'>
+                <div class='time-block'>08:00</div>
+                <section class='session room-rest'>
+                  <h3 class='title'>報到</h3>
+                  <div class='info'>
+                    <time>08:00-09:00 (60 mins)</time>
+                  </div>
+                </section>
+                <div class='time-block'>09:00</div>
+                <div class='row'>
+                  <section class='session ceremony'>
+                    <div class='header-info'>
+                      <span>全體活動</span>
+                      場次主持：陳昇瑋 (中央研究院資訊科學研究所)
+                    </div>
+                    <h3 class='title'>
+                      開幕式
+                      <a href='http://www.slideshare.net/tw_dsconf/2014-38505999' target='_new'>
+                        <img class='icon' src='/2014/images/slide.png'>
+                      </a>
+                      <a href='https://www.youtube.com/watch?v=IAByhaP6Ifk' target='_new'>
+                        <img class='icon' src='/2014/images/youtube.png'>
+                      </a>
+                    </h3>
+                    <div class='info'>
+                      <a class='speaker-link' href='http://arbor.ee.ntu.edu.tw/~mschen/' target='_new'>陳銘憲 (Ming-Syan Chen)</a>
+                      <div class='speaker-in-speech' data-name='mschen,陳銘憲'>
+                        <div class='speaker-block'>
+                          <div class='mask'></div>
+                          <div class='speaker-name'>陳銘憲 (Ming-Syan Chen)</div>
+                          <div class='speaker-title'>中央研究院資訊科技創新研究中心</div>
+                          <a class='speaker-info' href='http://arbor.ee.ntu.edu.tw/~mschen/'>個人網站</a>
+                          <div class='speaker-bio'>陳銘憲教授 1982 年畢業於臺灣大學電機系，1984 年赴美國密西根大學安那堡分校就讀電機資訊工程系，於 1988 年獲得博士學位。其後，便加入 IBM 在紐約州之 Thomas J. Watson Resarch Center 擔任 Research Staff Member。 1996 年返回任教於臺灣大學電機系，曾任副教授、教授、以及電信工程學研究所所長。現任中央研究院資訊科技創新研究中心特聘研究員兼主任，並為臺灣大學電機系特聘教授及中興大學講座教授。陳教授的研究領域為資料庫、資料探勘和網路多媒體技術，已發表 300 餘篇學術論文，並有 20 餘件國際專利。其在資料探勘與 Web 行為模式分析之數篇論文為 ISI 之高引用數論文。陳教授在 IBM 之研究成果被該公司用於主要資料庫產品中，並獲得 IBM Outstanding Innovation Award 以及數個 Patent Award 之肯定。返國後曾獲得教育部學術獎、國科會傑出研究獎、東元獎、潘文淵研究傑出獎、中華民國資訊學會資訊榮譽獎章、李國鼎穿石研究獎等獎項，亦被國際上之學術組織選為 ACM Fellow 和 IEEE Fellow 。</div>
+                        </div>
+                        <img src='/2014/images/speaker/mschen.png'>
+                      </div>
+                      <time>09:00–09:15 (15 mins)</time>
+                    </div>
+                  </section>
+                </div>
+                <div class='time-block'>09:15</div>
+                <div class='row'>
+                  <section class='session ceremony'>
+                    <div class='header-info'>
+                      <span>全體活動</span>
+                      場次主持：陳銘憲 (中央研究院資訊科技創新研究中心)
+                    </div>
+                    <h3 class='title'>
+                      Big-data analytics:<br/>challenges and opportunities
+                      <a href='http://www.slideshare.net/tw_dsconf/bigdata-analytics-challenges-and-opportunities' target='_new'>
+                        <img class='icon' src='/2014/images/slide.png'>
+                      </a>
+                      <a href='https://www.youtube.com/watch?v=5LQm74vyxOE' target='_new'>
+                        <img class='icon' src='/2014/images/youtube.png'>
+                      </a>
+                    </h3>
+                    <div class='info'>
+                      <a class='speaker-link' href='/2014/speaker#cjlin' target='_new'>林智仁 (Chih-Jen Lin)</a>
+                      <div class='speaker-in-speech' data-name='cjlin,林智仁'>
+                        <div class='speaker-block'>
+                          <div class='mask'></div>
+                          <div class='speaker-name'>林智仁 (Chih-Jen Lin)</div>
+                          <div class='speaker-title'>國立臺灣大學資訊工程學系特聘教授</div>
+                          <a class='speaker-info' href='http://www.csie.ntu.edu.tw/~cjlin'>個人網站</a>
+                          <div class='speaker-bio'>林智仁教授畢業於台大數學系，之後前往美國密西根大學獲得碩士與博士學位。他的研究團隊多年來致力於機器學習之相關研究，所發展的資料分類軟體在世界上被廣泛使用，是台灣計算機科學界突出的重要成果。</div>
+                        </div>
+                        <img src='/2014/images/speaker/cjlin.jpg'>
+                      </div>
+                      <time>09:15-10:20 (65 mins)</time>
+                    </div>
+                  </section>
+                </div>
+                <div class='time-block'>10:20</div>
+                <section class='session room-rest'>
+                  <h3 class='title'>茶點與交流時間</h3>
+                  <div class='info'>
+                    <time>10:20 ~ 10:50 (30 mins)</time>
+                  </div>
+                </section>
+                <div class='time-block'>10:50</div>
+                <div class='row'>
+                  <section class='session speech'>
+                    <div class='header-info'>
+                      <span>邀請演講</span>
+                      場次主持：方新舟 (誠致教育基金會)
+                    </div>
+                    <h3 class='title'>
+                      資料、社群、大協作 - 零時政府的數位革命
+                      <a href='http://www.slideshare.net/tw_dsconf/g0v-dsconf' target='_new'>
+                        <img class='icon' src='/2014/images/slide.png'>
+                      </a>
+                      <a href='https://www.youtube.com/watch?v=X0ms9xETLaY' target='_new'>
+                        <img class='icon' src='/2014/images/youtube.png'>
+                      </a>
+                    </h3>
+                    <div class='info'>
+                      <a class='speaker-link' href='/2014/speaker#clkao' target='_new'>高嘉良 (Chia-liang Kao)</a>
+                      <div class='speaker-in-speech' data-name='clkao,高嘉良'>
+                        <div class='speaker-block'>
+                          <div class='mask'></div>
+                          <div class='speaker-name'>高嘉良 (Chia-liang Kao)</div>
+                          <div class='speaker-title'>g0v.tw 台灣零時政府共同創辦人</div>
+                          <a class='speaker-info' href='http://blog.clkao.org/'>個人網站</a>
+                          <div class='speaker-bio'>喜歡寫程式、泡湯。參加 1997 年國際資訊奧林匹亞後，進入台大資訊系就讀，即活躍於國內外開放源碼社群，隨後旅居英國倫敦從事軟體開發及顧問工作。現為美商 Socialtext Inc. 及台灣工業技術研究院軟體開發顧問。2012 年發起 g0v.tw 台灣零時政府。</div>
+                        </div>
+                        <img src='/2014/images/speaker/clkao.jpg'>
+                      </div>
+                      <time>10:50–11:35 (45 mins)</time>
+                    </div>
+                  </section>
+                </div>
+                <div class='time-block'>11:35</div>
+                <div class='row'>
+                  <section class='session speech'>
+                    <div class='header-info'>
+                      <span>邀請演講</span>
+                      場次主持：曾新穆 (成功大學資訊工程學系)
+                    </div>
+                    <h3 class='title'>
+                      讓你 Z > B 的資料科學
+                      <a href='http://www.slideshare.net/tw_dsconf/zbpubliccopy-140829115525phpapp02' target='_new'>
+                        <img class='icon' src='/2014/images/slide.png'>
+                      </a>
+                    </h3>
+                    <div class='info'>
+                      <a class='speaker-link' href='/2014/speaker#ckliu' target='_new'>劉嘉凱 (Chia-Kai Liu)</a>
+                      <div class='speaker-in-speech' data-name='ckliu,劉嘉凱'>
+                        <div class='speaker-block'>
+                          <div class='mask'></div>
+                          <div class='speaker-name'>劉嘉凱 (Chia-Kai Liu)</div>
+                          <div class='speaker-title'>御言堂總經理</div>
+                          <a class='speaker-info' href='http://citypatterns.blogspot.tw/'>〈城市格局〉部落格</a>
+                          <div class='speaker-bio'>劉嘉凱 (CK) 曾經在美國從事產業分析與商業顧問諮詢工作多年，目前任職於御言堂，提供企業資料分析顧問服務。他積極參與 Code for Tomorrow，並負責「資料科學計畫」的課程研發工作。他目前關注群眾智慧、開放資料與開放發展，不定時會將個人想法分享於〈城市格局〉部落格。</div>
+                        </div>
+                        <img src='/2014/images/speaker/ckliu.png'>
+                      </div>
+                      <time>11:35–12:20 (45 mins)</time>
+                    </div>
+                  </section>
+                </div>
+                <div class='time-block'>12:20</div>
+                <section class='session room-rest'>
+                  <h3 class='title'>午餐</h3>
+                  <div class='info'>
+                    <time>12:20 ~ 13:40 (80 mins)</time>
+                  </div>
+                </section>
+                <div class='time-block'>13:40</div>
+                <div class='row'>
+                  <section class='session speech'>
+                    <div class='header-info'>
+                      <span>邀請演講</span>
+                      場次主持：李育杰 (台灣科技大學資訊工程學系)
+                    </div>
+                    <h3 class='title'>
+                      Collaboration with Statistician?<br/>　矩陣視覺化於探索式資料分析
+                      <a href='http://www.slideshare.net/tw_dsconf/collaboration-with-statistician' target='_new'>
+                        <img class='icon' src='/2014/images/slide.png'>
+                      </a>
+                      <a href='https://www.youtube.com/watch?v=XIcbVFeM1_E' target='_new'>
+                        <img class='icon' src='/2014/images/youtube.png'>
+                      </a>
+                    </h3>
+                    <div class='info'>
+                      <a class='speaker-link' href='/2014/speaker#chchen' target='_new'>陳君厚 (Chun-Houh Chen)</a>
+                      <div class='speaker-in-speech' data-name='chchen,陳君厚'>
+                        <div class='speaker-block'>
+                          <div class='mask'></div>
+                          <div class='speaker-name'>陳君厚 (Chun-Houh Chen)</div>
+                          <div class='speaker-title'>中央研究院統計科學研究所研究員兼副所長</div>
+                          <div class='speaker-title'>中華機率統計學會理事長</div>
+                          <div class='speaker-title'>國際統計計算學會亞洲分會主席</div>
+                          <a class='speaker-info' href='http://gap.stat.sinica.edu.tw/Chunhouh/index.htm'>個人網頁</a>
+                          <div class='speaker-bio'>美國加州大學洛杉磯分校數學博士，專長為 Bioinformatics, Data/Information Visualization, Dimension Reduction。</div>
+                        </div>
+                        <img src='/2014/images/speaker/chchen.png'>
+                      </div>
+                      <time>13:40–14:25 (45 mins)</time>
+                    </div>
+                  </section>
+                </div>
+                <div class='time-block'>14:25</div>
+                <div class='row'>
+                  <section class='session speech'>
+                    <div class='header-info'>
+                      <span>邀請演講</span>
+                      場次主持：陳維超 (Skywatch)
+                    </div>
+                    <h3 class='title'>
+                      行動廣告與大數據資料分析策略與執行
+                      <a href='http://www.slideshare.net/tw_dsconf/ss-38512126' target='_new'>
+                        <img class='icon' src='/2014/images/slide.png'>
+                      </a>
+                    </h3>
+                    <div class='info'>
+                      <a class='speaker-link' href='/2014/speaker#craig' target='_new'>趙國仁 (Craig Chao)</a>
+                      <div class='speaker-in-speech' data-name='craig,趙國仁'>
+                        <div class='speaker-block'>
+                          <div class='mask'></div>
+                          <div class='speaker-name'>趙國仁 (Craig Chao)</div>
+                          <div class='speaker-title'>Vpon 行動數據科技數據科學家</div>
+                          <a class='speaker-info' href='http://www.linkedin.com/profile/view?id=128541553'>個人網站</a>
+                          <div class='speaker-bio'>趙國仁是 Vpon 行動廣告科技的數據科學家，中山大學資管系、資管所畢業，並於2006年取得臺大商研所博士學位。曾創立台灣第一個中文BBS系統、發展全球第一套中文套裝搜索引擎，以及創立龍捲風科技。在加入 Vpon 之前，在國立高雄應用科技大學擔任專任助理教授，曾發表數十篇國際期刊與研討會論文，並通過20項以上的發明專利，喜歡創新、整合性資料分析與探索性研究。</div>
+                        </div>
+                        <img src='/2014/images/speaker/craig.jpg'>
+                      </div>
+                      <time>14:25–15:10 (45 mins)</time>
+                    </div>
+                  </section>
+                </div>
+                <div class='time-block'>15:10</div>
+                <section class='session room-rest'>
+                  <h3 class='title'>茶點與交流時間</h3>
+                  <div class='info'>
+                    <time>15:10 ~ 15:40 (30 mins)</time>
+                  </div>
+                </section>
+                <div class='time-block'>15:40</div>
+                <div class='row'>
+                  <section class='session speech'>
+                    <div class='header-info'>
+                      <span>邀請演講</span>
+                      場次主持：陳君厚 (中央研究院統計科學研究所)
+                    </div>
+                    <h3 class='title'>
+                      健康資料分析與應用
+                      <a href='http://www.slideshare.net/tw_dsconf/ss-38510816' target='_new'>
+                        <img class='icon' src='/2014/images/slide.png'>
+                      </a>
+                      <a href='https://www.youtube.com/watch?v=eIx9dprc_Nw' target='_new'>
+                        <img class='icon' src='/2014/images/youtube.png'>
+                      </a>
+                    </h3>
+                    <div class='info'>
+                      <a class='speaker-link' href='/2014/speaker#mlpan' target='_new'>潘美連 (Mei-Lien Pan)</a>
+                      <div class='speaker-in-speech' data-name='mlpan,潘美連'>
+                        <div class='speaker-block'>
+                          <div class='mask'></div>
+                          <div class='speaker-name'>潘美連 (Mei-Lien Pan)</div>
+                          <div class='speaker-title'>台灣醫學資訊學會祕書長</div>
+                          <div class='speaker-bio'>潘美連2001年畢業於陽明大學公共衛生研究所，取得碩士學位；2013年取得博士學位。目前是台灣醫學資訊學會秘書長，並曾經在2009-2013年擔任台灣健康產業整合協會秘書長，也是該會的創會秘書長，積極參與各項醫學資訊的推廣與研究工作。她同時也是台北護理健康大學兼任助理教授，主要教授醫學資訊概論、健康照護資料處理、資料倉儲等課程。主要研究興趣包含健康照護資料處理與分析、醫學資訊與標準、公共衛生。</div>
+                        </div>
+                        <img src='/2014/images/speaker/mlpan.jpg'>
+                      </div>
+                      <time>15:40–16:25 (45 mins)</time>
+                    </div>
+                  </section>
+                </div>
+                <div class='time-block'>16:25</div>
+                <div class='row'>
+                  <section class='session speech'>
+                    <div class='header-info'>
+                      <span>邀請演講</span>
+                      場次主持：何孟如 (中央研究院生物多樣性中心)
+                    </div>
+                    <h3 class='title'>
+                      資料科學於預防醫學之應用
+                      <a href='http://www.slideshare.net/tw_dsconf/ss-38511300' target='_new'>
+                        <img class='icon' src='/2014/images/slide.png'>
+                      </a>
+                      <a href='https://www.youtube.com/watch?v=kN8WIiupkZ0' target='_new'>
+                        <img class='icon' src='/2014/images/youtube.png'>
+                      </a>
+                    </h3>
+                    <div class='info'>
+                      <a class='speaker-link' href='/2014/speaker#jhliu' target='_new'>劉家宏 (Chia-Hung Liu)</a>
+                      <div class='speaker-in-speech' data-name='jhliu,chliu,劉家宏'>
+                        <div class='speaker-block'>
+                          <div class='mask'></div>
+                          <div class='speaker-name'>劉家宏 (Chia-Hung Liu)</div>
+                          <div class='speaker-title'>華聯生物科技股份有限公司 研發部副理</div>
+                          <a class='speaker-info' href='http://www.linkedin.com/pub/chia-hung-liu/50/b2a/157'>個人網站</a>
+                          <div class='speaker-bio'>畢業於台大生醫電子與資訊學研究所，目前於華聯生技擔任數據分析部門主管，進行高通量分析流程及軟體開發，於元智大學資工系擔任兼任助理教授，曾於美國麻省理工與哈佛博德研究所、歐洲分子生物實驗室及中研院使用資料科學方法進行疾病研究、檢測標記開發及新藥開發。</div>
+                        </div>
+                        <img src='/2014/images/speaker/chliu.jpg'>
+                      </div>
+                      <time>16:25–17:10 (45 mins)</time>
+                    </div>
+                  </section>
+                </div>
+                <div class='time-block'>17:10</div>
+                <div class='row'>
+                  <section class='session speech'>
+                    <div class='header-info'>
+                      <span>
+                        邀請演講
+                      </span>
+                      場次主持：陳昇瑋 (中央研究院資訊科學研究所)
+                    </div>
+                    <h3 class='title'>
+                      野生動物喜歡住哪裡？探討野生動物與棲地關係
+                      <a href='http://www.slideshare.net/tw_dsconf/ss-38515637' target='_new'>
+                        <img class='icon' src='/2014/images/slide.png'>
+                      </a>
+                      <a href='https://www.youtube.com/watch?v=IbrGlMHwKG8' target='_new'>
+                        <img class='icon' src='/2014/images/youtube.png'>
+                      </a>
+                    </h3>
+                    <div class='info'>
+                      <a class='speaker-link' href='/2014/speaker#dllin' target='_new'>林大利 (Da-Li Lin)</a>
+                      <div class='speaker-in-speech' data-name='dllin,林大利'>
+                        <div class='speaker-block'>
+                          <div class='mask'></div>
+                          <div class='speaker-name'>林大利 (Da-Li Lin)</div>
+                          <div class='speaker-title'>特有生物研究保育中心助理研究員</div>
+                          <a class='speaker-info' href='http://ornithologydl.blogspot.tw/2013/09/about.html'>個人網站</a>
+                          <div class='speaker-bio'>國立臺灣大學森林環境暨資源學系碩士，目前於特有生物研究保育中心服務，擔任自然保育季刊編審及泛科學專欄作者。主要研究鳥類、森林、野生動物棲地以及生物的空間分布。目前嘗試以公民科學方式蒐集大空間範圍的生物分布資料。出門一定要帶書、會對著地圖發呆很久、算清楚自己看過幾種鳥，是個龜毛的讀者，認為龜毛是科學寫作的美德。</div>
+                        </div>
+                        <img src='/2014/images/speaker/dllin.jpg'>
+                      </div>
+                      <time>17:10–17:55 (45 mins)</time>
+                    </div>
+                  </section>
+                </div>
+                <div class='time-block'>17:55</div>
+                <section class='session'>
+                  <div class='info'></div>
+                </section>
+                <div class='time-block'>18:30</div>
+                <section class='session room-rest'>
+                  <h3 class='title'>講師及 VIP 晚宴 (邀請制)</h3>
+                  <div class='info'>
+                    <time>18:30 ~ 20:30 (120 mins)</time>
+                  </div>
+                </section>
+                <div class='time-block'>20:30</div>
+              </div>
+              <div id='day2'></div>
+              <div class='date-block'>
+                <p>
+                  8/31 議程第二天
+                  <a class='jumper' href='#day1'>跳到第一天 8/30 →</a>
+                </p>
+              </div>
+              <div class='agenda-table'>
+                <div class='time-block'>08:40</div>
+                <section class='session room-rest'>
+                  <h3 class='title'>報到</h3>
+                  <div class='info'>
+                    <time>08:40-09:15 (45 mins)</time>
+                  </div>
+                </section>
+                <div class='time-block'>09:15</div>
+                <div class='row'>
+                  <section class='session ceremony'>
+                    <div class='header-info'>
+                      <span>全體活動</span>
+                      場次主持：陳昇瑋 (中央研究院資訊科學研究所)
+                    </div>
+                    <h3 class='title'>
+                      資料科學在 Whoscall 產品體系中的角色
+                      <a href='http://www.slideshare.net/tw_dsconf/whoscall' target='_new'>
+                        <img class='icon' src='/2014/images/slide.png'>
+                      </a>
+                    </h3>
+                    <div class='info'>
+                      <a class='speaker-link' href='/2014/speaker#jeff' target='_new'>郭建甫 (Jeff Kuo)</a>
+                      <div class='speaker-in-speech' data-name='jeff,郭建甫'>
+                        <div class='speaker-block'>
+                          <div class='mask'></div>
+                          <div class='speaker-name'>郭建甫 (Jeff Kuo)</div>
+                          <div class='speaker-title'>Gogolook 走著瞧公司創辦人兼執行長</div>
+                          <div class='speaker-bio'>郭博士與鄭勝丰、宋政桓一同創立走著瞧 (Gogolook) 公司，目前擔任 WhosCall 開發團隊執行長。曾就讀於成大工業設計學系，畢業於清華大學工業工程研究所，其專精領域為產品設計與使用者經驗研究。專業經歷為德國 Heinz Nixdorf Institute 研究員、先構技研(股)公司共同創辦人、安通國際(股)公司新事業發展總監等。</div>
+                        </div>
+                        <img src='/2014/images/speaker/jeff.png'>
+                      </div>
+                      <a class='speaker-link' href='/2014/speaker#yimin' target='_new'>高義銘 (Yimin Kao)</a>
+                      <div class='speaker-in-speech' data-name='yimin,高義銘'>
+                        <div class='speaker-block'>
+                          <div class='mask'></div>
+                          <div class='speaker-name'>高義銘 (Yimin Kao)</div>
+                          <div class='speaker-title'>Gogolook 走著瞧公司資料科學家</div>
+                          <div class='speaker-bio'>目前為走著瞧(Gogolook)公司數據分析科學家，畢業於美國北卡州立大學統計系。專業研究領域包含統計分類與分群方法、貝氏模型和空間統計。應用於電腦病毒封包偵測、基因關聯檢測和預測颶風路徑等。以散播音樂和歡樂為人生志向。</div>
+                        </div>
+                        <img src='/2014/images/speaker/yimin.jpg'>
+                      </div>
+                      <time>09:15-10:20 (65 mins)</time>
+                    </div>
+                  </section>
+                </div>
+                <div class='time-block'>10:20</div>
+                <section class='session room-rest'>
+                  <h3 class='title'>茶點與交流時間</h3>
+                  <div class='info'>
+                    <time>10:20 ~ 10:50 (30 mins)</time>
+                  </div>
+                </section>
+                <div class='time-block'>10:50</div>
+                <div class='row'>
+                  <section class='session speech'>
+                    <div class='header-info'>
+                      <span>邀請演講</span>
+                      場次主持：劉嘉凱 (御言堂)
+                    </div>
+                    <h3 class='title'>
+                      天氣/氣候大數據的應用與展望
+                      <a href='http://www.slideshare.net/tw_dsconf/20140831-38526021' target='_new'>
+                        <img class='icon' src='/2014/images/slide.png'>
+                      </a>
+                      <a href='https://www.youtube.com/watch?v=2PvF9J2hMZY' target='_new'>
+                        <img class='icon' src='/2014/images/youtube.png'>
+                      </a>
+                    </h3>
+                    <div class='info'>
+                      <a class='speaker-link' href='/2014/speaker#cmpeng' target='_new'>彭啟明 (Chi Ming Peng)</a>
+                      <div class='speaker-in-speech' data-name='cmpeng,彭啟明'>
+                        <div class='speaker-block'>
+                          <div class='mask'></div>
+                          <div class='speaker-name'>彭啟明 (Chi Ming Peng)</div>
+                          <div class='speaker-title'>天氣風險管理開發公司總經理</div>
+                          <div class='speaker-bio'>全台第一間民間氣象公司「天氣風險管理開發股份有限公司」擔任總經理，任職大愛新聞 氣象主播、中廣氣象達人節目主持人、中央、文化大學兼任教授、環境保護學會 秘書長、OPEN DATA聯盟 會長。學術專長有天氣風險管理、大氣化學、氣象數位媒體製作行銷與環境教育。</div>
+                        </div>
+                        <img src='/2014/images/speaker/cmpeng.jpg'>
+                      </div>
+                      <time>10:50–11:35 (45 mins)</time>
+                    </div>
+                  </section>
+                </div>
+                <div class='time-block'>11:35</div>
+                <div class='row'>
+                  <section class='session speech'>
+                    <div class='header-info'>
+                      <span>邀請演講</span>
+                      場次主持：何淮中 (中央研究院統計科學研究所)
+                    </div>
+                    <h3 class='title'>
+                      一個賭徒的告白：從預測市場看金融交易
+                      <a href='http://www.slideshare.net/tw_dsconf/ss-38526257' target='_new'>
+                        <img class='icon' src='/2014/images/slide.png'>
+                      </a>
+                      <a href='https://www.youtube.com/watch?v=Fdg-SAGi8Q8' target='_new'>
+                        <img class='icon' src='/2014/images/youtube.png'>
+                      </a>
+                    </h3>
+                    <div class='info'>
+                      <a class='speaker-link' href='/2014/speaker#mnwu' target='_new'>吳牧恩 (Mu-En Wu)</a>
+                      <div class='speaker-in-speech' data-name='mnwu,吳牧恩'>
+                        <div class='speaker-block'>
+                          <div class='mask'></div>
+                          <div class='speaker-name'>吳牧恩 (Mu-En Wu)</div>
+                          <div class='speaker-title'>東吳大學數學系助理教授</div>
+                          <a class='speaker-info' href='http://myweb.scu.edu.tw/~mn/'>個人網站</a>
+                          <div class='speaker-bio'>從數理專業轉向資訊工程，近年著重於金融資料分析、博弈理論、預測市場等研究。曾就讀於清大數學系、交大應數所，2009 年畢業於清華資工研究所。喜愛探討期權交易知識、熱衷操練鐵人三項。另一身份為幣圖誌專欄〈謀權奪利真英雄〉作家－牧清華。</div>
+                        </div>
+                        <img src='/2014/images/speaker/mnwu.png'>
+                      </div>
+                      <time>11:35–12:20 (45 mins)</time>
+                    </div>
+                  </section>
+                </div>
+                <div class='time-block'>12:20</div>
+                <section class='session room-rest'>
+                  <h3 class='title'>午餐</h3>
+                  <div class='info'>
+                    <time>12:20 ~ 13:40 (80 mins)</time>
+                  </div>
+                </section>
+                <div class='time-block'>13:40</div>
+                <div class='row'>
+                  <section class='session speech'>
+                    <div class='header-info'>
+                      <span>邀請演講</span>
+                      場次主持：李怡志 (網路媒體工作者)
+                    </div>
+                    <h3 class='title'>
+                      從 2013 社群網絡活動看台灣社會發展趨勢
+                      <a href='http://www.slideshare.net/tw_dsconf/2013-38527618' target='_new'>
+                        <img class='icon' src='/2014/images/slide.png'>
+                      </a>
+                      <a href='https://www.youtube.com/watch?v=udBMNjyfU_I' target='_new'>
+                        <img class='icon' src='/2014/images/youtube.png'>
+                      </a>
+                    </h3>
+                    <div class='info'>
+                      <a class='speaker-link' href='/2014/speaker#enrico' target='_new'>呂俊宏 (Enrico Lu)</a>
+                      <div class='speaker-in-speech' data-name='enrico,呂俊宏'>
+                        <div class='speaker-block'>
+                          <div class='mask'></div>
+                          <div class='speaker-name'>呂俊宏 (Enrico Lu)</div>
+                          <div class='speaker-title'>資訊工業策進會創新應用服務研究所研究顧問</div>
+                          <div class='speaker-bio'>​畢業於國立臺灣大學建築與城鄉研究所，為資訊工業策進會創新應用服務研究所資深工程師。專長為巨量資料、知識管理技術、網路服務技術、軟體研發組織管理、自然語言處理。</div>
+                        </div>
+                        <img src='/2014/images/speaker/enrico.jpg'>
+                      </div>
+                      <time>13:40–14:25 (45 mins)</time>
+                    </div>
+                  </section>
+                </div>
+                <div class='time-block'>14:25</div>
+                <div class='row'>
+                  <section class='session speech'>
+                    <div class='header-info'>
+                      <span>邀請演講</span>
+                      場次主持：許永真 (台灣大學資訊工程學系 & Intel-臺大創新研究中心)
+                    </div>
+                    <h3 class='title'>
+                      從社群資料來看工人(群眾)智慧與人工智慧的結合
+                      <a href='https://docs.google.com/presentation/d/1SJMboGVP7uDt4fRVyEQYwRQuAQHKkybc2oHnYD6J38o/edit#slide=id.p' target='_new'>
+                        <img class='icon' src='/2014/images/slide.png'>
+                      </a>
+                      <a href='https://www.youtube.com/watch?v=Hwemxq9OETg' target='_new'>
+                        <img class='icon' src='/2014/images/youtube.png'>
+                      </a>
+                    </h3>
+                    <div class='info'>
+                      <a class='speaker-link' href='/2014/speaker#gene' target='_new'>洪進吉 (Gene Hong)</a>
+                      <div class='speaker-in-speech' data-name='gene,洪進吉'>
+                        <div class='speaker-block'>
+                          <div class='mask'></div>
+                          <div class='speaker-name'>洪進吉 (Gene Hong)</div>
+                          <div class='speaker-title'>台灣數位文化協會顧問</div>
+                          <a class='speaker-info' href='http://gene.speaking.tw/'>個人網站</a>
+                          <div class='speaker-bio'>洪進吉 (食夢黑貘，Gene Hong)，「部落格觀察」站長、台灣數位文化協會顧問，協助架設「莫拉克民間災情網路中心」，亦建立「林克傳說」語意與資料探勘等相關 Big Data 系統。主要專長是高有效性系統與高效能運算，以及行為預測等資料探勘，社群行為與語意網路等研究。曾任職下面公司顧問與工程師做資料研究: 網研(魅力站)、博客來、聯絡家(Linkist)、網祿(花蝶)、創市際(ARO)、學思行(Tazze)、資策會、EZPrice、潮網等公司。</div>
+                        </div>
+                        <img src='/2014/images/speaker/gene.png'>
+                      </div>
+                      <time>14:25–15:10 (45 mins)</time>
+                    </div>
+                  </section>
+                </div>
+                <div class='time-block'>15:10</div>
+                <section class='session room-rest'>
+                  <h3 class='title'>茶點與交流時間</h3>
+                  <div class='info'>
+                    <time>15:10 ~ 15:30 (20 mins)</time>
+                  </div>
+                </section>
+                <div class='time-block'>15:30</div>
+                <div class='row'>
+                  <section class='session speech'>
+                    <div class='header-info'>
+                      <span>邀請演講</span>
+                      場次主持：蔣居裕 (Etu)
+                    </div>
+                    <h3 class='title'>
+                      天下武功唯快不破：<br/>　利用串流資料實做出即時分類器和即時推薦系統
+                      <a href='http://www.slideshare.net/tw_dsconf/pinball-ds-cv2yahoo' target='_new'>
+                        <img class='icon' src='/2014/images/slide.png'>
+                      </a>
+                      <a href='https://www.youtube.com/watch?v=xEjuFLtsAlQ' target='_new'>
+                        <img class='icon' src='/2014/images/youtube.png'>
+                      </a>
+                    </h3>
+                    <div class='info'>
+                      <a class='speaker-link' href='/2014/speaker#norman' target='_new'>黃孝文 (Norman)</a>
+                      <div class='speaker-in-speech' data-name='norman,黃孝文'>
+                        <div class='speaker-block'>
+                          <div class='mask'></div>
+                          <div class='speaker-name'>黃孝文 (Norman)</div>
+                          <div class='speaker-title'>Yahoo! Taiwan Senior Data Engineer</div>
+                          <a class='speaker-info' href='http://www.linkedin.com/in/normany'>個人網站</a>
+                          <div class='speaker-bio'>熱愛透過資料的分析，找出其中隱藏的模式及可運用的知識，對解讀與詮釋資料模型深深著迷。目前任職於Yahoo!奇摩，致力於從電子商務平台上混雜的行為脈絡，經由分析消費者的購買偏好、商品特性及其交互影響的關係，在購物過程中提供消費者即時且適合的推薦商品。</div>
+                        </div>
+                        <img src='/2014/images/speaker/norman.jpg'>
+                      </div>
+                      <div class='speaker-in-speech' data-name='jason,jlin,林于聖'>
+                        <div class='speaker-block'>
+                          <div class='mask'></div>
+                          <div class='speaker-name'>林于聖 (Jason Lin)</div>
+                          <div class='speaker-title'>Yahoo! Taiwan Senior Data Engineer</div>
+                          <a class='speaker-info' href='www.linkedin.com/pub/jason-lin/67/93/743'>個人網站</a>
+                          <div class='speaker-bio'>對於新技術科技都有特別的熱誠，喜歡寫程式，新科技，組裝3D印表機，對於資料挖掘非常有興趣。在Yahoo擔任資料工程師，致力於設計架構平台，也分析使用者在網站上的行為，研究商品，網站，使用者之間的關聯及影響性。在資訊爆炸的時代,如何將繁雜的資料抽絲剝繭,當使用者瀏覽時,能精準預測準確且即時地推薦使用者所需要的商品。</div>
+                        </div>
+                        <img src='/2014/images/speaker/jason.jpg'>
+                      </div>
+                      <time>15:30–16:15 (45 mins)</time>
+                    </div>
+                  </section>
+                </div>
+                <div class='time-block'>16:15</div>
+                <div class='row'>
+                  <section class='session speech'>
+                    <div class='header-info'>
+                      <span>邀請演講</span>
+                      場次主持：江彥生 (香港中文大學社會系)
+                    </div>
+                    <h3 class='title'>
+                      讓數字說話：資料的公益責信應用
+                      <a href='http://www.slideshare.net/tw_dsconf/ss-38528808' target='_new'>
+                        <img class='icon' src='/2014/images/slide.png'>
+                      </a>
+                      <a href='https://www.youtube.com/watch?v=PSDeYhZ5lx8' target='_new'>
+                        <img class='icon' src='/2014/images/youtube.png'>
+                      </a>
+                    </h3>
+                    <div class='info'>
+                      <a class='speaker-link' href='/2014/speaker#simon' target='_new'>余孟勲 (MengHsun Simon Yu)</a>
+                      <div class='speaker-in-speech' data-name='simon,mhyu,余孟勲'>
+                        <div class='speaker-block'>
+                          <div class='mask'></div>
+                          <div class='speaker-name'>余孟勲 (MengHsun Simon Yu)</div>
+                          <div class='speaker-title'>台灣公益責信協會發起人兼理事長</div>
+                          <a class='speaker-info' href='http://www.apa-tw.org/'>台灣公益責信協會</a>
+                          <div class='speaker-bio'>木柵大學畢業，不熱衷賺錢的 finance major，曾就任會計師事務所查帳員，每年考績第一名卻離職跑去環島及擔任志工。到鹿特丹唸MBA時，以背包客的方式遊歷十三國，學習從脈絡看人生。想要用更有效率的方式改變世界，發起台灣公益責信協會，投入公益團體財務透明及治理能力基礎建設。擅長思考傾聽說話寫字及教導，喜歡動手解決問題介入現實。</div>
+                        </div>
+                        <img src='/2014/images/speaker/simon.jpg'>
+                      </div>
+                      <time>16:15–17:00 (45 mins)</time>
+                    </div>
+                  </section>
+                </div>
+                <div class='time-block'>17:00</div>
+                <div class='row'>
+                  <section class='session ceremony long-time'>
+                    <div class='header-info'>
+                      <span>全體活動</span>
+                      場次主持：高嘉良 (g0v)
+                    </div>
+                    <h3 class='title'>
+                      g0v 黑客松成果展示
+                      <a href='https://www.youtube.com/watch?v=aTrFW4eBzNw' target='_new'>
+                        <img class='icon' src='/2014/images/youtube.png'>
+                      </a>
+                    </h3>
+                    <div class='info'>
+                      <time>17:00–18:00 (60 mins)</time>
+                    </div>
+                  </section>
+                </div>
+                <div class='time-block'>18:00</div>
+                <section class='session ceremony'>
+                  <div class='header-info'>
+                    <span>全體活動</span>
+                    場次主持：陳昇瑋 (中央研究院資訊科學研究所)
+                  </div>
+                  <h3 class='title'>
+                    閉幕式
+                    <a href='http://www.slideshare.net/tw_dsconf/2014-38534610' target='_new'>
+                      <img class='icon' src='/2014/images/slide.png'>
+                    </a>
+                    <a href='https://www.youtube.com/watch?v=YvUMJzlC4qY' target='_new'>
+                      <img class='icon' src='/2014/images/youtube.png'>
+                    </a>
+                  </h3>
+                  <div class='info'>
+                    <time>18:00–18:15 (15 mins)</time>
+                  </div>
+                </section>
+                <div class='time-block'>18:15</div>
+              </div>
+            </div>
+            <!-- = render "/footer" -->
+          </div>
+          <a class='logo' href='/2014/'></a>
+        </div>
+      </div>
+    </div>
+    <script src="//code.jquery.com/jquery-2.0.2.min.js" type="text/javascript"></script>
+    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false'></script>
+    <script src='/2014/javascripts/fastclick.js'></script>
+    <script src='/2014/javascripts/functions.js'></script>
+    <script src='/2014/javascripts/hero.js'></script>
+    <script src='/2014/javascripts/jquery.colorbox-min.js'></script>
+    <script src='/2014/javascripts/site.js'></script>
+    <script>
+      _site().setup();
+    </script>
+    <script src='/2014/javascripts/all.js'></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-50828306-1', 'data-sci.org');
+      ga('send', 'pageview');
+    </script>
+    <script defer='true' src='/2014/javascripts/slide.js'></script>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/zh_TW/all.js#xfbml=1&appId=";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    
+  </body>
+</html>

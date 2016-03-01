@@ -1,0 +1,46 @@
+- content_for :title do
+  %title= "Speaker | #{data['site-title']}"
+
+- content_for :hero do
+  = render "/hero-page"
+
+.section
+  %h2.title
+    議程講師
+    %a{:href=>"javascript:SpeakerConsole.showAll();",:style=>"float:right;margin:0px 5px;"} 全部展開
+    %a{:href=>"javascript:SpeakerConsole.hideAll();",:style=>"float:right;margin:0px 5px;"} 全部收合
+  %ul.speaker
+    -# speakers = [ "enrico","simon","mnwu","cjlin","dllin","gene","jason","clkao","yimin","chchen","cmpeng","jeff","normany","mlpan","chliu","ckliu","craig" ]
+    - speakers = [ "cjlin","clkao","ckliu","chchen","craig","mlpan","chliu","dllin","jeff","yimin","cmpeng","mnwu","enrico","gene","normany","jason","simon" ]
+    - speakers.each do |file|
+      - speaker = speaker_file(file);
+      %li{:"data-name"=>"#{speaker['tags'].join(",")},Speakers"}
+        .speaker-block
+          .mask
+          .speaker-name= speaker['name']
+          - speaker['title'].each do |title|
+            .speaker-title= title
+          - speaker['sites'].each do |site|
+            %a.speaker-info{:href=>"#{site['href']}"}= site['title']
+          .speaker-bio= speaker['bio']
+        %img{:src=>"/images/#{speaker['img']}"}
+  %br
+  %h2.title
+    課程講師
+    %a{:href=>"javascript:SpeakerConsole.showAll();",:style=>"float:right;margin:0px 5px;"} 全部展開
+    %a{:href=>"javascript:SpeakerConsole.hideAll();",:style=>"float:right;margin:0px 5px;"} 全部收合
+  %ul.speaker
+    -# tutors = [ "aha","summit","ben","jiawei","mansun","dboy","johnson","george","kyle" ]
+    - tutors = [ "dboy","summit","jiawei","aha","johnson","george","ben","mansun","kyle" ]
+    - tutors.each do |file|
+      - tutor = speaker_file(file);
+      %li{:"data-name"=>"#{tutor['tags'].join(",")},Tutors"}
+        .speaker-block
+          .mask
+          .speaker-name= tutor['name']
+          - tutor['title'].each do |title|
+            .speaker-title= title
+          - tutor['sites'].each do |site|
+            %a.speaker-info{:href=>"#{site['href']}"}= site['title']
+          .speaker-bio= tutor['bio']
+        %img{:src=>"/images/#{tutor['img']}"}

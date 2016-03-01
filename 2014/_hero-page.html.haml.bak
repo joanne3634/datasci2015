@@ -1,0 +1,5 @@
+.hero-page
+  %a{ :href => "/" }
+    %hgroup
+      %h1.title 台灣資料科學愛好者年會 2014
+      %h2.slogan －不喊口號，看得見摸得著資料的研討會

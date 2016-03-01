@@ -1,0 +1,35 @@
+- content_for :title do
+  %title= "Agenda | #{data['site-title']}"
+
+- content_for :hero do
+  = render "/hero-page"
+
+.section.agenda
+  %h2.title 演講議程
+  .legend
+    .color.ceremony
+    年會全體活動
+    %span 國際會議廳
+  .legend
+    .color.speech
+    議程活動
+    %span 國際會議廳
+  .legend
+    .color.room-rest
+    交流時間
+
+  #day1
+  .date-block
+    %p
+      8/30 議程第一天
+      %a.jumper{:href=>"#day2"} 跳到第二天 8/31 →
+  .agenda-table= render "day1"
+
+  #day2
+  .date-block
+    %p
+      8/31 議程第二天
+      %a.jumper{:href=>"#day1"} 跳到第一天 8/30 →
+  .agenda-table= render "day2"
+
+  -# .hidden-note= render "hidden-note"

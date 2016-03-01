@@ -1,0 +1,112 @@
+-
+  title: "總召 / 議程"
+  people:
+    -
+      name: "陳昇瑋"
+      href: "http://www.iis.sinica.edu.tw/~swc/index_c.html"
+      org: "中央研究院資訊科學研究所"
+      img: "staff/swc.png"
+  worker: []
+-
+  title: "課程"
+  people:
+    -
+      name: "吳齊軒"
+      href: ""
+      org: "台灣大學電機工程學研究所 / Taiwan R User Group"
+      img: "staff/wu.png"
+    -
+      name: "謝宗震"
+      href: ""
+      org: "清華大學統計學研究所"
+      img: "staff/hsieh.png"
+  worker: []
+-
+  title: "行銷 / 行政"
+  short: "True"
+  people:
+    -
+      name: "杜彥蓁"
+      href: ""
+      org: ""
+      img: "staff/erin.png"
+  worker: []
+-
+  title: "公關 / 會計"
+  short: "True"
+  people:
+    -
+      name: "林宛瑩"
+      href: ""
+      org: ""
+      img: "staff/wendy.png"
+  worker: []
+-
+  title: "出納"
+  short: "True"
+  people:
+    -
+      name: "洪雅瑄"
+      href: ""
+      org: ""
+      img: "staff/yaxuan.png"
+  worker: []
+-
+  title: "資料組"
+  short: "True"
+  people:
+    -
+      name: "王澤浩"
+      href: "http://salmon.tw/"
+      org: ""
+      img: "staff/salmon.png"
+  worker: []
+-
+  title: "網站組"
+  short: "True"
+  people:
+    -
+      name: "康傑"
+      href: ""
+      org: ""
+      img: "staff/kj.png"
+  worker: []
+-
+  title: "線路組"
+  short: "True"
+  people:
+    -
+      name: "David Huang"
+      href: "https://www.facebook.com/CPRTeam.TW"
+      org: ""
+      img: "staff/cpr.png"
+  worker: []
+-
+  title: "場務組"
+  people: []
+  worker:
+    - Zac(組長)
+    - 許懷中(組長)
+    - 羅經凱(組長)
+    - Cathy Tung
+    - Ning Chen
+    - Panmike
+    - Randy
+    - Sophia Chiang
+    - 小企鵝
+    - 丞相
+    - 余采蓉
+    - 吳文心
+    - 許之凡
+    - 玠含
+    - 林志昇
+    - 林洧伊
+    - 岱霖
+    - 張家綺
+    - 張浩軒
+    - 莊馨儀
+    - 曾書庭
+    - 賴佳宏
+    - 蔡宗翰
+    - 黃玟菁
+    - 黃韋程

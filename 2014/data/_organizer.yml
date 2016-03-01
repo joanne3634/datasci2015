@@ -1,0 +1,46 @@
+-
+  title: "主辦單位"
+  orgs:
+    -
+      title: "台灣資料科學愛好者協會籌備處"
+      href: ""
+      image: "logo.png"
+    -
+      title: "中華民國計算語言學學會"
+      href: "http://www.aclclp.org.tw/index_c.php"
+      image: "organizer/cpl.png"
+-
+  title: "協辦單位"
+  orgs:
+    -
+      title: "中央研究院資訊科學研究所"
+      href: "http://www.iis.sinica.edu.tw"
+      image: "organizer/iis.gif"
+    -
+      title: "中央研究院資訊科技創新研究中心"
+      href: "http://www.citi.sinica.edu.tw"
+      image: "organizer/citi.gif"
+    -
+      title: "中央研究院統計科學研究所"
+      href: "http://www.stat.sinica.edu.tw"
+      image: "organizer/statistic.gif"
+    -
+      title: "工業技術研究院巨量資訊科技中心"
+      href: "https://www.itri.org.tw/chi/citc/"
+      image: "organizer/hugedata.png"
+    -
+      title: "中華機率統計學會"
+      href: "http://www.cips.org.tw/"
+      image: "organizer/cips.png"
+    -
+      title: "Intel-臺大創新研究中心"
+      href: "http://ccc.ntu.edu.tw/index.php/ch/"
+      image: "organizer/ccc.png"
+    -
+      title: "Taiwan R User Group"
+      href: "https://www.facebook.com/Tw.R.User"
+      image: "organizer/rgroup.png"
+    -
+      title: "g0v 零時政府"
+      href: "http://g0v.tw"
+      image: "organizer/g0v.png"
