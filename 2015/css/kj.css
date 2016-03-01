@@ -1,0 +1,35 @@
+dt.-fold
+{
+    display: none;
+}
+
+dt.-little img
+{
+    width: 130px;
+    margin: 15px;
+}
+
+dd > p
+{
+    margin-bottom: 0px;
+}
+
+dd.-fold > *:not(h4)
+{
+    display: none;
+}
+
+/* error page */
+.error{
+	font-weight: bold;
+    position: relative;
+    color: #ef8322;
+    text-transform: capitalize;
+    font-weight: normal;
+}
+.error-title{
+	font-size: 45px;
+}
+.error-text{
+	font-size: 30px;	
+}
