@@ -123,8 +123,23 @@ $team = array(
             /* header 的 標題文字 只有一行的時候改 line-height */
             #header .navbar-brand{
                 line-height: 40px;
+                padding-top: 24px;
+                font-size: 24px;
+                max-width: none;
             } 
-    
+            @media (max-width: 953px){
+                #header .navbar-brand{
+                    padding-top: 15px;
+                    font-size: 21px;
+                    max-width: 320px;
+
+                } 
+            }
+            @media (min-width: 768px)  and ( max-width: 800px){
+                #header .navbar-brand{
+                    font-size: 18px;
+                }
+            }
             @media (max-width: 767px){
                 .mainTitle h2 {
                     margin: 18px 0 10px 0;

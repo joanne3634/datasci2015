@@ -22,7 +22,7 @@ foreach ( $speakers as $id => $speaker )
             <div>
                 <div class="caption">
                     <h3><?php echo $sp_name; ?> <span class="no-bold"><?php echo $speaker['engn']; ?></span></h3>
-                    <?php foreach( $speaker['title'] as $title ) { ?><h5><?php echo $title; ?></h5><?php } ?>
+                    <?php foreach( $speaker['title'] as $title ) { ?><p><?php echo $title; ?></p><?php } ?>
                     <?php foreach( $speaker['info'] as $line ) { ?><p><?php echo $line; ?></p><?php } ?>
                 </div>
             </div>

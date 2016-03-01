@@ -150,12 +150,12 @@ jQuery(document).ready(function() {
 		offset: navHeight
 	});
 	if (jQuery().localScroll) {
-		jQuery('#mainmenu').localScroll({
+		jQuery('.navbar').localScroll({
+			target: 'body',
 			duration:900,
 			easing:'easeInOutQuart',
-			offset: -navHeight+10
-		});
-		
+			offset: -navHeight
+		});	
 	}
 
 });

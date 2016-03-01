@@ -33,3 +33,10 @@ dd.-fold > *:not(h4)
 .error-text{
 	font-size: 30px;	
 }
+
+.history-link{
+    display: block;
+    padding: 5px 0px;
+    color: #ef8322;
+    font-size: 20px;
+}

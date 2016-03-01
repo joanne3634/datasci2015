@@ -409,7 +409,7 @@
 */
 
 section > .container {
-    padding-top: 80px;
+    padding-top: 30px;
     padding-bottom: 30px;
 }
 
@@ -3202,10 +3202,14 @@ widget_pages
     color: #ef8322;
 }
 
+.widget_trafic li.h4{
+    font-size: 24px;
+}
+
 .widget_trafic li.h4:before {
     font-family: 'rt-icons';
     content: "\e691";
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1;
     position: relative;
     top: 0px;
@@ -3219,19 +3223,32 @@ widget_pages
 
 .widget_trafic ul ul li {
     line-height: 1.6;
-    padding-left: 25px;
+    padding-left: 15px;
 }
 
 .widget_trafic ul ul li:before {
-    content: "■";
+    content: "\2022";
+    font-size: 30px;
+    line-height: 1;
+    position: relative;
+    top: 4px;
+    padding-right: 10px;
+    margin-left: -20px;
+    color: #ef8322;
+}
+
+/*.widget_trafic ul ul li:before {
+    content: "\25CF";
     font-size: 16px;
     line-height: 1;
     position: relative;
     top: 0px;
-    padding-right: 9px;
-    margin-left: -25px;
-    color: #ef8322;
+    padding-right: 10px;
+    margin-left: -26px;
+     color: #ef8322;
 }
+*/
+
 
 .widget_about p {
     margin-left: 26px;
@@ -6564,11 +6581,12 @@ td.time {
 
 /* 講者職稱字體大小放大 */
 .caption > h5 {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 /* 議程文字部分改成橘色*/
 .warning .schedule-content {
     color: #c36918;
+    font-weight: normal;
 }
 
