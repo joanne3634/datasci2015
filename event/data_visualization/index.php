@@ -286,7 +286,5 @@ $team = array(
             </section>
         </div><!-- eof #box_wrapper -->
         <?php include('../_template/script.php'); ?>
-        <!-- TODO 測試用 上線要拿掉 -->
-       <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
     </body>
 </html>
