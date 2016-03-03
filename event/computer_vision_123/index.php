@@ -184,9 +184,9 @@ $team = array(
                 </div>
             </section>
             <section id="about_us"><?php include('../_template/about.php'); ?></section>
-            <section id="schedule" class="pic_section"><?php include('../_template/schedule.php'); ?></section>
+            <section id="schedule"><div  class="pic_section" ><?php include('../_template/schedule.php'); ?></div></section>
             <section id="speaker"><?php include('../_template/speaker.php'); ?></section>
-            <section id="ticket" class="grey_section"><?php include('../_template/ticket.php'); ?></section>
+            <section id="ticket"><div class="grey_section"><?php include('../_template/ticket.php'); ?></div></section>
             <section id="traffic"><?php include('../_template/traffic.php'); ?></section>
             <section id="team"><?php include('../_template/team.php'); ?></section>
             <section id="copyright" class="color_section">

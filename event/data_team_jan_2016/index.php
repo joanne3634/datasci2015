@@ -187,11 +187,11 @@ $team = array(
                 </div>
             </section>
             <section id="about_us"><?php include('../_template/about.php'); ?></section>
-            <section id="schedule" class="pic_section"><?php include('../_template/schedule.php'); ?></section>
+            <section id="schedule"><div  class="pic_section" ><?php include('../_template/schedule.php'); ?></div></section>
             <section id="speaker"><?php include('../_template/speaker.php'); ?></section>
-            <section id="content" class="grey_section"><?php include('../_template/content.php'); ?></section>
+            <section id="content" ><div class="grey_section" ><?php include('../_template/content.php'); ?></div></section>
             <section id="ticket"><?php include('../_template/ticket.php'); ?></section>
-            <section id="traffic" class="grey_section"><?php include('../_template/traffic.php'); ?></section>
+            <section id="traffic" ><div class="grey_section" ><?php include('../_template/traffic.php'); ?></div></section>
             <section id="team"><?php include('../_template/team.php'); ?></section>
             <section id="copyright" class="color_section">
                 <div class="container">
