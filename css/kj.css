@@ -1,42 +1,52 @@
-dt.-fold
-{
+dt.-fold {
     display: none;
 }
 
-dt.-little img
-{
+dt.-little img {
     width: 130px;
     margin: 15px;
 }
 
-dd > p
-{
+dd > p {
     margin-bottom: 0px;
 }
 
-dd.-fold > *:not(h4)
-{
+dd.-fold > *:not(h4) {
     display: none;
 }
 
+
 /* error page */
-.error{
-	font-weight: bold;
+
+.error {
+    font-weight: bold;
     position: relative;
     color: #ef8322;
     text-transform: capitalize;
     font-weight: normal;
 }
-.error-title{
-	font-size: 45px;
-}
-.error-text{
-	font-size: 30px;	
+
+.error-title {
+    font-size: 45px;
 }
 
-.history-link{
+.error-text {
+    font-size: 30px;
+}
+
+.history-link {
     display: block;
     padding: 5px 0px;
     color: #ef8322;
     font-size: 20px;
+}
+@media (min-width: 1000px) and (max-width: 1200px){
+    .history-link {
+        font-size: 18px;
+    }
+}
+@media (max-width: 500px) {
+    .history-link {
+        font-size: 18px;
+    }
 }
