@@ -14,9 +14,9 @@ $kktix_link = 'data-vis';
 $kktix_date = strtotime('2015-02-26 12:00:00');
 $reg_date = strtotime('2016-03-08 12:00:00');
 $reg_time = '中午 12:00';
-$deadline = strtotime('2016-03-16 23:59:59');
+$deadline = strtotime('2016-03-15 12:00:00');
 $price = 1980;
-//$ticket_full = true;
+// $ticket_full = true;
 
 
 $about = array(
