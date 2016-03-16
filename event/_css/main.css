@@ -5701,6 +5701,12 @@ isotope animations
 
 #about_us h2 {
     margin-bottom: 20px;
+    line-height: 1.2em;
+}
+
+.about_desc h2 {
+    font-size: 20px;
+    line-height: 1.2em;
 }
 
 @media (max-width: 767px) {
@@ -6589,6 +6595,7 @@ td.time {
     color: #c36918;
     font-weight: normal;
 }
+
 /*#header {
     position: fixed;
 }*/
