@@ -114,7 +114,6 @@ $team = array(
         <link rel="stylesheet" href="../_css/fonts.css">
         <script src="../_js/vendor/modernizr-2.6.2.min.js"></script>
 
-
         <!--[if lt IE 9]>
         <script src="../_js/vendor/html5shiv.min.js"></script>
         <script src="../_js/vendor/respond.min.js"></script>

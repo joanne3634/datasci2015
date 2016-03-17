@@ -1,0 +1,28 @@
+{
+  "name": "datasci2015",
+  "version": "1.0.0",
+  "description": "new version for color change",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "browserify": "^13.0.0",
+    "gulp": "^3.9.1",
+    "gulp-cache": "^0.4.2",
+    "gulp-connect": "^3.1.0",
+    "gulp-connect-php": "0.0.7",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-uglify": "^1.5.3",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "joanne",
+  "license": "ISC"
+}
