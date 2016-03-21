@@ -1,34 +1,61 @@
 <?php
-$title = '資料視覺化之理論、賞析與實作';
-$title_rwd = array(  '資料視覺化', '<span style="font-size:0.8em;">理論、賞析與實作</span>' );
-$caption = array(  '資料視覺化之理論、賞析與實作'
-    // , '<span style="font-size:0.8em;">理論、賞析與實作</span>' 
-    );
+$title = 'R 語言翻轉教室';
+// $title_rwd = array(  'R 語言翻轉教室' );
+$caption = array(  'R 語言翻轉教室');
 
+$event_date = array( strtotime('2016-04-23 17:00:00'), strtotime('2016-04-30 17:00:00') );
 
-$event_date = strtotime('2016-03-26 17:00:00');
 $weekdays = array( '0'=>'日', '1'=>'一', '2'=>'二', '3'=>'三', '4'=>'四', '5'=>'五', '6'=>'六' );
-$date_string = date('Y/n/j',$event_date) . ' (' . $weekdays[date('w',$event_date)] . ')';
+$date_string .= date('Y/n/j',$event_date[0]) . ', '.date('j',$event_date[1]).' (' . $weekdays[date('w',$event_date[0])] . ')';
 
-$kktix_link = 'data-vis';
-$kktix_date = strtotime('2015-02-26 12:00:00');
-$reg_date = strtotime('2016-03-08 12:00:00');
+$kktix_link = 'r-classroom';
+$kktix_date = strtotime('2015-03-27 12:00:00');
+$reg_date = strtotime('2016-03-30 12:00:00');
 $reg_time = '中午 12:00';
-$deadline = strtotime('2016-03-15 12:00:00');
+$deadline = strtotime('2016-04-06 12:00:00');
 $price = 1980;
 // $ticket_full = true;
 
 
 $about = array(
-    'title' => '資料視覺化之理論、賞析與實作',
+    'title' => 'R 語言翻轉教室',
     'content' => array(
-        '資料視覺化是資料科學中重要的領域，尤其在現代資料巨量化的浪潮下，透過各種視覺化的呈現，能讓專業人員，快速從資料中快速判讀，發現關鍵問題。也幫助跨領域的溝通，以圖像式的方式，說明、探索與分析資料背後的意義，提昇決策的效率與品質。',
-        '這個課程濃縮了康教授在台大所開設的『資料視覺化』課程的精華，總共包含賞析、理論、設計與實作四節課程。在賞析課程中，他將解析經典的案例，從案例中培養出資料視覺設計師的眼光，懂得看到設計下面的精妙。第二節課是理論課，他將介紹心理學中相關的研究發現，解釋人類的視覺系統是怎麼接受資訊，怎麼理解資訊，這些心理學理論，都是資料視覺化的設計時，必須符合的基礎。第三節課將說明設計方法，他會具體說明如何從資料到視覺化的設計步驟，包含了解資料的維度，使用者的需求，資料的形態。並說明如何以步驟化的方式，發展好資料視覺化方法，達到解決問題的目的。課程最後，康教授將介紹他使用各類資料視覺化的工具的經驗，包含 Tableau, Processing, D3.js 等，也將展示他和他的學生所開發的實務案例。'
+        '面對撲面而來的資料浪潮，包含 Google、Facebook、Intel、Pfizer、Bank of America 等國際級企業，都已經採用 R 語言進行資料分析，許多全球一流大學如 Stanford、Johns Hopkins 和 UCLA 也將 R 視為資料分析課程的先修科目。R 語言具有免費、跨平台、佔有率高、可塑性高等優勢，各式各樣的 R 社群蓬勃發展。在國際知名的 KDnuggets 論壇統計當中，R 語言已經連續三年獲得資料科學家最常使用的資料分析語言第一名。',
+        '本課程很榮幸邀請到 Taiwan R User Group 的共同創辦人吳齊軒 ( Wush Wu ) 擔任講者，利用一套用 R 學 R 的教案 -- R 語言翻轉教室，來引領無程式開發經驗的學員，從實作中瞭解 R 語言的基本操作以及初階資料分析。這樣的訓練將幫助學員學會如何掌握資料的脈絡，進而輔助決策，目標是改善同學們學R語言基礎知識的體驗。適合資訊科學、統計學、商學、傳播學、社會學及其他領域的學生。學員應該自我期許，學會下列內容：',
+        '* R 語言的優缺點<br>* 建立開發環境<br>* 基礎語法<br>* 開放資料的處理<br>* 輸出統計圖表'
     )
 );
 
 $content = array(
-    '學員基本要求' => array( '這門課不是技術課程，是建立觀念，培養眼光，了解資料視覺化這個新興領域發展的課程。','學員不需要預備電腦、不需程式背景、不需安裝軟體；歡迎大家帶著開放的心，銳利的眼睛，以及敏捷的頭腦一起來學習這門有趣的學問。' ),
+    '適合對象' => array( '想從事資料分析工作，卻無程式開發經驗',
+        '想學習免費、跨平台且開源的資料分析工具',
+        '想學習如何處理台灣的開放資料',
+        '想在兩天入門 R 語言，並將 R 用於自己的工作中',
+        '了解「 R 語言翻轉教室」是一套自學教材，但是在學習中需要導引，以及導師的協助的同學'
+    ),
+    '學員要求' => array( '自備符合「 R 語言翻轉教室」需求的筆電（ 請見後續說明 ）','一定的英文打字水準' ),
+    '筆電要求' => array( 
+        '學員須自備可以無線上網的筆記型電腦，建議使用以下作業系統：<br>
+            *  Windows 7 或以上，帳號不得包含中文<br>
+            *  Mac OS X 10.9 或以上<br>
+            *  Ubuntu 14.04 或以上',
+        '建議課程開始前先自行安裝以下工具，講師也會在課堂上說明安裝注意事項。<br>
+            *  <a src="http://cran.rstudio.com/" target="_blank">R</a> ( R-3.1.2 以上版本 )<br>
+            *  <a src="http://wush978.github.io/DataScienceAndR/#%E6%B1%82%E5%8A%A9%E5%B0%88%E5%8D%80" target="_blank">RStudio IDE</a> ( 98.1091 以上版本 )',
+        '同學請參考以下的上手影片：<br>
+        <iframe style="padding-top:10px;" width="560" height="315" src="https://www.youtube.com/embed/fcd6zSk0yd8" frameborder="0" allowfullscreen></iframe>',
+        '或是依照以下的動作快速設定學習環境：<br>
+            *  安裝 R<br>
+            *  安裝 Rstudio ( Windows 使用者請安裝 Rstudio 或自備能夠編輯 UTF-8 編碼的編輯器，OS X 與 Linux 使用者可依據自己喜好決定是否使用 Rstudio )<br>
+            *  打開 R，執行：source("http://wush978.github.io/R/init-swirl.R")<br>
+            *  輸入 library(swirl); swirl() 後即進入教學環境。<br>
+            *  進入 00-Hello-DataScienceAndR 課程檢查你的電腦能不能執行本教材的所有功能，並瞭解本教材所提供的功能。',
+        '有興趣了解安裝細節的同學，請參考：<br>
+            *  <a src="https://github.com/wush978/DataScienceAndR/wiki/Windows-%E8%A8%AD%E5%AE%9A%E6%8C%87%E5%8D%97" target="_blank">Windows</a><br>
+            *  <a src="https://github.com/wush978/DataScienceAndR/wiki/Mac-OS-X-%E8%A8%AD%E5%AE%9A%E6%8C%87%E5%8D%97" target="_blank">Mac OS X</a><br>
+            *  <a src="https://github.com/wush978/DataScienceAndR/wiki/Ubuntu-%E8%A8%AD%E5%AE%9A%E6%8C%87%E5%8D%97" target="_blank">Ubuntu</a>',
+        '安裝上有問題，或是在執行 00-Hello-DataScienceAndR 不順利的同學請到 <a src="http://wush978.github.io/DataScienceAndR/#%E6%B1%82%E5%8A%A9%E5%B0%88%E5%8D%80" target="_blank">求助專區</a> 取得協助'
+    ),
     '退票須知' => array(
         '本活動委由 <a href="https://kktix.com/" target="_blank">KKTIX</a> 代為處理退票退款事宜。',
         '退票時將酌收 10% 手續費、且活動前十天內（不含活動日）不予退票。',
@@ -36,29 +63,41 @@ $content = array(
     )
 );
 
-$schedule = array(
-    '9:00 - 9:30' => array( 'title' => '報到' ),
-    '9:30 - 10:30' => array( 'title' => '【賞析】認識經典案例' ),
-    '10:30 - 10:50' => array( 'title' => '茶點時間' ),
-    '10:50 - 12:30' => array( 'title' => '【理論】認識我們視覺的腦' ),
-    '12:30 - 13:20' => array( 'title' => '午餐' ),
-    '13:20 - 15:00' => array( 'title' => '【設計】從維度開始的設計手法' ),
-    '15:00 - 15:20' => array( 'title' => '茶點時間' ),
-    '15:20 - 17:00' => array( 'title' => '【實作】開發工具與開發實例' )
+$schedules = array(
+    '4.23 ' => array(
+        '9:00 - 9:30' => array( 'title' => '報到' ),
+        '9:30 - 10:30' => array( 'title' => 'R 語言概論', 'subtitle' => '資料科學的完整解決方案' ),
+        '10:30 - 10:50' => array( 'title' => '茶點時間' ),
+        '10:50 - 12:30' => array( 'title' => 'RBasic-1' ),
+        '12:30 - 13:20' => array( 'title' => '午餐' ),
+        '13:20 - 15:00' => array( 'title' => 'RBasic-2' ),
+        '15:00 - 15:20' => array( 'title' => '茶點時間' ),
+        '15:20 - 17:00' => array( 'title' => 'RDataEngineer-1', 'subtitle' => '入門與作業說明' )
+    ),
+    '4.30 ' => array(
+        '9:00 - 9:30' => array( 'title' => '報到' ),
+        '9:30 - 10:30' => array( 'title' => '資料科學團隊的 Hello World' ),
+        '10:30 - 10:50' => array( 'title' => '茶點時間' ),
+        '10:50 - 12:30' => array( 'title' => 'RDataEngineer-2' , 'subtitle' => '結構化的資料處理'),
+        '12:30 - 13:20' => array( 'title' => '午餐' ),
+        '13:20 - 15:00' => array( 'title' => 'RDataEngineer-3' , 'subtitle' => '創造價值的捷徑，結構化的資料比對'),
+        '15:00 - 15:20' => array( 'title' => '茶點時間' ),
+        '15:20 - 17:00' => array( 'title' => 'R、資料視覺化與資料探勘' )
+    )
 );
 
 $speakers = array(
-    'sckang' => array(
+    'wush' => array(
         'detail' => true,
-        'image' => 'sckang.png',
-        'name' => '康仕仲',
-        'suffix' => '博士',
-        'engn' => '(Prof. Shih-Chung Jessy Kang)',
+        'image' => 'wush.jpg',
+        'name' => '吳齊軒',
+        'suffix' => '',
+        'engn' => ' / Wush',
         'title' => array(
-            '<a href="http://sckang.caece.net/" target="_blank">臺大土木系教授兼副教務長</a>'
+            '台灣大學電機所 / 博士生'
         ),
         'info' => array(
-            '康仕仲教授是臺大土木系教授兼副教務長、美國史丹福大學博士。康教授長期投入於工程視覺化、自動化機器人、工程教育以及防災資訊系統之研發。在臺大開設電腦繪圖、遊戲引擎、資料視覺化及機器人等課程，曾獲得優良教師獎。康教授曾擔任教學發展中心數位媒體組組長，負責開放式課程及數位化教育的推廣，他在 Coursera 上開設的工程圖學系列課程，共有超過 5 萬人修習。現擔任國際期刊 Visualization in Engineering 總編輯，編輯十餘本工程視覺化及機器人自動化主題之特刊和專書，發表超過 50 篇的期刊論文。欲瞭解康博士的研究及心得分享，請至他的<a href="http://sckang.caece.net/" target="_blank">個人網頁</a>一探究竟。'
+            '國立臺灣大學電機所博士生，平時致力於推廣 R 語言，曾主辦多場 R 語言推廣講座，並經常於 Taiwan R User Group 分享 R 的使用心得。有豐富的 R 語言實務經驗，包含資料的收集、整理、分析到報告製作。擅長根據專案需求，量身打造 R 的資料分析系統，以及運用 R 和 C++ 撰寫高效能演算法。'
         )
     )
 );
@@ -121,33 +160,17 @@ $team = array(
     <![endif]-->
         <style>             
             /* header 的 標題文字 只有一行的時候改 line-height */
+            .widget_trafic ul ul li {
+                word-wrap: break-word;
+                word-break: break-all;
+            }
             #header .navbar-brand{
-                line-height: 40px;
                 padding-top: 24px;
                 font-size: 24px;
-                max-width: none;
             } 
-            @media (max-width: 953px){
-                #header .navbar-brand{
-                    padding-top: 15px;
-                    font-size: 21px;
-                    max-width: 320px;
-
-                } 
-            }
-            @media (min-width: 768px)  and ( max-width: 800px){
-                #header .navbar-brand{
-                    font-size: 18px;
-                }
-            }
             @media (max-width: 767px){
                 .mainTitle h2 {
                     margin: 18px 0 10px 0;
-                }
-            }
-            @media (min-width: 550px){
-                .maindate > h4 {
-                    font-size: 1.1em;
                 }
             }
             @media (max-width: 550px){
@@ -155,18 +178,11 @@ $team = array(
                     margin: 12px 0 10px 0;
                 }
             }
-            @media (min-width: 490px){
-                .mainTitle > .small-title{
-                    display: none;
-                }
-                .mainTitle > .mt{
-                    display: block;
-                }
-            }
+
             @media (max-width: 490px){
                 .mainTitle{
                     background: #8dd2c8;
-                    top: 58%;
+                    top: 62%;
                     font-size: 1.7em;
                     width: 85%;
                     left: 7.5%;
@@ -174,50 +190,36 @@ $team = array(
                 .mainTitle h2 {
                     margin: 5px 0 10px 0;
                 }
-                .mainTitle > .small-title{
-                    display: block;
-                }
-                .mainTitle > .mt{
-                    display: none;
-                }
+     
                 .maindate{
                     padding-top: 40px;
+                }
+                .maindate h4{
+                    line-height: 1.5em;
                 }
 
             }
             @media (max-width: 420px){
                 /* 議程文字大小 */
                 .pic_section{
-                    font-size: 14px;
-                }
-                .pic_section h3{
                     font-size: 15px;
                 }
-                .maindate {
-                    padding-top: 60px;
-                }
-                .maindate h4{
-                    line-height: 1.2;
-                    font-size: 18px;
+                .pic_section h3{
+                    font-size: 20px;
+                    line-height: 1.2em;
                 }
             }
             
             @media (max-width: 375px){
                 .mainTitle{
-                    top: 55%;             
+                    top: 58%;
                 }
-                #header .navbar-brand{
-                    font-size: 18px;
-                    padding: 15px 0px 15px 0px;
+                .maindate h4{
+                    font-size: 15px;
                 }
-            }
-            @media (max-width: 320px){
-                .mainTitle{
-                    top: 50%;
-                }      
-                #header .navbar-brand{
-                    font-size: 16px;
-                }      
+                .maindate{
+                    padding-top: 60px;
+                }
             }
             
             #header{
@@ -247,7 +249,7 @@ $team = array(
                         <div class="col-md-12">
                             <img src="../_images/dsc2016-series_main.png" class="img-responsive logoInline">
                             <div class="mainTitle">
-                                <h2 class="small-title"><?php echo implode('<br/>',$title_rwd); ?></h2>
+                                <!-- <h2 class="small-title"><?php echo implode('<br/>',$title_rwd); ?></h2> -->
                                 <h2 class="mt"><?php echo $title ?></h2>
                             </div>
                             <div class="maindate">
