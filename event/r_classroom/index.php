@@ -13,7 +13,7 @@ $kktix_date = strtotime('2015-03-27 12:00:00');
 $reg_date = strtotime('2016-03-30 12:00:00');
 $reg_time = '中午 12:00';
 $deadline = strtotime('2016-04-06 12:00:00');
-$price = 1980;
+$price = 4480;
 // $ticket_full = true;
 
 
@@ -133,8 +133,8 @@ $team = array(
         <title><?php echo $title ?> - 2016 台灣資料科學愛好者年會系列活動</title>
         <meta charset="utf-8">
         <!--[if IE]>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <![endif]-->
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <![endif]-->
         <meta name="description" content="<?php echo $title ?>">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta content="<?php echo $title ?> - 2016 台灣資料科學愛好者年會" property="og:title">
@@ -149,92 +149,15 @@ $team = array(
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         <link rel="stylesheet" href="../_css/bootstrap.min.css">
         <link rel="stylesheet" href="../_css/main.css">
+        <link rel="stylesheet" href="../_css/r_c.css">
         <link rel="stylesheet" href="../_css/animations.css">
         <link rel="stylesheet" href="../_css/fonts.css">
         <script src="../_js/vendor/modernizr-2.6.2.min.js"></script>
 
-
         <!--[if lt IE 9]>
-        <script src="../_js/vendor/html5shiv.min.js"></script>
-        <script src="../_js/vendor/respond.min.js"></script>
-    <![endif]-->
-        <style>             
-            /* header 的 標題文字 只有一行的時候改 line-height */
-            .widget_trafic ul ul li {
-                word-wrap: break-word;
-                word-break: break-all;
-            }
-            #header .navbar-brand{
-                padding-top: 24px;
-                font-size: 24px;
-            } 
-            @media (max-width: 767px){
-                .mainTitle h2 {
-                    margin: 18px 0 10px 0;
-                }
-            }
-            @media (max-width: 550px){
-                .mainTitle h2 {
-                    margin: 12px 0 10px 0;
-                }
-            }
-
-            @media (max-width: 490px){
-                .mainTitle{
-                    background: #8dd2c8;
-                    top: 62%;
-                    font-size: 1.7em;
-                    width: 85%;
-                    left: 7.5%;
-                }
-                .mainTitle h2 {
-                    margin: 5px 0 10px 0;
-                }
-     
-                .maindate{
-                    padding-top: 40px;
-                }
-                .maindate h4{
-                    line-height: 1.5em;
-                }
-
-            }
-            @media (max-width: 420px){
-                /* 議程文字大小 */
-                .pic_section{
-                    font-size: 15px;
-                }
-                .pic_section h3{
-                    font-size: 20px;
-                    line-height: 1.2em;
-                }
-            }
-            
-            @media (max-width: 375px){
-                .mainTitle{
-                    top: 58%;
-                }
-                .maindate h4{
-                    font-size: 15px;
-                }
-                .maindate{
-                    padding-top: 60px;
-                }
-            }
-            
-            #header{
-                position: fixed;
-            }
-            .pic_section, .grey_section{
-                padding-top: 30px;
-                padding-bottom: 30px;
-            }
-            .color_section{
-                margin-top: 0px !important;
-                padding-top: 0px !important;
-            }
-            
-        </style>
+            <script src="../_js/vendor/html5shiv.min.js"></script>
+            <script src="../_js/vendor/respond.min.js"></script>
+        <![endif]-->
     </head>
 
     <body>
@@ -249,7 +172,6 @@ $team = array(
                         <div class="col-md-12">
                             <img src="../_images/dsc2016-series_main.png" class="img-responsive logoInline">
                             <div class="mainTitle">
-                                <!-- <h2 class="small-title"><?php echo implode('<br/>',$title_rwd); ?></h2> -->
                                 <h2 class="mt"><?php echo $title ?></h2>
                             </div>
                             <div class="maindate">

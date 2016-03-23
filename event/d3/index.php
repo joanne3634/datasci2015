@@ -15,7 +15,7 @@ $kktix_date = strtotime('2015-03-20 12:00:00');
 $reg_date = strtotime('2016-03-30 12:00:00');
 $reg_time = '中午 12:00';
 $deadline = strtotime('2016-04-07 12:00:00');
-$price = 1980;
+$price = 2480;
 // $ticket_full = true;
 
 
@@ -101,8 +101,8 @@ $team = array(
         <title><?php echo $title ?> - 2016 台灣資料科學愛好者年會系列活動</title>
         <meta charset="utf-8">
         <!--[if IE]>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <![endif]-->
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <![endif]-->
         <meta name="description" content="<?php echo $title ?>">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta content="<?php echo $title ?> - 2016 台灣資料科學愛好者年會" property="og:title">
@@ -119,128 +119,13 @@ $team = array(
         <link rel="stylesheet" href="../_css/main.css">
         <link rel="stylesheet" href="../_css/animations.css">
         <link rel="stylesheet" href="../_css/fonts.css">
+        <link rel="stylesheet" href="../_css/d3.css">
         <script src="../_js/vendor/modernizr-2.6.2.min.js"></script>
-
-
+    
         <!--[if lt IE 9]>
-        <script src="../_js/vendor/html5shiv.min.js"></script>
-        <script src="../_js/vendor/respond.min.js"></script>
-    <![endif]-->
-        <style>             
-            /* header 的 標題文字 只有一行的時候改 line-height */
-            #header .navbar-brand{
-                /*line-height: 40px;*/
-                padding-top: 24px;
-                font-size: 24px;
-                max-width: none;
-            } 
-            @media (max-width: 953px){
-                #header .navbar-brand{
-                    padding-top: 15px;
-                    padding-bottom: 5px;
-                    font-size: 21px;
-                    max-width: 320px;
-
-                } 
-            }
-            @media (min-width: 768px)  and ( max-width: 800px){
-                #header .navbar-brand{
-                    font-size: 18px;
-                }
-            }
-            @media (max-width: 767px){
-                .mainTitle h2 {
-                    margin: 18px 0 10px 0;
-                }
-            }
-            @media (min-width: 550px){
-                .maindate > h4 {
-                    font-size: 1.1em;
-                }
-            }
-            @media (max-width: 550px){
-                .mainTitle h2 {
-                    margin: 12px 0 10px 0;
-                }
-            }
-            @media (min-width: 490px){
-                .mainTitle > .small-title{
-                    display: none;
-                }
-                .mainTitle > .mt{
-                    display: block;
-                }
-            }
-            @media (max-width: 490px){
-                .mainTitle{
-                    background: #8dd2c8;
-                    top: 58%;
-                    font-size: 1.7em;
-                    width: 85%;
-                    left: 7.5%;
-                }
-                .mainTitle h2 {
-                    margin: 5px 0 10px 0;
-                }
-                .mainTitle > .small-title{
-                    display: block;
-                }
-                .mainTitle > .mt{
-                    display: none;
-                }
-                .maindate{
-                    padding-top: 40px;
-                }
-
-            }
-            @media (max-width: 420px){
-                /* 議程文字大小 */
-                .pic_section{
-                    font-size: 14px;
-                }
-                .pic_section h3{
-                    font-size: 15px;
-                }
-                .maindate {
-                    padding-top: 60px;
-                }
-                .maindate h4{
-                    line-height: 1.2;
-                    font-size: 18px;
-                }
-            }
-            
-            @media (max-width: 375px){
-                .mainTitle{
-                    top: 55%;             
-                }
-                #header .navbar-brand{
-                    font-size: 18px;
-                    padding: 15px 0px 5px 0px;
-                }
-            }
-            @media (max-width: 320px){
-                .mainTitle{
-                    top: 50%;
-                }      
-                #header .navbar-brand{
-                    font-size: 16px;
-                }      
-            }
-            
-            #header{
-                position: fixed;
-            }
-            .pic_section, .grey_section{
-                padding-top: 30px;
-                padding-bottom: 30px;
-            }
-            .color_section{
-                margin-top: 0px !important;
-                padding-top: 0px !important;
-            }
-            
-        </style>
+            <script src="../_js/vendor/html5shiv.min.js"></script>
+            <script src="../_js/vendor/respond.min.js"></script>
+        <![endif]-->
     </head>
 
     <body>
@@ -250,7 +135,7 @@ $team = array(
         <div id="box_wrapper">
             <?php include('../_template/menu.php'); ?>
             <section id="mainslider">
-                <div class="container" style="padding-top:80px;" ><!-- style="padding-top:80px;" -->
+                <div class="container" style="padding-top:80px;" >
                     <div class="row">
                         <div class="col-md-12">
                             <img src="../_images/dsc2016-series_main.png" class="img-responsive logoInline">
