@@ -16,7 +16,7 @@ foreach($schedules as $caption => $schedule)
     </div>            
 
     <div class="row about_desc">
-        <div class="col-md-8 col-md-offset-2">
+        <div class="col-md-10 col-md-offset-1">
             <table width="100%" class="table table-bordered pagetb to_animate" data-animation="fadeInUp">
 <?php
     $panelist = array();

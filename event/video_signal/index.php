@@ -1,34 +1,40 @@
 <?php
-$title = '資料視覺化之理論、賞析與實作';
-$title_rwd = array(  '資料視覺化', '<span style="font-size:0.8em;">理論、賞析與實作</span>' );
-$caption = array(  '資料視覺化之理論、賞析與實作'
-    // , '<span style="font-size:0.8em;">理論、賞析與實作</span>' 
-    );
+$title = '視訊訊號處理與深度學習應用';
+// $title_rwd = array(  '視訊訊號處理與深度學習應用', '<span style="font-size:0.8em;">理論、賞析與實作</span>' );
+$caption = array(  '視訊訊號處理與深度學習應用' );
 
 
-$event_date = strtotime('2016-03-26 17:00:00');
+$event_date = strtotime('2016-04-23 17:00:00');
 $weekdays = array( '0'=>'日', '1'=>'一', '2'=>'二', '3'=>'三', '4'=>'四', '5'=>'五', '6'=>'六' );
 $date_string = date('Y/n/j',$event_date) . ' (' . $weekdays[date('w',$event_date)] . ')';
 
-$kktix_link = 'data-vis';
-$kktix_date = strtotime('2015-02-26 12:00:00');
-$reg_date = strtotime('2016-03-08 12:00:00');
+$kktix_link = 'video_signal';
+$kktix_date = strtotime('2015-03-27 12:00:00');
+$reg_date = strtotime('2016-03-30 12:00:00');
 $reg_time = '中午 12:00';
-$deadline = strtotime('2016-03-15 12:00:00');
+$deadline = strtotime('2016-04-06 12:00:00');
 $price = 1980;
 // $ticket_full = true;
 
 
 $about = array(
-    'title' => '資料視覺化之理論、賞析與實作',
+    'title' => '視訊訊號處理與深度學習應用',
     'content' => array(
-        '資料視覺化是資料科學中重要的領域，尤其在現代資料巨量化的浪潮下，透過各種視覺化的呈現，能讓專業人員，快速從資料中快速判讀，發現關鍵問題。也幫助跨領域的溝通，以圖像式的方式，說明、探索與分析資料背後的意義，提昇決策的效率與品質。',
-        '這個課程濃縮了康教授在台大所開設的『資料視覺化』課程的精華，總共包含賞析、理論、設計與實作四節課程。在賞析課程中，他將解析經典的案例，從案例中培養出資料視覺設計師的眼光，懂得看到設計下面的精妙。第二節課是理論課，他將介紹心理學中相關的研究發現，解釋人類的視覺系統是怎麼接受資訊，怎麼理解資訊，這些心理學理論，都是資料視覺化的設計時，必須符合的基礎。第三節課將說明設計方法，他會具體說明如何從資料到視覺化的設計步驟，包含了解資料的維度，使用者的需求，資料的形態。並說明如何以步驟化的方式，發展好資料視覺化方法，達到解決問題的目的。課程最後，康教授將介紹他使用各類資料視覺化的工具的經驗，包含 Tableau, Processing, D3.js 等，也將展示他和他的學生所開發的實務案例。'
+        '自動車是怎麼樣理解周遭的環境的？谷歌到底是怎麼快速找出我要的照片？波士頓的警方是怎麼找到馬拉松爆炸嫌疑犯的？這些都是由分析大量的照片與影音資料而來的。而這些視訊資料，不但資料量大，由電腦判讀更是不易，因此需要的技術與工具也相當的廣泛，從一開始的資料清理與判讀、抽象化資料萃取，和後端的視訊資料庫索引建立與查找，每一項都是極大的研究課題。深度學習技術之演進，更將其與所需之運算能量推升到空前的境界。',
+        '在這一天的課程裡，我們集合了電腦視覺的概念簡介、多媒體資料的分類與檢索方式、深度學習於視訊資料的應用與挑戰、與加速這些技術的 GPU 平行算運算平台等，期由分析單筆視訊資料開始，深入淺出地引領您進入視訊資料的抽象美麗世界。最後的實作課程，並將介紹實際的 IoT 應用例，與實作所需之程式工具等，為理論於實務並重的安排。'
     )
 );
 
 $content = array(
-    '學員基本要求' => array( '這門課不是技術課程，是建立觀念，培養眼光，了解資料視覺化這個新興領域發展的課程。','學員不需要預備電腦、不需程式背景、不需安裝軟體；歡迎大家帶著開放的心，銳利的眼睛，以及敏捷的頭腦一起來學習這門有趣的學問。' ),
+    '學員基本要求' => array( 
+        '這門課是以觀念為主、技術為輔的課程。',
+        '參與學員雖然不需為電腦科學之本科生，但建議至少有以下其中一樣背景為佳：
+        <ul>
+            <li>基本的程式能力</li>
+            <li>修習過資料結構或演算法等基礎電腦科學課程</li>
+            <li>具有對科普電腦科學之興趣與理解力者</li>
+        </ul>',
+    ),
     '退票須知' => array(
         '本活動委由 <a href="https://kktix.com/" target="_blank">KKTIX</a> 代為處理退票退款事宜。',
         '退票時將酌收 10% 手續費、且活動前十天內（不含活動日）不予退票。',
@@ -38,28 +44,43 @@ $content = array(
 
 $schedule = array(
     '9:00 - 9:30' => array( 'title' => '報到' ),
-    '9:30 - 10:30' => array( 'title' => '【賞析】認識經典案例' ),
+    '9:30 - 10:30' => array( 'title' => '【判讀】電腦視覺簡介' ),
     '10:30 - 10:50' => array( 'title' => '茶點時間' ),
-    '10:50 - 12:30' => array( 'title' => '【理論】認識我們視覺的腦' ),
+    '10:50 - 12:30' => array( 'title' => '【索引】多媒體檢索' ),
     '12:30 - 13:20' => array( 'title' => '午餐' ),
-    '13:20 - 15:00' => array( 'title' => '【設計】從維度開始的設計手法' ),
+    '13:20 - 15:00' => array( 'title' => '【加速】圖形處理器與深度學習' ),
     '15:00 - 15:20' => array( 'title' => '茶點時間' ),
-    '15:20 - 17:00' => array( 'title' => '【實作】開發工具與開發實例' )
+    '15:20 - 17:00' => array( 'title' => '【駭客】深度學習 / 電腦視覺之實作演示' )
 );
 
 $speakers = array(
-    'sckang' => array(
+    'wcchen' => array(
         'detail' => true,
-        'image' => 'sckang.png',
-        'name' => '康仕仲',
+        'image' => 'wcchen.jpg',
+        'name' => '陳維超',
         'suffix' => '博士',
-        'engn' => '(Prof. Shih-Chung Jessy Kang)',
+        'engn' => '( Wei-Chao Chen, Ph.D. )',
         'title' => array(
-            '<a href="http://sckang.caece.net/" target="_blank">臺大土木系教授兼副教務長</a>'
+            'Skywatch / 共同創辦人, 台灣大學 / 兼任助理教授'
         ),
         'info' => array(
-            '康仕仲教授是臺大土木系教授兼副教務長、美國史丹福大學博士。康教授長期投入於工程視覺化、自動化機器人、工程教育以及防災資訊系統之研發。在臺大開設電腦繪圖、遊戲引擎、資料視覺化及機器人等課程，曾獲得優良教師獎。康教授曾擔任教學發展中心數位媒體組組長，負責開放式課程及數位化教育的推廣，他在 Coursera 上開設的工程圖學系列課程，共有超過 5 萬人修習。現擔任國際期刊 Visualization in Engineering 總編輯，編輯十餘本工程視覺化及機器人自動化主題之特刊和專書，發表超過 50 篇的期刊論文。欲瞭解康博士的研究及心得分享，請至他的<a href="http://sckang.caece.net/" target="_blank">個人網頁</a>一探究竟。'
+            '陳維超博士為 Skywatch ( 行品股份有限公司 ) 的共同創辦人，也是台灣大學資訊系的兼任助理教授，開設圖形處理器程式設計、與 IoT 物聯網應用等課程。陳博士畢業於北卡羅萊納教堂山大學，其主要研究領域為電腦繪圖、電腦視覺與虛擬實境等。曾於美國加州之矽谷研發多年，於 Intel 任職時參與 OpenLF 與 OpenCV 初始開發計劃，於 NVIDIA 開發繪圖晶片如 Sony Playstation 3 RSX、NVIDIDA Telsa、Fermi 等，並在 Nokia 柏拉圖研究中心，與史丹佛大學合作視訊資料檢索、增強實境 ( AR ) 與計算攝影學等研究計劃。陳博士曾於多個 IEEE 與 ACM 之期刊與學術會議中發表與擔任評審，著有數十篇期刊論文與專利，具有豐富的學術與業界之經驗。',
+            '<a href="http://www.skywatch24.com" target="_blank"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>&nbsp;個人網頁</a>&nbsp;&nbsp;<a href="https://www.facebook.com/weichao.chen.tw" target="_blank"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>&nbsp;Facebook 網頁</a>'
         )
+    ),
+    'yslin' => array(
+        'detail' => true,
+        'image' => '', //yslin.png
+        'name' => '林裕盛',
+        'suffix' => '',
+        'engn' => '( Yu-Sheng Lin )',
+        'title' => array(
+            '台灣大學電機所 / 博士生'
+        ),
+        'info' => array(
+            '現為台大電機系博士班學生，其研究專長與興趣為計算機結構、圖形處理器、平行處理、電腦視覺、與相關之積體電路設計等。其研究成果曾於 IEEE 會議中發表，其電路設計並曾獲得教育部 IC 設計競賽之首獎。'
+        )
+            
     )
 );
 
@@ -94,8 +115,8 @@ $team = array(
         <title><?php echo $title ?> - 2016 台灣資料科學愛好者年會系列活動</title>
         <meta charset="utf-8">
         <!--[if IE]>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <![endif]-->
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <![endif]-->
         <meta name="description" content="<?php echo $title ?>">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta content="<?php echo $title ?> - 2016 台灣資料科學愛好者年會" property="og:title">
@@ -110,129 +131,14 @@ $team = array(
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         <link rel="stylesheet" href="../_css/bootstrap.min.css">
         <link rel="stylesheet" href="../_css/main.css">
+        <link rel="stylesheet" href="../_css/video_signal.css">
         <link rel="stylesheet" href="../_css/animations.css">
         <link rel="stylesheet" href="../_css/fonts.css">
         <script src="../_js/vendor/modernizr-2.6.2.min.js"></script>
-
-
         <!--[if lt IE 9]>
-        <script src="../_js/vendor/html5shiv.min.js"></script>
-        <script src="../_js/vendor/respond.min.js"></script>
-    <![endif]-->
-        <style>             
-            /* header 的 標題文字 只有一行的時候改 line-height */
-            #header .navbar-brand{
-                line-height: 40px;
-                padding-top: 24px;
-                font-size: 24px;
-                max-width: none;
-            } 
-            @media (max-width: 953px){
-                #header .navbar-brand{
-                    padding-top: 15px;
-                    font-size: 21px;
-                    max-width: 320px;
-
-                } 
-            }
-            @media (min-width: 768px)  and ( max-width: 800px){
-                #header .navbar-brand{
-                    font-size: 18px;
-                }
-            }
-            @media (max-width: 767px){
-                .mainTitle h2 {
-                    margin: 18px 0 10px 0;
-                }
-            }
-            @media (min-width: 550px){
-                .maindate > h4 {
-                    font-size: 1.1em;
-                }
-            }
-            @media (max-width: 550px){
-                .mainTitle h2 {
-                    margin: 12px 0 10px 0;
-                }
-            }
-            @media (min-width: 490px){
-                .mainTitle > .small-title{
-                    display: none;
-                }
-                .mainTitle > .mt{
-                    display: block;
-                }
-            }
-            @media (max-width: 490px){
-                .mainTitle{
-                    background: #8dd2c8;
-                    top: 58%;
-                    font-size: 1.7em;
-                    width: 85%;
-                    left: 7.5%;
-                }
-                .mainTitle h2 {
-                    margin: 5px 0 10px 0;
-                }
-                .mainTitle > .small-title{
-                    display: block;
-                }
-                .mainTitle > .mt{
-                    display: none;
-                }
-                .maindate{
-                    padding-top: 40px;
-                }
-
-            }
-            @media (max-width: 420px){
-                /* 議程文字大小 */
-                .pic_section{
-                    font-size: 14px;
-                }
-                .pic_section h3{
-                    font-size: 15px;
-                }
-                .maindate {
-                    padding-top: 60px;
-                }
-                .maindate h4{
-                    line-height: 1.2;
-                    font-size: 18px;
-                }
-            }
-            
-            @media (max-width: 375px){
-                .mainTitle{
-                    top: 55%;             
-                }
-                #header .navbar-brand{
-                    font-size: 18px;
-                    padding: 15px 0px 15px 0px;
-                }
-            }
-            @media (max-width: 320px){
-                .mainTitle{
-                    top: 50%;
-                }      
-                #header .navbar-brand{
-                    font-size: 16px;
-                }      
-            }
-            
-            #header{
-                position: fixed;
-            }
-            .pic_section, .grey_section{
-                padding-top: 30px;
-                padding-bottom: 30px;
-            }
-            .color_section{
-                margin-top: 0px !important;
-                padding-top: 0px !important;
-            }
-            
-        </style>
+            <script src="../_js/vendor/html5shiv.min.js"></script>
+            <script src="../_js/vendor/respond.min.js"></script>
+        <![endif]-->
     </head>
 
     <body>
@@ -247,7 +153,6 @@ $team = array(
                         <div class="col-md-12">
                             <img src="../_images/dsc2016-series_main.png" class="img-responsive logoInline">
                             <div class="mainTitle">
-                                <h2 class="small-title"><?php echo implode('<br/>',$title_rwd); ?></h2>
                                 <h2 class="mt"><?php echo $title ?></h2>
                             </div>
                             <div class="maindate">

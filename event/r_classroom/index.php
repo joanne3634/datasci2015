@@ -1,6 +1,5 @@
 <?php
 $title = 'R 語言翻轉教室';
-// $title_rwd = array(  'R 語言翻轉教室' );
 $caption = array(  'R 語言翻轉教室');
 
 $event_date = array( strtotime('2016-04-23 17:00:00'), strtotime('2016-04-30 17:00:00') );
@@ -8,21 +7,28 @@ $event_date = array( strtotime('2016-04-23 17:00:00'), strtotime('2016-04-30 17:
 $weekdays = array( '0'=>'日', '1'=>'一', '2'=>'二', '3'=>'三', '4'=>'四', '5'=>'五', '6'=>'六' );
 $date_string .= date('Y/n/j',$event_date[0]) . ', '.date('j',$event_date[1]).' (' . $weekdays[date('w',$event_date[0])] . ')';
 
+// 沒設定的話預設為 中央研究院人文社會科學館
+$location_string = '中央研究院人文社會科學館 第二會議室'; 
+
 $kktix_link = 'r-classroom';
 $kktix_date = strtotime('2015-03-27 12:00:00');
 $reg_date = strtotime('2016-03-30 12:00:00');
 $reg_time = '中午 12:00';
 $deadline = strtotime('2016-04-06 12:00:00');
 $price = 4480;
-// $ticket_full = true;
-
 
 $about = array(
     'title' => 'R 語言翻轉教室',
     'content' => array(
         '面對撲面而來的資料浪潮，包含 Google、Facebook、Intel、Pfizer、Bank of America 等國際級企業，都已經採用 R 語言進行資料分析，許多全球一流大學如 Stanford、Johns Hopkins 和 UCLA 也將 R 視為資料分析課程的先修科目。R 語言具有免費、跨平台、佔有率高、可塑性高等優勢，各式各樣的 R 社群蓬勃發展。在國際知名的 KDnuggets 論壇統計當中，R 語言已經連續三年獲得資料科學家最常使用的資料分析語言第一名。',
         '本課程很榮幸邀請到 Taiwan R User Group 的共同創辦人吳齊軒 ( Wush Wu ) 擔任講者，利用一套用 R 學 R 的教案 -- R 語言翻轉教室，來引領無程式開發經驗的學員，從實作中瞭解 R 語言的基本操作以及初階資料分析。這樣的訓練將幫助學員學會如何掌握資料的脈絡，進而輔助決策，目標是改善同學們學R語言基礎知識的體驗。適合資訊科學、統計學、商學、傳播學、社會學及其他領域的學生。學員應該自我期許，學會下列內容：',
-        '* R 語言的優缺點<br>* 建立開發環境<br>* 基礎語法<br>* 開放資料的處理<br>* 輸出統計圖表'
+        '<ul class="about_ul">
+            <li>R 語言的優缺點</li>
+            <li>建立開發環境</li>
+            <li>基礎語法</li>
+            <li>開放資料的處理</li>
+            <li>輸出統計圖表</li>
+        </ul>'
     )
 );
 
@@ -35,26 +41,34 @@ $content = array(
     ),
     '學員要求' => array( '自備符合「 R 語言翻轉教室」需求的筆電（ 請見後續說明 ）','一定的英文打字水準' ),
     '筆電要求' => array( 
-        '學員須自備可以無線上網的筆記型電腦，建議使用以下作業系統：<br>
-            *  Windows 7 或以上，帳號不得包含中文<br>
-            *  Mac OS X 10.9 或以上<br>
-            *  Ubuntu 14.04 或以上',
-        '建議課程開始前先自行安裝以下工具，講師也會在課堂上說明安裝注意事項。<br>
-            *  <a src="http://cran.rstudio.com/" target="_blank">R</a> ( R-3.1.2 以上版本 )<br>
-            *  <a src="http://wush978.github.io/DataScienceAndR/#%E6%B1%82%E5%8A%A9%E5%B0%88%E5%8D%80" target="_blank">RStudio IDE</a> ( 98.1091 以上版本 )',
+        '學員須自備可以無線上網的筆記型電腦，建議使用以下作業系統：
+        <ul>
+            <li>Windows 7 或以上，帳號不得包含中文</li>
+            <li>Mac OS X 10.9 或以上</li>
+            <li>Ubuntu 14.04 或以上</li>
+        </ul>',
+        '建議課程開始前先自行安裝以下工具，講師也會在課堂上說明安裝注意事項。
+        <ul>
+            <li><a href="http://cran.rstudio.com/" target="_blank">R</a> ( R-3.1.2 以上版本 )</li>
+            <li><a href="http://wush978.github.io/DataScienceAndR/#%E6%B1%82%E5%8A%A9%E5%B0%88%E5%8D%80" target="_blank">RStudio IDE</a> ( 98.1091 以上版本 )</li>
+        </ul>',
         '同學請參考以下的上手影片：<br>
         <iframe style="padding-top:10px;" width="560" height="315" src="https://www.youtube.com/embed/fcd6zSk0yd8" frameborder="0" allowfullscreen></iframe>',
-        '或是依照以下的動作快速設定學習環境：<br>
-            *  安裝 R<br>
-            *  安裝 Rstudio ( Windows 使用者請安裝 Rstudio 或自備能夠編輯 UTF-8 編碼的編輯器，OS X 與 Linux 使用者可依據自己喜好決定是否使用 Rstudio )<br>
-            *  打開 R，執行：source("http://wush978.github.io/R/init-swirl.R")<br>
-            *  輸入 library(swirl); swirl() 後即進入教學環境。<br>
-            *  進入 00-Hello-DataScienceAndR 課程檢查你的電腦能不能執行本教材的所有功能，並瞭解本教材所提供的功能。',
-        '有興趣了解安裝細節的同學，請參考：<br>
-            *  <a src="https://github.com/wush978/DataScienceAndR/wiki/Windows-%E8%A8%AD%E5%AE%9A%E6%8C%87%E5%8D%97" target="_blank">Windows</a><br>
-            *  <a src="https://github.com/wush978/DataScienceAndR/wiki/Mac-OS-X-%E8%A8%AD%E5%AE%9A%E6%8C%87%E5%8D%97" target="_blank">Mac OS X</a><br>
-            *  <a src="https://github.com/wush978/DataScienceAndR/wiki/Ubuntu-%E8%A8%AD%E5%AE%9A%E6%8C%87%E5%8D%97" target="_blank">Ubuntu</a>',
-        '安裝上有問題，或是在執行 00-Hello-DataScienceAndR 不順利的同學請到 <a src="http://wush978.github.io/DataScienceAndR/#%E6%B1%82%E5%8A%A9%E5%B0%88%E5%8D%80" target="_blank">求助專區</a> 取得協助'
+        '或是依照以下的動作快速設定學習環境：
+        <ul>
+            <li>安裝 R</li>
+            <li>安裝 Rstudio ( Windows 使用者請安裝 Rstudio 或自備能夠編輯 UTF-8 編碼的編輯器，OS X 與 Linux 使用者可依據自己喜好決定是否使用 Rstudio )</li>
+            <li>打開 R，執行：source("http://wush978.github.io/R/init-swirl.R")</li>
+            <li>輸入 library(swirl); swirl() 後即進入教學環境。</li>
+            <li>進入 00-Hello-DataScienceAndR 課程檢查你的電腦能不能執行本教材的所有功能，並瞭解本教材所提供的功能。</li>
+        </ul>',
+        '有興趣了解安裝細節的同學，請參考：
+        <ul>
+            <li><a href="https://github.com/wush978/DataScienceAndR/wiki/Windows-%E8%A8%AD%E5%AE%9A%E6%8C%87%E5%8D%97" target="_blank">Windows</a></li>
+            <li><a href="https://github.com/wush978/DataScienceAndR/wiki/Mac-OS-X-%E8%A8%AD%E5%AE%9A%E6%8C%87%E5%8D%97" target="_blank">Mac OS X</a></li>
+            <li><a href="https://github.com/wush978/DataScienceAndR/wiki/Ubuntu-%E8%A8%AD%E5%AE%9A%E6%8C%87%E5%8D%97" target="_blank">Ubuntu</a></li>
+        </ul>',
+        '安裝上有問題，或是在執行 00-Hello-DataScienceAndR 不順利的同學請到 <a href="http://wush978.github.io/DataScienceAndR/#%E6%B1%82%E5%8A%A9%E5%B0%88%E5%8D%80" target="_blank">求助專區</a> 取得協助'
     ),
     '退票須知' => array(
         '本活動委由 <a href="https://kktix.com/" target="_blank">KKTIX</a> 代為處理退票退款事宜。',
@@ -183,7 +197,7 @@ $team = array(
                                     </div>
                                 </h4>
                                 <h4 class="text-center">
-                                    <i class="fa fa-map-marker"></i> 地點: 中央研究院人文社會科學館
+                                    <i class="fa fa-map-marker"></i> 地點:  <?php echo isset($location_string) ? $location_string :'中央研究院人文社會科學館' ?> 
                                 </h4>
                             </div>
                             <a href="/"style="position:absolute;top:0px;left:4%;display:block;width:24%;height:50%;background-color:transparent;"></a>

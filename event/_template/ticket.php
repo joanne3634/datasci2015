@@ -46,7 +46,7 @@ if ( isset($reg_date) )
 ?>
             <ul class="list2">
                 <li><span class="badge bg-orange">日期</span> <?php echo $date_string; ?></li>
-                <li><span class="badge bg-orange">地點</span> 中央研究院人文社會科學館</li>
+                <li><span class="badge bg-orange">地點</span> <?php echo isset($location_string) ? $location_string :'中央研究院人文社會科學館' ?></li>
                 <li>
                     <span class="badge bg-orange">票價</span>
 <?php
