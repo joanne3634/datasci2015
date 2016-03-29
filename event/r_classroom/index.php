@@ -5,23 +5,23 @@ $caption = array(  'R 語言翻轉教室');
 $event_date = array( strtotime('2016-04-23 17:00:00'), strtotime('2016-04-30 17:00:00') );
 
 $weekdays = array( '0'=>'日', '1'=>'一', '2'=>'二', '3'=>'三', '4'=>'四', '5'=>'五', '6'=>'六' );
-$date_string .= date('Y/n/j',$event_date[0]) . ', '.date('j',$event_date[1]).' (' . $weekdays[date('w',$event_date[0])] . ')';
+$date_string .= date('Y/n/j',$event_date[0]).' (' . $weekdays[date('w',$event_date[0])] . ') 及 '.date('Y/n/j',$event_date[1]).' (' . $weekdays[date('w',$event_date[1])] . ')';
 
 // 沒設定的話預設為 中央研究院人文社會科學館
 $location_string = '中央研究院人文社會科學館 第二會議室'; 
 
 $kktix_link = 'r-classroom';
-$kktix_date = strtotime('2015-03-27 12:00:00');
-$reg_date = strtotime('2016-03-30 12:00:00');
+$kktix_date = strtotime('2015-04-04 12:00:00');
+$reg_date = strtotime('2016-04-07 12:00:00');
 $reg_time = '中午 12:00';
-$deadline = strtotime('2016-04-06 12:00:00');
+$deadline = strtotime('2016-04-14 12:00:00');
 $price = 4480;
 
 $about = array(
     'title' => 'R 語言翻轉教室',
     'content' => array(
         '面對撲面而來的資料浪潮，包含 Google、Facebook、Intel、Pfizer、Bank of America 等國際級企業，都已經採用 R 語言進行資料分析，許多全球一流大學如 Stanford、Johns Hopkins 和 UCLA 也將 R 視為資料分析課程的先修科目。R 語言具有免費、跨平台、佔有率高、可塑性高等優勢，各式各樣的 R 社群蓬勃發展。在國際知名的 KDnuggets 論壇統計當中，R 語言已經連續三年獲得資料科學家最常使用的資料分析語言第一名。',
-        '本課程很榮幸邀請到 Taiwan R User Group 的共同創辦人吳齊軒 ( Wush Wu ) 擔任講者，利用一套用 R 學 R 的教案 -- R 語言翻轉教室，來引領無程式開發經驗的學員，從實作中瞭解 R 語言的基本操作以及初階資料分析。這樣的訓練將幫助學員學會如何掌握資料的脈絡，進而輔助決策，目標是改善同學們學R語言基礎知識的體驗。適合資訊科學、統計學、商學、傳播學、社會學及其他領域的學生。學員應該自我期許，學會下列內容：',
+        '本課程很榮幸邀請到 Taiwan R User Group 的共同創辦人吳齊軒 ( Wush Wu ) 擔任講者，利用一套用 R 學 R 的教案 -- R 語言翻轉教室，來引領無程式開發經驗的學員，從實作中瞭解 R 語言的基本操作以及初階資料分析。這樣的訓練將幫助學員學會如何掌握資料的脈絡，進而輔助決策，目標是改善同學們學 R 語言基礎知識的體驗。適合資訊科學、統計學、商學、傳播學、社會學及其他領域的學生。學員應該自我期許，學會下列內容：',
         '<ul class="about_ul">
             <li>R 語言的優缺點</li>
             <li>建立開發環境</li>
@@ -49,8 +49,8 @@ $content = array(
         </ul>',
         '建議課程開始前先自行安裝以下工具，講師也會在課堂上說明安裝注意事項。
         <ul>
-            <li><a href="http://cran.rstudio.com/" target="_blank">R</a> ( R-3.1.2 以上版本 )</li>
-            <li><a href="http://wush978.github.io/DataScienceAndR/#%E6%B1%82%E5%8A%A9%E5%B0%88%E5%8D%80" target="_blank">RStudio IDE</a> ( 98.1091 以上版本 )</li>
+            <li><a href="http://cran.rstudio.com/" target="_blank">R </a> ( R-3.1.2 以上版本 )</li>
+            <li><a href="http://wush978.github.io/DataScienceAndR/#%E6%B1%82%E5%8A%A9%E5%B0%88%E5%8D%80" target="_blank">RStudio ID E</a> ( 98.1091 以上版本 )</li>
         </ul>',
         '同學請參考以下的上手影片：<br>
         <iframe style="padding-top:10px;" width="560" height="315" src="https://www.youtube.com/embed/fcd6zSk0yd8" frameborder="0" allowfullscreen></iframe>',
@@ -78,25 +78,25 @@ $content = array(
 );
 
 $schedules = array(
-    '4.23 ' => array(
+    '4 / 23 ' => array(
         '9:00 - 9:30' => array( 'title' => '報到' ),
         '9:30 - 10:30' => array( 'title' => 'R 語言概論', 'subtitle' => '資料科學的完整解決方案' ),
         '10:30 - 10:50' => array( 'title' => '茶點時間' ),
-        '10:50 - 12:30' => array( 'title' => 'RBasic-1' ),
+        '10:50 - 12:30' => array( 'title' => '統計尺度與 R 語言的資料處理基礎' ),
         '12:30 - 13:20' => array( 'title' => '午餐' ),
-        '13:20 - 15:00' => array( 'title' => 'RBasic-2' ),
+        '13:20 - 15:00' => array( 'title' => '矩陣與結構化的資料物件簡介' ),
         '15:00 - 15:20' => array( 'title' => '茶點時間' ),
-        '15:20 - 17:00' => array( 'title' => 'RDataEngineer-1', 'subtitle' => '入門與作業說明' )
+        '15:20 - 17:00' => array( 'title' => '讀取結構化資料與作業說明' )
     ),
-    '4.30 ' => array(
+    '4 / 30 ' => array(
         '9:00 - 9:30' => array( 'title' => '報到' ),
         '9:30 - 10:30' => array( 'title' => '資料科學團隊的 Hello World' ),
         '10:30 - 10:50' => array( 'title' => '茶點時間' ),
-        '10:50 - 12:30' => array( 'title' => 'RDataEngineer-2' , 'subtitle' => '結構化的資料處理'),
+        '10:50 - 12:30' => array( 'title' => '結構化的資料處理'),
         '12:30 - 13:20' => array( 'title' => '午餐' ),
-        '13:20 - 15:00' => array( 'title' => 'RDataEngineer-3' , 'subtitle' => '創造價值的捷徑，結構化的資料比對'),
+        '13:20 - 15:00' => array( 'title' => '創造價值的捷徑，結構化的資料比對'),
         '15:00 - 15:20' => array( 'title' => '茶點時間' ),
-        '15:20 - 17:00' => array( 'title' => 'R、資料視覺化與資料探勘' )
+        '15:20 - 17:00' => array( 'title' => '資料視覺化與資料探勘' )
     )
 );
 
@@ -184,21 +184,22 @@ $team = array(
                 <div class="container" style="padding-top:80px;" ><!-- style="padding-top:80px;" -->
                     <div class="row">
                         <div class="col-md-12">
-                            <img src="../_images/dsc2016-series_main.png" class="img-responsive logoInline">
+                            <img src="../_images/dsc2016-series_main.svg" class="img-responsive logoInline">
                             <div class="mainTitle">
-                                <h2 class="mt"><?php echo $title ?></h2>
-                            </div>
-                            <div class="maindate">
-                                <h4 class="text-center">
-                                    <i class="fa fa-calendar"></i> 日期: <?php echo $date_string; ?> &nbsp; &nbsp;
-                                    <div class="fb-share-button" style="margin-top:15px;"
+                                <h2 class="mt"><?php echo $title ?> <div class="fb-share-button"
                                         data-href="http://datasci.tw<?php echo $_SERVER['REQUEST_URI']; ?>" 
                                         data-layout="button_count">
-                                    </div>
+                                    </div></h2>
+                            </div>
+                            <div class="maindate">
+                                <h4 class="text-center date">
+                                    <i class="fa fa-calendar"></i> 日期: <?php echo $date_string; ?> &nbsp; &nbsp;
+                                   
                                 </h4>
-                                <h4 class="text-center">
+                                <h4 class="text-center location">
                                     <i class="fa fa-map-marker"></i> 地點:  <?php echo isset($location_string) ? $location_string :'中央研究院人文社會科學館' ?> 
                                 </h4>
+
                             </div>
                             <a href="/"style="position:absolute;top:0px;left:4%;display:block;width:24%;height:50%;background-color:transparent;"></a>
                         </div>
@@ -217,7 +218,7 @@ $team = array(
                     <div class="row">
                         <div class="col-sm-12 text-center">
                             <p> <a href="https://www.facebook.com/twdsconf" target="_blank" title="" data-toggle="tooltip" data-original-title="Facebook">find us on facebook</a></p>
-                            <p>&copy; Copyright 2016 - 台灣資料科學愛好者年會 </p>
+                            <p>&copy; Copyright <a href="/">2016 - 台灣資料科學愛好者年會</a> </p>
                         </div>
                     </div>
                 </div>

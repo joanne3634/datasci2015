@@ -172,7 +172,7 @@ $team = array(
                 <div class="container" style="padding-top:80px;">
                     <div class="row">
                         <div class="col-md-12">
-                            <img src="../_images/dsc2016-series_main.png" class="img-responsive logoInline">
+                            <img src="../_images/dsc2016-series_main.svg" class="img-responsive logoInline">
                             <div class="mainTitle"><h2 class="mt"><?php echo $title ?></h2></div>
                             <h4 class="text-center maindate">
                                 <i class="fa fa-calendar"></i> 日期: <?php echo $date_string; ?> &nbsp;&nbsp;&nbsp;

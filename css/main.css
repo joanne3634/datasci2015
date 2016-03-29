@@ -2908,7 +2908,7 @@ animated elements
     top: 0;
     left: 0;
     right: 0;
-    position: absolute;
+    position: fixed;
     z-index: 10000;
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
     -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
@@ -2923,7 +2923,7 @@ animated elements
 
 #header .navbar-brand
 {
-    padding: 10px 0 0;
+    padding: 10px 0;
     font-size: 18px;
     color: #ef8322;
     height: auto;
@@ -6877,7 +6877,7 @@ ul.list2 li:before
 
 .mainvi
 {
-    background-image: url(../images/dsc_mainv.png);
+    background-image: url(../images/dsc_mainv.svg);
     background-position: right bottom;
     background-repeat: no-repeat;
     -moz-background-size: contain;
@@ -7107,7 +7107,7 @@ table.sche th {
 @media (min-width:769px) and (max-width:953px)
 {
     ul.navbar-nav li a img {
-    width: 28px;
+    /*width: 28px;*/
     }
 }
 @media (min-width:769px) and (max-width:834px)

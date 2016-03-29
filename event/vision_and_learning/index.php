@@ -8,11 +8,11 @@ $event_date = strtotime('2016-04-23 17:00:00');
 $weekdays = array( '0'=>'日', '1'=>'一', '2'=>'二', '3'=>'三', '4'=>'四', '5'=>'五', '6'=>'六' );
 $date_string = date('Y/n/j',$event_date) . ' (' . $weekdays[date('w',$event_date)] . ')';
 
-$kktix_link = 'video_signal';
-$kktix_date = strtotime('2015-03-27 12:00:00');
-$reg_date = strtotime('2016-03-30 12:00:00');
+$kktix_link = 'video-signal';
+$kktix_date = strtotime('2015-04-04 12:00:00');
+$reg_date = strtotime('2016-04-07 12:00:00');
 $reg_time = '中午 12:00';
-$deadline = strtotime('2016-04-06 12:00:00');
+$deadline = strtotime('2016-04-14 12:00:00');
 $price = 1980;
 // $ticket_full = true;
 
@@ -21,7 +21,7 @@ $about = array(
     'title' => '視訊訊號處理與深度學習應用',
     'content' => array(
         '自動車是怎麼樣理解周遭的環境的？谷歌到底是怎麼快速找出我要的照片？波士頓的警方是怎麼找到馬拉松爆炸嫌疑犯的？這些都是由分析大量的照片與影音資料而來的。而這些視訊資料，不但資料量大，由電腦判讀更是不易，因此需要的技術與工具也相當的廣泛，從一開始的資料清理與判讀、抽象化資料萃取，和後端的視訊資料庫索引建立與查找，每一項都是極大的研究課題。深度學習技術之演進，更將其與所需之運算能量推升到空前的境界。',
-        '在這一天的課程裡，我們集合了電腦視覺的概念簡介、多媒體資料的分類與檢索方式、深度學習於視訊資料的應用與挑戰、與加速這些技術的 GPU 平行算運算平台等，期由分析單筆視訊資料開始，深入淺出地引領您進入視訊資料的抽象美麗世界。最後的實作課程，並將介紹實際的 IoT 應用例，與實作所需之程式工具等，為理論於實務並重的安排。'
+        '在這一天的課程裡，我們集合了電腦視覺的概念簡介、多媒體資料的分類與檢索方式、深度學習於視訊資料的應用與挑戰、與加速這些技術的 GPU 平行算運算平台等，期由分析單筆視訊資料開始，深入淺出地引領您進入視訊資料的抽象美麗世界。最後的實作課程，並將介紹實際的 IoT 應用例，與實作所需之程式工具等，為理論與實務並重的安排。'
     )
 );
 
@@ -61,7 +61,7 @@ $speakers = array(
         'suffix' => '博士',
         'engn' => '( Wei-Chao Chen, Ph.D. )',
         'title' => array(
-            'Skywatch / 共同創辦人, 台灣大學 / 兼任助理教授'
+            'Skywatch / 共同創辦人<br>台灣大學 / 兼任助理教授'
         ),
         'info' => array(
             '陳維超博士為 Skywatch ( 行品股份有限公司 ) 的共同創辦人，也是台灣大學資訊系的兼任助理教授，開設圖形處理器程式設計、與 IoT 物聯網應用等課程。陳博士畢業於北卡羅萊納教堂山大學，其主要研究領域為電腦繪圖、電腦視覺與虛擬實境等。曾於美國加州之矽谷研發多年，於 Intel 任職時參與 OpenLF 與 OpenCV 初始開發計劃，於 NVIDIA 開發繪圖晶片如 Sony Playstation 3 RSX、NVIDIDA Telsa、Fermi 等，並在 Nokia 柏拉圖研究中心，與史丹佛大學合作視訊資料檢索、增強實境 ( AR ) 與計算攝影學等研究計劃。陳博士曾於多個 IEEE 與 ACM 之期刊與學術會議中發表與擔任評審，著有數十篇期刊論文與專利，具有豐富的學術與業界之經驗。',
@@ -70,7 +70,7 @@ $speakers = array(
     ),
     'yslin' => array(
         'detail' => true,
-        'image' => '', //yslin.png
+        'image' => 'yslin.jpg', //
         'name' => '林裕盛',
         'suffix' => '',
         'engn' => '( Yu-Sheng Lin )',
@@ -131,7 +131,7 @@ $team = array(
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         <link rel="stylesheet" href="../_css/bootstrap.min.css">
         <link rel="stylesheet" href="../_css/main.css">
-        <link rel="stylesheet" href="../_css/video_signal.css">
+        <link rel="stylesheet" href="../_css/vision_and_learning.css">
         <link rel="stylesheet" href="../_css/animations.css">
         <link rel="stylesheet" href="../_css/fonts.css">
         <script src="../_js/vendor/modernizr-2.6.2.min.js"></script>
@@ -151,7 +151,7 @@ $team = array(
                 <div class="container" style="padding-top:80px;" ><!-- style="padding-top:80px;" -->
                     <div class="row">
                         <div class="col-md-12">
-                            <img src="../_images/dsc2016-series_main.png" class="img-responsive logoInline">
+                            <img src="../_images/dsc2016-series_main.svg" class="img-responsive logoInline">
                             <div class="mainTitle">
                                 <h2 class="mt"><?php echo $title ?></h2>
                             </div>
@@ -184,7 +184,7 @@ $team = array(
                     <div class="row">
                         <div class="col-sm-12 text-center">
                             <p> <a href="https://www.facebook.com/twdsconf" target="_blank" title="" data-toggle="tooltip" data-original-title="Facebook">find us on facebook</a></p>
-                            <p>&copy; Copyright 2016 - 台灣資料科學愛好者年會 </p>
+                            <p>&copy; Copyright <a href="/">2016 - 台灣資料科學愛好者年會</a> </p>
                         </div>
                     </div>
                 </div>

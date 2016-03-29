@@ -11,11 +11,11 @@ $weekdays = array( '0'=>'日', '1'=>'一', '2'=>'二', '3'=>'三', '4'=>'四', '
 $date_string = date('Y/n/j',$event_date) . ' (' . $weekdays[date('w',$event_date)] . ')';
 $location_string = '中央研究院人文社會科學館 第ㄧ會議室';
 
-$kktix_link = 'd3_js';
-$kktix_date = strtotime('2015-03-20 12:00:00');
-$reg_date = strtotime('2016-03-30 12:00:00');
+$kktix_link = 'd3-js';
+$kktix_date = strtotime('2015-04-04 12:00:00');
+$reg_date = strtotime('2016-04-07 12:00:00');
 $reg_time = '中午 12:00';
-$deadline = strtotime('2016-04-07 12:00:00');
+$deadline = strtotime('2016-04-14 12:00:00');
 $price = 2480;
 // $ticket_full = true;
 
@@ -63,7 +63,7 @@ $speakers = array(
         'suffix' => '',
         'engn' => '/ Kirby Wu',
         'title' => array(
-            'foundi 房地資訊站 / 共同創辦人'
+            'infographics.tw / 創辦人'
         ),
         'info' => array(
             '<a href="http://infographics.tw" target="_blank">infographics.tw</a> 與 <a href="http://g0v.tw" target="_blank">g0v.tw</a> 共同發起人，亦為資料視覺化領域與網頁技術專家。曾擔任 Google Taiwan DigiCamp 2014 技術顧問以及籌辦 2015 年資料新聞實戰營 ( dBootcamp Taipei )，亦曾受邀至台大、交大、世新、政大、輔大、文化等大學之新聞與傳播相關課程演講及授課。',
@@ -141,7 +141,7 @@ $team = array(
                 <div class="container" style="padding-top:80px;" >
                     <div class="row">
                         <div class="col-md-12">
-                            <img src="../_images/dsc2016-series_main.png" class="img-responsive logoInline">
+                            <img src="../_images/dsc2016-series_main.svg" class="img-responsive logoInline">
                             <div class="mainTitle">
                                 <h2 class="small-title"><?php echo implode('<br/>',$title_rwd); ?></h2>
                                 <h2 class="mt"><?php echo $title ?></h2>
@@ -158,7 +158,7 @@ $team = array(
                                     <i class="fa fa-map-marker"></i> 地點: <?php echo isset($location_string) ? $location_string :'中央研究院人文社會科學館' ?> 
                                 </h4>
                             </div>
-                            <a href="/"style="position:absolute;top:0px;left:4%;display:block;width:24%;height:50%;background-color:transparent;"></a>
+                            <a href="/event" style="position:absolute;top:0px;left:4%;display:block;width:24%;height:50%;background-color:transparent;"></a>
                         </div>
                     </div>
                 </div>
@@ -175,7 +175,7 @@ $team = array(
                     <div class="row">
                         <div class="col-sm-12 text-center">
                             <p> <a href="https://www.facebook.com/twdsconf" target="_blank" title="" data-toggle="tooltip" data-original-title="Facebook">find us on facebook</a></p>
-                            <p>&copy; Copyright 2016 - 台灣資料科學愛好者年會 </p>
+                            <p>&copy; Copyright <a href="/">2016 - 台灣資料科學愛好者年會</a> </p>
                         </div>
                     </div>
                 </div>

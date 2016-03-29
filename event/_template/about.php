@@ -6,7 +6,7 @@
     </div>
     <div class="row about_desc">
         <div class="hidden-xs col-sm-4">
-            <img src="../_images/about.png" alt="">  
+            <img src="../_images/about.svg" alt="">  
         </div>
         <div class="col-sm-8">
             <?php if ( isset($about['subtitle']) ) { ?><h4><?php echo $about['subtitle']; ?></h4><?php } ?>

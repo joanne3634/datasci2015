@@ -46,6 +46,11 @@
                                     <img src="../_images/icon05.png"/> 交通
                                 </a>
                             </li>
+                            <!-- <li>
+                                <a href="/event">
+                                    <img src="../_images/icon02.png"/> 系列活動
+                                </a>
+                            </li> -->
                         </ul>
                     </div>
                 </nav>

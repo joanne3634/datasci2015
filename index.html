@@ -30,11 +30,6 @@
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" type="text/css" href="css/kj.css" />
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-    <style type="text/css">
-    #header .navbar-brand {
-        padding: 10px;
-    }
-    </style>
     <!--[if lt IE 9]>
         <script src="js/vendor/html5shiv.min.js"></script>
         <script src="js/vendor/respond.min.js"></script>
@@ -51,22 +46,42 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <a href="index.html" class="navbar-brand">
-                            <img src="images/dsc_2016_logo.png" title="2016台灣資料科學愛好者年會">
+                            <img src="images/dsc_2016_logo.svg" title="2016台灣資料科學愛好者年會">
                         </a>
-                        <!--       <nav class="navbar"> 
-                                <div class="navbar-header">  -->
-                        <!-- Brand and toggle get grouped for better mobile display -->
-                        <!--            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".dsc-collapse"> 
-                                        <span class="sr-only">Toggle navigation</span> 
-                                        <span class="icon-bar"></span> 
-                                        <span class="icon-bar"></span> 
-                                        <span class="icon-bar"></span> 
-                                    </button>                                     
-                                </div>       -->
-                        <!-- Collect the nav links, forms, and other content for toggling -->
-                        <!--  <div class="dsc-collapse collapse navbar-collapse"> 
-                                    <ul class="nav navbar-nav navbar-right">
-                                        <li> 
+                        <nav class="navbar">
+                            <div class="navbar-header">
+                                <!-- Brand and toggle get grouped for better mobile display -->
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".dsc-collapse">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="dsc-collapse collapse navbar-collapse">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li>
+                                        <a href="index.html">
+                                            <img src="images/icon-2016.png" /> 本屆年會
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="2015/" target="_blank">
+                                            <img src="images/icon-2015.png" /> 第二屆年會
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="2014/" target="_blank">
+                                            <img src="images/icon-2014.png" /> 第一屆年會
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="event/">
+                                            <img src="images/icon02.png" /> 系列活動
+                                        </a>
+                                    </li>
+                                    <!--                                         <li> 
                                             <a href="about.html"> 
                                                 <img src="images/icon01.png"/> 關於
                                             </a>                                             
@@ -100,10 +115,10 @@
                                             <a href="recruit.html"> 
                                                 <img src="images/icon08.png"/> 企業徵才
                                             </a>                                             
-                                        </li>                                         
-                                    </ul>                                     
-                                </div>   -->
-                        <!-- </nav>                              -->
+                                        </li>       -->
+                                </ul>
+                            </div>
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -112,7 +127,7 @@
             <div class="container mainvi">
                 <div class="row">
                     <div class="col-md-5 col-xs-11 mainlogo text-center">
-                        <img src="images/dsc_2016_logo_o.png" class="img-responsive logoInline">
+                        <img src="images/dsc_2016_logo_o.svg" class="img-responsive logoInline">
                         <p> </p>
                         <h4>預告 : 2016/7/14 (Thu) ~ 2016/7/17 (Sun)</h4>
                         <p> </p>
@@ -130,43 +145,73 @@
                         <h3 style="margin-top:-20px;">系列活動</h3>
                         <dl class="dl-horizontal">
                             <dt class="-little">
-                                <a href="event/data_visualization"><img src="images/course/data-visual.png" /></a>
+                                <a target="blank" href="event/d3"><img src="event/_images/course/d3.svg" /></a>
                             </dt>
                             <dd>
-                                <h4><a style="color:#db9426;" href="event/data_visualization">資料視覺化之理論、賞析與實作 (2016/3/26)</a></h4>
+                                <h4><a style="color:#db9426;" target="blank" href="event/d3">實戰 D3.js — 最熱門的互動資料視覺化技術 (2016/4/30)</a></h4>
                                 <p>
-                                    這個課程濃縮了康教授在台大所開設的『資料視覺化』課程的精華，總共包含賞析、理論、設計與實作四節課程。在賞析課程中，他將解析經典的案例，從案例中培養出資料視覺設計師的眼光，懂得看到設計下面的精妙。第二節課是理論課，他將介紹心理學中相關的研究發現，解釋人類的視覺系統是怎麼接受資訊，怎麼理解資訊，這些心理學理論，都是資料視覺化的設計時，必須符合的基礎。第三節課將說明設計方法，他會具體說明如何從資料到視覺化的設計步驟，包含了解資料的維度，使用者的需求，資料的形態。並說明如何以步驟化的方式，發展好資料視覺化方法，達到解決問題的目的。課程最後，康教授將介紹他使用各類資料視覺化的工具的經驗，包含 Tableau, Processing, D3.js 等，也將展示他和他的學生所開發的實務案例。
-                                    <a href="event/data_visualization">活動介紹 <i class="fa fa-arrow-circle-right"></i></a>
+                                    D3.js 立基於網頁技術、並從設計的核心納入互動、即時等概念，可說是當代最先進的一組視覺化工具。本課程很榮幸邀請 infographics.tw 與 g0v.tw 共同發起人吳泰輝來進行 D3.js 的教學。在這堂課中，你可以學到：D3.js 資料模型的完整概念、製作動畫與變形圖表、使用 D3.js 重新解譯資料、製作熱度地圖、Circular Treemap 等進階圖表。
+                                    <a target="blank" href="event/d3">活動介紹 <i class="fa fa-arrow-circle-right"></i></a>
                                 </p>
                             </dd>
                             <dt class="-little">
-                                <a href="event/data_team_jan_2016_plus"><img src="images/event/SW-logo.png" /></a>
+                                <a target="blank" href="event/r_classroom//"><img src="event/_images/course/R.svg" /></a>
                             </dt>
                             <dd>
-                                <h4><a style="color:#db9426;" href="event/data_team_jan_2016_plus/">資料科學的第一堂課：心法、案例分析與團隊建立 (2016/1/30)</a></h4>
+                                <h4><a style="color:#db9426;" target="blank" href="event/r_classroom/">R 語言翻轉教室 (2016/4/23, 2016/4/30)</a></h4>
+                                <p>
+                                    本課程很榮幸邀請到 Taiwan R User Group 的共同創辦人吳齊軒擔任講者，利用一套用 R 學 R 的教案 -- R 語言翻轉教室，來引領無程式開發經驗的學員，從實作中瞭解 R 語言的基本操作以及初階資料分析。這樣的訓練將幫助學員學會如何掌握資料的脈絡，進而輔助決策，目標是改善同學們學R語言基礎知識的體驗。
+                                    <a target="blank" href="event/r_classroom/">活動介紹 <i class="fa fa-arrow-circle-right"></i></a>
+                                </p>
+                            </dd>
+                            <dt class="-little">
+                                <a target="blank" href="event/vision_and_learning/"><img src="event/_images/course/video-signal.svg" /></a>
+                            </dt>
+                            <dd>
+                                <h4><a style="color:#db9426;" target="blank" href="event/vision_and_learning">視訊訊號處理與深度學習應用 (2016/4/23)</a></h4>
+                                <p>
+                                    本課程很榮幸邀請到陳維超博士擔任講者，課程內容集合了電腦視覺的概念簡介、多媒體資料的分類與檢索方式、深度學習於視訊資料的應用與挑戰、與加速這些技術的 GPU 平行算運算平台等，並將介紹實際的 IoT 應用例子，與實作所需之程式工具等，為理論與實務並重的安排。
+                                    <a target="blank" href="event/vision_and_learning">活動介紹 <i class="fa fa-arrow-circle-right"></i></a>
+                                </p>
+                            </dd>
+                            <dt class="-little">
+                                <a target="blank" href="event/data_visualization"><img src="images/course/data-visual.png" /></a>
+                            </dt>
+                            <dd>
+                                <h4><a style="color:#db9426;" target="blank" href="event/data_visualization">資料視覺化之理論、賞析與實作 (2016/3/26)</a></h4>
+                                <p>
+                                    這個課程濃縮了康教授在台大所開設的『資料視覺化』課程的精華，總共包含賞析、理論、設計與實作四節課程。
+                                    <a target="blank" href="event/data_visualization">活動介紹 <i class="fa fa-arrow-circle-right"></i></a>
+                                </p>
+                            </dd>
+                            <dt class="-little">
+                                <a target="blank" href="event/data_team_jan_2016_plus"><img src="images/event/SW-logo.png" /></a>
+                            </dt>
+                            <dd>
+                                <h4><a style="color:#db9426;" target="blank" href="event/data_team_jan_2016_plus/">資料科學的第一堂課：心法、案例分析與團隊建立 (2016/1/30)</a></h4>
                                 <p>
                                     <span class="textStyGreen">本活動為 1/23 資料科學面面觀加開場次。</span>
-                                    <a href="event/data_team_jan_2016_plus/">活動介紹 <i class="fa fa-arrow-circle-right"></i></a>
+                                    <a target="blank" href="event/data_team_jan_2016_plus/">活動介紹 <i class="fa fa-arrow-circle-right"></i></a>
                                 </p>
                             </dd>
                             <dt class="-little">
-                                <a href="event/data_team_jan_2016"><img src="images/event/SW-logo.png" /></a>
+                                <a target="blank" href="event/data_team_jan_2016"><img src="images/event/SW-logo.png" /></a>
                             </dt>
                             <dd>
-                                <h4><a style="color:#db9426;" href="event/data_team_jan_2016/">資料科學面面觀：理論、案例及企業導入方法 (2016/1/23)</a></h4>
+                                <h4><a style="color:#db9426;" target="blank" href="event/data_team_jan_2016/">資料科學面面觀：理論、案例及企業導入方法 (2016/1/23)</a></h4>
                                 <p>
                                     為迎接大數據的潮流，許多企業漸漸發覺到資料分析將是開啟企業創新或關鍵決策的一大契機，不少企業開始尋找資料科學家一同合作，甚至是在企業內建立資料科學團隊。但是，該去哪裡找到合適的資料科學家？資料科學家要具備什麼特質和能力？如何成功建立一個資料科學團隊？資料科學團隊與傳統的資料倉儲團隊有什麼差別？資料科學團隊在企業內扮演著什麼樣的角色？這都將是企業可能面臨到的一個又一個的問題。在此活動中，年會總召陳昇瑋博士將與聽眾分享其協助多家企業培訓資料科學家及導入資料科學團隊的各種經驗，從企業如何跳脫既有框架，進而能活用資料、挖掘出潛藏在資料中不為人知的秘密，最終打造高信任度及高效率的工作環境，展現資料分析的價值。
-                                    <a href="event/data_team_jan_2016/">活動介紹 <i class="fa fa-arrow-circle-right"></i></a>
+                                    <a target="blank" href="event/data_team_jan_2016/">活動介紹 <i class="fa fa-arrow-circle-right"></i></a>
                                 </p>
                             </dd>
                             <dt class="-little">
-                                <a href="event/computer_vision_123"><img src="images/course/0112.png" /></a>
+                                <a target="blank" href="event/computer_vision_123"><img src="images/course/0112.png" /></a>
                             </dt>
                             <dd>
-                                <h4><a style="color:#db9426;" href="event/computer_vision_123/">電腦視覺一二三 (2016/1/12)</a></h4>
+                                <h4><a style="color:#db9426;" target="blank" href="event/computer_vision_123/">電腦視覺一二三 (2016/1/12)</a></h4>
                                 <p>
                                     電腦視覺旨在發展演算法使得電腦能理解影像的內容，近年來電腦視覺相關的技術已廣泛應用於我們生活中，舉凡物件偵測，識別，追蹤，三維重建，多媒體分析以及檢索，監控系統，醫療影像，以及電視電影中的許多視覺效果都可以看到電腦視覺技術的應用。這場演講的目的在於介紹電腦視覺中的基本觀念和核心技術，透過大量實際的範例幫助大家快速了解這些技術如何被應用在日常生活中，以期讓聽眾有效率地了解這個領域，最新的發展以及未來展望。
-                                    <a href="event/computer_vision_123/">活動介紹 <i class="fa fa-arrow-circle-right"></i></a>
+                                    <a target="blank" href="event/computer_vision_123/">活動介紹 <i class="fa fa-arrow-circle-right"></i></a>
                                 </p>
                             </dd>
                             <!--                             <dt class="-little">
