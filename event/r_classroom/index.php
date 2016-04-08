@@ -21,7 +21,7 @@ $about = array(
     'title' => 'R 語言翻轉教室',
     'content' => array(
         '面對撲面而來的資料浪潮，包含 Google、Facebook、Intel、Pfizer、Bank of America 等國際級企業，都已經採用 R 語言進行資料分析，許多全球一流大學如 Stanford、Johns Hopkins 和 UCLA 也將 R 視為資料分析課程的先修科目。R 語言具有免費、跨平台、佔有率高、可塑性高等優勢，各式各樣的 R 社群蓬勃發展。在國際知名的 KDnuggets 論壇統計當中，R 語言已經連續三年獲得資料科學家最常使用的資料分析語言第一名。',
-        '本課程很榮幸邀請到 Taiwan R User Group 的共同創辦人吳齊軒 ( Wush Wu ) 擔任講者，利用一套用 R 學 R 的教案 -- R 語言翻轉教室，來引領無程式開發經驗的學員，從實作中瞭解 R 語言的基本操作以及初階資料分析。這樣的訓練將幫助學員學會如何掌握資料的脈絡，進而輔助決策，目標是改善同學們學 R 語言基礎知識的體驗。適合資訊科學、統計學、商學、傳播學、社會學及其他領域的學生。學員應該自我期許，學會下列內容：',
+        '本課程很榮幸邀請到 Taiwan R User Group 的共同創辦人吳齊軒 ( Wush Wu ) 擔任講者，利用一套用 R 學 R 的教案 -- R 語言翻轉教室，來引領無程式開發經驗的學員，從實作中瞭解 R 語言的基本操作以及初階資料分析。這樣的訓練將幫助學員學會如何掌握資料的脈絡，進而輔助決策，目標是改善同學們學 R 語言基礎知識的體驗。適合資訊科學、統計學、商學、傳播學、社會學及其他領域的學生。我們預期學員可至少學會以下內容：',
         '<ul class="about_ul">
             <li>R 語言的優缺點</li>
             <li>建立開發環境</li>
@@ -57,7 +57,7 @@ $content = array(
         '或是依照以下的動作快速設定學習環境：
         <ul>
             <li>安裝 R</li>
-            <li>安裝 Rstudio ( Windows 使用者請安裝 Rstudio 或自備能夠編輯 UTF-8 編碼的編輯器，OS X 與 Linux 使用者可依據自己喜好決定是否使用 Rstudio )</li>
+            <li>安裝 RStudio ( Windows 使用者請安裝 RStudio 或自備能夠編輯 UTF-8 編碼的編輯器，OS X 與 Linux 使用者可依據自己喜好決定是否使用 RStudio )</li>
             <li>打開 R，執行：source("http://wush978.github.io/R/init-swirl.R")</li>
             <li>輸入 library(swirl); swirl() 後即進入教學環境。</li>
             <li>進入 00-Hello-DataScienceAndR 課程檢查你的電腦能不能執行本教材的所有功能，並瞭解本教材所提供的功能。</li>
@@ -108,7 +108,7 @@ $speakers = array(
         'suffix' => '',
         'engn' => ' / Wush',
         'title' => array(
-            '台灣大學電機所 / 博士生'
+            '台灣大學電機所博士生'
         ),
         'info' => array(
             '國立臺灣大學電機所博士生，平時致力於推廣 R 語言，曾主辦多場 R 語言推廣講座，並經常於 Taiwan R User Group 分享 R 的使用心得。有豐富的 R 語言實務經驗，包含資料的收集、整理、分析到報告製作。擅長根據專案需求，量身打造 R 的資料分析系統，以及運用 R 和 C++ 撰寫高效能演算法。'
@@ -186,9 +186,7 @@ $team = array(
                         <div class="col-md-12">
                             <img src="../_images/dsc2016-series_main.svg" class="img-responsive logoInline">
                             <div class="mainTitle">
-                                <h2 class="mt"><?php echo $title ?> <div class="fb-share-button"
-                                        data-href="http://datasci.tw<?php echo $_SERVER['REQUEST_URI']; ?>" 
-                                        data-layout="button_count">
+                                <h2 class="mt"><?php echo $title ?> 
                                     </div></h2>
                             </div>
                             <div class="maindate">
@@ -198,7 +196,12 @@ $team = array(
                                 </h4>
                                 <h4 class="text-center location">
                                     <i class="fa fa-map-marker"></i> 地點:  <?php echo isset($location_string) ? $location_string :'中央研究院人文社會科學館' ?> 
+                                </h4><h4 class="text-center">
+                                    <div class="fb-share-button" 
+                                        data-href="http://datasci.tw<?php echo $_SERVER['REQUEST_URI']; ?>" 
+                                        data-layout="button_count"></div>
                                 </h4>
+
 
                             </div>
                             <a href="/"style="position:absolute;top:0px;left:4%;display:block;width:24%;height:50%;background-color:transparent;"></a>
@@ -207,7 +210,78 @@ $team = array(
                 </div>
             </section>
             <section id="about_us"><?php include('../_template/about.php'); ?></section>
-            <section id="schedule"><div  class="pic_section" ><?php include('../_template/schedule.php'); ?></div></section>
+            <section id="schedule"><div  class="pic_section" >
+
+
+            <div class="container">
+            <?php
+            if( !isset($schedules) ) { $schedules = array( '__None__' => $schedule ); }
+            foreach($schedules as $caption => $schedule)
+            {
+               
+                $title = $caption .'課程';
+                
+            ?>
+                <div class="row">
+                    <div class="col-sm-12 text-center to_animate" data-animation="pullDown">
+                        <h2 class="section_header text-center"><?php echo $title; ?></h2>
+                    </div>
+                </div>            
+
+                <div class="row about_desc">
+                    <div class="col-md-10 col-md-offset-1">
+                        <table width="100%" class="table table-bordered pagetb to_animate" data-animation="fadeInUp">
+            <?php
+                $panelist = array();
+                $count = 0;
+                foreach ( $schedule as $t => $data )
+                {
+                    $class = isset($data['class']) ? $data['class'] : (($count%2==0)?'warning':'');
+                    $tr_attr = empty($class) ? '' : (' class="'.$class.'"');
+            ?>
+                            <tr<?php echo $tr_attr; ?>>
+                                <td class="text-center time"><?php echo $t; ?></td>
+                                <td style="width:70%;">
+                                    <h3 class="schedule-content"><?php echo $data['title']; ?></h3>
+                                    <?php if ( isset($data['subtitle']) ) { echo $data['subtitle']; } ?>
+            <?php
+                    if ( isset($data['panels']) )
+                    {
+                        foreach( $data['panels'] as $panel_key )
+                        {
+                            $panel = $speakers[$panel_key];
+                            $panel_title = array();
+                            foreach ( $panel['title'] as $pt )
+                            {
+                                $ptt = isset($data['alias'][$pt]) ? $data['alias'][$pt] : $pt;
+                                $panel_title[] = $ptt;
+                            }
+                            $panelist[] = $panel_key;
+            ?>
+                                    <br/>
+                                    <span data-toggle="modal" data-target="#<?php echo $panel_key; ?>" class="text-primary speaker-info">
+                                        <?php echo $panel['name']; ?> / <?php echo implode(', ',$panel_title); ?>
+                                    </span>
+            <?php
+                        }
+                    }
+            ?>
+                                </td>
+                            </tr>
+            <?php
+                    $count++;
+                }
+            ?>
+                        </table>
+                    </div>
+                </div>
+            <?php
+            }
+            ?>
+
+    
+            </div>
+            </div></section>
             <section id="speaker"><?php include('../_template/speaker.php'); ?></section>
             <section id="content" ><div class="grey_section" ><?php include('../_template/content.php'); ?></div></section>
             <section id="ticket"><?php include('../_template/ticket.php'); ?></section>
@@ -226,4 +300,9 @@ $team = array(
         </div><!-- eof #box_wrapper -->
         <?php include('../_template/script.php'); ?>
     </body>
+    <style type="text/css">
+        .fb_iframe_widget_fluid{
+            display: block !important;
+        }        
+    </style>
 </html>
