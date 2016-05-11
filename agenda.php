@@ -541,7 +541,7 @@
                                                 <span data-toggle="modal" data-target="#日0A_鄭世昐" class="text-primary speaker-info">鄭世昐 / Singapore Management University Associate Professor and Deputy Director</span><br/>
                                             </td>
                                             <td>
-                                                <h4>From Data Towards Intelligence</h4>
+                                                <h4>從電腦視覺看人工智慧 - 下一件大事</h4>
                                                 <span data-toggle="modal" data-target="#日1A_孫民" class="text-primary speaker-info">孫民 / 國立清華大學電機工程學系助理教授</span><br/>
                                             </td>
                                             <td>
@@ -644,7 +644,7 @@
                                             </td>
                                             <td>
                                                 <h4>Feature Engineering in Machine Learning</h4>
-                                                <span data-toggle="modal" data-target="#日1F_曾韵" class="text-primary speaker-info">李俊良 / Carnegie Mellon University博士生</span><br/>
+                                                <span data-toggle="modal" data-target="#日2F_李俊良" class="text-primary speaker-info">李俊良 / Carnegie Mellon University博士生</span><br/>
                                             </td>
                                             <td >
                                                 <h4>敬請期待</h4>
