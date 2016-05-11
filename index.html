@@ -29,12 +29,42 @@
     <link rel="stylesheet" href="css/kj.css">
     <link rel="stylesheet" href="css/animations.css">
     <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" type="text/css" href="css/kj.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="css/kj.css" /> -->
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     <!--[if lt IE 9]>
         <script src="js/vendor/html5shiv.min.js"></script>
         <script src="js/vendor/respond.min.js"></script>
     <![endif]-->
+    <style>
+    .index-sponsor a img {
+        width: 45%;
+        margin: 10px 2% 10px 2%;
+    }
+    
+    .index-sponsor .sponsor-category {
+        width: 20%;
+        display: inline-block;
+    }
+    
+    .sponsbg {
+        margin: 20px 0px 15px 0px;
+        color: #D64D53;
+        font-size: 16px;
+    }
+    
+    a.link-text {
+        text-align: right;
+        color: rgb(111, 105, 105);
+        display: block;
+        font-size: 14px;
+    }
+    
+    .fb-page,
+    .fb-page span,
+    .fb-page span iframe[style] {
+        width: 100% !important;
+    }
+    </style>
 </head>
 
 <body>
@@ -81,7 +111,7 @@
                                 <a target="blank" href="event/deep_learning_one_day"><img src="event/_images/course/dl.svg" /></a>
                             </dt>
                             <dd>
-                                <h4><a style="color:#db9426;" target="blank" href="event/deep_learning_one_day">一天搞懂深度學習 (2016/5/21)</a></h4>
+                                <h4><a style="color:#6E9C30;" target="blank" href="event/deep_learning_one_day">一天搞懂深度學習 (2016/5/21)</a></h4>
                                 <p>
                                     這門課程將由台大電機系李宏毅教授利用短短的六個小時簡介深度學習技術。在本課程中，李教授會先帶大家熟悉深度學習的基本概念與工具，接著剖析深度學習和其它機器學習方法的潛在優勢，以及分享實作技巧及實戰經驗，希望幫助大家不只能了解深度學習，也可以有效率地上手深度學習，用在手邊的問題上。無論是從未嘗試過深度學習的新手，還是已經有一點經驗想更深入學習，都可以在這門課中有所收穫。
                                     <a target="blank" href="event/deep_learning_one_day">活動介紹 <i class="fa fa-arrow-circle-right"></i></a>
@@ -167,7 +197,8 @@
                         }(document, 'script', 'facebook-jssdk'));
                         </script>
                         <!-- plugin -->
-                        <div class="fb-page" data-href="https://www.facebook.com/twdsconf" data-width="300" data-hide-cover="false" data-show-facepile="true" data-show-posts="true">
+                        <div class="fb-page" data-href="https://www.facebook.com/twdsconf" data-width="360" data-hide-cover="false" data-show-facepile="true" data-show-posts="true" data-adapt-container-width="true"
+>
                             <div class="fb-xfbml-parse-ignore">
                                 <blockquote cite="https://www.facebook.com/twdsconf">
                                     <a href="https://www.facebook.com/twdsconf">台灣資料科學年會</a>
@@ -204,11 +235,63 @@
                             <h3>關於年會</h3>
                             <p>台灣資料科學年會由一群愛好資料科學的同好們共同舉辦，宗旨為推廣資料科學的認知、技術及應用，議題包含資料科學的各個層面，例如數理統計、資料視覺化、資料處理及計算、資料儲存以及各領域裡的資料分析應用等，期待能透過演講、資料分析上手教學課程、心得分享、資料交流等各種形式，將我們對於資料科學的熱情傳達給大眾，幫助與會聽眾瞭解資料科學的魅力，進入資料科學的領域，進而一起探索與開發資料科學的潛力，更重要是能促使將資料科學引入每個人的專業領域之中，帶來新的創新及價值。</p>
                         </div>
-                        <div>
+                        <!--                         <div>
                             <h3>活動回顧</h3>
                             <a class="history-link" href="http://datasci.tw/event" target="_blank">台灣資料科學年會系列活動</a>
                             <a class="history-link" href="http://datasci.tw/2015" target="_blank">2015 台灣資料科學年會</a>
                             <a class="history-link" href="http://datasci.tw/2014" target="_blank">2014 台灣資料科學年會</a>
+                        </div> -->
+                        <div class="index-sponsor">
+                            <h3>贊助</h3>
+                            <h4 class="sponsbg">鑽石級贊助</h4>
+                            <a href="https://cacafly.com/" target="_blank">
+                                <img src="images/sponsor/cacafly.png" />
+                            </a>
+                            <a href="http://www.titansoft.com/tw/" target="_blank">
+                                <img src="images/sponsor/titansoft.png" />
+                            </a>
+                            <a href="http://www.ibm.com/tw-zh/" target="_blank">
+                                <img src="images/sponsor/ibm.png" />
+                            </a>
+                            <a href="http://www.esunbank.com.tw/" target="_blank">
+                                <img src="images/sponsor/esunfhc.png" />
+                            </a>
+                            <a href="https://www.cathayholdings.com/life/web/" target="_blank">
+                                <img src="images/sponsor/國泰人壽.jpg" />
+                            </a>
+                            <a href="http://www.wavenet.com.tw/" target="_blank">
+                                <img src="images/sponsor/潮網.png" />
+                            </a>
+                            <!-- <a class="link-text">(持續更新中...)</a> -->
+                            <h4 class="sponsbg">白金級贊助</h4>
+                            <a href="http://www.vpon.com/" target="_blank">
+                                <img src="images/sponsor/vpon.png" />
+                            </a>
+                            <a href="http://www.meridigen.com/" target="_blank">
+                                <img src="images/sponsor/宣捷.jpg" />
+                            </a>
+                            <!-- <a class="link-text">(持續更新中...)</a> -->
+                            <h4 class="sponsbg">黃金級贊助</h4>
+                            <a href="http://www.generalmobi.com/" target="_blank">
+                                <img src="images/sponsor/GMobi.svg" />
+                            </a>
+                            <a href="http://www.bridgewell.com.tw/" target="_blank">
+                                <img src="images/sponsor/bridgewell.png" />
+                            </a>
+                            <a href="http://www.icantw.com/" target="_blank">
+                                <img src="images/sponsor/ican.png" />
+                            </a>
+                            <a href="http://www.tenki.tw/company/aboutus/index.php" target="_blank">
+                                <img src="images/sponsor/weather.png" />
+                            </a>
+                            <!--                             <a href="#">
+                                <img src="images/speaker/00.jpg" />
+                                <h4 class="orgtitle">哥大校友會</h4>
+                            </a> -->
+                            <a href="#">
+                                <img src="images/sponsor/Google.svg" />
+                            </a>
+                            <!-- <a class="link-text">(持續更新中...)</a> -->
                         </div>
                     </div>
                 </div>

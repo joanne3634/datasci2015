@@ -421,7 +421,7 @@
                                             </td>
                                             <td>
                                                 <h4>數據分析在運輸管理之應用</h4>
-                                                <span data-toggle="modal" data-target="#六2D_王晉元" class="text-primary speaker-info">王晉元 / 停車大聲公執行長</span><br/>
+                                                <span data-toggle="modal" data-target="#六2D_王晉元" class="text-primary speaker-info">王晉元 / 國立交通大學運輸與物流管理學系副教授</span><br/>
                                             </td>
                                             <td >
                                                 <h4>敬請期待</h4>
