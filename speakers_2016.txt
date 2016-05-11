@@ -1,0 +1,447 @@
+[
+{
+    "agenda": "info01",
+    "speaker": "1",
+    "name": [ "李宏毅", "Hung-yi Lee" ],
+    "title": "台灣大學電機系 / 助理教授",
+     "website": {
+        "home": "http://speech.ee.ntu.edu.tw/~tlkagk/index.html"
+    },
+    "info": [ 
+        "現為台大電機系助理教授，他的研究方向與興趣是以機器學習技術讓機器辨識並理解語音訊號的內容。以深度學習技術為基石，他正致力於語音數位內容搜尋、語音數位內容之自動化組織以及從語音數位內容擷取關鍵資訊等前瞻性研究，這些技術有很多的應用，例如：人機互動、問答系統、智慧型線上教學平台等等。他曾在台大開設和深度學習相關的課程「機器學習及其深層與結構化」。" 
+    ]
+},
+{
+    "agenda": "info02",
+    "speaker": "2",
+    "name": [ "陳昇瑋", "Sheng-Wei Chen" ],
+    "title": "年會總召, 台灣資料科學協會理事長",
+     "website": {
+        "home": "http://www.iis.sinica.edu.tw/~swc/index_c.html"
+    },
+    "info": [ 
+        "陳昇瑋博士現為台灣資料科學協會理事長、中央研究院資訊科學研究所研究員暨資料洞察實驗室主持人，研究領域為使用者滿意度、多媒體及社群系統及計算社會學等，在使用者／社群意見及感受的淬取及量化方面持續有代表性的研究創見。",
+        "陳博士堅信資料及資料分析的價值，長期推廣資料科學及其在各領域的應用，發起台灣資料科學協會及台灣資料科學愛好者年會，期能將對於資料科學的熱情傳達給大眾，一起來探索資料科學的潛力，並將資料科學引入每個人的專業領域之中。他期待讓資料分析在台灣不再是口號，而是大家真實拿來解決問題及創造價值的工具。",
+        "欲瞭解陳博士的研究及心得分享，請至他的<a href=\"http://www.iis.sinica.edu.tw/~swc/index_c.html\" target=\"_blank\">個人網頁</a>一探究竟。" 
+    ]
+},
+{
+    "agenda": "info03",
+    "speaker": "3",
+    "name": [ "姜俊宇", "Jyun-Yu Jiang" ],
+    "title": "美國加州大學洛杉磯分校 / 博士生",
+    "website": {
+        "home": "http://www.iis.sinica.edu.tw/~swc/index_c.html"
+    },
+    "info": [ 
+        "姜俊宇在國立台灣大學資訊工程系取得學士與碩士學位，其碩士論文曾獲中華民國人工智慧學會與計算語言學會之碩士論文獎。現於中央研究院擔任研究助理，並將於 2016 年秋季前往美國加州大學洛杉磯分校攻讀博士學位。","主要研究方向為資料探勘、資訊檢索、機器學習與社群網路，近年來的研究成果曾發表於 CIKM, SIGIR, WWW, ICWSM, CCS 等頂級國際學術會議。另外，在 2012 年亦與台灣大學的教授與同學共同組隊參加 KDDCUP 國際資料探勘大賽，並取得冠軍的成績。" 
+    ]
+},
+{
+    "agenda": "info04",
+    "speaker": "4",
+    "name": [ "張毓倫 ", "Helen Chang" ],
+    "title": "中央研究院資訊科學研究所 / 研究助理",
+    "info": [ 
+        "清大材料所畢，學生時期受的是微觀層級的訓練，後來到傳統產業當 PM，做的卻都是巨型產品；每天都比昨天更明白資源的有限，想盡辦法維持動態平衡。現栽入資料海裡載浮載沉，學著觀測人類行為的同時，也藉以修剪自己的偏見謬誤。覺得一切事物都關乎設計，希望世界的冗餘或浪費降到最低。推理迷，不喜歡沒有謎題的故事，也很愛玩拼圖；唯一不可或缺的是音樂，最近都在聽山形瑞秋的歌。" 
+    ]
+},
+{
+    "agenda": "info05",
+    "speaker": "5",
+    "name": [ "陳柏亨", "Po-Heng Chen (Henry)" ],
+    "title": "中央研究院資訊科學研究所 / 研究助理",
+     "website": {
+        "facebook": "http://www.iis.sinica.edu.tw/~swc/index_c.html"
+    },
+    "info": [ 
+        "現任中央科學院資訊所擔任研究助理，並將於 2016 年秋季前往美國密西根大學攻讀碩士學位。畢業於台灣大學工商管理學系，畢業後前往北京 RedAtoms, Inc 移動社交遊戲公司任職運營專員。分析玩家行為模式的過程中，意外發現資料背後潛藏的價值與分析的樂趣，於是決心轉向資料分析領域發展，一路自學 R 語言與 Python。目前研究範圍包含健保資料庫分析、遊戲市場分析。" 
+    ]
+},
+{
+    "agenda": "info06",
+    "speaker": "6",
+    "name": [ "許懷中博士", "Dr. Hwai-Jung Hsu" ],
+    "title": "中央研究院資訊科學研究所 / 博士後研究員",
+    "website": {
+        "linkedin": "https://www.linkedin.com/in/hjhsu"
+    },
+    "info": [
+        "許懷中博士 2011 年於國立交通大學資訊科學與工程學系取得博士學位，現任職中央研究院資訊科學研究所博士後研究員；他的研究興趣廣泛，包含巨量資料分析與架構、生心理量測、網路遊戲、雲端計算以及軟體工程。",
+        "許博士為具備豐富實務經驗的學術研究者，以其獨特的 know-how 與洞察力由產業界的巨量高維資料挖掘埋藏其中的價值；此外，許博士近年也致力於國內資料人才的培養，曾為資策會、外貿協會等單位教授 R 語言與資料分析以及創意訓練等相關課程，頗受好評。"
+    ]
+},
+{
+    "agenda": "info07",
+    "speaker": "7",
+    "name": [ "謝宗震", "Xie Zhen Zong" ],
+    "title": "DSP智庫驅動 / 資料科學家",
+    "info": [
+        "DSP智庫驅動資料科學家，清華統計博士，對於統計方法與工具的推廣具有極大的熱忱，期望利用統計思維及分析工具幫助各個領域解決問題。輔導超過300位政府、企業、非營利組織人士成為資料分析人才。 Data for Social Good (D4SG) 計畫共同發起人，打造一個「資料力，做公益」的交流與媒合平台。"
+    ]
+},
+{
+    "agenda": "Keynote_紀懷新",
+    "image": "jpeg",
+    "name": [ "紀懷新", "Ed H. Chi" ],
+    "title": "Google / Research Scientist",
+    "website": {
+        "home": "http://edchi.net"
+    },
+    "info": [
+        "Ed H. Chi is a Research Scientist at Google, leading a team focused on recommender and machine learning, as well as social interaction research. He has led research and launched significant product features in recommenders for the Google Play Store and Google+. Previous to Google, he was the Area Manager and a Principal Scientist at Palo Alto Research Center's Augmented Social Cognition Group, where he led the group in understanding how social computing systems help groups of people to remember, think and reason. Ed completed his three degrees (B.S., M.S., and Ph.D.) in 6.5 years from University of Minnesota, and has been doing research on user interface software systems since 1993. He has been featured and quoted in the press, including the Economist, Time Magazine, LA Times, and the Associated Press.","With over 35 patents and over 100 research articles, he is known for research in Web and online social sites, and the effects of social signals on user behavior. For example, he led a group of researchers at PARC to understand the underlying mechanisms in Wikipedia. He has also worked on information visualization, computational molecular biology, ubicomp, and has won awards for both teaching and research. In his spare time, Ed is an avid photographer and snowboarder."
+    ]
+},
+{
+    "agenda": "六0C_李仁杰",
+    "name": [ "李仁杰"],
+    "title": "Riot Games / Head of Data Science",
+    "info": [
+        "李仁杰，毕业于中国科学技术⼤大学少年班, 美国 University of Rochester 博⼠。现为 Riot Games 数据科学总负责人。致力于通过开发创新的数据产品来提高用户的体验，甚至人类的生活。从⽆到有建立了 Riot Games Data Science 部⻔, 带领团队从《英雄联盟》的海量数据平台中用大数据分析大规模提升商业决策和运营效率, 并用机器学习算法开发了精细化运营, 精准分析预测, 个性化推荐, 自然语⾔处理等各种全球领先的数据产品。"
+    ]
+},
+{
+    "agenda": "六0D_張宗堯",
+    "name": [ "張宗堯","Michael Chang"],
+    "title": "Kyper Data Technologies / CEO",
+    "info": [
+        "Four years ago, Michael built one of the first big data asset management funds. He has extensive experience in data science. As his first job at Foxconn, he used massive amounts of data to identify and solve the relationship between weather and a major manufacturing failure which cost tens of millions per quarter. His work has been featured on the cover stories on several prestigious journals. Michael holds a diploma from NTU, Taiwan and a Ph.D from MIT EECS."
+    ]
+},
+{
+    "agenda": "六1C_呂冠緯",
+    "name": [ "呂冠瑋"],
+    "website": {
+        "home": "http://kuanweilu.blogspot.tw/"
+    },
+    "title": "財團法人誠致教育基金會 / 執行長 CEO",
+    "info": [
+        "台大醫學系畢業的呂冠緯，因著可汗學院的啟發，沒有走上醫師之路，轉而到誠致教育基金會擔任專案教師。在錄製了均一教育平台上1000支數學、物理、化學、生物教學短片，被看過300萬次後，接任了基金會的執行長。","他認為有效的教育與有效的醫療類似，都需要好的數據決策，來提升任何方法效果的「實證性」。目前，均一教育平台近40萬使用者，每週使用人數約3-4萬人，但他與夥伴並不以此為滿足。未來，他將持續與誠致的團隊朝「個人化教育」的理想邁進。"
+    ]
+},
+{
+    "agenda": "六1C_蘇倚恩_有點模糊",
+    "name": [ "蘇倚恩"],
+    "title": "財團法人誠致教育基金會 / 產品負責人",
+    "info": [
+        "倚恩從小在一個樂於幫助別人的環境中長大，一直有一個夢想：希望自己所做的事情可以減少這個世界的不公平和不正義。或許就在這樣的熱情裡，倚恩一路從建國中學唸到台大電機系，在進入均一之前曾在Garmin擔任電子工程師。希望自己的時間不只是為了讓自己的物質生活更好，而是可以實際幫助有需要的人，讓台灣、甚至讓世界變成一個更美好的地方。"
+    ]
+},
+{
+    "agenda": "六2C_余致緯",
+    "image": "png",
+    "name": [ "余致緯","Ronald Yu"],
+    "title": "停車大聲公 / 執行長",
+    "info": [
+        ""
+    ]
+},
+{
+    "agenda": "六2D_王晉元",
+    "name": [ "王晉元"],
+    "title": "國立交通大學 運輸與物流管理學系 / 副教授",
+    "info": [
+        "王晉元博士，目前任職於國立交通大學運輸與物流管理學系，曾擔任過交通大學運輸研究中心主任與運輸與物流管理學系系主任。王教授的專長在於智慧型運輸系統，尤其專精公共運輸、運輸資訊、與商車營運。近幾年致力於分析透過智慧型運輸分析所收集到的資料，特別是公共運輸車輛與計程車的相關資料。"
+    ]
+},
+{
+    "agenda": "六0E_陸永祥",
+    "name": [ "陸永祥"],
+    "title": "美國普度大學 / 副教授",
+    "info": [
+        "陸永祥是美國普度大學電機計算機工程學副教授。他是ACM傑出的科學家和ACM傑出的演講者。他的研究小組用雲計算系統分析網路攝影機的數據。這是開放式系統;目前已經有兩百多個用戶。他從斯坦福大學獲得博士學位。"
+    ]
+},
+{
+    "agenda": "六0F_陳維超",
+    "name": [ "陳維超"],
+    "title": "Skywatch / 共同創辦人",
+    "info": [
+        "陳維超博士為 Skywatch ( 行品股份有限公司 ) 的共同創辦人，也是台灣大學資訊系的兼任助理教授，開設圖形處理器程式設計、與 IoT 物聯網應用等課程。陳博士畢業於北卡羅萊納教堂山大學，其主要研究領域為電腦繪圖、電腦視覺與虛擬實境等。曾於美國加州之矽谷研發多年，於 Intel 任職時參與 OpenLF 與 OpenCV 初始開發計劃，於 NVIDIA 開發繪圖晶片如 Sony Playstation 3 RSX、NVIDIDA Telsa、Fermi 等，並在 Nokia 柏拉圖研究中心，與史丹佛大學合作視訊資料檢索、增強實境 ( AR ) 與計算攝影學等研究計劃。陳博士曾於多個 IEEE 與 ACM 之期刊與學術會議中發表與擔任評審，著有數十篇期刊論文與專利，具有豐富的學術與業界之經驗。"
+    ]
+},
+{
+    "agenda": "六1E_陳宜欣",
+    "name": [ "陳宜欣"],
+    "website": {
+        "home": "http://www.yishin.info"
+    },
+    "title": "清華大學資工系 / 助理教授",
+    "info": [
+        ""
+    ]
+},
+{
+    "agenda": "六1F_顏汝芳",
+    "name": [ "顏汝芳"],
+    "website": {
+        "home": "http://lms.ntpu.edu.tw/blog.php?user=59500703&f=portfolio"
+    },
+    "title": "台北大學 / 助理教授",
+    "info": [
+        "顏汝芳畢業於台大數學系、台大財務金融學系財工組，並於2013年於台大財務金融學系取得博士學位，目前任職於國立臺北大學商學院統計學系助理教授一職。研究方向包含公司理財與銀行放款策略。"
+    ]
+},
+{
+    "agenda": "六2E_吳牧恩",
+    "name": [ "吳牧恩"],
+    "title": "東吳大學數學系 / 助理教授",
+    "info": [
+        "吳牧恩教授為數理背景出身、資工博士畢業，其研究領域包括資訊理論與金融資料分析。現為東吳大學數學系助理教授，致力於推廣資金管理的數學與研發金融交易策略，期望破除市場上大眾追求穩賺聖盃的迷思。其亦為知名財金部落格幣圖誌 ( Bituzi ) 專欄作家 -- 牧清華。"
+    ]
+},
+{
+    "agenda": "六2F_洪采襄",
+    "name": [ "洪采襄"],
+    "title": "玉山銀行資訊處 / 襄理",
+    "info": [
+        "成功大學統計研究所畢業後，曾短暫在新創公司擔任演算法工程師，2011 年進入玉山銀行資訊處，成天圍繞在「找資料、收資料、整資料、用資料」之中，喜歡接受各種新挑戰，更喜歡用 R 解決各式各樣奇奇怪怪的問題。"
+    ]
+},
+{
+    "agenda": "六0G_林伯龍",
+    "name": [ "林伯龍","Polong Lin"],
+    "title": "IBM Analytics Platform, Emerging Technologies / Data Scientist",
+    "info": [
+        "Polong Lin is a Data Scientist at IBM. He is a regular speaker on data science and develops content for free data education on bigdatauniversity.com using open data tools on datascientistworkbench.com. Polong earned his M.Sc. at the Univ. of Tsukuba."
+    ]
+},
+{
+    "agenda": "六0H_黃從仁",
+    "name": [ "黃從仁"],
+    "website": {
+        "home": "http://mil.psy.ntu.edu.tw/~tren"
+    },
+    "title": "臺灣大學心理學系 / 助理教授",
+    "info": [
+        "黃從仁畢業於臺灣大學數學系、臺灣大學物理學研究所、波士頓大學認知與神經系統研究所。他的研究專長為應用數理模型與電腦模擬來解釋人類認知行為。目前他的研究團隊致力於使用資訊科技來進行心理學與神經科學的巨量資料研究，在議題上聚焦於社會認知/學習/記憶。研究之外，他曾擔任科羅拉多大學認知科學研究所以及臺灣大學身體心靈文化整合影像研究中心的資訊系統架構師兼管理員。"
+    ]
+},
+{
+    "agenda": "六1G_陳伶志_尺寸不足",
+    "name": [ "陳伶志"],
+    "title": "中央研究院資訊科學所 / 副研究員",
+    "info": [
+        "現任中央研究院資訊科學所副研究員。其研究專長為網路感測系統、行動無線網路與社群運算，已發表超過100篇的學術論於於國際期刊與研討會。其研究主題多以貼近生活的真實問題為出發點，重要的代表作包含玉山登山追蹤與搜救系統、大台北公車行車舒適度系統，以及近期的微型空氣品質感測系統，該系統目前已與 LASS 網路社群和台北市政府合作，在全台各地佈建超過300個感測站，並且同時收集包含環保署與其他民間社群的感測資料，是目前全台空氣品質感測資料最大的集散中心。"
+    ]
+},
+{
+    "agenda": "六1H_莊坤達",
+    "image": "png",
+    "name": [ "莊坤達"],
+    "title": "成功大學 / 助理教授",
+    "info": [
+        ""
+    ]
+},
+{
+    "agenda": "六2G_趙國仁",
+    "name": [ "趙國仁"],
+    "title": "隆中網絡,東森科技 / 資深數據科學家",
+    "info": [
+        ""
+    ]
+},
+{
+    "agenda": "六2H_周世恩",
+    "name": [ "周世恩"],
+    "title": "前QSearch CTO",
+    "info": [
+        ""
+    ]
+},
+{
+    "agenda": "日0A_鄭世昐",
+    "name": [ "鄭世盼"],
+    "title": "Singapore Management University / Associate Professor and Deputy Director",
+    "info": [
+        "Shih-Fen Cheng is Associate Professor of Information Systems and Deputy Director of the Fujitsu-SMU Urban Computing and Engineering Corp Lab at the Singapore Management University. He received his Ph.D. degree in industrial and operations engineering from the University of Michigan, Ann Arbor, and B.S.E. degree in mechanical engineering from the National Taiwan University.","His research focuses on the modeling and optimization of complex systems in engineering and business domains. He is particularly interested in the application areas of transportation, computational markets, and human decision-making. He is a member of INFORMS, AAAI, and IEEE, and serves as Area Editor for Electronic Commerce Research and Applications."
+    ]
+},
+{
+    "agenda": "日0B_彭盛韶",
+    "name": [ "彭盛韶"],
+    "title": "資訊局 / 專門委員",
+    "info": [
+        "彭盛韶任職於台北市政府資訊局，主責智慧城市及開放資料。因本身兼具資訊專業及具有任職於公部門之經驗，專長為跨域協調及整合資源。2016年資訊局兩項重大計畫「空氣盒子」及「LoRa物聯網實驗平台」，皆有參與及貢獻。在資料科學領域主要貢獻為整合公部門及私部門，產生出各類應用所需之資料。"
+    ]
+},
+{
+    "agenda": "日1A_孫民",
+    "name": [ "孫民","Min Sun"],
+    "title": "國立清華大學電機工程學系 / 助理教授",
+    "info": [
+        ""
+    ]
+},
+{
+    "agenda": "日1B_張秉霖",
+    "image": "png",
+    "name": [ "張秉霖"],
+    "title": "Umbo CV / 技術長",
+    "info": [
+        "成功大學工程科學系學士、英國南安普頓大學人工智慧碩士、英國倫敦帝國理工學院博士，研究興趣為電腦視覺與機器學習，現任 Umbo CV 共同創辦人兼技術長。"
+    ]
+},
+{
+    "agenda": "日2A_李祈均",
+    "image": "png",
+    "name": [ "李祈均","Jeremy Lee"],
+    "website": {
+        "home": "http://biic.ee.nthu.edu.tw/"
+    },
+    "title": "國立清華大學電機工程學系 / 助理教授",
+    "info": [
+        "李祈均博士目前是國立清華大學電機系的助理教授。他的研究專長在於運用及開發訊號處理及機器學習技術進行跨領域研究，尤其是在對人類行為進行分析、預測、及統計建模。他長期著墨在運用不同種類的資料檔 (文字、聲音、影像等等) 於醫療、教育、心理領域研發相關演算法。他曾是ID Analytics公司旗下的id:a lab的資料科學家，透過分析客戶信用申請函資訊進行金融信用產品之研發與開發。目前在清大跟榮總、國家衛生研究院、長庚醫院、台大醫院、及國家教育研究院等機構合作研究對人類情緒，教育演講，及醫療臨床行為進行量化建模及客觀辨識。"
+    ]
+},
+{
+    "agenda": "日2B_林煜軒",
+    "name": [ "林煜軒"],
+    "website": {
+        "home": "http://www.researchgate.net/profile/Yu-Hsuan_Lin2"
+    },
+    "title": "輝瑞大藥廠 / 醫師,博士",
+    "info": [
+        "林煜軒博士為國內少數兼具臨床、企業界資歷之精神科醫師，已發表 28 篇學術論文於國際期刊 ( H index=8 )，其中值班實習醫師之生理訊號研究成果於最具權威教科書《睡眠醫學原理與實務》網站專題報導；立法院、監察院探討醫師工時之公聽會、座談會均援引林醫師團隊之研究成果。",
+        "林醫師曾任職台大精神部，近年投入網路心理學等多項跨領域研究，致力研發雲端健康服務的手機程式 ( App )、編製「智慧型手機成癮量表」，獲得多國學者要求授權翻譯。近期受邀編寫國際知名網路成癮教科書中「智慧型手機成癮」章節。並積極建立產學合作平台，協助政府部門研擬相關政策"
+    ]
+},
+{
+    "agenda": "日0C_許永真",
+    "name": [ "許永真"],
+    "title": "NTU IoX Center / Professor and Director",
+    "info": [
+        ""
+    ]
+},
+{
+    "agenda": "日1C_林峰正_有點模糊",
+    "name": [ "林峰正"],
+    "title": "逢甲大學GIS中心 / 研究副教授",
+    "info": [
+        ""
+    ]
+},
+{
+    "agenda": "日1D_闕嘉宏",
+    "name": [ "闕嘉宏"],
+    "website": {
+        "linkedin": "http://tw.linkedin.com/in/CharlesChueh"
+    },
+    "title": "創代科技股份有限公司 / 執行長",
+    "info": [
+        "闕嘉宏博士為創代科技創辦人兼執行者，並擔任多方公私部門數據分析顧問要職；擅長應用 3G / 4G 電信、電子票證交易、 eTag 數據進行智慧城市發展、公共運輸建設等策略分析；積極參與自由軟體開發活動，包含台灣微軟，交通部、資策會，運輸學會等。代表作品包含國家級空運、軌道、公路運輸之資料模型設計者；雙北市聯合應用票證數據解析智慧城市策略等。"
+    ]
+},
+{
+    "agenda": "日2C_楊奕軒",
+    "name": [ "楊奕軒"],
+    "title": "中央研究院資創中心 / 副研究員",
+    "info": [
+        "Yi-Hsuan Yang is an Associate Research Fellow with Academia Sinica. He received his Ph.D. degree in Communication Engineering from National Taiwan University in 2010, and became an Assistant Research Fellow in Academia Sinica in 2011. He is also an Adjunct Associate Professor with the National Tsing Hua University, Taiwan. His research interests include music information retrieval, machine learning and affective computing. Dr. Yang was a recipient of the 2011 IEEE Signal Processing Society (SPS) Young Author Best Paper Award, the 2012 ACM Multimedia Grand Challenge First Prize, and the 2014 Ta-You Wu Memorial Research Award of the Ministry of Science and Technology, Taiwan. He is an author of the book Music Emotion Recognition (CRC Press 2011) and a tutorial speaker on music affect recognition in the International Society for Music Information Retrieval Conference (ISMIR 2012). In 2014, he served as a Technical Program Co-chair of ISMIR, and a Guest Editor of the IEEE Transactions on Affective Computing and the ACM Transactions on Intelligent Systems and Technology."
+    ]
+},
+{
+    "agenda": "日2D_江振宇",
+    "image": "png",
+    "name": [ "江振宇"],
+    "title": "國立臺北大學通訊工程學系 / 助理教授",
+    "info": [
+        ""
+    ]
+},
+{
+    "agenda": "日0E_徐宏民",
+    "name": [ "徐宏民","Winston Hsu"],
+    "website": {
+        "home": "http://www.csie.ntu.edu.tw/~winston/"
+    },
+    "title": "國立臺灣大學資訊工程學系 / 教授",
+    "info": [
+        "Prof. Winston Hsu is an active researcher dedicated to large-scale image/video retrieval, social media mining, visual recognition, and machine intelligence. He is keen to realizing advanced researches towards business deliverables via academia-industry collaborations and co-founding startups. He is a Professor in the Department of Computer Science and Information Engineering, National Taiwan University, also a Visiting Scientist at Microsoft Research Redmond (2014) and IBM TJ Watson Research Center (2016) for visual cognition. He received his Ph.D. degree (2007) from Columbia University, New York. Before that, he worked for years as a founding engineer in the multimedia software company, CyberLink Corp., where experiencing Engineer, Project Leader, and R&D Manager. He has been recognized with technical awards in multimedia research community. He also received local recognitions such as 科技部吳大猷先生紀念獎 (2011) and 傑出資訊人才獎 (2013). He is proud to be an ironman, a marathoner, and a father of three."
+    ]
+},
+{
+    "agenda": "日0F_林守德",
+    "name": [ "林守德"],
+    "title": "國立臺灣大學資訊工程學系 / 教授",
+    "info": [
+        ""
+    ]
+},
+{
+    "agenda": "日1E_孔令傑",
+    "name": [ "孔令傑"],
+    "title": "國立臺灣大學資訊管理學系 / 助理教授",
+    "info": [
+        "孔令傑畢業自臺大資管系、臺大資管所碩士班、加州大學柏克萊分校工業工程與作業研究博士班，現職臺大資管系助理教授。他的研究主要是利用賽局理論與最佳化方法探討各種商管領域的決策問題，包括資訊經濟、平臺策略、供應鍊管理、醫療照護管理等等。他在統計與資料分析方面其實是個外行人，不過他喜歡瞭解各種簡單的分析方法，並嘗試利用它們去解決各種問題。"
+    ]
+},
+{
+    "agenda": "日1F_曾韵",
+    "name": [ "曾韵"],
+    "title": "勤業眾信聯合會計師事務所 / 副總 ",
+    "info": [
+        "曾韵小姐從企業風險管理議題開始投入資訊管理顧問產業，透過營運流程與資料流分析，協助客戶辨識流程間之風險，同時規劃控管流程與預警通報機制，使客戶能有效建立一整套完善的風險管理機制；在舞弊與鑑識調查服務中，協助客戶規劃內部舞弊偵測機制，或者針對懷疑之舞弊情況進行調查，並將相關證物以適當方式進行蒐證協助客戶提供後續訴訟使用。 經過十多年的管理顧問、舞弊偵防分析與數位資料鑑識分析經驗後，她開始思考，在會計師事務所下的風險管理顧問部門，是不是有更多提供客戶資料應用的機會，特別是針對會計師事務所主要面對的金融業、高科技、製造業、零售業等產業客群，透過對產業、流程的了解，將企業內部分散四處的小數據整合起來，發揮最大的數據應用價值。"
+    ]
+},
+{
+    "agenda": "日2E_李育杰_人比例小",
+    "name": [ "李育杰"],
+    "title": "國立交通大學應用數學系 / 教授",
+    "info": [
+        ""
+    ]
+},
+{
+    "agenda": "日2F_李俊良",
+    "name": [ "李俊良"],
+    "website": {
+        "home": "http://www.cs.cmu.edu/~chunlial/"
+    },
+    "title": "Carnegie Mellon University / 博士生",
+    "info": [
+        "李俊良於2012年與2013年於台灣大學資訊工程系取得學士與碩士學位，目前就讀於卡內基美隆大學機器學習系博士班。研究方向包含機器學習的理論與實際應用，並曾於2011年與2013年贏得KDD Cup冠軍。"
+    ]
+},
+{
+    "agenda": "日0G_吳齊軒",
+    "name": [ "吳齊軒","Wush"],
+    "title": "台大電機所 / 博士生",
+    "info": [
+        "國立臺灣大學電機所博士生，平時致力於推廣 R 語言，曾主辦多場 R 語言推廣講座，並經常於 Taiwan R User Group 分享 R 的使用心得。有豐富的 R 語言實務經驗，包含資料的收集、整理、分析到報告製作。擅長根據專案需求，量身打造 R 的資料分析系統，以及運用 R 和 C++ 撰寫高效能演算法。"
+    ]
+},
+{
+    "agenda": "日0H_高嘉良",
+    "name": [ "高嘉良", "Chia-liang Kao" ],
+    "title": "g0v.tw / 台灣零時政府共同發起人",
+    "info": [ "clkao (高嘉良) - 喜歡寫程式、泡 ♨。參加 1997 年國際資訊奧林匹亞後，進入台大資訊系就讀，即活躍於國內外開放源碼社群，隨後旅居英國倫敦從事軟體開發及顧問工作。2012 年發起 g0v.tw 計畫，現為開放文化基金會董事。" ]
+},
+{
+    "agenda": "日1H_劉正山",
+    "image": "png",
+    "name": [ "劉正山"],
+    "title": "國立中山大學政治學研究所 / 副教授",
+    "info": [
+        "我是個民意調查資料的使用者和收集者，也是個從事政治學方法論教學的實存主義者。我有些理念與大家一樣堅持者：資料科學是開放的，因此這個新領域不應受制數據大小或領域專長，亦不應自限於資料形態是數據還是文字。資料科學的核心價值是開放與自由，因此我們不必限於或獨尊特定工具。我2002正式告別SAS；2004確定自己不必繼續使用SPSS也可以完成研究；2006至今我的教學與研究都使用R，目前尚未覺得需要更換。我深知社管人文領域師生對R的學習心態，因此致力讓R的使用更白話，並且未曾放棄幫助更多社科人透過跨學門的語言工具擴展自己的可能性。Data-driven與method-driven的研究或探索有其潛力，但我的訓練告訴我，尋求知識的途徑亦不宜定於一尊。我仍相信theory-driven研究有其必要性，並將在這個領域努力。個人網誌：<a target=\"_blank\" href=\"http://frankcsliu.postach.io/\">http://frankcsliu.postach.io/</a>；教學網誌：<a target=\"_blank\" href=\"http://psqdata.postach.io/\">http://psqdata.postach.io/</a>"
+    ]
+},
+{
+    "agenda": "日2G_徐承原",
+    "name": [ "徐承原"],
+    "title": "宸訊科技 / 總經理",
+    "info": [
+        "畢業於台大地理研究所，將興趣投注於如何利用空間分析技術解決環境管理問題，因此成立宸訊科技，目前公司專心致力於智慧農業與環境污染相關領域之研究"
+    ]
+},
+{
+    "agenda": "日2H_林佳賢",
+    "name": [ "林佳賢"],
+    "title": "關鍵評論網 / 圖表編輯",
+    "info": [
+        "關鍵評論網圖表編輯，畢業於台灣大學經濟系，對數據分析和如何用視覺化的方式呈現數據感到興趣。曾製作「台北捷運所得地圖」、小碧潭捷運站分析、2016大選圖表等圖表新聞。"
+    ]
+}
+]

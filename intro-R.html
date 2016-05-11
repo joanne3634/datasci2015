@@ -1,292 +1,182 @@
-<!DOCTYPE html> 
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]--> 
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]--> 
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]--> 
-<!--[if gt IE 8]><!--> 
-<html class="no-js"> 
-    <!--<![endif]-->     
-    <head> 
-        <title>2015 台灣資料科學愛好者年會 — Exploring the Potentials of Real-world Data Analytics</title>         
-        <meta charset="utf-8">         
-        <!--[if IE]>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <![endif]-->         
-        <meta name="description" content="台灣資料科學愛好者年會，主意在推動資料科學在台灣的認知及普及應用，期望能看到台灣的產業甚至政府部門能夠有效利用各自手上的各類型資料，經過適當的資料分析及／或預測技術，來為產業建立更大的價值，提供使用者／大眾更好的服務及生活品質">         
-        <meta name="viewport" content="width=device-width, initial-scale=1">         
-        <meta content="2015 台灣資料科學愛好者年會 — Exploring the Potentials of Real-world Data Analytics" property="og:title">         
-        <meta content="website" property="og:type">         
-        <meta content="台灣資料科學愛好者年會，主意在推動資料科學在台灣的認知及普及應用，期望能看到台灣的產業甚至政府部門能夠有效利用各自手上的各類型資料，經過適當的資料分析及／或預測技術，來為產業建立更大的價值，提供使用者／大眾更好的服務及生活品質。" property="og:description">         
-        <meta content="http://datasci.tw/" property="og:url">
-        <meta content="http://datasci.tw/images/dsc_2015_logo_fb.png" property="og:image">
-        <meta content="image/png" property="og:image:type">
-        <meta content="600" property="og:image:width">
-        <meta content="400" property="og:image:height">
-        <meta content="2015 台灣資料科學愛好者年會 Data Science in Taiwan Conference 2015" property="og:site_name">
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->         
-        <link rel="stylesheet" href="css/bootstrap.min.css">         
-        <link rel="stylesheet" href="css/main.css">         
-        <link rel="stylesheet" href="css/animations.css">         
-        <link rel="stylesheet" href="css/fonts.css">         
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>         
-        <!--[if lt IE 9]>
-        <script src="js/vendor/html5shiv.min.js"></script>
-        <script src="js/vendor/respond.min.js"></script>
-    <![endif]-->         
-    </head>     
-    <body> 
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->         
-        <div id="box_wrapper"> 
-            <header id="header"> 
-                <div class="container"> 
-                    <div class="row"> 
-                        <div class="col-sm-12"> 
-                            <a href="index.html" class="navbar-brand"> 
-                                <img src="images/dsc_2015_logo.png" title="2015台灣資料科學愛好者年會">                                 
-                            </a>                             
-                            <nav class="navbar"> 
-                                <div class="navbar-header"> 
-                                    <!-- Brand and toggle get grouped for better mobile display -->                                     
-                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".dsc-collapse"> 
-                                        <span class="sr-only">Toggle navigation</span> 
-                                        <span class="icon-bar"></span> 
-                                        <span class="icon-bar"></span> 
-                                        <span class="icon-bar"></span> 
-                                    </button>                                     
-                                </div>                                 
-                                <!-- Collect the nav links, forms, and other content for toggling -->                                 
-                                <div class="dsc-collapse collapse navbar-collapse">
-                                    <ul class="nav navbar-nav navbar-right">
-                                        <li> 
-                                            <a href="about.html"> 
-                                                <img src="images/icon01.png"/> 關於
-                                            </a>                                             
-                                        </li>                                         
-                                        <li>
-                                            <a href="speaker.php">
-                                                <img src="images/icon03.png"/> 講者
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="agenda.php">
-                                                <img src="images/icon04.png"/> 議程
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="traffic.html">
-                                                <img src="images/icon05.png"/> 交通
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="signup.html">
-                                                <img src="images/icon06.png"/> 報名
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="sponsor.html">
-                                                <img src="images/icon07.png"/> 贊助
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="recruit.html">
-                                                <img src="images/icon08.png"/> 企業徵才
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>                                 
-                            </nav>                             
-                        </div>                         
-                    </div>                     
-                </div>                 
-            </header>             
-            <section id="mainslider"> 
-                <div class="container"> 
-                    <div class="row"> 
-</div>                     
-                </div>                 
-            </section>             
-            <section> 
-                <div class="container"> 
-                    <div class="row"> 
-                        <div class="col-md-12">
-                            <h3><!-- Single button -->
-                                <div class="btn-group pull-right mtop">
-                                    <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                                        其他活動 
-                                        <span class="caret"></span>
-                                    </button>
-                                    <ul class="dropdown-menu" role="menu">
-                                        <li>
-                                            <a href="intro-R.html">R 語言資料分析上手課程</a>
-                                        </li>
-                                        <li>
-                                            <a href="intro-g0v.html">g0v 零時政府黑客松</a>
-                                        </li>
-                                        <li>
-                                            <a href="intro-DSP.html">DSP 資料開竅 ▪ 企業論壇</a>
-                                        </li>
-                                        <li>
-                                            <a href="intro-news.html">資料新聞實戰營</a>
-                                        </li>
-                                        <li>
-                                            <a href="intro-hs.html">Hadoop/Spark 資料科學快速體驗營</a>
-                                        </li>
-                                        <li>
-                                            <a href="intro-mapv.html">地圖資料視覺化課程</a>
-                                        </li>
-                                    </ul>
-                                </div><a href="agenda.php#!tab2" class="pull-right btn btn-primary mtop mright"><i class="fa fa-calendar"></i> 本活動議程表 </a><img src="images/course/s002.png">R 語言資料分析上手課程
-                            </h3> 
-                            <hr>                             
-                            <p>面對龐大與多元的資料浪潮，資料科學世代已經興起，近年來國外企業應用 R 語言進行資料分析已經相當成熟，包含 Google、Facebook、Agoda、Intel、Pfizer、Bank of America 等企業，都採用 R 語言進行資料分析。國際知名的 KDnuggets 論壇最新統計，R 語言已經連續三年獲得資料科學家採用資料分析語言第一名的殊榮。</p>
-                            <p>在眾多的資料分析工具中，R語言在統計分析上最為知名，除了具備物件導向的開發環境、擁有強大的資料視覺化能力、更有支援跨平台與免費等優勢，R 語言專注在資料分析上的特性，使它已經成為目前資料分析和繪圖的主流軟體之一。</p>
-                            <p>本年會的「R 語言資料分析上手課程」將帶領有志成為資料科學家的朋友們，透過R語言進入資料分析的殿堂。課程首先介紹 R 的基礎語法，接著引導學員們從真實生活中發想問題，針對問題去進行資料收集、萃取、清理，最後以資料視覺化簡單呈現資料，完成分析資料的第一步。課程中將由來自R 社群的講師們聯手出擊。諸位講師均有豐富的R 語言使用經驗，也有R 語言套件的開發經驗，相信能以深入淺出的方式，向各位學員介紹R 這個處理資料最方便的工具之一。</p>
-                            <p>「資料分析上手課程」除了基礎內容之外，課程中也精心安排 R 語言應用的閃電秀，讓學員能認識 R 語言在各個領域中是如何被應用的。最後再利用公開資料，讓學員們自我練習資料分析的基本功：收集資料、整理資料及資料視覺化。為使得課程進行順利，也請學員詳讀課前須知，並完成各項環境準備。</p>
-                            <h4>Track 1. 資料分析</h4>
-                            <ul>
-                                <li> R 語言的基本語法</li>
-                                <li>利用 R 語言進行資料分析</li>
-                                <li>利用 R 語言呈現資料</li>
-                                <li>了解 R 語言在各領域的應用</li>
-                                <li>獨自完成蒐集資料、整理資料和呈現資料</li>
-                            </ul>                             
-                            <h4>課前須知<br></h4> 
-                            <p>本課程著重於上課中的操作，為了達到最佳的學習效果，請學員依照 <a href="https://github.com/TaiwanRUserGroup/DSC2015Tutorial" target="_blank"> https://github.com/TaiwanRUserGroup/DSC2015Tutorial</a> 中的內容建立學習環境。</p> 
-                            <ul class="bg-warning"> 
-                                <li><strong>基礎教學</strong>
-                                    <p>基礎教學課程主要提供無程式開發經驗的學員島嶼天光，藉由課程瞭解 R 語言的基本操作，包含基本與常用的語法、資料的輸入方式、各種資料型態與程式語言基本流程控制。本階段課程目標將協助學員對於 R 語言有初步的認識，並對程式語言有基本的概念。</p>
-                                </li>                                 
-                                <li><strong>資料前處理</strong>
-                                    <p>在實務分析時，資料的前處理是非常重要的。在企業中，萃取 (Extract)、轉換 (Transform)、讀取 (Load)是一種常見的資料流動轉換的過程。本課程主要提供已具備R語言基礎的學員，藉由課程瞭解資料收集、轉換、整併的過程，課程中包含dplyr的套件介紹、資料的各種轉換技巧與各類資料格式整併的方式。本階段課程目標將協助學員快速進入 ETL 的流程，並瞭解如何運用R語言獲得資料、整理資料，做進階分析的準備。</p>
-                                </li>                                 
-                                <li><strong>資料視覺化</strong>
-                                    <p>資料的視覺呈現是掌握資訊的關鍵。因此在本課程中，我們將協助學員運用 R 語言的 ggplot2 套件進行繪圖功能，熟悉R的資料視覺化技術，藉此提升學員在資料的展現與溝通能力。</p>
-                                </li>
-                                <li><strong>閃電秀</strong>
-                                    <p>R 語言已經在各領域有各種精彩的應用。因此在本課程中，我們將透過閃電秀的方式，向各位同學展示既有精彩的R 語言應用，讓同學找到未來學習 R 語言的方向。</p>
-                                </li>
-                                <li><strong>專案練習</strong>
-                                    <p>在本課程中，學員將利用政府的公開資料來複習課程中學到的技術，利用 R 來視覺化政府的公開資料，具體完成：蒐集資料、整理資料和資料視覺化等資料處理的基本功。</p>
-                                </li>
-                            </ul>
-                            <p class="text-center"><a href="agenda.php#!tab2" class="btn btn-warning btn-lg">詳細議程 <i class="fa fa-arrow-circle-o-right"></i></a></p>
-                        </div>
-                    </div>                     
-                    <div class="row" id="signup-volunteer"></div>                     
-                </div>                 
-            </section>             
-            <section id="services" class="about grey_section" data-pg-collapsed> 
-                <div class="container" data-pg-collapsed> 
-                    <div class="row grid"> 
-                        <div class="col-md-4 col-sm-4"> 
-                            <div class="row"> 
-                                <div class="col-sm-12"> 
-                                    <figure class="grid_about_us"> 
-                                        <img alt="" src="images/fig1.png"/>                                         
-                                        <figcaption> 
-                                            <h2>講者就是你!</h2> 
-                                            <a href="seek.html"></a> 
-                                        </figcaption>                                         
-                                    </figure>                                     
-                                </div>                                 
-                                <div class="clearfix"></div>                                 
-                                <div class="col-sm-12"> 
-                                    <h3>徵求講者、投稿</h3> 
-                                    <p class="text-left">邀請各界在自己的工作場域中第一線進行資料分析的先進來與我們的聽眾分享資料科學的趣味、價值、以及心得...<br></p> 
-                                </div>                                 
-                            </div>                             
-                        </div>                         
-                        <div class="col-md-4 col-sm-4"> 
-                            <div class="row"> 
-                                <div class="col-sm-12"> 
-                                    <figure class="grid_about_us"> 
-                                        <img alt="" src="images/fig2.png"/>                                         
-                                        <figcaption> 
-                                            <h2>熱情志工招募!</h2> 
-                                            <a href="seek.html#signup-volunteer"></a> 
-                                        </figcaption>                                         
-                                    </figure>                                     
-                                </div>                                 
-                                <div class="clearfix"></div>                                 
-                                <div class="col-sm-12"> 
-                                    <h3>徵求志工</h3>
-                                    <p class="text-left">誠摯邀請具有熱情、喜愛學習、個性外向的您一起加入我們，讓我們共同舉辦今年嶄新且擴大規模至四天、預計與會人數超過 1500 人的大型會議...<br></p>
-                                </div>                                 
-                            </div>                             
-                        </div>                         
-                        <div class="col-md-4 col-sm-4"> 
-                            <div class="row"> 
-                                <div class="col-sm-12"> 
-                                    <figure class="grid_about_us"> 
-                                        <img alt="" src="images/fig3.png"/>                                         
-                                        <figcaption> 
-                                            <h2>7/7 起</h2> 
-                                            <a href="signup.html"></a> 
-                                        </figcaption>                                         
-                                    </figure>                                     
-                                </div>                                 
-                                <div class="clearfix"></div>                                 
-                                <div class="col-sm-12"> 
-                                    <h3>報名年會</h3> 
-                                    <p class="text-left">線上報名將於 2015/07/07 中午 12 點開始 至 2015/07/24 止。</p> 
-                                </div>                                 
-                            </div>                             
-                        </div>                         
-                    </div>                     
-                </div>                 
-            </section>             
-            <section id="copyright" class="color_section"> 
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12 text-center">
-                            <p><a href="about.html#organizer" data-toggle="tooltip" data-original-title="">籌辦單位</a> | <a href="#" data-toggle="tooltip" data-original-title="">媒體夥伴</a> | <a href="about.html#staff" data-toggle="tooltip" data-original-title="">工作人員</a> | <a href="http://datasci.tw/2014/" target="_blank">2014 DSC</a> | <a href="https://www.facebook.com/twdsconf" target="_blank" title="" data-toggle="tooltip" data-original-title="Facebook">find us on <i class="fa fa-facebook"></i></a></p>
-                            <p>&copy; Copyright 2015 - 台灣資料科學愛好者年會</p>
-                        </div>
-                    </div>
-                </div>                 
-            </section>             
-        </div>         
-        <!-- eof #box_wrapper -->         
-        <div class="preloader"> 
-            <div class="preloader_image"></div>             
-        </div>         
-        <!-- libraries -->         
-        <script src="js/vendor/jquery-1.11.1.min.js"></script>         
-        <script src="js/vendor/bootstrap.min.js"></script>         
-        <script src="js/vendor/jquery.appear.js"></script>         
-        <!-- superfish menu  -->         
-        <script src="js/vendor/jquery.hoverIntent.js"></script>         
-        <script src="js/vendor/superfish.js"></script>         
-        <!-- page scrolling -->         
-        <script src="js/vendor/jquery.easing.1.3.js"></script>         
-        <script src='js/vendor/jquery.nicescroll.min.js'></script>         
-        <script src="js/vendor/jquery.ui.totop.js"></script>         
-        <script src="js/vendor/jquery.localscroll-min.js"></script>         
-        <script src="js/vendor/jquery.scrollTo-min.js"></script>         
-        <!-- widgets -->         
-        <script src="js/vendor/jquery.easypiechart.min.js"></script>         
-        <!-- pie charts -->         
-        <script src='js/vendor/jquery.countTo.js'></script>         
-        <!-- digits counting -->         
-        <script src="js/vendor/jquery.prettyPhoto.js"></script>         
-        <!-- lightbox photos -->         
-        <script src='js/vendor/jflickrfeed.min.js'></script>         
-        <!-- sliders, filters, carousels -->         
-        <script src="js/vendor/jquery.isotope.min.js"></script>         
-        <script src='js/vendor/owl.carousel.min.js'></script>         
-        <script src='js/vendor/jquery.flexslider-min.js'></script>         
-        <!-- custom scripts -->         
-        <script src="js/plugins.js"></script>         
-        <script src="js/main.js"></script>
-        <script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
 
-ga('create', 'UA-50828306-2', 'auto');
-ga('send', 'pageview');
-        </script>
-    </body>     
+<head>
+    <title>2016台灣資料科學年會 — Exploring the Potentials of Real-world Data Analytics</title>
+    <meta charset="utf-8">
+    <!--[if IE]>
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <![endif]-->
+    <meta name="description" content="台灣資料科學年會，主意在推動資料科學在台灣的認知及普及應用，期望能看到台灣的產業甚至政府部門能夠有效利用各自手上的各類型資料，經過適當的資料分析及／或預測技術，來為產業建立更大的價值，提供使用者／大眾更好的服務及生活品質">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="2016 台灣資料科學年會 — Exploring the Potentials of Real-world Data Analytics" property="og:title">
+    <meta content="website" property="og:type">
+    <meta content="台灣資料科學年會，主意在推動資料科學在台灣的認知及普及應用，期望能看到台灣的產業甚至政府部門能夠有效利用各自手上的各類型資料，經過適當的資料分析及／或預測技術，來為產業建立更大的價值，提供使用者／大眾更好的服務及生活品質。" property="og:description">
+    <meta content="http://datasci.tw/" property="og:url">
+    <meta content="http://datasci.tw/images/dsc_2016_logo_fb.png" property="og:image">
+    <meta content="image/png" property="og:image:type">
+    <meta content="600" property="og:image:width">
+    <meta content="400" property="og:image:height">
+    <meta content="2016 台灣資料科學年會 Data Science in Taiwan Conference 2016" property="og:site_name">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="css/kj.css" />
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <!--[if lt IE 9]>
+            <script src="js/vendor/html5shiv.min.js"></script>
+            <script src="js/vendor/respond.min.js"></script>
+        <![endif]-->
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <div id="box_wrapper">
+        <header id="header" class="include" data-include="header"></header>
+        <section id="mainslider">
+            <div class="container">
+                <div class="row">
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3><!-- Single button -->
+                            <div class="btn-group pull-right mtop">
+                                <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                    其他活動 
+                                    <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li>
+                                        <a href="intro-dl.html">一天搞懂深度學習</a>
+                                    </li>
+                                    <li>
+                                        <a href="intro-mining.html">從資料到知識：從零開始的資料探勘</a>
+                                    </li>
+                                    <li>
+                                        <a href="intro-team.html">資料科學的第一堂課：心法、案例分析與團隊建立</a>
+                                    </li>
+                                    <li>
+                                        <a href="intro-R-step.html">手把手教你 R 語言資料分析實務</a>
+                                    </li>
+                                    <li>
+                                        <a href="intro-R.html">R 語言資料工程及探勘實務</a>
+                                    </li>
+                                </ul>
+                            </div><a href="agenda.php#!tab2" class="pull-right btn btn-primary mtop mright"><i class="fa fa-calendar"></i> 本活動議程表 </a><img src="images/course/R.svg" class="class-icon">R 語言資料工程及探勘實務
+                        </h3>
+                        <hr>
+                        <h4 class="textStyOrange">講座簡介</h4>
+                        <p>資料工程及探勘是資料科學中重要的一環，但是來自現實的資料是無法直接進行分析的，在原始數據 (Raw Data) 得以真正地發揮其價值前，需要藉由資料工程，將非結構化的資料轉換成可處理的型態，並且將來自不同源頭的資料透過層層的重組、計算與整合成為結構化的資料；然後，結構化的資料需要進一步做資料探勘，透過系統性的方法釐清資料的脈絡、找出有價值的特徵以及關聯性，達成將資料中隱藏的資訊挖掘出來的最終目標。</p>
+                        <p>這門兩天的進階課程將從最實務的角度跟大家分享如何在 R 中處理非結構化的資料、耙梳資料的脈絡並且整合迥異的資料源；進而對處理後的資料進行關連性分析、叢聚分析以及資料分群以發掘出隱含於資料中真正的價值。</p>
+                        <br/>
+                        <h4 class="textStyOrange">講師簡介</h4>
+                        <div class="col-md-3 text-center">
+                            <img src="images/photo/info06.jpg" class="img-circle" width="160">
+                        </div>
+                        <div class="col-md-9">
+                            <div>
+                                <div class="caption">
+                                    <h4>許懷中博士 Dr. Hwai-Jung Hsu</h4>
+                                    <p>中央研究院資訊科學研究所 / 博士後研究員</p>
+                                    <p>許懷中博士 2011 年於國立交通大學資訊科學與工程學系取得博士學位，現任職中央研究院資訊科學研究所博士後研究員；他的研究興趣廣泛，包含巨量資料分析與架構、生心理量測、網路遊戲、雲端計算以及軟體工程。</p>
+                                    <p>許博士為具備豐富實務經驗的學術研究者，以其獨特的 know-how 與洞察力由產業界的巨量高維資料挖掘埋藏其中的價值；此外，許博士近年也致力於國內資料人才的培養，曾為資策會、外貿協會等單位教授 R 語言與資料分析以及創意訓練等相關課程，頗受好評。</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 text-center">
+                            <img src="images/photo/info07.jpg" class="img-circle" width="160">
+                        </div>
+                        <div class="col-md-9">
+                            <div>
+                                <div class="caption">
+                                    <h4>謝宗震 Xie Zhen Zong</h4>
+                                    <p>DSP智庫驅動 / 資料科學家</p>
+                                    <p>DSP智庫驅動資料科學家，清華統計博士，對於統計方法與工具的推廣具有極大的熱忱，期望利用統計思維及分析工具幫助各個領域解決問題。輔導超過300位政府、企業、非營利組織人士成為資料分析人才。 Data for Social Good (D4SG)計畫共同發起人，打造一個「資料力，做公益」的交流與媒合平台。</p>
+                                </div>
+                            </div>
+                        </div>
+                        <h4 class="textStyOrange">課程須知</h4>
+                        <p>這個課程屬於中階課程，適合已經初步瞭解 R 的語法、有一些使用 R 的經驗，但是想要更進一步利用 R 處理並且分析資料的朋友。</p>
+                        本課程的精神在於傳授同學們實務上利用 R 語言進行資料工程與探勘的技巧，並且引領同學從實作中學習處理與分析真實世界資料科學問題的方法，以實際操作為主，同學們需要自己準備筆電，筆電為 Windows 作業系統的同學們，請使用純英數組成的使用者帳號進行課程，以避免由於中文目錄名稱造成的技術問題。</p>
+                        <p>已經報名的同學們請到 <a href="http://www.datascienceandr.org">http://www.datascienceandr.org</a> 網站，參照網站中的步驟以及教學影片在自己的筆電上安裝 Base R、R Studio、 swirl 以及 DataScienceAndR 課程，並且完成其中 RBasic01 - RBasic06 的課程。</p>
+                    </div>
+                    <p class="text-center"><a href="agenda.php#!tab2" class="btn btn-warning btn-lg">詳細議程 <i class="fa fa-arrow-circle-o-right"></i></a></p>
+                </div>
+            </div>
+        </section>
+        <section id="services" class="include about grey_section" data-pg-collapsed data-include="services"></section>
+        <section id="copyright" class="include color_section" data-include="copyright"></section>
+    </div>
+    <!-- eof #box_wrapper -->
+    <div class="preloader">
+        <div class="preloader_image"></div>
+    </div>
+    <!-- libraries -->
+    <script src="js/vendor/jquery-1.11.1.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/jquery.appear.js"></script>
+    <!-- superfish menu  -->
+    <script src="js/vendor/jquery.hoverIntent.js"></script>
+    <script src="js/vendor/superfish.js"></script>
+    <!-- page scrolling -->
+    <script src="js/vendor/jquery.easing.1.3.js"></script>
+    <script src='js/vendor/jquery.nicescroll.min.js'></script>
+    <script src="js/vendor/jquery.ui.totop.js"></script>
+    <script src="js/vendor/jquery.localscroll-min.js"></script>
+    <script src="js/vendor/jquery.scrollTo-min.js"></script>
+    <!-- widgets -->
+    <script src="js/vendor/jquery.easypiechart.min.js"></script>
+    <!-- pie charts -->
+    <script src='js/vendor/jquery.countTo.js'></script>
+    <!-- digits counting -->
+    <script src="js/vendor/jquery.prettyPhoto.js"></script>
+    <!-- lightbox photos -->
+    <script src='js/vendor/jflickrfeed.min.js'></script>
+    <!-- sliders, filters, carousels -->
+    <script src="js/vendor/jquery.isotope.min.js"></script>
+    <script src='js/vendor/owl.carousel.min.js'></script>
+    <script src='js/vendor/jquery.flexslider-min.js'></script>
+    <!-- custom scripts -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-50828306-2', 'auto');
+    ga('send', 'pageview');
+    </script>
+    <script>
+    $(function() {
+        var includes = $('.include');
+        jQuery.each(includes, function() {
+            var file = '_template/' + $(this).data('include') + '.html';
+            $(this).load(file);
+        });
+    });
+    </script>
+</body>
+
 </html>

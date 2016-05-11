@@ -45,7 +45,7 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <a href="index.html" class="navbar-brand">
-                            <img src="http://<?php echo  $_SERVER['HTTP_HOST']; ?>/images/dsc_2016_logo.png" title="2016台灣資料科學愛好者年會">
+                            <img src="http://<?php echo  $_SERVER['HTTP_HOST']; ?>/images/dsc_2016_logo.svg" title="2016台灣資料科學年會">
                         </a>
                         <nav class="navbar">
                             <div class="navbar-header">
@@ -65,11 +65,11 @@
                                             <img src="http://<?php echo  $_SERVER['HTTP_HOST']; ?>/images/icon01.png" /> 關於
                                         </a>
                                     </li>
-                                    <li>
+<!--                                     <li>
                                         <a href="http://<?php echo  $_SERVER['HTTP_HOST']; ?>/speaker.php">
                                             <img src="http://<?php echo  $_SERVER['HTTP_HOST']; ?>/images/icon03.png" /> 講者
                                         </a>
-                                    </li>
+                                    </li> -->
                                     <li>
                                         <a href="http://<?php echo  $_SERVER['HTTP_HOST']; ?>/agenda.php">
                                             <img src="http://<?php echo  $_SERVER['HTTP_HOST']; ?>/images/icon04.png" /> 議程
@@ -90,9 +90,14 @@
                                             <img src="http://<?php echo  $_SERVER['HTTP_HOST']; ?>/images/icon07.png" /> 贊助
                                         </a>
                                     </li>
-                                    <li>
+<!--                                     <li>
                                         <a href="http://<?php echo  $_SERVER['HTTP_HOST']; ?>/recruit.html">
                                             <img src="http://<?php echo  $_SERVER['HTTP_HOST']; ?>/images/icon08.png" /> 企業徵才
+                                        </a>
+                                    </li> -->
+                                    <li>
+                                        <a href="http://<?php echo  $_SERVER['HTTP_HOST']; ?>/event/">
+                                            <img src="http://<?php echo  $_SERVER['HTTP_HOST']; ?>/images/icon02.png" /> 系列活動
                                         </a>
                                     </li>
                                 </ul>
@@ -115,6 +120,8 @@
                 </div>
             </div>
         </section>
+        <section id="services" class="include about grey_section" data-pg-collapsed data-include="services"></section>
+        <section id="copyright" class="include color_section" data-include="copyright"></section>
     </div>
 
     <!-- libraries -->
@@ -123,5 +130,14 @@
     <!-- superfish menu  -->
     <script src="http://<?php echo  $_SERVER['HTTP_HOST']; ?>/js/vendor/jquery.hoverIntent.js"></script>
     <script src="http://<?php echo  $_SERVER['HTTP_HOST']; ?>/js/vendor/superfish.js"></script>
+        <script>
+    $(function() {
+        var includes = $('.include');
+        jQuery.each(includes, function() {
+            var file = '_template/' + $(this).data('include') + '.html';
+            $(this).load(file);
+        });
+    });
+    </script>
 </body>
 </html>

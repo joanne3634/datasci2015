@@ -1,238 +1,222 @@
-<!DOCTYPE html> 
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]--> 
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]--> 
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]--> 
-<!--[if gt IE 8]><!--> 
-<html class="no-js"> 
-    <!--<![endif]-->     
-    <head> 
-        <title>2015台灣資料科學愛好者年會 — Exploring the Potentials of Real-world Data Analytics</title>         
-        <meta charset="utf-8">         
-        <!--[if IE]>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <title>2016台灣資料科學年會 — Exploring the Potentials of Real-world Data Analytics</title>
+    <meta charset="utf-8">
+    <!--[if IE]>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <![endif]-->         
-        <meta name="description" content="台灣資料科學愛好者年會，主意在推動資料科學在台灣的認知及普及應用，期望能看到台灣的產業甚至政府部門能夠有效利用各自手上的各類型資料，經過適當的資料分析及／或預測技術，來為產業建立更大的價值，提供使用者／大眾更好的服務及生活品質">         
-        <meta name="viewport" content="width=device-width, initial-scale=1">         
-        <meta content="2015 台灣資料科學愛好者年會 — Exploring the Potentials of Real-world Data Analytics" property="og:title">         
-        <meta content="website" property="og:type">         
-        <meta content="台灣資料科學愛好者年會，主意在推動資料科學在台灣的認知及普及應用，期望能看到台灣的產業甚至政府部門能夠有效利用各自手上的各類型資料，經過適當的資料分析及／或預測技術，來為產業建立更大的價值，提供使用者／大眾更好的服務及生活品質。" property="og:description">         
-        <meta content="http://datasci.tw" property="og:url">
-        <meta content="http://datasci.tw/images/dsc_2015_logo_fb.png" property="og:image">
-        <meta content="image/png" property="og:image:type">
-        <meta content="600" property="og:image:width">
-        <meta content="400" property="og:image:height">
-        <meta content="2015 台灣資料科學愛好者年會 Data Science in Taiwan Conference 2015" property="og:site_name">         
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->         
-        <link rel="stylesheet" href="css/bootstrap.min.css">         
-        <link rel="stylesheet" href="css/main.css">         
-        <link rel="stylesheet" href="css/animations.css">         
-        <link rel="stylesheet" href="css/fonts.css">         
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>         
-        <!--[if lt IE 9]>
+    <![endif]-->
+    <meta name="description" content="台灣資料科學年會，主意在推動資料科學在台灣的認知及普及應用，期望能看到台灣的產業甚至政府部門能夠有效利用各自手上的各類型資料，經過適當的資料分析及／或預測技術，來為產業建立更大的價值，提供使用者／大眾更好的服務及生活品質">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="2016 台灣資料科學年會 — Exploring the Potentials of Real-world Data Analytics" property="og:title">
+    <meta content="website" property="og:type">
+    <meta content="台灣資料科學年會，主意在推動資料科學在台灣的認知及普及應用，期望能看到台灣的產業甚至政府部門能夠有效利用各自手上的各類型資料，經過適當的資料分析及／或預測技術，來為產業建立更大的價值，提供使用者／大眾更好的服務及生活品質。" property="og:description">
+    <meta content="http://datasci.tw/" property="og:url">
+    <meta content="http://datasci.tw/images/dsc_2016_logo_fb.png" property="og:image">
+    <meta content="image/png" property="og:image:type">
+    <meta content="600" property="og:image:width">
+    <meta content="400" property="og:image:height">
+    <meta content="2016 台灣資料科學年會 Data Science in Taiwan Conference 2016" property="og:site_name">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/kj.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <!--[if lt IE 9]>
         <script src="js/vendor/html5shiv.min.js"></script>
         <script src="js/vendor/respond.min.js"></script>
     <![endif]-->
-        <style>
-.staff dt.no-icon
-{
-    margin-top: 10px;
-}
-.staff dt.no-icon:before
-{
-    display: none;
-}
+    <style>
+    .staff dt.no-icon {
+        margin-top: 10px;
+    }
+    
+    .staff dt.no-icon:before {
+        display: none;
+    }
+    
+    dd.image-item {
+        padding-left: 25px;
+        text-indent: 0px;
+    }
+    
+    dd.image-item > img {
+        display: inline-block;
+        width: 64px;
+        height: 64px;
+        border-radius: 2px;
+        vertical-align: middle;
+    }
+    
+    dd.image-item > span {
+        display: block;
+        vertical-align: middle;
+    }
+    
+    dl.staff {
+        clear: both;
+        padding-top: 1px;
+    }
+    
+    span.orgtitle {
+        vertical-align: middle;
+        display: inline-block;
+    }
+    
+    .inline {
+        display: inline-block;
+    }
+    
+    #organizer-sub .icon-container {
+        display: inline-block;
+        margin: 15px 0px;
+    }
+    
+    span.orgtitle {
+        /* height: 50px; */
+        text-align: center;
+        display: inline-block;
+        vertical-align: middle;
+        line-height: 14px;
+    }
+    </style>
+</head>
 
-dd.image-item
-{
-    padding-left: 25px;
-    text-indent: 0px;
-}
-
-dd.image-item > img
-{
-    display: inline-block;
-    width: 64px;
-    height: 64px;
-    border-radius: 2px;
-    vertical-align: middle;
-}
-
-dd.image-item > span
-{
-    display: inline-block;
-    vertical-align: middle;
-}
-
-dl.staff{
-    clear: both;
-    padding-top: 1px;
-}
-        </style>
-    </head>     
-    <body> 
-        <!--[if lt IE 7]>
+<body>
+    <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->         
-        <div id="box_wrapper"> 
-            <header id="header"> 
-                <div class="container"> 
-                    <div class="row"> 
-                        <div class="col-sm-12"> 
-                            <a href="index.html" class="navbar-brand"> 
-                                <img src="images/dsc_2015_logo.png" title="2015台灣資料科學愛好者年會">                                 
-                            </a>                             
-                            <nav class="navbar"> 
-                                <div class="navbar-header"> 
-                                    <!-- Brand and toggle get grouped for better mobile display -->                                     
-                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".dsc-collapse"> 
-                                        <span class="sr-only">Toggle navigation</span> 
-                                        <span class="icon-bar"></span> 
-                                        <span class="icon-bar"></span> 
-                                        <span class="icon-bar"></span> 
-                                    </button>                                     
-                                </div>                                 
-                                <!-- Collect the nav links, forms, and other content for toggling -->                                 
-                                <div class="dsc-collapse collapse navbar-collapse">
-                                    <ul class="nav navbar-nav navbar-right">
-                                        <li> 
-                                            <a href="about.html"> 
-                                                <img src="images/icon01.png"/>                                                                                                                                                        關於
-                                            </a>                                             
-                                        </li>                                         
-                                        <li>
-                                            <a href="speaker.php">
-                                                <img src="images/icon03.png"/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                講者
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="agenda.php">
-                                                <img src="images/icon04.png"/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                議程
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="traffic.html">
-                                                <img src="images/icon05.png"/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                交通
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="signup.html">
-                                                <img src="images/icon06.png"/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                報名
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="sponsor.html">
-                                                <img src="images/icon07.png"/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                贊助
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="recruit.html">
-                                                <img src="images/icon08.png"/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                企業徵才
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>                                 
-                            </nav>                             
-                        </div>                         
-                    </div>                     
-                </div>                 
-            </header>             
-            <section id="mainslider"> 
-                <div class="container"> 
-                    <div class="row"></div>
-                </div>                 
-            </section>             
-            <section class="intro"> 
-                <div class="container"> 
-                    <div class="row"></div>
-                    <div class="row" id="about"> 
-                        <div class="col-md-12"> 
-                            <h3>關於本年會</h3> 
-                            <hr/>                             
-                            <div class="row">
-                                <div class="col-md-7">
-                                    <p>台灣資料科學愛好者年會由一群愛好資料科學的同好們共同舉辦，宗旨為推廣資料科學的認知、技術及應用，議題包含資料科學的各個層面，例如數理統計、資料視覺化、資料處理及計算、資料儲存以及各領域裡的資料分析應用等，期待能透過演講、資料分析上手教學課程、心得分享、資料交流等各種形式，將我們對於資料科學的熱情傳達給大眾，幫助與會聽眾瞭解資料科學的魅力，進入資料科學的領域，進而一起探索與開發資料科學的潛力，更重要是能促使將資料科學引入每個人的專業領域之中，帶來新的創新及價值。</p>
-                                </div>                                 
-                                <div class="col-md-5">
-                                    <img src="images/photo.jpg" class="img-thumbnail"/>
-                                </div>
-                                <div class="col-md-12 target-link" id="staff">
-                                    <h3>工作人員</h3>
-                                    <hr/>
-                                </div>
-                                <div class="col-md-12">
-                                    <dl class="staff"> 
-                                        <dt>總召</dt>
-                                        <dd class="image-item">
-                                            <img src="images/staff/swc.png" />
-                                            <span>
-                                                <a href="http://www.iis.sinica.edu.tw/~swc/index_c.html" target="_blank">陳昇瑋</a><br/>
-                                                中央研究院資訊科學研究所
-                                            </span>
-                                        </dd>
-                                    </dl>
-                                </div>
-                                <div class="col-sm-4">
-                                    <dl class="staff"> 
-                                        <dt>會務總籌</dt>
-                                        <dd class="image-item">
-                                            <img src="images/staff/erin.png" />
-                                            <span>杜彥蓁 (Erin)</span>
-                                        </dd>
-                                        <dt>網站設計</dt>
-                                        <dd class="image-item">
-                                            <img src="images/staff/mariechang.png" />
-                                            <span>Mary Chang / <a href="http://greative.tw/" target="_blank">大餘創意</a></span>
-                                        </dd>
-                                    </dl>
-                                </div>
-                                <div class="col-sm-4">
-                                    <dl class="staff"> 
-                                        <dt>年會秘書</dt>
-                                        <dd class="image-item">
-                                            <img src="images/staff/wendy.png" />
-                                            <span>林宛瑩 (Wendy)</span>
-                                        </dd>
-                                        <dt>網站維護</dt>
-                                        <dd class="image-item">
-                                            <img src="images/staff/kj.png" />
-                                            <span>康傑 (kj)</span>
-                                        </dd>
-                                    </dl>
-                                </div>
-                                <div class="col-sm-4">
-                                    <dl class="staff">
-                                        <dt>出納</dt>
-                                        <dd class="image-item">
-                                            <img src="images/staff/yaxuan.png" />
-                                            <span>洪雅瑄</span>
-                                        </dd>
-                                        <dt>線路組</dt>
-                                        <dd class="image-item">
-                                            <img src="images/staff/cpr.png" />
-                                            <span><a href="https://www.facebook.com/CPRTeam.TW" target="_blank">線路組</a></span>
-                                        </dd>
-                                    </dl>
-                                </div>
-
-                                <div class="col-md-12">
-                                    <dl class="staff">
-                                        <dt class="no-icon">會前籌備小組</dt>
-                                            <div class="col-xs-4 col-sm-2">Helen</div>
-                                            <div class="col-xs-4 col-sm-2">Jason Lin</div>
-                                            <div class="col-xs-4 col-sm-2">Randy</div>
-                                            <!--<div class="col-xs-4 col-sm-2">Wendy</div>-->
-                                            <div class="col-xs-4 col-sm-2">小桃</div>
-                                            <div class="col-xs-4 col-sm-2">守訓</div>
-                                            <!--<div class="col-xs-4 col-sm-2">杜彥蓁 (Erin)</div>-->
-                                            <div class="col-xs-4 col-sm-2">采蓉</div>
-                                            <!--<div class="col-xs-4 col-sm-2">康傑 (kj)</div>-->
-                                            <div class="col-xs-4 col-sm-2">許之凡</div>
-                                            <!--<div class="col-xs-4 col-sm-2">雅瑄</div>-->
-                                            <div class="col-xs-4 col-sm-2">蔡宗翰</div>
-                                    </dl>
-                                </div>
-           
-                                <div class="col-md-12">
+        <![endif]-->
+    <div id="box_wrapper">
+        <header id="header" class="include" data-include="header"></header>
+        <section id="mainslider">
+            <div class="container">
+                <div class="row"></div>
+            </div>
+        </section>
+        <section class="intro">
+            <div class="container">
+                <div class="row"></div>
+                <div class="row" id="about">
+                    <div class="col-md-12">
+                        <h3>關於本年會</h3>
+                        <hr/>
+                        <div class="row">
+                            <div class="col-md-7">
+                                <p>台灣資料科學年會由一群愛好資料科學的同好們共同舉辦，宗旨為推廣資料科學的認知、技術及應用，議題包含資料科學的各個層面，例如數理統計、資料視覺化、資料處理及計算、資料儲存以及各領域裡的資料分析應用等，期待能透過演講、資料分析上手教學課程、心得分享、資料交流等各種形式，將我們對於資料科學的熱情傳達給大眾，幫助與會聽眾瞭解資料科學的魅力，進入資料科學的領域，進而一起探索與開發資料科學的潛力，更重要是能促使將資料科學引入每個人的專業領域之中，帶來新的創新及價值。</p>
+                            </div>
+                            <div class="col-md-5">
+                                <img src="images/photo.jpg" class="img-thumbnail" />
+                            </div>
+                            <div class="col-md-12 target-link" id="staff">
+                                <h3>工作人員</h3>
+                                <hr/>
+                            </div>
+                            <div class="col-md-12">
+                                <dl class="staff">
+                                    <dt>總召</dt>
+                                    <dd class="image-item">
+                                        <img src="images/staff/sw.jpg" />
+                                        <span>
+                                            <a href="http://www.iis.sinica.edu.tw/~swc/index_c.html" target="_blank">陳昇瑋</a>
+                                        </span>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="col-sm-2">
+                                <dl class="staff">
+                                    <dt>秘書</dt>
+                                    <dd class="image-item">
+                                        <img src="images/staff/kate.jpg" />
+                                        <span>Kate</span>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="col-sm-2">
+                                <dl class="staff">
+                                    <dt>課務</dt>
+                                    <dd class="image-item">
+                                        <img src="images/staff/justin.jpg" />
+                                        <span>Justin</span>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="col-sm-2">
+                                <dl class="staff">
+                                    <dt>總務</dt>
+                                    <dd class="image-item">
+                                        <img src="images/staff/rusi.png" />
+                                        <span>Rusi</span>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="col-sm-2">
+                                <dl class="staff">
+                                    <dt>會計</dt>
+                                    <dd class="image-item">
+                                        <img src="images/staff/nico.jpg" />
+                                        <span>Nicole</span>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="col-sm-2">
+                                <dl class="staff">
+                                    <dt>網站</dt>
+                                    <dd class="image-item">
+                                        <img src="images/staff/joanne.jpg" />
+                                        <span>周庭安</span>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="col-sm-2">
+                                <dl class="staff">
+                                    <dt>註冊</dt>
+                                    <dd class="image-item">
+                                        <img src="images/staff/yp.jpg" />
+                                        <span>杜宜蓓</span>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="col-sm-2">
+                                <dl class="staff">
+                                    <dt>場務</dt>
+                                    <dd class="image-item">
+                                        <img src="images/staff/zark.jpg" />
+                                        <span>蔡宗翰</span>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="col-sm-2">
+                                <dl class="staff">
+                                    <dt>顧問</dt>
+                                    <dd class="image-item">
+                                        <img src="images/staff/erin.jpg" />
+                                        <span>杜彥蓁 (Erin Tu)</span>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="col-md-12">
+                                <dl class="staff">
+                                    <dt class="no-icon">會前籌備小組</dt>
+                                    <div class="col-xs-4 col-sm-2">Helen</div>
+                                    <div class="col-xs-4 col-sm-2">許之凡</div>
+                                    <div class="col-xs-4 col-sm-2">Henry</div>
+                                    <div class="col-xs-4 col-sm-2">張鈞閔</div>
+                                    <div class="col-xs-4 col-sm-2">林家慶</div>
+                                    <div class="col-xs-4 col-sm-2">黃宥翔</div>
+                                    <div class="col-xs-4 col-sm-2">杜易芸</div>
+                                    <div class="col-xs-4 col-sm-2">謝守訓</div>
+                                    
+                                </dl>
+                            </div>
+                            <!--     <div class="col-md-12">
                                     <dl class="staff">
                                         <dt class="no-icon">場務組</dt>
                                            
@@ -253,237 +237,253 @@ dl.staff{
                                             <div class="col-xs-4 col-sm-2">綿羊</div><div class="col-xs-4 col-sm-2">綠茶</div><div class="col-xs-4 col-sm-2">蕭主安</div><div class="col-xs-4 col-sm-2">賴佳宏</div>
                                             <div class="col-xs-4 col-sm-2">謝岱霖</div><div class="col-xs-4 col-sm-2">簡妙蓉</div>
                                     </dl>
+                                </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="row target-link" id="organizer">
+                    <div class="col-md-12">
+                        <h3>籌辦單位</h3>
+                        <h5>主辦單位</h5>
+                        <hr class="closer" />
+                        <a target="_blank">
+                            <img src="images/dsc_2016_logo_o.svg" />
+                            <h4 class="orgtitle">台灣資料科學協會</h4>
+                        </a>
+                        <a href="http://www.iis.sinica.edu.tw/" target="_blank">
+                            <img src="images/organizer/01 iis.png" />
+                            <h4 class="orgtitle">中央研究院資訊科學研究所</h4>
+                        </a>
+                        <div id="organizer-sub">
+                            <h5>協辦單位</h5>
+                            <hr/>
+                            <div class="icon-container">
+                                <div>
+                                    <a href="http://www.aclclp.org.tw/index_c.php" target="_blank">
+                                        <img src="images/organizer/aclclp.png" />
+                                    </a>
+                                </div>
+                                <div class="inline">
+                                    <a href="http://www.aclclp.org.tw/index_c.php" target="_blank"><span class="orgtitle">中華民國計算語言學學會</span></a>
                                 </div>
                             </div>
-                        </div>                         
-                    </div>                     
-                    <div class="row target-link" id="organizer"> 
-                        <div class="col-md-12"> 
-                            <h3>籌辦單位</h3> 
-                            <h5>主辦單位</h5> 
-                            <hr class="closer"/>                             
-                            <a target="_blank">
-                                <img src="images/dsc_2015_logo_o.png"/>
-                                <h4 class="orgtitle">台灣資料科學愛好者年會</h4>
-                            </a>                             
-                            <a href="http://www.aclclp.org.tw/index_c.php" target="_blank">
-                                <img src="images/organizer/aclclp.png"/>
-                                <h4 class="orgtitle">中華民國計算語言學學會</h4>
-                            </a>
-                            <div id="organizer-sub"> 
-                                <h5>協辦單位</h5>
-                                <hr/>
-                                <a href="http://www.iis.sinica.edu.tw/" target="_blank">
-                                    <img src="images/organizer/01 iis.png" alt=""/>
-                                    <h4 class="orgtitle">中央研究院<br>資訊科學研究所</h4>
-                                </a>                                 
-                                <a href="http://www.citi.sinica.edu.tw/" target="_blank">
-                                    <img src="images/organizer/02 citi.png" alt=""/>
-                                    <h4 class="orgtitle">中央研究院<br>資訊科技創新研究中心</h4>
-                                </a>                                 
-                                <a href="http://www.stat.sinica.edu.tw/" target="_blank">
-                                    <img src="images/organizer/03 statistic.png" alt=""/>
-                                    <h4 class="orgtitle">中央研究院<br>統計科學研究所</h4>
-                                </a>
-                                <a href="http://ascc.sinica.edu.tw/iascc/" target="_blank">
-                                    <img src="images/organizer/08_its.png" alt=""/>
-                                    <h4 class="orgtitle">中央研究院<br>資訊服務處</h4>
-                                </a>
-                                <a href="https://www.itri.org.tw/chi/Content/Messagess/contents.aspx?SiteID=1&MmmID=620622503266335627" target="_blank">
-                                    <img src="images/organizer/04 hugedata-logo.png" alt=""/>
-                                    <h4 class="orgtitle">工業技術研究院<br>巨量資訊科技中心</h4>
-                                </a>
-                                <a href="http://www.iii.org.tw/about/1_7_11_1.asp" target="_blank">
-                                    <img src="images/organizer/05_ifii.png" alt=""/>
-                                    <h4 class="orgtitle">財團法人資訊工業策進會<br>數據科技與應用研究所</h4>
-                                </a>                                 
-                                <a href="http://codata.sinica.edu.tw/" target="_blank">
-                                    <img src="images/organizer/codata.png" alt=""/>
-                                    <h4 class="orgtitle">國際科學與技術資料委員會中華民國委員會</h4>
-                                </a>
-                                <a href="http://ccc.ntu.edu.tw/index.php/ch/" target="_blank">
-                                    <img src="images/organizer/06 Intel-NTU.png" alt=""/>
-                                    <h4 class="orgtitle">Intel-臺大創新研究中心</h4>
-                                </a>                                 
-                                <a href="http://www.cips.org.tw/" target="_blank">
-                                    <img src="images/organizer/07 cips.jpg" alt=""/>
-                                    <h4 class="orgtitle">中華機率統計學會</h4>
-                                </a>
+                            <div class="icon-container">
+                                <div>
+                                    <a href="http://www.citi.sinica.edu.tw/" target="_blank">
+                                        <img src="images/organizer/02 citi.png" />
+                                    </a>
+                                </div>
+                                <div class="inline">
+                                    <a href="http://www.citi.sinica.edu.tw/" target="_blank"><span class="orgtitle">中央研究院<br>資訊科技創新研究中心</span></a>
+                                </div>
+                            </div>
+                            <div class="icon-container">
+                                <div>
+                                    <a href="http://www.stat.sinica.edu.tw/" target="_blank">
+                                        <img src="images/organizer/03 statistic.png" />
+                                    </a>
+                                </div>
+                                <div class="inline">
+                                    <a href="http://www.stat.sinica.edu.tw/" target="_blank"><span class="orgtitle">中央研究院<br>統計科學研究所</span></a>
+                                </div>
+                            </div>
+                            <div class="icon-container">
+                                <div>
+                                    <a href="http://ascc.sinica.edu.tw/iascc/" target="_blank">
+                                        <img src="images/organizer/08_its.png" />
+                                    </a>
+                                </div>
+                                <div class="inline">
+                                    <a href="http://ascc.sinica.edu.tw/iascc/" target="_blank"><span class="orgtitle">中央研究院資訊服務處</span></a>
+                                </div>
+                            </div>
+                            <div class="icon-container">
+                                <div>
+                                    <a href="https://www.itri.org.tw/chi/Content/Messagess/contents.aspx?SiteID=1&MmmID=620622503266335627" target="_blank">
+                                        <img src="images/organizer/04 hugedata-logo.png" />
+                                    </a>
+                                </div>
+                                <div class="inline">
+                                    <a href="https://www.itri.org.tw/chi/Content/Messagess/contents.aspx?SiteID=1&MmmID=620622503266335627" target="_blank"><span class="orgtitle">工業技術研究院<br>巨量資訊科技中心</span></a>
+                                </div>
+                            </div>
+                            <div class="icon-container">
+                                <div>
+                                    <a href="http://www.iii.org.tw/about/1_7_11_1.asp" target="_blank">
+                                        <img src="images/organizer/05_ifii.png" />
+                                    </a>
+                                </div>
+                                <div class="inline">
+                                    <a href="http://www.iii.org.tw/about/1_7_11_1.asp" target="_blank"><span class="orgtitle">財團法人資訊工業策進會<br>數據科技與應用研究所</span></a>
+                                </div>
+                            </div>
+                            <div class="icon-container">
+                                <div>
+                                    <a href="http://codata.sinica.edu.tw/" target="_blank">
+                                        <img src="images/organizer/codata.png" />
+                                    </a>
+                                </div>
+                                <div class="inline">
+                                    <a href="http://codata.sinica.edu.tw/" target="_blank"><span class="orgtitle">國際科學與技術資料委員會中華民國委員會</span></a>
+                                </div>
+                            </div>
+                            <div class="icon-container">
+                                <div>
+                                    <a href="http://ccc.ntu.edu.tw/index.php/ch/" target="_blank">
+                                        <img src="images/organizer/06 Intel-NTU.png" />
+                                    </a>
+                                </div>
+                                <div class="inline">
+                                    <a href="http://ccc.ntu.edu.tw/index.php/ch/" target="_blank"><span class="orgtitle">Intel-臺大創新研究中心</span></a>
+                                </div>
+                            </div>
+                            <div class="icon-container">
+                                <div>
+                                    <a href="http://www.cips.org.tw/" target="_blank">
+                                        <img src="images/organizer/07 cips.jpg" />
+                                    </a>
+                                </div>
+                                <div class="inline">
+                                    <a href="http://www.cips.org.tw/" target="_blank"><span class="orgtitle">中華機率統計學會</span></a>
+                                </div>
+                            </div>
+                            <div class="icon-container">
+                                <div>
+                                    <a href="http://www.tier.org.tw/" target="_blank">
+                                        <img style="width: 160px" src="images/organizer/台經院.jpg" />
+                                    </a>
+                                </div>
+                                <div class="inline">
+                                    <a href="http://www.tier.org.tw/" target="_blank"><span class="orgtitle">財務數據創新趨勢平台</span></a>
+                                </div>
+                            </div>
+                            <div class="icon-container">
+                                <div>
+                                    <a href="https://www.nchc.org.tw/tw/" target="_blank">
+                                        <img src="images/organizer/國網中心.jpg" />
+                                    </a>
+                                </div>
+                                <div class="inline">
+                                    <a href="https://www.nchc.org.tw/tw/" target="_blank"><span class="orgtitle">國家高速網路與計算中心</span></a>
+                                </div>
+                            </div>
                             <!--</div>
                             <div id="organizer-sub-sub"> -->
-                                <h5>協力夥伴</h5>
-                                <hr/>
-                                <a href="http://g0v.tw/" target="_blank">
-                                    <img src="images/organizer/11_g0v.png" alt=""/>
-                                    <h4 class="orgtitle">g0v 零時政府</h4>
-                                </a>
-                                <a href="https://sheethub.com/" target="_blank">
-                                    <img src="images/organizer/12_sheet-hub.png" alt=""/>
-                                    <h4 class="orgtitle">SheetHub.com</h4>
-                                </a>
-                                <a href="https://www.facebook.com/Tw.R.User" target="_blank">
-                                    <img src="images/organizer/13_R-group.png" alt=""/>
-                                    <h4 class="orgtitle">Taiwan R User Group</h4>
-                                </a>
-                                <a href="http://www.sogi.com.tw/" target="_blank">
-                                    <img src="images/organizer/14_sogi.png" alt=""/>
-                                    <h4 class="orgtitle">首機網路股份有限公司</h4>
-                                </a>
-                                <a href="http://ocf.tw/" target="_blank">
-                                    <img src="images/organizer/15_ocf.png" alt=""/>
-                                    <h4 class="orgtitle">開放文化基金會</h4>
-                                </a>
-                                <a href="https://dsp.im/" target="_blank">
-                                    <img src="images/organizer/16_dsp.png" alt=""/>
-                                    <h4 class="orgtitle">智庫驅動</h4>
-                                </a>
-                                <h5 id="media" class="target-link">媒體夥伴</h5>
-                                <hr/>
-                                <a href="http://www.bnext.com.tw/" target="_blank">
-                                    <img src="images/organizer/21.jpg" alt=""/>
-                                    <h4 class="orgtitle">BusinessNext 數位時代</h4>
-                                </a>
-                                <a href="http://www.inside.com.tw/" target="_blank">
-                                    <img src="images/organizer/22.png" alt=""/>
-                                    <h4 class="orgtitle">INSIDE</h4>
-                                </a>
-                                <a href="http://www.ithome.com.tw/" target="_blank">
-                                    <img src="images/organizer/23.png" alt=""/>
-                                    <h4 class="orgtitle">ITHome</h4>
-                                </a>
-                                <a href="http://pansci.asia/" target="_blank">
-                                    <img src="images/organizer/24.png" alt=""/>
-                                    <h4 class="orgtitle">PanSci 泛科學</h4>
-                                </a>
-                                <a href="http://technews.tw/" target="_blank">
-                                    <img src="images/organizer/25.png" alt=""/>
-                                    <h4 class="orgtitle">Technews 科技新報</h4>
-                                </a>
-                                <a href="http://buzzorange.com/techorange/" target="_blank">
-                                    <img src="images/organizer/26.png" alt=""/>
-                                    <h4 class="orgtitle">TechOrange 科技報橘</h4>
-                                </a>
-                                <a href="http://www.new7.com.tw/" target="_blank">
-                                    <img src="images/organizer/27.png" alt=""/>
-                                    <h4 class="orgtitle">新新聞</h4>
-                                </a>
-                            </div>
-                        </div>                         
-                    </div>                     
-                </div>                 
-            </section>             
-            <section id="services" class="about grey_section" data-pg-collapsed> 
-                <div class="container" data-pg-collapsed> 
-                    <div class="row grid"> 
-                        <div class="col-md-4 col-sm-4"> 
-                            <div class="row"> 
-                                <div class="col-sm-12"> 
-                                    <figure class="grid_about_us"> 
-                                        <img alt="" src="images/fig1.png"/>                                         
-                                        <figcaption> 
-                                            <h2>講者就是你!</h2> 
-                                            <a href="seek.html"></a> 
-                                        </figcaption>                                         
-                                    </figure>                                     
-                                </div>                                 
-                                <div class="clearfix"></div>                                 
-                                <div class="col-sm-12"> 
-                                    <h3>徵求講者、投稿</h3> 
-                                    <p class="text-left">邀請各界在自己的工作場域中第一線進行資料分析的先進來與我們的聽眾分享資料科學的趣味、價值、以及心得...<br></p> 
-                                </div>                                 
-                            </div>                             
-                        </div>                         
-                        <div class="col-md-4 col-sm-4"> 
-                            <div class="row"> 
-                                <div class="col-sm-12"> 
-                                    <figure class="grid_about_us"> 
-                                        <img alt="" src="images/fig2.png"/>                                         
-                                        <figcaption> 
-                                            <h2>熱情志工招募!</h2> 
-                                            <a href="seek.html#signup-volunteer"></a> 
-                                        </figcaption>                                         
-                                    </figure>                                     
-                                </div>                                 
-                                <div class="clearfix"></div>                                 
-                                <div class="col-sm-12"> 
-                                    <h3>徵求志工</h3>
-                                    <p class="text-left">誠摯邀請具有熱情、喜愛學習、個性外向的您一起加入我們，讓我們共同舉辦今年嶄新且擴大規模至四天、預計與會人數超過 1500 人的大型會議...<br></p>
-                                </div>                                 
-                            </div>                             
-                        </div>                         
-                        <div class="col-md-4 col-sm-4"> 
-                            <div class="row"> 
-                                <div class="col-sm-12"> 
-                                    <figure class="grid_about_us"> 
-                                        <img alt="" src="images/fig3.png"/>                                         
-                                        <figcaption> 
-                                            <h2>7/7 起</h2> 
-                                            <a href="signup.html"></a> 
-                                        </figcaption>                                         
-                                    </figure>                                     
-                                </div>                                 
-                                <div class="clearfix"></div>                                 
-                                <div class="col-sm-12"> 
-                                    <h3>報名年會</h3> 
-                                    <p class="text-left">線上報名將於 2015/07/07 中午 12 點開始 至 2015/07/24 止。</p> 
-                                </div>                                 
-                            </div>                             
-                        </div>                         
-                    </div>                     
-                </div>                 
-            </section>             
-            <section id="copyright" class="color_section"> 
-                <div class="container"> 
-                    <div class="row"> 
-                        <div class="col-sm-12 text-center"> 
-                            <p><a href="about.html#organizer" data-toggle="tooltip" data-original-title="">籌辦單位</a> |  <a href="about.html#media" data-toggle="tooltip" data-original-title="">媒體夥伴</a> | <a href="about.html#staff" data-toggle="tooltip" data-original-title="">工作人員</a> 
-    | <a href="http://datasci.tw/2014/" target="_blank">2014 DSC</a>  |  <a href="https://www.facebook.com/twdsconf" target="_blank" title="" data-toggle="tooltip" data-original-title="Facebook">find us on <i class="fa fa-facebook"></i></a></p> 
-                            <p>&copy; Copyright 2015 - 台灣資料科學愛好者年會 </p> 
-                        </div>                         
-                    </div>                     
-                </div>                 
-            </section>             
-        </div>         
-        <!-- eof #box_wrapper -->         
-        <div class="preloader"> 
-            <div class="preloader_image"></div>             
-        </div>         
-        <!-- libraries -->         
-        <script src="js/vendor/jquery-1.11.1.min.js"></script>         
-        <script src="js/vendor/bootstrap.min.js"></script>         
-        <script src="js/vendor/jquery.appear.js"></script>         
-        <!-- superfish menu  -->         
-        <script src="js/vendor/jquery.hoverIntent.js"></script>         
-        <script src="js/vendor/superfish.js"></script>         
-        <!-- page scrolling -->         
-        <script src="js/vendor/jquery.easing.1.3.js"></script>         
-        <script src='js/vendor/jquery.nicescroll.min.js'></script>         
-        <script src="js/vendor/jquery.ui.totop.js"></script>         
-        <script src="js/vendor/jquery.localscroll-min.js"></script>         
-        <script src="js/vendor/jquery.scrollTo-min.js"></script>         
-        <!-- widgets -->         
-        <script src="js/vendor/jquery.easypiechart.min.js"></script>         
-        <!-- pie charts -->         
-        <script src='js/vendor/jquery.countTo.js'></script>         
-        <!-- digits counting -->         
-        <script src="js/vendor/jquery.prettyPhoto.js"></script>         
-        <!-- lightbox photos -->         
-        <script src='js/vendor/jflickrfeed.min.js'></script>         
-        <!-- sliders, filters, carousels -->         
-        <script src="js/vendor/jquery.isotope.min.js"></script>         
-        <script src='js/vendor/owl.carousel.min.js'></script>         
-        <script src='js/vendor/jquery.flexslider-min.js'></script>         
-        <!-- custom scripts -->         
-        <script src="js/plugins.js"></script>         
-        <script src="js/main.js"></script>
-        <script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+                            <h5 id="media" class="target-link">媒體夥伴</h5>
+                            <hr/>
+                            <a href="http://www.bnext.com.tw/" target="_blank">
+                                <img src="images/organizer/21.jpg" />
+                                <h4 class="orgtitle">BusinessNext 數位時代</h4>
+                            </a>
+                            <a href="http://edn.udn.com/" target="_blank">
+                                <img src="images/organizer/經濟日報.jpg" />
+                                <h4 class="orgtitle">經濟日報</h4>
+                            </a>
+                            <a href="http://sa.ylib.com/" target="_blank">
+                                <img src="images/organizer/科學人.jpg" />
+                                <h4 class="orgtitle">科學人</h4>
+                            </a>
+                            <a href="http://www.cio.com.tw/magazine/index.html" target="_blank">
+                                <img src="images/organizer/CIOIT.png" />
+                                <h4 class="orgtitle">《CIO IT經理人》雜誌</h4>
+                            </a>
+                            <a href="http://www.inside.com.tw/" target="_blank">
+                                <img src="images/organizer/22.png" />
+                                <h4 class="orgtitle">INSIDE</h4>
+                            </a>
+                            <a href="http://www.ithome.com.tw/" target="_blank">
+                                <img src="images/organizer/23.png" />
+                                <h4 class="orgtitle">iTHome</h4>
+                            </a>
+                            <a href="http://pansci.asia/" target="_blank">
+                                <img src="images/organizer/24.png" />
+                                <h4 class="orgtitle">PanSci 泛科學</h4>
+                            </a>
+                            <a href="http://buzzorange.com/techorange/" target="_blank">
+                                <img src="images/organizer/26.png" />
+                                <h4 class="orgtitle">TechOrange 科技報橘</h4>
+                            </a>
+                            <a href="http://www.new7.com.tw/" target="_blank">
+                                <img src="images/organizer/27.png" />
+                                <h4 class="orgtitle">新新聞</h4>
+                            </a>
+                            <a href="http://www.businessweekly.com.tw/" target="_blank">
+                                <img src="images/organizer/商周.png" />
+                                <h4 class="orgtitle">商業週刊</h4>
+                            </a>
+                            <!--                            <a href="http://www.thenewslens.com/" target="_blank">
+                                <img src="images/organizer/關鍵評論.jpg"  />
+                                <h4 class="orgtitle">關鍵評論</h4>
+                            </a>
+                            <a href="https://theinitium.com/" target="_blank">
+                                <img src="images/organizer/端傳媒.jpg"/>
+                                <h4 class="orgtitle">端傳媒</h4>
+                            </a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="services" class="include about grey_section" data-pg-collapsed data-include="services"></section>
+        <section id="copyright" class="include color_section" data-include="copyright"></section>
+    </div>
+    <!-- eof #box_wrapper -->
+    <div class="preloader">
+        <div class="preloader_image"></div>
+    </div>
+    <!-- libraries -->
+    <script src="js/vendor/jquery-1.11.1.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/jquery.appear.js"></script>
+    <!-- superfish menu  -->
+    <script src="js/vendor/jquery.hoverIntent.js"></script>
+    <script src="js/vendor/superfish.js"></script>
+    <!-- page scrolling -->
+    <script src="js/vendor/jquery.easing.1.3.js"></script>
+    <script src='js/vendor/jquery.nicescroll.min.js'></script>
+    <script src="js/vendor/jquery.ui.totop.js"></script>
+    <script src="js/vendor/jquery.localscroll-min.js"></script>
+    <script src="js/vendor/jquery.scrollTo-min.js"></script>
+    <!-- widgets -->
+    <script src="js/vendor/jquery.easypiechart.min.js"></script>
+    <!-- pie charts -->
+    <script src='js/vendor/jquery.countTo.js'></script>
+    <!-- digits counting -->
+    <script src="js/vendor/jquery.prettyPhoto.js"></script>
+    <!-- lightbox photos -->
+    <script src='js/vendor/jflickrfeed.min.js'></script>
+    <!-- sliders, filters, carousels -->
+    <script src="js/vendor/jquery.isotope.min.js"></script>
+    <script src='js/vendor/owl.carousel.min.js'></script>
+    <script src='js/vendor/jquery.flexslider-min.js'></script>
+    <!-- custom scripts -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-ga('create', 'UA-50828306-2', 'auto');
-ga('send', 'pageview');
-        </script>
-    </body>     
+    ga('create', 'UA-50828306-2', 'auto');
+    ga('send', 'pageview');
+    </script>
+    <script>
+    $(function() {
+        var includes = $('.include');
+        jQuery.each(includes, function() {
+            var file = '_template/' + $(this).data('include') + '.html';
+            $(this).load(file);
+        });
+    });
+    </script>
+</body>
+
 </html>
