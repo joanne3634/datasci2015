@@ -673,18 +673,30 @@ label[for] {
 
 
 /*page sponsor*/
+
 .sponsor a img {
-    width: 200px;
+    width: 100%;
 }
 
 .sponsor a {
     text-align: center;
     display: inline-block;
-    margin: 15px 10px 15px 10px;
+    margin: 15px 1%;
     color: #ef8322;
-    width: 200px;
+    width: 22%;
 }
 
+@media (max-width: 768px) {
+    .sponsor a {
+        width: 47%;
+    }
+}
+
+@media (max-width: 480px) {
+    .sponsor a {
+        width: 98%;
+    }
+}
 
 .sponsor .s-class:before {
     font-family: 'rt-icons';
@@ -6113,14 +6125,13 @@ ul.list2 li:before {
 // .mainlogo p.mline3 {
 //     display: none;
 // }
-
 .mainlogo img.logoInline {
     display: inline-block;
 }
 
 @media (max-width: 460px) {
     .mainvi {
-        background : none;
+        background: none;
     }
 }
 
@@ -6316,7 +6327,12 @@ table.sche td:nth-of-type(1) {
 
 @media only screen and (max-width: 760px) and (min-device-width: 768px) and (max-device-width: 1024px) {
     /* Force table to not be like tables anymore */
-    table.sche, table.sche thead, table.sche tbody, table.sche th, table.sche td, table.sche tr {
+    table.sche,
+    table.sche thead,
+    table.sche tbody,
+    table.sche th,
+    table.sche td,
+    table.sche tr {
         display: block;
         vertical-align: middle;
     }
@@ -6377,59 +6393,77 @@ table.sche td:nth-of-type(1) {
 .bg-blue {
     background-color: #9cd7d1;
 }
+
 .bg-pink {
     background-color: #FCD2D9;
 }
+
 .bg-orange {
     background-color: #feedd1;
 }
+
 .sponsbg1 {
     background-image: url(../images/sponsor/backg1.jpg);
 }
+
 .sponsbg2 {
     background-image: url(../images/sponsor/backg2.jpg);
 }
+
 .sponsbg3 {
     background-image: url(../images/sponsor/backg3.jpg);
 }
+
 .speaker-info {
     cursor: pointer;
 }
+
 .bg-purple {
     background-color: #E6D8F8;
 }
+
 .bg-yellow {
     background-color: #FFFFCA;
 }
+
 .bg-gery {
     background-color: #ECECEC;
 }
+
 .bg-green {
     background-color: #E8FCBC;
 }
+
 .intro table tr td {
     vertical-align: middle;
 }
+
 .mtop {
     margin-top: 22px;
 }
+
 .mright {
     margin-right: 10px;
 }
+
 .bg-sch {
     background-color: #DCEFED
 }
+
 #tab2 table tr td h3 {
     word-wrap: break-word;
     word-break: break-all;
 }
+
 #tab2 table tr td img {
     max-width: none;
 }
+
 .class-icon {
     max-height: 90px;
     padding: 5px;
 }
-td.text-center.time{
+
+td.text-center.time {
     vertical-align: middle;
 }

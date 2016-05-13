@@ -133,7 +133,7 @@
     "name": [ "余致緯","Ronald Yu"],
     "title": "停車大聲公 / 執行長",
     "info": [
-        ""
+        "余致緯 ( Ronald ) 先生畢業於台大電子工程所，目前為停車大聲公創辦人暨執行長。喜歡打球、看球、玩所有的體育活動，看書與打2K是閒暇之餘最愛做的活動。學生時代共同創辦圖像辨識引擎 CliPcik，於 IDEAS SHOW上獲獎，代表台灣參加BDash及Boston Startup Challenge。 CliPick 專注於圖像辨識，並提供女性網購消費者更快更便捷的方式搜尋想要的服裝款式。之後，Ronald 加入 Gogolook 團隊並擔任事業總監，負責 Whoscall 於香港、印度、東南亞的事業開發與產品推廣。任職期間，成功拓展 Whoscall 於台灣、韓國以外海外用戶，讓 Whoscall 日活躍用戶成長超過 30%。同時，主導 Whoscall 與香港競爭對手小熊來電併購案，協助 Gogolook 團隊拓展香港市場。於2015年，Ronald 再次創業，創辦呼叫阿福 ( Alfred ) 的即時泊車服務，於2015年轉型專注經營停車大聲公。停車大聲公服務車主找到周遭有空車位的停車場，目前為台灣最大的停車應用程式。"
     ]
 },
 {
@@ -200,7 +200,7 @@
 },
 {
     "agenda": "六0G_林伯龍",
-    "name": [ "林伯龍","Polong Lin"],
+    "name": ["Polong Lin"],
     "title": "IBM Analytics Platform, Emerging Technologies / Data Scientist",
     "info": [
         "Polong Lin is a Data Scientist at IBM. He is a regular speaker on data science and develops content for free data education on bigdatauniversity.com using open data tools on datascientistworkbench.com. Polong earned his M.Sc. at the Univ. of Tsukuba."
@@ -271,7 +271,7 @@
     "name": [ "孫民","Min Sun"],
     "title": "國立清華大學電機工程學系 / 助理教授",
     "info": [
-        ""
+        "孫民博士目前任教於國立清華大學電機系，他畢業於國立交通大學電子工程學系後，取得史坦福電機碩士、密西根安雅堡電機系統組博士、以及西雅圖華盛頓大學計算機工程博士後的經歷。他的研究興趣在電腦視覺、機器學習、以及人機互動領域，近年來基於深度學習在電腦視覺的突破，他致力於開發橫跨人工智慧不同子領域的系統，如自動影片文字描述(視覺x自然語言)、以及與人類行為互動的智慧機器(視覺x控制)。","欲瞭解孫博士的研究，請瀏覽他的<a target=\"_blank\" href=\"http://aliensunmin.github.io/\">個人網頁</a>。"
     ]
 },
 {
