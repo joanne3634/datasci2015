@@ -4,7 +4,7 @@
     "speaker": "1",
     "name": [ "李宏毅", "Hung-yi Lee" ],
     "title": "台灣大學電機系 / 助理教授",
-     "website": {
+    "website": {
         "home": "http://speech.ee.ntu.edu.tw/~tlkagk/index.html"
     },
     "info": [ 
@@ -30,9 +30,6 @@
     "speaker": "3",
     "name": [ "姜俊宇", "Jyun-Yu Jiang" ],
     "title": "美國加州大學洛杉磯分校 / 博士生",
-    "website": {
-        "home": "http://www.iis.sinica.edu.tw/~swc/index_c.html"
-    },
     "info": [ 
         "姜俊宇在國立台灣大學資訊工程系取得學士與碩士學位，其碩士論文曾獲中華民國人工智慧學會與計算語言學會之碩士論文獎。現於中央研究院擔任研究助理，並將於 2016 年秋季前往美國加州大學洛杉磯分校攻讀博士學位。","主要研究方向為資料探勘、資訊檢索、機器學習與社群網路，近年來的研究成果曾發表於 CIKM, SIGIR, WWW, ICWSM, CCS 等頂級國際學術會議。另外，在 2012 年亦與台灣大學的教授與同學共同組隊參加 KDDCUP 國際資料探勘大賽，並取得冠軍的成績。" 
     ]
@@ -52,7 +49,7 @@
     "name": [ "陳柏亨", "Po-Heng Chen (Henry)" ],
     "title": "中央研究院資訊科學研究所 / 研究助理",
      "website": {
-        "facebook": "http://www.iis.sinica.edu.tw/~swc/index_c.html"
+        "facebook": "https://www.facebook.com/henry.chen.12382"
     },
     "info": [ 
         "現任中央科學院資訊所擔任研究助理，並將於 2016 年秋季前往美國密西根大學攻讀碩士學位。畢業於台灣大學工商管理學系，畢業後前往北京 RedAtoms, Inc 移動社交遊戲公司任職運營專員。分析玩家行為模式的過程中，意外發現資料背後潛藏的價值與分析的樂趣，於是決心轉向資料分析領域發展，一路自學 R 語言與 Python。目前研究範圍包含健保資料庫分析、遊戲市場分析。" 
@@ -97,7 +94,7 @@
     "name": [ "李仁杰"],
     "title": "Riot Games / Head of Data Science",
     "info": [
-        "李仁杰，毕业于中国科学技术⼤大学少年班, 美国 University of Rochester 博⼠。现为 Riot Games 数据科学总负责人。致力于通过开发创新的数据产品来提高用户的体验，甚至人类的生活。从⽆到有建立了 Riot Games Data Science 部⻔, 带领团队从《英雄联盟》的海量数据平台中用大数据分析大规模提升商业决策和运营效率, 并用机器学习算法开发了精细化运营, 精准分析预测, 个性化推荐, 自然语⾔处理等各种全球领先的数据产品。"
+        "李仁杰，毕业于中国科学技术大学少年班, 美国 University of Rochester 博⼠。现为 Riot Games 数据科学总负责人。致力于通过开发创新的数据产品来提高用户的体验，甚至人类的生活。从⽆到有建立了 Riot Games Data Science 部⻔, 带领团队从《英雄联盟》的海量数据平台中用大数据分析大规模提升商业决策和运营效率, 并用机器学习算法开发了精细化运营, 精准分析预测, 个性化推荐, 自然语⾔处理等各种全球领先的数据产品。"
     ]
 },
 {
@@ -120,7 +117,7 @@
     ]
 },
 {
-    "agenda": "六1C_蘇倚恩_有點模糊",
+    "agenda": "六1C_蘇倚恩",
     "name": [ "蘇倚恩"],
     "title": "財團法人誠致教育基金會 / 產品負責人",
     "info": [
@@ -186,6 +183,9 @@
     "agenda": "六2E_吳牧恩",
     "name": [ "吳牧恩"],
     "title": "東吳大學數學系 / 助理教授",
+    "website": {
+        "home": "http://www.bituzi.com/search/label/%E8%AC%80%E6%AC%8A%E5%A5%AA%E5%88%A9%E7%9C%9F%E8%8B%B1%E9%9B%84-%E7%89%A7%E6%B8%85%E8%8F%AF"
+    },
     "info": [
         "吳牧恩教授為數理背景出身、資工博士畢業，其研究領域包括資訊理論與金融資料分析。現為東吳大學數學系助理教授，致力於推廣資金管理的數學與研發金融交易策略，期望破除市場上大眾追求穩賺聖盃的迷思。其亦為知名財金部落格幣圖誌 ( Bituzi ) 專欄作家 -- 牧清華。"
     ]
@@ -238,6 +238,9 @@
     "agenda": "六2G_趙國仁",
     "name": [ "趙國仁"],
     "title": "隆中網絡,東森科技 / 資深數據科學家",
+    "website": {
+        "linkedin": "https://tw.linkedin.com/in/chaokuojen"
+    },
     "info": [
         ""
     ]
@@ -252,8 +255,11 @@
 },
 {
     "agenda": "日0A_鄭世昐",
-    "name": [ "鄭世盼"],
+    "name": [ "鄭世昐"],
     "title": "Singapore Management University / Associate Professor and Deputy Director",
+    "website": {
+        "home": "http://www.mysmu.edu/faculty/sfcheng/"
+    },
     "info": [
         "Shih-Fen Cheng is Associate Professor of Information Systems and Deputy Director of the Fujitsu-SMU Urban Computing and Engineering Corp Lab at the Singapore Management University. He received his Ph.D. degree in industrial and operations engineering from the University of Michigan, Ann Arbor, and B.S.E. degree in mechanical engineering from the National Taiwan University.","His research focuses on the modeling and optimization of complex systems in engineering and business domains. He is particularly interested in the application areas of transportation, computational markets, and human decision-making. He is a member of INFORMS, AAAI, and IEEE, and serves as Area Editor for Electronic Commerce Research and Applications."
     ]
@@ -443,5 +449,225 @@
     "info": [
         "關鍵評論網圖表編輯，畢業於台灣大學經濟系，對數據分析和如何用視覺化的方式呈現數據感到興趣。曾製作「台北捷運所得地圖」、小碧潭捷運站分析、2016大選圖表等圖表新聞。"
     ]
+},
+{
+    "talk": "胡筱薇",
+    "name": [ "胡筱薇","Camille Hu"],
+    "photo": "社群網路分析_胡筱薇",
+    "website": {
+        "home": "http://camillehu.wikidot.com"
+    },
+    "title": "東吳大學巨量資料管理學院 / 助理教授",
+    "info": [
+        "胡筱薇助理教授於國立中央大學取得博士學位，目前任教於東吳大學巨量資料管理學院。2008 ~ 2009 年間曾到美國普渡大學擔任訪問學者，與當時普渡大學管理學院副院長唐揆教授合作研究。研究方向為資料探勘演算法之設計開發與其相關應用，包含關連規則探勘方法、決策樹分類方法、意見探勘等，研究成果多發表至國際知名會議與期刊。近年來致力於巨量資料探勘以及社群網路分析應用之研究，除了在校培養巨量資料管理與分析人才，目前亦與 Magna 共同創辦人 LindaCheng 合力開發社群行為預測模型與服務。"
+    ]
+},
+{
+    "talk": "蕭偉強",
+    "name": [ "蕭偉強","Johnson Hsiao"],
+    "photo": "社群網路分析_蕭偉強",
+    "website": {
+        "home": "https://goo.gl/photos/D5SGrR2xayQrSDBR9"
+    },
+    "title": "麟數據科技 / 數據分析總監",
+    "info": [
+        ""
+    ]
+},
+{
+    "talk": "李慧如",
+    "name": [ "李慧如"],
+    "photo": "電商及網路行銷_李慧如",
+    "title": "艾肯娛樂 / 專案經理",
+    "info": [
+        "具有超過15年以上的廣告行銷經驗，服務國際性客戶為主，經歷過傳統以及數位行銷的專業訓練，去年底轉至遊戲產業。不管哪一份工作，我的角色以企劃為主，喜歡觀察，從冰山的表面往下挖掘出關鍵點，系統化去看一件事情，找出更高的觀點，找出脈絡，進而提出策略。在大陸工作的經驗，深深覺得行銷與媒體費用是相當精算的、高技術含量的活，這也就是我為什麼對資訊科學會特別感興趣，並祝福台灣可以與國際並駕齊驅！"
+    ]
+},
+{
+    "talk": "周曼如",
+    "name": [ "周曼如","Stephanie Chou"],
+    "photo": "電商及網路行銷_周曼如",
+    "title": "Yahoo! Taiwan / Data Engineer",
+    "info": [
+        "Man Ju Chou received the double B.S degree in industrial management and computer science in 2011, and M.S. degree in computer science in 2013 from the National Taiwan University of Science and Technology. Since then, she has been a data engineer at Yahoo APAC Data Team, working on business intelligence and CRM Targeting system."
+    ]
+},
+{
+    "talk": "張俊盛",
+    "name": [ "張俊盛"],
+    "photo": "",
+    "title": "",
+    "info": [
+        ""
+    ]
+},
+{
+    "talk": "K-LingChen",
+    "name": [ "陳冠伶","K-Ling Chen"],
+    "photo": "資料視覺化_陳冠伶",
+    "title": "紫冠策略資訊 / 策略總監",
+    "info": [
+        "紫冠策略資訊創辦人暨策略總監，清華資工碩士與台大資工博士候選人。喜好視覺溝通，努力轉譯各領域菁英腦中的專業圖像讓非專業的各年齡層理解；希望讓周邊更多人發光的理想驅使，熱愛連結與整合資源以協助人才定位、發揮潛能與信心；目前致力協助客戶與合作夥伴，發想與實踐資訊科技與資料科學的創新應用，創造共享價值。"
+    ]
+},
+{
+    "talk": "賴靖玟",
+    "name": [ "賴靖玟","Monica Lai"],
+    "photo": "資料視覺化_賴靖玟",
+    "website": {
+        "linkedin": "https://tw.linkedin.com/in/laimonica"
+    },
+    "title": "HTC / Mobile program manager",
+    "info": [
+        "Monica had her Masters in Medical Statistics in 2008, and ever since she has been working with “numbers” in various roles: biostatistician, health economist, data mining analyst, business analyst and now she is focusing on business intelligence for mobile service programs. From the diverse background, her specialty is to provide insights by gathering business know-how, understanding the key questions and making number results approachable to her audience. She now runs business intelligence programs in HTC to develop and iterate services, applications and business models for the company. Her passion is to explore from the unknown and to turn raw data into understandable answers."
+    ]
+},
+{
+    "talk": "蔡一郎",
+    "name": [ "蔡一郎"],
+    "photo": "資訊安全_蔡一郎",
+    "website": {
+        "home": "http://blog.yilang.org/"
+    },
+    "title": "財團法人國家實驗研究院國家高速網路與計算中心 / 研究員",
+    "info": [
+        "蔡一郎，現為國家實驗研究院國家高速網路與計算中心研究員、台灣雲端安全聯盟理事長與國內多個協會之理監事，在國際上活躍於Cloud Security Alliance 以及 The Honeynet Project等非營利組織，成立台灣電腦安全事件應變中心(TWCSIRT)，長期投入包括誘捕系統相關資訊安全技術、雲端安全應用領域以及事件應變與數位鑑識等資訊安全相關領域之研究，擁有CEH, CHFI, CCNA, CCAI, ITIL, ISO27001 LAC, ISO20000 LAC, BS10012 LAC and CSA STAR Auditing等多種資訊相關專業證照，涵蓋資訊技術與管理層面，另外也是知名的資訊技術專業圖書作者與專欄作家，目前已發表34本資訊相關圖書以及數量眾多的專欄文章。"
+    ]
+},
+{
+    "talk": "吳明璋",
+    "name": [ "吳明璋","Bright Wu"],
+    "photo": "資訊安全_吳明璋",
+    "title": "貝爾富 BELFOR / 業務發展經理",
+    "info": [
+        "吳明璋先生現為全球災後復原公司貝爾富（BELFOR）業務發展經理。曾擔任趨勢科技客戶洞察專案負責人與安侯企管（KPMG Taiwan）企業經營績效服務經理。專長領域為資訊安全、災後復原計畫、客戶洞察、大數據、設計思考等。認證包括：資訊安全BS7799 主導評審員證照、專案管理等。","他曾擔任APEC Workshop on Application of Big Data and Open Data 講師、APEC BCP Train-The-Trainer Workshop講師與指導老師、COMPUTEX Taipei & APEC O2O Training Workshop講師、SEMI Taiwan標準訓練課程講師、TiC100 創業競賽業師、臺北設計之都工作營指導老師等。"
+    ]
+},
+{
+    "talk": "伍時瑩",
+    "name": [ "伍時瑩"],
+    "photo": "",
+    "title": "",
+    "info": [
+        ""
+    ]
+},
+{
+    "talk": "吳昱甫",
+    "name": [ "吳昱甫"],
+    "photo": "",
+    "website": {
+        "home": "http://yfwu.github.io"
+    },
+    "title": "台北榮民總醫院 / 實習醫學生",
+    "info": [
+        ""
+    ]
+},
+{
+    "talk": "邱銘心",
+    "name": [ "邱銘心"],
+    "photo": "健康醫療_邱銘心",
+    "title": "國立臺灣師範大學圖書資訊學研究所 / 副教授",
+    "info": [
+        "邱銘心副教授任職於國立臺灣師範大學圖書資訊學研究所，於 Purdue University 取得教育碩士，並於 University of Wisconsin-Madison 取得圖書資訊學博士學位。目前擔任 Association for Information Science and Technology 台北分會會長，希望可以於把 data science 推廣到圖資領域。主要研究方向為消費者健康資訊學，尤其關注社群媒體中由使用者產製的健康醫療相關資料與健康傳播以及醫療決策的關聯性，除了文字資料與數據資料，近年來也開始關注社群媒體視覺資料在急難救助與健康行為的應用。希望在 65 歲退休後，還可以成為一個高齡瑜伽老師。"
+    ]
+},
+{
+    "talk": "許駿鵬",
+    "name": [ "許駿鵬"],
+    "photo": "健康醫療_許駿鵬",
+    "title": "緯創資通 / Project Mananger",
+    "info": [
+        "主修統計與電腦科學。目前任職緯創資通價值創新中心。"
+    ]
+},
+{
+    "talk": "康仕仲",
+    "name": [ "康仕仲","Prof. Shih-Chung Jessy Kang"],
+    "photo": "教育大數據_康仕仲",
+    "title": "臺大土木系 / 教授兼副教務長",
+    "info": [
+        "康仕仲教授是臺大土木系教授兼副教務長、美國史丹福大學博士。康教授長期投入於工程視覺化、自動化機器人、工程教育以及防災資訊系統之研發。在臺大開設電腦繪圖、遊戲引擎、資料視覺化及機器人等課程，曾獲得優良教師獎。康教授曾擔任教學發展中心數位媒體組組長，負責開放式課程及數位化教育的推廣，他在 Coursera 上開設的工程圖學系列課程，共有超過 5 萬人修習。現擔任國際期刊 Visualization in Engineering 總編輯，編輯十餘本工程視覺化及機器人自動化主題之特刊和專書，發表超過 50 篇的期刊論文。"
+    ]
+},
+{
+    "talk": "張大明",
+    "name": [ "張大明","Ta-Ming Chang"],
+    "photo": "教育大數據_張大明",
+    "website": {
+        "home": "http://www.slideshare.net/tamingchang"
+    },
+    "title": "育睿科技 / 執行長",
+    "info": [
+        "張大明執行長，現任育睿科技執行長，資訊教育及教育科技專家，淡江大學教育科技研究所，台灣首位 4C/ID 模式時實證研究發表人，國際副價值工程專家 AVS，美國ATD會員，經濟部中小企業領袖班第十二屆結訓。有近二十年成人教育訓練實務及數位化學習設計經驗。","自2012年起致力以教育科技創新在績效導向行動化整合訓練方案發展，包含：企業教育訓練，高等教育或技職訓校創新教學等，陸續發展出思翱157活動設計，能夠結合線上線下教學的評鑑實施，以及闖關幫幫忙的雲端Web App工具，可以蒐集教學與學習脈絡的數據資料，2015年發表思翱倍力大數據服務（ALBiTER），以數據驅動教育科技創新，配合設計與實施指引手冊給教師、教練，推出講師與課程認證服務，以及提供企業組織績效導向的數據驅動整合訓練方案，主題式課程等，同年以「思翱夫子雲倍力大數據創新服務研發計畫」通過經濟部小型企業創新研發計畫補助（SBIR），持續發展資料科學創新應用：ALBiTER思翱倍力-培訓數據雲整合服務。"
+    ]
+},
+{
+    "talk": "劉明機",
+    "name": [ "劉明機"],
+    "website": {
+        "facebook": "https://www.facebook.com/Ben.MC.Liu"
+    },
+    "photo": "教育與資料視覺化_劉明機",
+    "title": "國立成功大學 / 博士後研究員",
+    "info": [
+        "劉明機其專長是文字與腦訊號處理，從事教育科技的研究逾十年，曾二度受邀赴加拿大研究訪問，有多篇論文發表在SSCI國際期刊上。目前研究興趣為情感運算在教育上的應用，期望能提昇台灣學童社會情緒能力之學習(Social and Emotional Learning, SEL)。","近來，因為對資料科學的興趣，南北參加過十多場資料科學研習後，醍醐灌頂，也成為教育類資料科學的傳教士，致力於教導「統計與生活」的紮根課程、「教育中資料科學」的演講、撰寫「資料科學與未來教育」等文章，期望可以吸引更多人來入教(ㄒㄩㄝ)。"
+    ]
+},
+{
+    "talk": "薛仲翔",
+    "name": [ "薛仲翔","Ofa"],
+    "photo": "財務金融_薛仲翔",
+    "website": {
+        "home": "https://ofafa.wordpress.com"
+    },
+    "title": "育生堂中藥房 / Data engineer",
+    "info": [
+        "Business Lead@Installments, Researcher@Team T5, COO@Sharelike, BS,MS@NTUEE","就讀台大電機研究所期間專研基因演算法在影音方面的應用，畢業後到矽谷讀闖了三個月，後來在台灣的新創圈打滾三年多，待過資安與金融科技等不同類型的新創公司，因緣際會下得以再到以色列與芬蘭去探索不同地區新創圈的內涵。平時興趣是翻譯 YC 創辦人 Paul Graham 的論文以及探討與創業有關的思想與科技發展，生活由 33% 的 Hacking、33% 的 Business Development、33% 的 Cooking 與 1% 的 Random 組成，目前為自由工作者，過著左手包藥右手寫程式的生活。"
+    ]
+},
+{
+    "talk": "連卿閔",
+    "name": [ "連卿閔"],
+    "website": {
+        "linkedin": "http://www.linkedin.com/in/ching-min-lien-a6b0a3b8"
+    },
+    "photo": "人工智慧機器學習深度學習_連卿閔",
+    "title": "HTC / 主任工程師",
+    "info": [
+        "連卿閔博士於 2011 年在清華大學通訊所取得博士學位，並繼續於通訊所從事博士後研究直到 2012 年末。期間主要專攻領域為高速交換機架構與網路排程演算法之效能分析，研究成果獲得國科會 101 年度博士後研究人員學術著作獎之肯定。於 2013 年加入宏達電，協助公司進行雲端架構開發，為多款應用軟體之基礎，使用人數超過兩百萬。其後加入醫療事業群之深度學習團隊擔任主任工程師一職，負責平行運算架構之設計與開發，並參與多項醫療相關專案。"
+    ]
+},
+{
+    "talk": "戴敏育",
+    "name": [ "戴敏育","Min-Yuh Day"],
+    "website": {
+        "home": "http://mail.tku.edu.tw/myday/"
+    },
+    "photo": "人工智慧機器學習深度學習_戴敏育",
+    "title": "淡江大學資訊管理學系 / 助理教授",
+    "info": [
+        "戴敏育博士目前任教於淡江大學資訊管理學系。他曾任職於中央研究院資訊科學研究所智慧型代理人系統實驗室博士後研究員。他於2010年取得國立台灣大學資訊管理博士學位。他的研究興趣包括社群運算、大數據分析、深度學習、問答系統、文本探勘、情感分析、電子商務、金融科技。他曾帶領IMTKU團隊參加日本 NTCIR 國際資訊檢索評估競賽表現優異，於文本蘊涵 (Recognizing Inference in TExt, RITE) 項目榮獲優秀成績，並於2012年開始共同創辦 IEEE International Workshop on Empirical Methods for Recognizing Inference in TExt (IEEE EM-RITE)。他目前是IEEE IRI 會議共同主席 與 IEEE/ACM ASONAM 出版主席。"
+    ]
+},
+{
+    "talk": "陳智禮",
+    "name": [ "陳智禮"],
+    "photo": "",
+    "title": "華電聯網股份有限公司 / 協理",
+    "info": [
+        "淡江大學資工系畢，曾任職 Lotus、HP、IBM 等科技大廠，研究領域包括軟體工程、大數據分析、智慧零售。現任華電聯網業務二處協理負責智慧城市等相關應用推動、執行多家科技大廠與學校合作計畫。"
+    ]
+},
+{
+    "talk": "張心玲",
+    "name": [ "張心玲","Karen"],
+    "photo": "開放資料及個資保護_張心玲",
+    "title": "行政院科技會報辦公室 / 副研究員",
+    "info": [
+        "- 行政院科技會報辦公室 副研究員<br>- 資策會資安所 政策研究中心 組長<br>- 亞洲PKI聯盟 商業案例應用工作組 主席<h4>著重領域</h4>- 政府雲端運算應用、Open Data 及Big Data推動政策、科技服務與創新、國際合作<br>- 曾任跨國資安計畫 International Collaboration for Advanced Security Technology (iCAST) <br>辦公室主任；連結美國加州柏克萊大學、卡內基美隆大學，與國內各大學、法人、中研院及國防部共同合作<br>- 擔任亞洲PKI聯盟 商業案例應用工作組 主席(Business Case and Application Working Group, Asia PKI Consortium, APKIC)，定期規劃年度活動，活絡亞洲各國相關合作"
+    ]
 }
+
 ]
