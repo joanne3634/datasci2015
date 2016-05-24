@@ -483,7 +483,7 @@
                                                 <br/>
                                             </td>
                                             <td>
-                                                <h4>善用資料改善線上教育 - 一個15人小團隊，如何從無到有，融入資訊做決策</h4>
+                                                <h4>善用資料改善線上教育：一個十五人團隊，如何從無到有，融入資訊做決策</h4>
                                                 <span data-toggle="modal" data-target="#六1C_呂冠緯" class="text-primary speaker-info">呂冠緯 / 財團法人誠致教育基金會執行長 CEO</span>
                                                 <br/>
                                                 <span data-toggle="modal" data-target="#六1C_蘇倚恩" class="text-primary speaker-info">蘇倚恩 / 財團法人誠致教育基金會產品負責人</span>
@@ -510,7 +510,7 @@
                                                 <br/>
                                             </td>
                                             <td>
-                                                <h4>RCT for social good - 隨機對照實驗在公共領域的應用</h4>
+                                                <h4>隨機對照實驗在公共領域的應用</h4>
                                                 <span data-toggle="modal" data-target="#info07" class="text-primary speaker-info">謝宗震 / DSP智庫驅動資料科學家</span>
                                                 <br/>
                                             </td>
@@ -545,7 +545,7 @@
                                                 <br/>
                                             </td>
                                             <td>
-                                                <h4>一個賭徒的告白2：交易策略建構與分析，為何你該賭小一點?</h4>
+                                                <h4>一個賭徒的告白 2：交易策略建構與分析，為何你該賭小一點？</h4>
                                                 <span data-toggle="modal" data-target="#六2E_吳牧恩" class="text-primary speaker-info">吳牧恩 / 東吳大學數學系助理教授</span>
                                                 <br/>
                                             </td>
@@ -616,8 +616,8 @@
                                         </tr>
                                         <tr>
                                             <td class="bg-pink">18:00 - 21:00</td>
-                                            <td colspan="4" class="bg-pink"><img src="images/course/s009.png">
-                                                <h4>交流晚宴</h4></td>
+                                            <td colspan="4" class="bg-pink">
+                                                <span data-toggle="modal" data-target="#dinner" class="text-primary speaker-info"><img class="class-icon" src="images/course/night.svg"><br/>交流晚宴</span></td>
                                             <!-- <td style="border-bottom:1px solid #fff;border-right:1px solid #fff"></td> -->
                                         </tr>
                                     </tbody>
@@ -648,7 +648,7 @@
                                         <tr>
                                             <td>09:00 - 09:45</td>
                                             <td>
-                                                <h4>未來城市的任意門 ( Mobility on Demand for Future Cities )</h4>
+                                                <h4>未來城市的任意門 (Mobility on Demand for Future Cities)</h4>
                                                 <span data-toggle="modal" data-target="#日0A_鄭世昐" class="text-primary speaker-info">鄭世昐 / Singapore Management University Associate Professor and Deputy Director</span>
                                                 <br/>
                                             </td>
@@ -658,7 +658,7 @@
                                                 <br/>
                                             </td>
                                             <td>
-                                                <h4>人類行為訊號處理 ( BSP ) : 跨學科 ( 醫療、教育、心理 ) 應用實例分享、心得、展望</h4>
+                                                <h4>人類行為訊號處理 : 跨學科 (醫療、教育、心理) 應用實例分享、心得、展望</h4>
                                                 <span data-toggle="modal" data-target="#日2A_李祈均" class="text-primary speaker-info">李祈均 / 國立清華大學電機工程學系助理教授</span>
                                                 <br/>
                                             </td>
@@ -679,7 +679,7 @@
                                                 <br/>
                                             </td>
                                             <td>
-                                                <h4>The inception of learning from big video data</h4>
+                                                <h4>The Inception of Learning from Big Video Data</h4>
                                                 <span data-toggle="modal" data-target="#日1B_張秉霖" class="text-primary speaker-info">張秉霖 / Umbo CV 技術長</span>
                                                 <br/>
                                             </td>
