@@ -675,7 +675,7 @@
                                             <td>09:45 - 10:30</td>
                                             <td>
                                                 <h4>台北智慧城市及其資料</h4>
-                                                <span data-toggle="modal" data-target="#日0B_彭盛韶" class="text-primary speaker-info">彭盛韶 / 資訊局專門委員</span>
+                                                <span data-toggle="modal" data-target="#日0B_彭盛韶" class="text-primary speaker-info">彭盛韶 / 資訊局隨行秘書</span>
                                                 <br/>
                                             </td>
                                             <td>
@@ -830,7 +830,7 @@
                                                 <h4>有志一同</h4><span>人工智慧/機器學習/深度學習<span><br>
                                                 <span data-toggle="modal" data-target="#日0E_徐宏民" class="text-primary speaker-info">徐宏民 / 國立臺灣大學資訊工程學系教授 </span>
                                                 <br>
-                                                <span data-toggle="modal" data-target="#連卿閔" class="text-primary speaker-info">連卿閔 / HTC 主任工程師</span>
+                                                <span data-toggle="modal" data-target="#連卿閔" class="text-primary speaker-info">連卿閔 / HTC Principal Engineer</span>
                                                 <br>
                                                 <span data-toggle="modal" data-target="#戴敏育" class="text-primary speaker-info">戴敏育 / 淡江大學資訊管理學系助理教授</span>
                                             </td>
