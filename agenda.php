@@ -41,7 +41,7 @@
     }
     
     table h4 {
-        line-height: 1.1em;
+        line-height: 1.3em;
         margin-bottom: 5px;
     }
     
@@ -220,7 +220,7 @@
                                                     <img src="images/course/team.svg" class="class-icon">
                                                     <h3>資料科學的第一堂課：<br/>心法、案例分析與團隊建立</h3>
                                                 </a>
-                                                <span data-toggle="modal" data-target="#info02" class="text-primary speaker-info">陳昇瑋 / 年會總召, 台灣資料科學協會理事長</span>
+                                                <span data-toggle="modal" data-target="#info02" class="text-primary speaker-info">陳昇瑋 / 年會總召、台灣資料科學協會理事長</span>
                                             </td>
                                             <td width="28%">
                                                 <a href="intro-mining.html">
@@ -236,7 +236,7 @@
                                                 </a>
                                                 <span data-toggle="modal" data-target="#info06" class="text-primary speaker-info">許懷中 / 中央研究院博士後研究員</span>
                                                 <br>
-                                                <span data-toggle="modal" data-target="#info07" class="text-primary speaker-info">謝宗震 / DSP智庫驅動資料科學家</span>
+                                                <span data-toggle="modal" data-target="#info07" class="text-primary speaker-info">謝宗震 / DSP 智庫驅動資料科學家</span>
                                             </td>
                                         </tr>
                                         <tr>
@@ -318,7 +318,6 @@
                                                 <h4>互動論壇</h4>
                                                 <span class="label label-warning">與談人</span>
                                                 <br/>
-                                                <span data-toggle="modal" data-target="#info02" class="text-primary speaker-info">陳昇瑋 / 年會總召, 台灣資料科學協會理事長</span></br>
                                                 <span data-toggle="modal" data-target="#Keynote_紀懷新" class="text-primary speaker-info">紀懷新 / Google Research Scientist</span></br>
                                                 <span data-toggle="modal" data-target="#六0D_張宗堯" class="text-primary speaker-info">張宗堯 / Kyper Data Technologies CEO</span>
                                             </td>
@@ -355,7 +354,7 @@
                                                 </a>
                                                 <span data-toggle="modal" data-target="#info06" class="text-primary speaker-info">許懷中 / 中央研究院博士後研究員</span>
                                                 <br/>
-                                                <span data-toggle="modal" data-target="#info07" class="text-primary speaker-info">謝宗震 / DSP智庫驅動資料科學家</span>
+                                                <span data-toggle="modal" data-target="#info07" class="text-primary speaker-info">謝宗震 / DSP 智庫驅動資料科學家</span>
                                             </td>
                                         </tr>
                                         <tr>
@@ -421,7 +420,7 @@
                                                 <h4>深度學習應用與展望</h4>
                                             </td>
                                             <td>
-                                                <h4>那些資料告訴我們(與沒告訴我們)的事</h4>
+                                                <h4>那些資料告訴我們 ( 與沒告訴我們 ) 的事</h4>
                                             </td>
                                             <td>
                                                 <h4>電子投票記錄談分類</h4>
@@ -457,7 +456,7 @@
                                             <td colspan="4">
                                                 <!-- <h4>敬請期待</h4> -->
                                                 <h4>開幕式 <!-- <a href="http://www.slideshare.net/tw_dsconf/2016-51937879" title="投影片" target="_blank"><i class="fa fa-desktop -slideshow"></i></a> --></h4>
-                                                <span data-toggle="modal" data-target="#info02" class="text-primary speaker-info">陳昇瑋 / 年會總召, 台灣資料科學協會理事長</span>
+                                                <span data-toggle="modal" data-target="#info02" class="text-primary speaker-info">陳昇瑋 / 年會總召、台灣資料科學協會理事長</span>
                                                 <br/>
                                                 <!-- <span class="label label-primary">致詞嘉賓</span><br/> -->
                                                 <!-- <span data-toggle="modal" data-target="#info63" class="text-primary speaker-info">鄭清水 / 中央研究院統計科學研究所所長</span> -->
@@ -483,7 +482,7 @@
                                                 <br/>
                                             </td>
                                             <td>
-                                                <h4>善用資料改善線上教育：一個十五人團隊，如何從無到有，融入資訊做決策</h4>
+                                                <h4>善用資料改善線上教育 : 一個十五人團隊，如何從無到有，融入資訊做決策</h4>
                                                 <span data-toggle="modal" data-target="#六1C_呂冠緯" class="text-primary speaker-info">呂冠緯 / 財團法人誠致教育基金會執行長 CEO</span>
                                                 <br/>
                                                 <span data-toggle="modal" data-target="#六1C_蘇倚恩" class="text-primary speaker-info">蘇倚恩 / 財團法人誠致教育基金會產品負責人</span>
@@ -505,7 +504,7 @@
                                         <tr>
                                             <td>11:45 - 12:30</td>
                                             <td>
-                                                <h4>Data-as-a-Service: 數據的新經濟</h4>
+                                                <h4>Data as a Service: 數據的新經濟</h4>
                                                 <span data-toggle="modal" data-target="#六0D_張宗堯" class="text-primary speaker-info">張宗堯 / Kyper Data Technologies CEO</span>
                                                 <br/>
                                             </td>
@@ -556,19 +555,18 @@
                                         <tr>
                                             <td>14:35 - 15:20</td>
                                             <td>
-                                                <h4></h4>
-                                                <span data-toggle="modal" data-target="#六0F_陳維超" class="text-primary speaker-info">陳維超 / Skywatch共同創辦人</span>
+                                                <h4>銀行資料這樣玩</h4>
+                                                <span data-toggle="modal" data-target="#六2F_洪采襄" class="text-primary speaker-info">洪采襄 / 玉山銀行資訊處襄理</span>
                                                 <br/>
                                             </td>
                                             <td>
-                                                <h4>從薪酬制度讀CEO的行為心理學</h4>
+                                                <h4>從薪酬制度讀 CEO 的行為心理學</h4>
                                                 <span data-toggle="modal" data-target="#六1F_顏汝芳" class="text-primary speaker-info">顏汝芳 / 台北大學助理教授</span>
                                                 <br/>
                                             </td>
                                             <td>
-                                                <h4>銀行資料這樣玩</h4>
-                                                <span data-toggle="modal" data-target="#六2F_洪采襄" class="text-primary speaker-info">洪采襄 / 玉山銀行資訊處襄理</span>
-                                                <br/>
+                                                <h4>數位廣告大數據</h4>
+                                                <span data-toggle="modal" data-target="#六2G_趙國仁" class="text-primary speaker-info">趙國仁 / 隆中網絡、東森科技資深數據科學家</span>
                                             </td>
                                         </tr>
                                         <tr class="bg-orange">
@@ -578,18 +576,18 @@
                                         <tr>
                                             <td>15:50 - 16:35</td>
                                             <td>
-                                                <h4>How to Approach Data Science Problems from Start to End: Two case studies</h4>
+                                                <h4>How to Approach Data Science Problems from Start to End: Two Case Studies</h4>
                                                 <span data-toggle="modal" data-target="#六0G_林伯龍" class="text-primary speaker-info">Polong Lin / IBM Analytics Platform, Emerging Technologies Data Scientist</span>
                                                 <br/>
                                             </td>
                                             <td>
-                                                <h4>自己的空氣品質自己量 - 談參與式環境感測的機會與挑戰</h4>
+                                                <h4>自己的空氣品質自己量 : 談參與式環境感測的機會與挑戰</h4>
                                                 <span data-toggle="modal" data-target="#六1G_陳伶志_尺寸不足" class="text-primary speaker-info">陳伶志 / 中央研究院資訊科學所副研究員</span>
                                                 <br/>
                                             </td>
                                             <td>
-                                                <h4>數位廣告大數據</h4>
-                                                <span data-toggle="modal" data-target="#六2G_趙國仁" class="text-primary speaker-info">趙國仁 / 隆中網絡,東森科技 資深數據科學家</span>
+                                                <h4></h4>
+                                                <span data-toggle="modal" data-target="#六2G_李慕約" class="text-primary speaker-info">李慕約 / SheetHub.com 共同創辦人</span>
                                                 <br/>
                                             </td>
                                             <td rowspan="2">
@@ -600,17 +598,17 @@
                                             <td>16:35 - 17:20</td>
                                             <td>
                                                 <h4>心理與行為資料中的因與果</h4>
-                                                <span data-toggle="modal" data-target="#六0H_黃從仁" class="text-primary speaker-info">黃從仁 / 臺灣大學心理學系助理教授</span>
+                                                <span data-toggle="modal" data-target="#六0H_黃從仁" class="text-primary speaker-info">黃從仁 / 台灣大學心理學系助理教授</span>
                                                 <br/>
                                             </td>
                                             <td>
-                                                <h4>資料科學與防疫應用的結合 -- 以登革熱防治為例</h4>
+                                                <h4>資料科學與防疫應用的結合 : 以登革熱防治為例</h4>
                                                 <span data-toggle="modal" data-target="#六1H_莊坤達" class="text-primary speaker-info">莊坤達 / 成功大學助理教授</span>
                                                 <br/>
                                             </td>
                                             <td>
-                                                <h4>資料分析前的奏曲 - 談資料收集的挑戰</h4>
-                                                <span data-toggle="modal" data-target="#六2H_周世恩" class="text-primary speaker-info">周世恩 / 前QSearch CTO</span>
+                                                <h4>資料分析前的奏曲 : 談資料收集的挑戰</h4>
+                                                <span data-toggle="modal" data-target="#六2H_周世恩" class="text-primary speaker-info">周世恩 / 前 QSearch CTO</span>
                                                 <br/>
                                             </td>
                                         </tr>
@@ -653,7 +651,7 @@
                                                 <br/>
                                             </td>
                                             <td>
-                                                <h4>從電腦視覺看人工智慧 - 下一件大事</h4>
+                                                <h4>從電腦視覺看人工智慧 : 下一件大事</h4>
                                                 <span data-toggle="modal" data-target="#日1A_孫民" class="text-primary speaker-info">孫民 / 國立清華大學電機工程學系助理教授</span>
                                                 <br/>
                                             </td>
@@ -666,16 +664,16 @@
                                                 <h4>有志一同</h4><span>資料視覺化<span><br>
                                                 <span data-toggle="modal" data-target="#張俊盛" class="text-primary speaker-info">張俊盛 / 待補</span>
                                                 <br>
-                                                <span data-toggle="modal" data-target="#K-LingChen" class="text-primary speaker-info">K-Ling Chen / 紫冠策略資訊 策略總監</span>
+                                                <span data-toggle="modal" data-target="#K-LingChen" class="text-primary speaker-info">K-Ling Chen / 紫冠策略資訊策略總監</span>
                                                 <br>
-                                                <span data-toggle="modal" data-target="#賴靖玟" class="text-primary speaker-info">賴靖玟 / HTC Mobile program manager</span>
+                                                <span data-toggle="modal" data-target="#賴靖玟" class="text-primary speaker-info">賴靖玟 / HTC Mobile Program Manager</span>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>09:45 - 10:30</td>
                                             <td>
                                                 <h4>台北智慧城市及其資料</h4>
-                                                <span data-toggle="modal" data-target="#日0B_彭盛韶" class="text-primary speaker-info">彭盛韶 / 資訊局隨行秘書</span>
+                                                <span data-toggle="modal" data-target="#日0B_彭盛韶" class="text-primary speaker-info">彭盛韶 / 行政院經濟部長隨行秘書</span>
                                                 <br/>
                                             </td>
                                             <td>
@@ -690,7 +688,8 @@
                                             </td>
                                             <td>
                                                 <h4>有志一同</h4><span>資訊安全<span><br>
-                                                <span data-toggle="modal" data-target="#蔡一郎" class="text-primary speaker-info">蔡一郎 / 財團法人國家實驗研究院國家高速網路與計算中心研究員</span>
+                                                <span data-toggle="modal" data-target="#蔡一郎" class="text-primary speaker-info">蔡一郎 / 財團法人國家實驗研究院國家高速網路與計算中心研究員</span></br>
+                                                <span data-toggle="modal" data-target="#吳明璋" class="text-primary speaker-info">吳明璋 / BELFOR 業務發展經理</span>
                                             </td>
                                         </tr>
                                         <tr class="bg-orange">
@@ -705,8 +704,8 @@
                                                 <br/>
                                             </td>
                                             <td>
-                                                <h4>智慧型工程管考系統-資料分析經驗談</h4>
-                                                <span data-toggle="modal" data-target="#日1C_林峰正_有點模糊" class="text-primary speaker-info">林峰正 / 逢甲大學GIS中心研究副教授</span>
+                                                <h4>智慧型工程管考系統 : 資料分析經驗談</h4>
+                                                <span data-toggle="modal" data-target="#日1C_林峰正_有點模糊" class="text-primary speaker-info">林峰正 / 逢甲大學 GIS 中心研究副教授</span>
                                                 <br/>
                                             </td>
                                             <td>
@@ -720,7 +719,7 @@
                                                 <br>
                                                 <span data-toggle="modal" data-target="#吳昱甫" class="text-primary speaker-info">吳昱甫 / 台北榮民總醫院實習醫學生</span>
                                                 <br>
-                                                <span data-toggle="modal" data-target="#邱銘心" class="text-primary speaker-info">邱銘心 / 國立臺灣師範大學圖書資訊學研究所副教授</span>
+                                                <span data-toggle="modal" data-target="#邱銘心" class="text-primary speaker-info">邱銘心 / 國立台灣師範大學圖書資訊學研究所副教授</span>
                                                 <br>
                                                 <span data-toggle="modal" data-target="#許駿鵬" class="text-primary speaker-info">許駿鵬 / 緯創資通 Project Mananger</span>
                                             </td>
@@ -738,15 +737,15 @@
                                                 <br/>
                                             </td>
                                             <td>
-                                                <h4>It's Not What You Say—It's How You Say It!</h4>
-                                                <span data-toggle="modal" data-target="#日2D_江振宇" class="text-primary speaker-info">江振宇 / 國立臺北大學通訊工程學系助理教授</span>
+                                                <h4>It's Not What You Say: It's How You Say It!</h4>
+                                                <span data-toggle="modal" data-target="#日2D_江振宇" class="text-primary speaker-info">江振宇 / 國立台北大學通訊工程學系助理教授</span>
                                                 <br/>
                                             </td>
                                             <td>
                                                 <h4>有志一同</h4><span>教育大數據<span><br>
                                                 <span data-toggle="modal" data-target="#日2A_李祈均" class="text-primary speaker-info">李祈均 / 清大電機助理教授</span>
                                                 <br>
-                                                <span data-toggle="modal" data-target="#康仕仲" class="text-primary speaker-info">康仕仲 / 臺大土木系教授兼副教務長</span>
+                                                <span data-toggle="modal" data-target="#康仕仲" class="text-primary speaker-info">康仕仲 / 台大土木系教授兼副教務長</span>
                                                 <br>
                                                 <span data-toggle="modal" data-target="#張大明" class="text-primary speaker-info">張大明 / 育睿科技執行長</span>
                                                 <br>
@@ -760,13 +759,13 @@
                                         <tr>
                                             <td>13:50 - 14:35</td>
                                             <td>
-                                                <h4>視覺資料淘金 － 巨量社群影像深度解析</h4>
-                                                <span data-toggle="modal" data-target="#日0E_徐宏民" class="text-primary speaker-info">徐宏民 / 國立臺灣大學資訊工程學系教授 </span>
+                                                <h4>視覺資料淘金 : 巨量社群影像深度解析</h4>
+                                                <span data-toggle="modal" data-target="#日0E_徐宏民" class="text-primary speaker-info">徐宏民 / 國立台灣大學資訊工程學系教授 </span>
                                                 <br/>
                                             </td>
                                             <td>
                                                 <h4>貓都學得會的手機維修資料分析</h4>
-                                                <span data-toggle="modal" data-target="#日1E_孔令傑" class="text-primary speaker-info">孔令傑 / 國立臺灣大學資訊管理學系助理教授</span>
+                                                <span data-toggle="modal" data-target="#日1E_孔令傑" class="text-primary speaker-info">孔令傑 / 國立台灣大學資訊管理學系助理教授</span>
                                                 <br/>
                                             </td>
                                             <td>
@@ -778,24 +777,24 @@
                                                 <h4>有志一同</h4><span>財務金融<span><br>
                                                 <span data-toggle="modal" data-target="#六2E_吳牧恩" class="text-primary speaker-info">吳牧恩 / 東吳大學數學系助理教授</span>
                                                 <br>
-                                                <span data-toggle="modal" data-target="#薛仲翔" class="text-primary speaker-info">Ofa / 育生堂中藥房 Data engineer</span>
+                                                <span data-toggle="modal" data-target="#薛仲翔" class="text-primary speaker-info">Ofa / 育生堂中藥房 Data Engineer</span>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>14:35 - 15:20</td>
                                             <td>
                                                 <h4>Practical Issues in Machine Learning</h4>
-                                                <span data-toggle="modal" data-target="#日0F_林守德" class="text-primary speaker-info">林守德 / 國立臺灣大學資訊工程學系教授</span>
+                                                <span data-toggle="modal" data-target="#日0F_林守德" class="text-primary speaker-info">林守德 / 國立台灣大學資訊工程學系教授</span>
                                                 <br/>
                                             </td>
                                             <td>
-                                                <h4>沒有大數據怎麼辦？會計師事務所的小數據科學</h4>
-                                                <span data-toggle="modal" data-target="#日1F_曾韵" class="text-primary speaker-info">曾韵 / 勤業眾信聯合會計師事務所副總</span>
+                                                <h4>沒有大數據怎麼辦 ? 會計師事務所的小數據科學</h4>
+                                                <span data-toggle="modal" data-target="#日1F_曾韵" class="text-primary speaker-info">曾韵 / 勤業眾信聯合會計師事務所副總經理</span>
                                                 <br/>
                                             </td>
                                             <td>
                                                 <h4>Feature Engineering in Machine Learning</h4>
-                                                <span data-toggle="modal" data-target="#日2F_李俊良" class="text-primary speaker-info">李俊良 / Carnegie Mellon University博士生</span>
+                                                <span data-toggle="modal" data-target="#日2F_李俊良" class="text-primary speaker-info">李俊良 / Carnegie Mellon University 博士生</span>
                                                 <br/>
                                             </td>
                                             <td>
@@ -812,12 +811,12 @@
                                         <tr>
                                             <td>15:50 - 16:35</td>
                                             <td>
-                                                <h4>漫談R的學習挑戰與R語言翻轉教室</h4>
+                                                <h4>漫談 R 的學習挑戰與 R 語言翻轉教室</h4>
                                                 <span data-toggle="modal" data-target="#日0G_吳齊軒" class="text-primary speaker-info">吳齊軒 / 台大電機所博士生</span>
                                                 <br/>
                                             </td>
                                             <td>
-                                                <h4>娛樂產業中的資料科學家 - 談資料科學於線上遊戲與職業運動之應用</h4>
+                                                <h4>娛樂產業中的資料科學家 : 談資料科學於線上遊戲與職業運動之應用</h4>
                                                 <span data-toggle="modal" data-target="#info06" class="text-primary speaker-info">許懷中 / 中央研究院資訊科學研究所博士後研究員</span>
                                                 <br/>
                                             </td>
@@ -828,7 +827,7 @@
                                             </td>
                                             <td>
                                                 <h4>有志一同</h4><span>人工智慧/機器學習/深度學習<span><br>
-                                                <span data-toggle="modal" data-target="#日0E_徐宏民" class="text-primary speaker-info">徐宏民 / 國立臺灣大學資訊工程學系教授 </span>
+                                                <span data-toggle="modal" data-target="#日0E_徐宏民" class="text-primary speaker-info">徐宏民 / 國立台灣大學資訊工程學系教授 </span>
                                                 <br>
                                                 <span data-toggle="modal" data-target="#連卿閔" class="text-primary speaker-info">連卿閔 / HTC Principal Engineer</span>
                                                 <br>
@@ -839,30 +838,30 @@
                                             <td>16:35 - 17:20</td>
                                             <td>
                                                 <h4>Open Innovation as Strategic Plan</h4>
-                                                <span data-toggle="modal" data-target="#日0H_高嘉良" class="text-primary speaker-info">高嘉良 / g0v.tw 台灣零時政府共同發起人</span>
+                                                <span data-toggle="modal" data-target="#日0H_高嘉良" class="text-primary speaker-info">高嘉良 / 開放文化基金會董事、g0v.tw 共同發起人</span>
                                                 <br/>
                                             </td>
                                             <td>
-                                                <h4>世代之爭爭什麼？談談如何從調查資料挖掘出豐厚的意義</h4>
+                                                <h4>世代之爭爭什麼 ? 談談如何從調查資料挖掘出豐厚的意義</h4>
                                                 <span data-toggle="modal" data-target="#日1H_劉正山" class="text-primary speaker-info">劉正山 / 國立中山大學政治學研究所副教授</span>
                                                 <br/>
                                             </td>
                                             <td>
-                                                <h4>資料視覺化的20個小訣竅</h4>
+                                                <h4>資料視覺化的 20 個小訣竅</h4>
                                                 <span data-toggle="modal" data-target="#日2H_林佳賢" class="text-primary speaker-info">林佳賢 / 關鍵評論網圖表編輯</span>
                                                 <br/>
                                             </td>
                                             <td>
                                                 <h4>有志一同</h4><span>開放資料及個資保護<span><br>
                                                 <span data-toggle="modal" data-target="#六0E_陸永祥" class="text-primary speaker-info">陸永祥 / 美國普度大學副教授</span><br>
-                                                <span data-toggle="modal" data-target="#張心玲" class="text-primary speaker-info">張心玲 / 行政院科技會報辦公室 副研究員</span>
+                                                <span data-toggle="modal" data-target="#張心玲" class="text-primary speaker-info">張心玲 / 行政院科技會報辦公室副研究員</span>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>17:20 - 17:30</td>
                                             <td colspan="4">
                                                 <h4>閉幕式 <!-- <a href="http://www.slideshare.net/tw_dsconf/2016-51937879" title="投影片" target="_blank"><i class="fa fa-desktop -slideshow"></i></a> --></h4>
-                                                <span data-toggle="modal" data-target="#info02" class="text-primary speaker-info">陳昇瑋 / 年會總召, 台灣資料科學協會理事長</span>
+                                                <span data-toggle="modal" data-target="#info02" class="text-primary speaker-info">陳昇瑋 / 年會總召、台灣資料科學協會理事長</span>
                                                 <br/>
                                             </td>
                                         </tr>
