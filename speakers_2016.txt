@@ -15,7 +15,7 @@
     "agenda": "info02",
     "speaker": "2",
     "name": [ "陳昇瑋", "Sheng-Wei Chen" ],
-    "title": "年會總召, 台灣資料科學協會理事長",
+    "title": "年會總召、台灣資料科學協會理事長",
      "website": {
         "home": "http://www.iis.sinica.edu.tw/~swc/index_c.html"
     },
@@ -422,7 +422,7 @@
 {
     "agenda": "日0H_高嘉良",
     "name": [ "高嘉良", "clkao" ],
-    "title": "開放文化基金會 / 董事, g0v.tw / 共同發起人",
+    "title": "開放文化基金會 / 董事、g0v.tw / 共同發起人",
     "website": {
         "home": "http://blog.clkao.org"
     },
