@@ -299,7 +299,7 @@
                                             <td colspan="3">茶點與交流時間</td>
                                         </tr>
                                         <tr>
-                                            <td>15:50 - 16: 20</td>
+                                            <td>15:50 - 16:20</td>
                                             <td>
                                                 <h4>企業文化以及資料科學團隊的建立</h4>
                                             </td>
@@ -313,7 +313,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>16:20 - 17: 20</td>
+                                            <td>16:20 - 17:20</td>
                                             <td>
                                                 <h4>互動論壇</h4>
                                                 <span class="label label-warning">與談人</span>
@@ -519,7 +519,7 @@
                                                 <br/>
                                             </td>
                                             <td>
-                                                <h4>有志一同</h4><span>電商及網路行銷<span><br>
+                                                <h4>有志一同</h4><span>電商、零售及網路行銷<span><br>
                                                 <span data-toggle="modal" data-target="#李慧如" class="text-primary speaker-info">李慧如 / 艾肯娛樂專案經理</span>
                                                 <br>
                                                 <span data-toggle="modal" data-target="#周曼如" class="text-primary speaker-info">周曼如 / Yahoo! Taiwan Data Engineer</span>
@@ -556,7 +556,7 @@
                                             <td>14:35 - 15:20</td>
                                             <td>
                                                 <h4>銀行資料這樣玩</h4>
-                                                <span data-toggle="modal" data-target="#六2F_洪采襄" class="text-primary speaker-info">洪采襄 / 玉山銀行資訊處襄理</span>
+                                                <span data-toggle="modal" data-target="#六0F_洪采襄" class="text-primary speaker-info">洪采襄 / 玉山銀行資訊處襄理</span>
                                                 <br/>
                                             </td>
                                             <td>
@@ -577,7 +577,7 @@
                                             <td>15:50 - 16:35</td>
                                             <td>
                                                 <h4>How to Approach Data Science Problems from Start to End: Two Case Studies</h4>
-                                                <span data-toggle="modal" data-target="#六0G_林伯龍" class="text-primary speaker-info">Polong Lin / IBM Analytics Platform, Emerging Technologies Data Scientist</span>
+                                                <span data-toggle="modal" data-target="#六0G_林伯龍" class="text-primary speaker-info">林伯龍 / IBM Analytics Platform, Emerging Technologies Data Scientist</span>
                                                 <br/>
                                             </td>
                                             <td>
@@ -586,8 +586,9 @@
                                                 <br/>
                                             </td>
                                             <td>
-                                                <h4></h4>
-                                                <span data-toggle="modal" data-target="#六2G_李慕約" class="text-primary speaker-info">李慕約 / SheetHub.com 共同創辦人</span>
+                                                <h4>如何備料：資料的抓取、清理以及串接</h4>
+                                                <span data-toggle="modal" data-target="#六2G_李慕約" class="text-primary speaker-info">李慕約 / 資料視覺化李慕約公司共同創辦人</span><br>
+                                                <span data-toggle="modal" data-target="#六2G_王向榮" class="text-primary speaker-info">王向榮 / 資料視覺化李慕約公司共同創辦人</span>
                                                 <br/>
                                             </td>
                                             <td rowspan="2">
@@ -664,7 +665,7 @@
                                                 <h4>有志一同</h4><span>資料視覺化<span><br>
                                                 <span data-toggle="modal" data-target="#張俊盛" class="text-primary speaker-info">張俊盛 / 待補</span>
                                                 <br>
-                                                <span data-toggle="modal" data-target="#K-LingChen" class="text-primary speaker-info">K-Ling Chen / 紫冠策略資訊策略總監</span>
+                                                <span data-toggle="modal" data-target="#K-LingChen" class="text-primary speaker-info">陳冠伶 / 紫冠策略資訊策略總監</span>
                                                 <br>
                                                 <span data-toggle="modal" data-target="#賴靖玟" class="text-primary speaker-info">賴靖玟 / HTC Mobile Program Manager</span>
                                             </td>
@@ -715,7 +716,7 @@
                                             </td>
                                             <td>
                                                 <h4>有志一同</h4><span>健康醫療<span><br>
-                                                <span data-toggle="modal" data-target="#伍時瑩" class="text-primary speaker-info">伍時瑩 / 待補</span>
+                                                <span data-toggle="modal" data-target="#伍時瑩" class="text-primary speaker-info">伍時瑩 / 凱度醫藥諮詢研究副理</span>
                                                 <br>
                                                 <span data-toggle="modal" data-target="#吳昱甫" class="text-primary speaker-info">吳昱甫 / 台北榮民總醫院實習醫學生</span>
                                                 <br>
@@ -777,7 +778,7 @@
                                                 <h4>有志一同</h4><span>財務金融<span><br>
                                                 <span data-toggle="modal" data-target="#六2E_吳牧恩" class="text-primary speaker-info">吳牧恩 / 東吳大學數學系助理教授</span>
                                                 <br>
-                                                <span data-toggle="modal" data-target="#薛仲翔" class="text-primary speaker-info">Ofa / 育生堂中藥房 Data Engineer</span>
+                                                <span data-toggle="modal" data-target="#薛仲翔" class="text-primary speaker-info">薛仲翔 / 育生堂中藥房 Data Engineer</span>
                                             </td>
                                         </tr>
                                         <tr>
@@ -838,7 +839,7 @@
                                             <td>16:35 - 17:20</td>
                                             <td>
                                                 <h4>Open Innovation as Strategic Plan</h4>
-                                                <span data-toggle="modal" data-target="#日0H_高嘉良" class="text-primary speaker-info">高嘉良 / 開放文化基金會董事、g0v.tw 共同發起人</span>
+                                                <span data-toggle="modal" data-target="#日0H_高嘉良" class="text-primary speaker-info">高嘉良 / g0v.tw 共同發起人</span>
                                                 <br/>
                                             </td>
                                             <td>

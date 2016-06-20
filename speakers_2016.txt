@@ -191,7 +191,7 @@
     ]
 },
 {
-    "agenda": "六2F_洪采襄",
+    "agenda": "六0F_洪采襄",
     "name": [ "洪采襄"],
     "title": "玉山銀行資訊處 / 襄理",
     "info": [
@@ -200,7 +200,7 @@
 },
 {
     "agenda": "六0G_林伯龍",
-    "name": ["Polong Lin"],
+    "name": [ "林伯龍","Polong Lin"],
     "title": "IBM Analytics Platform, Emerging Technologies / Data Scientist",
     "info": [
         "Polong Lin is a Data Scientist at IBM. He is a regular speaker on data science and develops content for free data education on bigdatauniversity.com using open data tools on datascientistworkbench.com. Polong earned his M.Sc. at the Univ. of Tsukuba."
@@ -250,7 +250,7 @@
     "name": [ "周世恩"],
     "title": "前 QSearch CTO",
     "info": [
-        ""
+        "2012 年開啟了網頁抓取的生涯，先後在台大工程科學與海洋工程研究所與趨勢科技磨練。2014 年創立 QSearch，在社群數據抓取過程中打開潘朵拉的盒子，希望把揭開的社群趨勢分享給各個產業。數據分析最重要的資料擷取，這幾年來面對許多挑戰，數量大且變化大，各個產業又有不同的資料表達方式，未來將致力於資料擷取系統開發，讓資料分析者無後顧之憂。"
     ]
 },
 {
@@ -318,7 +318,7 @@
     "name": [ "許永真"],
     "title": "NTU IoX Center / Professor and Director",
     "info": [
-        ""
+        "Jane Hsu is a professor and department chair of Computer Science and Information Engineering at National Taiwan University. Her research interests include multi-agent systems, intelligent data analysis, commonsense knowledge, and context-aware computing. Prof. Hsu is the director of the Intel-NTU Connected Context Computing Center, featuring global research collaboration among NTU, Intel, and the National Science Council of Taiwan. She serves on the editorial board of Journal of Information Science and Engineering (2010-), International Journal of Service Oriented Computing and Applications (Springer, 2007-2009) and Intelligent Data Analysis (Elsevier/IOS Press, 1997-2002). She is actively involved in many key international AI conferences as organizers and members of the program committee. In addition to serving as the President of Taiwanese Association for Artificial Intelligence (2013-2014), Prof. Hsu has been a member of AAAI, IEEE, ACM, Phi Tau Phi, and an executive committee member of the IEEE Technical Committee on E-Commerce (2000) and TAAI (2004-current)."
     ]
 },
 {
@@ -326,7 +326,7 @@
     "name": [ "林峰正"],
     "title": "逢甲大學 GIS 中心 / 研究副教授",
     "info": [
-        ""
+        "林峰正服務於逢甲大學地理資訊系統研究中心研究副教授，研究主題包含雲端運算、時空資料視覺化分析、商業智慧、排程理論，目前執行科技部、水保局、水利署、國家太空中心雲端相關研發及系統建置計畫，另外，協助翻譯雲端巨量資料分析相關兩本重要書籍，包含 HBase 技術手冊第一版、 Hadoop 技術手冊第四版 (即將出版)。"
     ]
 },
 {
@@ -354,7 +354,7 @@
     "name": [ "江振宇"],
     "title": "國立台北大學通訊工程學系 / 助理教授",
     "info": [
-        ""
+        "Chen-Yu Chiang was born in Taipei, Taiwan, in 1980. He received the B.S., M.S., Ph.D. degrees in communication engineering from National Chiao Tung University (NCTU), Hsinchu, Taiwan, in 2002, 2004, and 2009, respectively. In 2009, he was a Postdoctoral Fellow at the Department of Electrical Engineering, NCTU, where he primarily worked on prosody modeling for automatic speech recognition and text-to-speech system, under the guidance of Prof. Sin-Horng Chen. In 2012, he was a Visiting Scholar at the Center for Signal and Image Processing (CSIP), Georgia Institute of Technology, Atlanta. Currently he is the director of the Speech and Multimedia Signal Processing Lab and an assistant professor at the Department of Communication Engineering, National Taipei University. His main research interests are in speech processing, in particular prosody modeling, automatic speech recognition and text-to-speech systems."
     ]
 },
 {
@@ -422,11 +422,11 @@
 {
     "agenda": "日0H_高嘉良",
     "name": [ "高嘉良", "clkao" ],
-    "title": "開放文化基金會 / 董事、g0v.tw / 共同發起人",
+    "title": "g0v.tw / 共同發起人",
     "website": {
         "home": "http://blog.clkao.org"
     },
-    "info": [ "clkao (高嘉良) - 喜歡寫程式、泡 ♨。參加 1997 年國際資訊奧林匹亞後，進入台大資訊系就讀，即活躍於國內外開放源碼社群，隨後旅居英國倫敦從事軟體開發及顧問工作。2012 年發起 g0v.tw 計畫，現為開放文化基金會董事。" ]
+    "info": [ "clkao (高嘉良) - 喜歡寫程式、泡 ♨。參加 1997 年國際資訊奧林匹亞後，進入台大資訊系就讀，即活躍於國內外開放源碼社群，隨後旅居英國倫敦從事軟體開發及顧問工作。2012 年發起 g0v.tw 計畫。" ]
 },
 {
     "agenda": "日1H_劉正山",
@@ -456,9 +456,17 @@
 {
     "agenda": "六2G_李慕約",
     "name": [ "李慕約","muyueh"],
-    "title": "SheetHub.com / 共同創辦人",
+    "title": "資料視覺化 李慕約公司 / 共同創辦人",
     "info": [
-        "SheetHub.com 的共同創辦人，以 d3.js 製作資料視覺化。參與中國器官分配與共享系統研究中心 (COTRS) 與 世界衛生組織 (WHO) 的專案，針對 700 家三級甲等醫院資料庫建置視覺分析界面。其他客戶涵蓋台北市政府、天下雜誌等。曾經視覺化的領域橫跨財金、能源、交通、糧食、語言以及漢堡。","在零時政府 g0v.tw 貢獻「發電成本計算機」，其蔬菜價格的研究，獲經濟部頒選為最佳 OpenData 應用。","在各地從事資料相關教學，包含：「世界銀行 DataBootCamp / 新加坡」、「Google Squared Program 香港」、「台大新聞研究所 / 台灣」。"
+        "李慕約公司共同創辦人，提供資料分析、視覺化服務。分析就像炒菜。炒菜重要，買了一堆炒鍋。但炒不出菜不是因為沒鍋，因為炒菜真正難在：決定炒什麼菜、如何處理食材、炒菜技術。市場上很多人在賣各式炒鍋（資料軟體/平台/機器），我們幫客戶炒菜。","客戶包含：<br>- 國內三大電信（分析客戶訴訟、3D 建築物以及4G 基地台）<br>- 銀行（時間序列分析）<br>- 蔡英文總統（視覺化選舉政策）<br>- 世界衛生組織與中國雙年度合作計畫（分析 750 家三甲醫院）<br>另協助 Google 香港、世界銀行與新加坡政府，進行資料視覺化課程工作坊。"
+    ]
+},
+{
+    "agenda": "六2G_王向榮",
+    "name": [ "王向榮"],
+    "title": "資料視覺化 李慕約公司 / 共同創辦人",
+    "info": [
+        "交通大學網路策進會會長，曾任痞客邦產品開發副理，現在為李慕約公司共同創辦人。在 g0v 零時政府曾參與及發起台灣公司資料、求職小幫手、新聞小幫手、開放政治獻金等專案，喜歡爬資料收集資料並使用資料放出資料。"
     ]
 },
 {
@@ -470,7 +478,7 @@
     },
     "title": "東吳大學巨量資料管理學院 / 助理教授",
     "info": [
-        "胡筱薇助理教授於國立中央大學取得博士學位，目前任教於東吳大學巨量資料管理學院。2008 ~ 2009 年間曾到美國普渡大學擔任訪問學者，與當時普渡大學管理學院副院長唐揆教授合作研究。研究方向為資料探勘演算法之設計開發與其相關應用，包含關連規則探勘方法、決策樹分類方法、意見探勘等，研究成果多發表至國際知名會議與期刊。近年來致力於巨量資料探勘以及社群網路分析應用之研究，除了在校培養巨量資料管理與分析人才，目前亦與 Magna 共同創辦人 LindaCheng 合力開發社群行為預測模型與服務。"
+        "胡筱薇助理教授於國立中央大學取得博士學位，目前任教於東吳大學巨量資料管理學院。2008 ~ 2009 年間曾到美國普渡大學擔任訪問學者，與當時普渡大學管理學院副院長唐揆教授合作研究。研究方向為資料探勘演算法之設計開發與其相關應用，包含關連規則探勘方法、決策樹分類方法、意見探勘等，研究成果多發表至國際知名會議與期刊。近年來致力於巨量資料探勘以及社群網路分析應用之研究，除了在校培養巨量資料管理與分析人才，目前亦與 Magna 共同創辦人 Linda Chang 合力開發社群行為預測模型與服務。"
     ]
 },
 {
@@ -482,7 +490,7 @@
     },
     "title": "麟數據科技 / 數據分析總監",
     "info": [
-        ""
+        "現任職於麟數據科技 (LnData)，先前工作歷練包含尼爾森、TNS 與奧美等國際性市場調查顧問與廣告公司，走進 7–11 或是屈臣氏超過一半以上品類或是品牌都是有幸服務過的客戶，擅長整合產業、消費者、媒體等多方資料，提供具可行性與創新的建議．生性好奇，喜歡嚐新、閱讀、對話與思考，面對資訊科學領域的浩瀚及諸多優秀的先進感到謙卑。"
     ]
 },
 {
@@ -558,21 +566,21 @@
     "talk": "伍時瑩",
     "name": [ "伍時瑩"],
     "photo": "",
-    "title": "",
+    "title": "凱度醫藥諮詢 / 研究副理",
     "info": [
-        ""
+        "時瑩畢業於台灣大學微生物所。自 2011 年起進入醫療市場顧問產業， 進行質化與量化研究專案，從資料蒐集、分析，到最後提供市場洞見，五年來與不同藥廠合作，接觸各式各樣醫療領域，包含癌症處方藥、罕病用藥、生物製劑、醫材及營養補充品等。近幾年公司積極發展數位資料的蒐集與應用，將市場調查與數位醫療資訊結合，期待提供客戶更精準與即時的資訊，並加強資料視覺化是近期努力學習的方向。"
     ]
 },
 {
     "talk": "吳昱甫",
     "name": [ "吳昱甫"],
-    "photo": "",
+    "photo": "健康醫療_吳昱甫",
     "website": {
         "home": "http://yfwu.github.io"
     },
     "title": "台北榮民總醫院 / 實習醫學生",
     "info": [
-        ""
+        "目前為台北榮總實習醫師。於中國醫藥大學就學期間接觸到健保資料庫，除了設計能自動化進行傳統假說導向研究如疾病關聯性、藥物副作用的程式外，也結合近年釋出的政府開放資料、機器學習技術、病歷解析模組等進行新一代的健保資料庫挖掘。與同學創設醫療決策輔助系統研發公司 Hazalyst R&D Ltd. 期待能夠以研究成果協助醫界、學界、保險業界及病患建立更準確的疾病關聯性及併發模型。為準醫學工程師，對於生醫材料、影像處理、數位建模等均有一定經驗。"
     ]
 },
 {
@@ -628,12 +636,12 @@
 },
 {
     "talk": "薛仲翔",
-    "name": [ "薛仲翔","Ofa"],
+    "name": ["薛仲翔","Ofa"],
     "photo": "財務金融_薛仲翔",
     "website": {
         "home": "https://ofafa.wordpress.com"
     },
-    "title": "育生堂中藥房 / Data engineer",
+    "title": "育生堂中藥房 / Data Engineer",
     "info": [
         "Business Lead@Installments, Researcher@Team T5, COO@Sharelike, BS,MS@NTUEE","就讀台大電機研究所期間專研基因演算法在影音方面的應用，畢業後到矽谷讀闖了三個月，後來在台灣的新創圈打滾三年多，待過資安與金融科技等不同類型的新創公司，因緣際會下得以再到以色列與芬蘭去探索不同地區新創圈的內涵。平時興趣是翻譯 YC 創辦人 Paul Graham 的論文以及探討與創業有關的思想與科技發展，生活由 33% 的 Hacking、33% 的 Business Development、33% 的 Cooking 與 1% 的 Random 組成，目前為自由工作者，過著左手包藥右手寫程式的生活。"
     ]

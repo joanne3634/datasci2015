@@ -673,25 +673,25 @@ label[for] {
     width: 100%;
 }
 
-.sponsor a {
-    text-align: center;
-    display: inline-block;
-    margin: 15px 1%;
-    color: #ef8322;
-    width: 22%;
-}
+// .sponsor a {
+//     text-align: center;
+//     display: inline-block;
+//     // margin: 15px 1%;
+//     color: #ef8322;
+//     // width: 22%;
+// }
 
-@media (max-width: 768px) {
-    .sponsor a {
-        width: 47%;
-    }
-}
+// @media (max-width: 768px) {
+//     .sponsor a {
+//         width: 47%;
+//     }
+// }
 
-@media (max-width: 480px) {
-    .sponsor a {
-        width: 98%;
-    }
-}
+// @media (max-width: 480px) {
+//     .sponsor a {
+//         width: 98%;
+//     }
+// }
 
 .sponsor .s-class:before {
     font-family: 'rt-icons';
