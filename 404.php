@@ -7,14 +7,14 @@
 <!--<![endif]-->
 
 <head>
-    <title>404 not found - 2016台灣資料科學年會</title>
+    <title>404 not found - 2016 台灣資料科學年會</title>
     <meta charset="utf-8">
     <!--[if IE]>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <![endif]-->
     <meta name="description" content="404">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta content="404 - 2016台灣資料科學年會" property="og:title">
+    <meta content="404 - 2016 台灣資料科學年會" property="og:title">
     <meta content="website" property="og:type">
     <meta content="404 not found" property="og:description">
     <meta content="http://<?php echo  $_SERVER['HTTP_HOST']; ?>/event/_images/dsc_2016_logo_o.png" property="og:image">
@@ -45,7 +45,7 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <a href="index.html" class="navbar-brand">
-                            <img src="http://<?php echo  $_SERVER['HTTP_HOST']; ?>/images/dsc_2016_logo.svg" title="2016台灣資料科學年會">
+                            <img src="http://<?php echo  $_SERVER['HTTP_HOST']; ?>/images/dsc_2016_logo.svg" title="2016 台灣資料科學年會">
                         </a>
                         <nav class="navbar">
                             <div class="navbar-header">

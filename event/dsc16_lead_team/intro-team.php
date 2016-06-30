@@ -103,7 +103,7 @@ $speakers = array(
 <!--<![endif]-->
 
 <head>
-    <title>2016台灣資料科學年會 — Exploring the Potentials of Real-world Data Analytics</title>
+    <title>2016 台灣資料科學年會 — Exploring the Potentials of Real-world Data Analytics</title>
     <meta charset="utf-8">
     <!--[if IE]>
             <meta http-equiv="X-UA-Compatible" content="IE=edge">

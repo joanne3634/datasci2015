@@ -7,7 +7,7 @@
 <!--<![endif]-->
 
 <head>
-    <title>2016台灣資料科學年會 — Exploring the Potentials of Real-world Data Analytics</title>
+    <title>2016 台灣資料科學年會 — Exploring the Potentials of Real-world Data Analytics</title>
     <meta charset="utf-8">
     <!--[if IE]>
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -114,8 +114,8 @@
                                             <th width="32%">國際會議廳</th>
                                             <th width="16%">第一會議室</th>
                                             <th width="16%">第二會議室</th>
-                                            <th width="12%">遠距會議室</th>
-                                            <th width="13%">交誼廳</th>
+                                            <th width="12%">交誼廳</th>
+                                            <th width="13%">四樓開放空間</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -449,7 +449,7 @@
                                             <td class="bg-gery" style="border-bottom: 2px solid #999"><i class="fa fa-map-marker"></i> 國際會議廳</td>
                                             <td class="bg-gery" style="border-bottom: 2px solid #999"><i class="fa fa-map-marker"></i> 第一會議室</td>
                                             <td class="bg-gery" style="border-bottom: 2px solid #999"><i class="fa fa-map-marker"></i> 第二會議室</td>
-                                            <td class="bg-gery" style="border-bottom: 2px solid #999"><i class="fa fa-map-marker"></i> 遠距會議室</td>
+                                            <td class="bg-gery" style="border-bottom: 2px solid #999"><i class="fa fa-map-marker"></i> 交誼廳</td>
                                         </tr>
                                         <tr>
                                             <td>09:00 - 09:30</td>
@@ -642,7 +642,7 @@
                                             <td class="bg-gery" style="border-bottom: 2px solid #999"><i class="fa fa-map-marker"></i> 國際會議廳</td>
                                             <td class="bg-gery" style="border-bottom: 2px solid #999"><i class="fa fa-map-marker"></i> 第一會議室</td>
                                             <td class="bg-gery" style="border-bottom: 2px solid #999"><i class="fa fa-map-marker"></i> 第二會議室</td>
-                                            <td class="bg-gery" style="border-bottom: 2px solid #999"><i class="fa fa-map-marker"></i> 遠距會議室</td>
+                                            <td class="bg-gery" style="border-bottom: 2px solid #999"><i class="fa fa-map-marker"></i> 交誼廳</td>
                                         </tr>
                                         <tr>
                                             <td>09:00 - 09:45</td>
@@ -800,7 +800,7 @@
                                             </td>
                                             <td>
                                                 <h4>有志一同</h4><span>未來城市的交通運輸<span><br>
-                                                <span data-toggle="modal" data-target="#陳智禮" class="text-primary speaker-info">陳智禮 / 華電聯網股份有限公司協理</span>
+                                                <span data-toggle="modal" data-target="#日1D_闕嘉宏" class="text-primary speaker-info">闕嘉宏 / 創代科技股份有限公司執行長</span>
                                                 <br>
                                                 <span data-toggle="modal" data-target="#日0A_鄭世昐" class="text-primary speaker-info">鄭世昐 / Singapore Management University Associate Professor and Deputy Director</span>
                                             </td>
@@ -849,7 +849,7 @@
                                             </td>
                                             <td>
                                                 <h4>資料視覺化的 20 個小訣竅</h4>
-                                                <span data-toggle="modal" data-target="#日2H_林佳賢" class="text-primary speaker-info">林佳賢 / 關鍵評論網圖表編輯</span>
+                                                <span data-toggle="modal" data-target="#日2H_林佳賢" class="text-primary speaker-info">林佳賢 / 端傳媒數據產品經理</span>
                                                 <br/>
                                             </td>
                                             <td>
