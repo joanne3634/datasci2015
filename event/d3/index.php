@@ -66,7 +66,7 @@ $speakers = array(
             'infographics.tw / 創辦人'
         ),
         'info' => array(
-            '<a href="http://infographics.tw" target="_blank">infographics.tw</a> 與 <a href="http://g0v.tw" target="_blank">g0v.tw</a> 共同發起人，亦為資料視覺化領域與網頁技術專家。曾擔任 Google Taiwan DigiCamp 2014 技術顧問以及籌辦 2015 年資料新聞實戰營 ( dBootcamp Taipei )，亦曾受邀至台大、交大、世新、政大、輔大、文化等大學之新聞與傳播相關課程演講及授課。',
+            '<a href="http://infographics.tw" target="_blank">infographics.tw</a> 與 <a href="http://g0v.tw" target="_blank">g0v.tw</a> 共同發起人，亦為資料視覺化領域與網頁技術專家。曾擔任 Google Taiwan DigiCamp 2014 技術顧問以及籌辦 2015 年資料新聞實戰營 ( dBootcamp Taipei )，亦曾受邀至臺大、交大、世新、政大、輔大、文化等大學之新聞與傳播相關課程演講及授課。',
             '<a href="http://tkirby.org/" target="_blank"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> 個人網頁</a>'
         )       
 

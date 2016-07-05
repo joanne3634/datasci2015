@@ -61,10 +61,10 @@ $speakers = array(
         'suffix' => '博士',
         'engn' => '( Wei-Chao Chen, Ph.D. )',
         'title' => array(
-            'Skywatch / 共同創辦人<br>台灣大學 / 兼任助理教授'
+            'Skywatch / 共同創辦人<br>臺灣大學 / 兼任助理教授'
         ),
         'info' => array(
-            '陳維超博士為 Skywatch ( 行品股份有限公司 ) 的共同創辦人，也是台灣大學資訊系的兼任助理教授，開設圖形處理器程式設計、與 IoT 物聯網應用等課程。陳博士畢業於北卡羅萊納教堂山大學，其主要研究領域為電腦繪圖、電腦視覺與虛擬實境等。曾於美國加州之矽谷研發多年，於 Intel 任職時參與 OpenLF 與 OpenCV 初始開發計劃，於 NVIDIA 開發繪圖晶片如 Sony Playstation 3 RSX、NVIDIDA Telsa、Fermi 等，並在 Nokia 柏拉圖研究中心，與史丹佛大學合作視訊資料檢索、增強實境 ( AR ) 與計算攝影學等研究計劃。陳博士曾於多個 IEEE 與 ACM 之期刊與學術會議中發表與擔任評審，著有數十篇期刊論文與專利，具有豐富的學術與業界之經驗。',
+            '陳維超博士為 Skywatch ( 行品股份有限公司 ) 的共同創辦人，也是臺灣大學資訊系的兼任助理教授，開設圖形處理器程式設計、與 IoT 物聯網應用等課程。陳博士畢業於北卡羅萊納教堂山大學，其主要研究領域為電腦繪圖、電腦視覺與虛擬實境等。曾於美國加州之矽谷研發多年，於 Intel 任職時參與 OpenLF 與 OpenCV 初始開發計劃，於 NVIDIA 開發繪圖晶片如 Sony Playstation 3 RSX、NVIDIDA Telsa、Fermi 等，並在 Nokia 柏拉圖研究中心，與史丹佛大學合作視訊資料檢索、增強實境 ( AR ) 與計算攝影學等研究計劃。陳博士曾於多個 IEEE 與 ACM 之期刊與學術會議中發表與擔任評審，著有數十篇期刊論文與專利，具有豐富的學術與業界之經驗。',
             '<a href="http://www.skywatch24.com" target="_blank"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>&nbsp;個人網頁</a>&nbsp;&nbsp;<a href="https://www.facebook.com/weichao.chen.tw" target="_blank"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>&nbsp;Facebook 網頁</a>'
         )
     ),
@@ -75,10 +75,10 @@ $speakers = array(
         'suffix' => '',
         'engn' => '( Yu-Sheng Lin )',
         'title' => array(
-            '台灣大學電機所 / 博士生'
+            '臺灣大學電機所 / 博士生'
         ),
         'info' => array(
-            '現為台大電機系博士班學生，其研究專長與興趣為計算機結構、圖形處理器、平行處理、電腦視覺、與相關之積體電路設計等。其研究成果曾於 IEEE 會議中發表，其電路設計並曾獲得教育部 IC 設計競賽之首獎。'
+            '現為臺大電機系博士班學生，其研究專長與興趣為計算機結構、圖形處理器、平行處理、電腦視覺、與相關之積體電路設計等。其研究成果曾於 IEEE 會議中發表，其電路設計並曾獲得教育部 IC 設計競賽之首獎。'
         )
             
     )

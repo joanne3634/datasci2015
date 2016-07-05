@@ -13,7 +13,7 @@
         .speaker-name 高嘉良 (Chia-liang Kao)
         .speaker-title g0v.tw 台灣零時政府共同創辦人
         %a.speaker-info{:href=>"http://blog.clkao.org/",:target=>"_new"} 個人網站
-        .speaker-bio 喜歡寫程式、泡湯。參加 1997 年國際資訊奧林匹亞後，進入台大資訊系就讀，即活躍於國內外開放源碼社群，隨後旅居英國倫敦從事軟體開發及顧問工作。現為美商 Socialtext Inc. 及台灣工業技術研究院軟體開發顧問。2012 年發起 g0v.tw 台灣零時政府。
+        .speaker-bio 喜歡寫程式、泡湯。參加 1997 年國際資訊奧林匹亞後，進入臺大資訊系就讀，即活躍於國內外開放源碼社群，隨後旅居英國倫敦從事軟體開發及顧問工作。現為美商 Socialtext Inc. 及台灣工業技術研究院軟體開發顧問。2012 年發起 g0v.tw 台灣零時政府。
       %img{:src=>"/images/clkao.jpg"}
     %li{:"data-name"=>"jeff,郭建甫"}
       .speaker-block
@@ -28,7 +28,7 @@
         .speaker-name 林智仁 (Chih-Jen Lin)
         .speaker-title 國立臺灣大學資訊工程學系特聘教授
         %a.speaker-info{:href=>"http://www.csie.ntu.edu.tw/~cjlin",:target=>"_new"} 個人網站
-        .speaker-bio 林智仁教授畢業於台大數學系，之後前往美國密西根大學獲得碩士與博士學位。他的研究團隊多年來致力於機器學習之相關研究，所發展的資料分類軟體在世界上被廣泛使用，是台灣計算機科學界突出的重要成果。
+        .speaker-bio 林智仁教授畢業於臺大數學系，之後前往美國密西根大學獲得碩士與博士學位。他的研究團隊多年來致力於機器學習之相關研究，所發展的資料分類軟體在世界上被廣泛使用，是台灣計算機科學界突出的重要成果。
       %img{:src=>"/images/cjlin.jpg"}
     %li{:"data-name"=>"cmpeng,彭啟明"}
       .speaker-block

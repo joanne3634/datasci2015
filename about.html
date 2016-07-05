@@ -25,7 +25,7 @@
     <meta content="2016 台灣資料科學年會 Data Science in Taiwan Conference 2016" property="og:site_name">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.css?v1">
     <link rel="stylesheet" href="css/kj.css">
     <link rel="stylesheet" href="css/animations.css">
     <link rel="stylesheet" href="css/fonts.css">
@@ -45,17 +45,17 @@
     
     dd.image-item > img {
         display: inline-block;
-        width: 80px;
-        height: 80px;
-        border-radius: 2px;
+        width: 120px;
+        height: 120px;
+        border-radius: 15px;
         vertical-align: middle;
         margin-bottom: 5px;
     }
     
     dd.image-item > span {
         display: block;
-        width: 105px;
-        text-align: center;
+        width: 120px;
+        /*text-align: center;*/
         line-height: 20px;
     }
     
@@ -82,6 +82,57 @@
         text-align: center;
         display: inline-block;
         vertical-align: middle;
+    }
+    
+    .content-wrap {
+        padding: 0;
+        position: absolute;
+        text-align: center;
+        width: 120px;
+        height: 120px;
+        border-radius: 15px;
+        top: 36px;
+        bottom: 0;
+        display: table-cell;
+        vertical-align: middle;
+        overflow: hidden;
+    }
+    
+    .content-wrap h1.entry-title {
+        display: table;
+        font-size: 110%;
+        height: 100%;
+        /*text-transform: uppercase;*/
+        width: 100%;
+        margin: 0;
+    }
+    
+    .edit-link {
+        z-index: 2;
+    }
+    
+    .featured-image {
+        font-size: 14px;
+        line-height: 1.3em;
+        border-radius: 15px;
+        display: table-cell;
+        position: relative;
+        transition: opacity .25s ease-in-out, background .25s ease-in-out;
+        -moz-transition: opacity .25s ease-in-out, background .25s ease-in-out;
+        -webkit-transition: opacity .25s ease-in-out, background .25s ease-in-out;
+        vertical-align: middle;
+        z-index: 1;
+        color: #fff;
+        text-decoration: none;
+        opacity: 0;
+        padding: .5em;
+    }
+    
+    .featured-image:hover {
+        border-radius: 15px;
+        opacity: 0.9;
+        color: #fff;
+        background: rgba(0, 0, 0, 0.8);
     }
     </style>
 </head>
@@ -126,7 +177,16 @@
                                     </dd>
                                 </dl>
                             </div>
-                            <div class="col-sm-2">
+                            <div class="col-xs-6 col-sm-3 col-md-2">
+                                <dl class="staff">
+                                    <dt>總籌</dt>
+                                    <dd class="image-item">
+                                        <img src="images/staff/erin.jpg" />
+                                        <span>杜彥蓁 (Erin Tu)</span>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="col-xs-6 col-sm-3 col-md-2">
                                 <dl class="staff">
                                     <dt>秘書</dt>
                                     <dd class="image-item">
@@ -135,16 +195,19 @@
                                     </dd>
                                 </dl>
                             </div>
-                            <div class="col-sm-2">
+                            <div class="col-xs-6 col-sm-3 col-md-2">
                                 <dl class="staff">
                                     <dt>課務</dt>
                                     <dd class="image-item">
                                         <img src="images/staff/justin.jpg" />
+                                        <div class="content-wrap">
+                                            <h1 class="entry-title"><a class="featured-image" rel="bookmark">請常備 <br>4*6 以上 300 dpi 個人照電子檔</a></h1>
+                                        </div>
                                         <span>Justin</span>
                                     </dd>
                                 </dl>
                             </div>
-                            <div class="col-sm-2">
+                            <div class="col-xs-6 col-sm-3 col-md-2">
                                 <dl class="staff">
                                     <dt>總務</dt>
                                     <dd class="image-item">
@@ -153,7 +216,7 @@
                                     </dd>
                                 </dl>
                             </div>
-                            <div class="col-sm-2">
+                            <div class="col-xs-6 col-sm-3 col-md-2">
                                 <dl class="staff">
                                     <dt>會計</dt>
                                     <dd class="image-item">
@@ -162,97 +225,205 @@
                                     </dd>
                                 </dl>
                             </div>
-                            <div class="col-sm-2">
+                            <div class="col-xs-6 col-sm-3 col-md-2">
                                 <dl class="staff">
                                     <dt>網站</dt>
                                     <dd class="image-item">
                                         <img src="images/staff/joanne.jpg" />
+                                        <div class="content-wrap">
+                                            <h1 class="entry-title"><a class="featured-image" rel="bookmark">想要每天吃大餐寫扣抱貓貓當一灘爛泥然後不會變胖 ♥</a></h1>
+                                        </div>
                                         <span>周庭安</span>
                                     </dd>
                                 </dl>
                             </div>
-                            <div class="col-sm-2">
+                            <div class="col-xs-6 col-sm-3 col-md-2">
                                 <dl class="staff">
                                     <dt>註冊</dt>
                                     <dd class="image-item">
                                         <img src="images/staff/yp.jpg" />
+                                        <div class="content-wrap">
+                                            <h1 class="entry-title"><a class="featured-image" rel="bookmark">預祝年會順利<br>申請順利</a></h1>
+                                        </div>
                                         <span>杜宜蓓</span>
                                     </dd>
                                 </dl>
                             </div>
-                            <div class="col-sm-2">
+                            <div class="col-xs-6 col-sm-3 col-md-2">
                                 <dl class="staff">
-                                    <dt>場務</dt>
+                                    <dt>場佈</dt>
                                     <dd class="image-item">
                                         <img src="images/staff/zark.jpg" />
                                         <span>蔡宗翰</span>
                                     </dd>
                                 </dl>
                             </div>
-                            <div class="col-sm-2">
+                            <div class="col-xs-6 col-sm-3 col-md-2">
                                 <dl class="staff">
-                                    <dt>顧問</dt>
+                                    <dt>攝影</dt>
                                     <dd class="image-item">
-                                        <img src="images/staff/erin.jpg" />
-                                        <span>杜彥蓁</span>
-                                        <span>(Erin Tu)</span>
+                                        <img src="images/staff/shoushin.jpg" />
+                                        <span>謝守訓</span>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="col-xs-6 col-sm-3 col-md-2">
+                                <dl class="staff">
+                                    <dt>線路組</dt>
+                                    <dd class="image-item">
+                                        <img src="images/staff/cpr.png" />
                                     </dd>
                                 </dl>
                             </div>
                             <div class="col-md-12">
                                 <dl class="staff">
-                                    <dt class="no-icon">會前籌備小組</dt>
-                                    <div class="col-xs-4 col-sm-2">Helen</div>
-                                    <div class="col-xs-4 col-sm-2">許之凡</div>
-                                    <div class="col-xs-4 col-sm-2">Henry</div>
-                                    <div class="col-xs-4 col-sm-2">張鈞閔</div>
-                                    <div class="col-xs-4 col-sm-2">林家慶</div>
-                                    <div class="col-xs-4 col-sm-2">黃宥翔</div>
-                                    <div class="col-xs-4 col-sm-2">杜易芸</div>
-                                    <div class="col-xs-4 col-sm-2">謝守訓</div>
+                                    <dt class="no-icon">場務組長</dt>
+                                    <div class="col-xs-6 col-sm-2">杜易芸</div>
+                                    <div class="col-xs-6 col-sm-2">林家慶</div>
+                                    <div class="col-xs-6 col-sm-2">張鈞閔</div>
+                                    <div class="col-xs-6 col-sm-2">許之凡</div>
+                                    <div class="col-xs-6 col-sm-2">杜靖愷</div>
+                                    <div class="col-xs-6 col-sm-2">周俊川</div>
+                                    <div class="col-xs-6 col-sm-2">陳東尼</div>
+                                    <div class="col-xs-6 col-sm-2">黃介榮</div>
+                                    <div class="col-xs-6 col-sm-2">蔡幸祖</div>
                                 </dl>
                             </div>
-                            <!--     <div class="col-md-12">
-                                    <dl class="staff">
-                                        <dt class="no-icon">場務組</dt>
-                                           
-                                            <div class="col-xs-4 col-sm-2">Hane</div><div class="col-xs-4 col-sm-2">HJ</div><div class="col-xs-4 col-sm-2">Jimmy Yang</div><div class="col-xs-4 col-sm-2">Jungle</div>
-                                            <div class="col-xs-4 col-sm-2">Kae</div><div class="col-xs-4 col-sm-2">Leigh</div><div class="col-xs-4 col-sm-2">Lin Yu-Cheng</div><div class="col-xs-4 col-sm-2">megshao</div>
-                                            <div class="col-xs-4 col-sm-2">Neil</div><div class="col-xs-4 col-sm-2">nktx</div><div class="col-xs-4 col-sm-2">Samantha</div><div class="col-xs-4 col-sm-2">Singing</div>
-                                            <div class="col-xs-4 col-sm-2">Tora</div><div class="col-xs-4 col-sm-2">wjie</div><div class="col-xs-4 col-sm-2">Yukiko</div><div class="col-xs-4 col-sm-2">又瑄</div>
-                                            <div class="col-xs-4 col-sm-2">小博</div><div class="col-xs-4 col-sm-2">丹丹</div><div class="col-xs-4 col-sm-2">王如松</div><div class="col-xs-4 col-sm-2">元兒</div>
-                                            <div class="col-xs-4 col-sm-2">王韋鈞</div><div class="col-xs-4 col-sm-2">浩恩</div><div class="col-xs-4 col-sm-2">丞相</div><div class="col-xs-4 col-sm-2">李兆殷</div><div class="col-xs-4 col-sm-2">吳典陽</div>
-                                            <div class="col-xs-4 col-sm-2">杜宜蓓</div><div class="col-xs-4 col-sm-2">李宗導</div><div class="col-xs-4 col-sm-2">李思敏</div><div class="col-xs-4 col-sm-2">何信賢</div>
-                                            <div class="col-xs-4 col-sm-2">幸祖</div><div class="col-xs-4 col-sm-2">周庭慶</div><div class="col-xs-4 col-sm-2">明楷</div><div class="col-xs-4 col-sm-2">杰翰 JIElite</div>
-                                            <div class="col-xs-4 col-sm-2">采蘋</div><div class="col-xs-4 col-sm-2">姿姿</div><div class="col-xs-4 col-sm-2">姿儀</div><div class="col-xs-4 col-sm-2">美蘭</div>
-                                            <div class="col-xs-4 col-sm-2">徐偉唙</div><div class="col-xs-4 col-sm-2">高翊瑋</div><div class="col-xs-4 col-sm-2">魚丸</div><div class="col-xs-4 col-sm-2">郭名茜</div>
-                                            <div class="col-xs-4 col-sm-2">陳亮㚬</div><div class="col-xs-4 col-sm-2">陳俊甫</div><div class="col-xs-4 col-sm-2">章魚</div><div class="col-xs-4 col-sm-2">張弼翔</div>
-                                            <div class="col-xs-4 col-sm-2">許凱翔</div><div class="col-xs-4 col-sm-2">郭智琦</div><div class="col-xs-4 col-sm-2">張筱晴</div><div class="col-xs-4 col-sm-2">張憲騰</div>
-                                            <div class="col-xs-4 col-sm-2">雁子</div><div class="col-xs-4 col-sm-2">黃牙牙</div><div class="col-xs-4 col-sm-2">黃冠豪</div><div class="col-xs-4 col-sm-2">黃翊慈</div>
-                                            <div class="col-xs-4 col-sm-2">聖軒</div><div class="col-xs-4 col-sm-2">詹淯松</div><div class="col-xs-4 col-sm-2">葉淨元</div><div class="col-xs-4 col-sm-2">愛華</div>
-                                            <div class="col-xs-4 col-sm-2">綿羊</div><div class="col-xs-4 col-sm-2">綠茶</div><div class="col-xs-4 col-sm-2">蕭主安</div><div class="col-xs-4 col-sm-2">賴佳宏</div>
-                                            <div class="col-xs-4 col-sm-2">謝岱霖</div><div class="col-xs-4 col-sm-2">簡妙蓉</div>
-                                    </dl>
-                                </div> -->
+                            <div class="col-md-12">
+                                <dl class="staff">
+                                    <dt class="no-icon">場務組</dt>
+                                    <div class="col-xs-6 col-sm-2">17</div>
+                                    <div class="col-xs-6 col-sm-2">Abby</div>
+                                    <div class="col-xs-6 col-sm-2">afun</div>
+                                    <div class="col-xs-6 col-sm-2">Alfie</div>
+                                    <div class="col-xs-6 col-sm-2">Alice</div>
+                                    <div class="col-xs-6 col-sm-2">Allen</div>
+                                    <div class="col-xs-6 col-sm-2">Allison</div>
+                                    <div class="col-xs-6 col-sm-2">Ariel</div>
+                                    <div class="col-xs-6 col-sm-2">Berry</div>
+                                    <div class="col-xs-6 col-sm-2">David</div>
+                                    <div class="col-xs-6 col-sm-2">Eren</div>
+                                    <div class="col-xs-6 col-sm-2">Harry</div>
+                                    <div class="col-xs-6 col-sm-2">Helen</div>
+                                    <div class="col-xs-6 col-sm-2">Henry</div>
+                                    <div class="col-xs-6 col-sm-2">Jamie</div>
+                                    <div class="col-xs-6 col-sm-2">Jeffery</div>
+                                    <div class="col-xs-6 col-sm-2">Katy</div>
+                                    <div class="col-xs-6 col-sm-2">ken</div>
+                                    <div class="col-xs-6 col-sm-2">Kenny</div>
+                                    <div class="col-xs-6 col-sm-2">Kent</div>
+                                    <div class="col-xs-6 col-sm-2">KJ</div>
+                                    <div class="col-xs-6 col-sm-2">lara</div>
+                                    <div class="col-xs-6 col-sm-2">Leo</div>
+                                    <div class="col-xs-6 col-sm-2">Molly</div>
+                                    <div class="col-xs-6 col-sm-2">Nathan</div>
+                                    <div class="col-xs-6 col-sm-2">Paul</div>
+                                    <div class="col-xs-6 col-sm-2">Ray</div>
+                                    <div class="col-xs-6 col-sm-2">Richard</div>
+                                    <div class="col-xs-6 col-sm-2">Roger</div>
+                                    <div class="col-xs-6 col-sm-2">Rosie</div>
+                                    <div class="col-xs-6 col-sm-2">Roy</div>
+                                    <div class="col-xs-6 col-sm-2">Sean</div>
+                                    <div class="col-xs-6 col-sm-2">Shuan</div>
+                                    <div class="col-xs-6 col-sm-2">Stephanie</div>
+                                    <div class="col-xs-6 col-sm-2">thisray</div>
+                                    <div class="col-xs-6 col-sm-2">Vivian</div>
+                                    <div class="col-xs-6 col-sm-2">Waiting</div>
+                                    <div class="col-xs-6 col-sm-2">Wendy</div>
+                                    <div class="col-xs-6 col-sm-2">William</div>
+                                    <div class="col-xs-6 col-sm-2">Yan</div>
+                                    <div class="col-xs-6 col-sm-2">Ya-Yun</div>
+                                    <div class="col-xs-6 col-sm-2">YOYO</div>
+                                    <div class="col-xs-6 col-sm-2">Zoe</div>
+                                    <div class="col-xs-6 col-sm-2">一瓶</div>
+                                    <div class="col-xs-6 col-sm-2">子恆</div>
+                                    <div class="col-xs-6 col-sm-2">子暐</div>
+                                    <div class="col-xs-6 col-sm-2">小K</div>
+                                    <div class="col-xs-6 col-sm-2">小羊</div>
+                                    <div class="col-xs-6 col-sm-2">小明</div>
+                                    <div class="col-xs-6 col-sm-2">小班</div>
+                                    <div class="col-xs-6 col-sm-2">小溫</div>
+                                    <div class="col-xs-6 col-sm-2">牙牙</div>
+                                    <div class="col-xs-6 col-sm-2">永翰</div>
+                                    <div class="col-xs-6 col-sm-2">多比</div>
+                                    <div class="col-xs-6 col-sm-2">佑昇</div>
+                                    <div class="col-xs-6 col-sm-2">育青</div>
+                                    <div class="col-xs-6 col-sm-2">芊羽</div>
+                                    <div class="col-xs-6 col-sm-2">佳宏</div>
+                                    <div class="col-xs-6 col-sm-2">卓吾</div>
+                                    <div class="col-xs-6 col-sm-2">周秉宇</div>
+                                    <div class="col-xs-6 col-sm-2">宜楷</div>
+                                    <div class="col-xs-6 col-sm-2">明芸</div>
+                                    <div class="col-xs-6 col-sm-2">芷瑄</div>
+                                    <div class="col-xs-6 col-sm-2">阿哲</div>
+                                    <div class="col-xs-6 col-sm-2">阿貓 (洪永展)</div>
+                                    <div class="col-xs-6 col-sm-2">阿貓 (林昕穎)</div>
+                                    <div class="col-xs-6 col-sm-2">阿薇</div>
+                                    <div class="col-xs-6 col-sm-2">俊堉</div>
+                                    <div class="col-xs-6 col-sm-2">俊閔</div>
+                                    <div class="col-xs-6 col-sm-2">品瑜</div>
+                                    <div class="col-xs-6 col-sm-2">姵宣</div>
+                                    <div class="col-xs-6 col-sm-2">姿儀</div>
+                                    <div class="col-xs-6 col-sm-2">思慧</div>
+                                    <div class="col-xs-6 col-sm-2">哩賀</div>
+                                    <div class="col-xs-6 col-sm-2">家良</div>
+                                    <div class="col-xs-6 col-sm-2">書萱</div>
+                                    <div class="col-xs-6 col-sm-2">婕翎</div>
+                                    <div class="col-xs-6 col-sm-2">曹郁欣</div>
+                                    <div class="col-xs-6 col-sm-2">許翊德</div>
+                                    <div class="col-xs-6 col-sm-2">陳奕瑄</div>
+                                    <div class="col-xs-6 col-sm-2">凱莉</div>
+                                    <div class="col-xs-6 col-sm-2">婷宇</div>
+                                    <div class="col-xs-6 col-sm-2">媛媛</div>
+                                    <div class="col-xs-6 col-sm-2">雅筑</div>
+                                    <div class="col-xs-6 col-sm-2">黃一晉</div>
+                                    <div class="col-xs-6 col-sm-2">黃宥翔</div>
+                                    <div class="col-xs-6 col-sm-2">黃璿</div>
+                                    <div class="col-xs-6 col-sm-2">毓芳</div>
+                                    <div class="col-xs-6 col-sm-2">筱筑</div>
+                                    <div class="col-xs-6 col-sm-2">詩涵</div>
+                                    <div class="col-xs-6 col-sm-2">嘉村</div>
+                                    <div class="col-xs-6 col-sm-2">廖美恩</div>
+                                    <div class="col-xs-6 col-sm-2">廖昱涵</div>
+                                    <div class="col-xs-6 col-sm-2">綠茶</div>
+                                    <div class="col-xs-6 col-sm-2">蔡宜暄</div>
+                                    <div class="col-xs-6 col-sm-2">穎臻</div>
+                                    <div class="col-xs-6 col-sm-2">賴彥丞</div>
+                                    <div class="col-xs-6 col-sm-2">臆云</div>
+                                    <div class="col-xs-6 col-sm-2">謝沐芬</div>
+                                </dl>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="row target-link" id="organizer">
                     <div class="col-md-12">
                         <h3>籌辦單位</h3>
-                        <h5>主辦單位</h5>
-                        <hr class="closer" />
-                        <a target="_blank">
-                            <img src="images/dsc_2016_logo_o.svg" />
-                            <h4 class="orgtitle">台灣資料科學協會</h4>
-                        </a>
-                        <a href="http://www.iis.sinica.edu.tw/" target="_blank">
-                            <img src="images/organizer/01 iis.png" />
-                            <h4 class="orgtitle">中央研究院資訊科學研究所</h4>
-                        </a>
+                        <div id="organizer-main">
+                            <h5>主辦單位</h5>
+                            <hr class="closer" />
+                            <a target="_blank">
+                                <img src="images/dsc_2016_logo_o.svg" />
+                                <h4 class="orgtitle">台灣資料科學協會</h4>
+                            </a>
+                            <a href="http://www.iis.sinica.edu.tw/" target="_blank">
+                                <img src="images/organizer/01 iis.png" />
+                                <h4 class="orgtitle">中央研究院資訊科學研究所</h4>
+                            </a>
+                        </div>
                         <div id="organizer-sub">
                             <h5>協辦單位</h5>
                             <hr/>
+                            <div class="icon-container">
+                                <div>
+                                    <a href="http://www.citi.sinica.edu.tw/" target="_blank">
+                                        <img src="images/organizer/02 citi.png" />
+                                    </a>
+                                </div>
+                                <div class="inline">
+                                    <a href="http://www.citi.sinica.edu.tw/" target="_blank"><span class="orgtitle">中央研究院<br>資訊科技創新研究中心</span></a>
+                                </div>
+                            </div>
                             <div class="icon-container">
                                 <div>
                                     <a href="http://ascc.sinica.edu.tw/iascc/" target="_blank">
@@ -261,6 +432,26 @@
                                 </div>
                                 <div class="inline">
                                     <a href="http://ascc.sinica.edu.tw/iascc/" target="_blank"><span class="orgtitle">中央研究院資訊服務處</span></a>
+                                </div>
+                            </div>
+                            <div class="icon-container">
+                                <div>
+                                    <a href="http://www.stat.sinica.edu.tw/" target="_blank">
+                                        <img src="images/organizer/03 statistic.png" />
+                                    </a>
+                                </div>
+                                <div class="inline">
+                                    <a href="http://www.stat.sinica.edu.tw/" target="_blank"><span class="orgtitle">中央研究院<br>統計科學研究所</span></a>
+                                </div>
+                            </div>
+                            <div class="icon-container">
+                                <div>
+                                    <a href="http://ccc.ntu.edu.tw/" target="_blank">
+                                        <img src="images/organizer/NTU_IoX.svg" />
+                                    </a>
+                                </div>
+                                <div class="inline">
+                                    <a href="http://ccc.ntu.edu.tw/" target="_blank"><span class="orgtitle">臺大智慧聯網<br>創新研究中心</span></a>
                                 </div>
                             </div>
                             <div class="icon-container">
@@ -285,62 +476,12 @@
                             </div>
                             <div class="icon-container">
                                 <div>
-                                    <a href="http://www.stat.sinica.edu.tw/" target="_blank">
-                                        <img src="images/organizer/03 statistic.png" />
-                                    </a>
-                                </div>
-                                <div class="inline">
-                                    <a href="http://www.stat.sinica.edu.tw/" target="_blank"><span class="orgtitle">中央研究院<br>統計科學研究所</span></a>
-                                </div>
-                            </div>
-                            <div class="icon-container">
-                                <div>
-                                    <a href="http://ccc.ntu.edu.tw/" target="_blank">
-                                        <img src="images/organizer/NTU_IoX.svg" />
-                                    </a>
-                                </div>
-                                <div class="inline">
-                                    <a href="http://ccc.ntu.edu.tw/" target="_blank"><span class="orgtitle">台大智慧聯網<br>創新研究中心</span></a>
-                                </div>
-                            </div>
-                            <div class="icon-container">
-                                <div>
                                     <a href="https://www.nchc.org.tw/tw/" target="_blank">
                                         <img src="images/organizer/NCHC.svg" />
                                     </a>
                                 </div>
                                 <div class="inline">
                                     <a href="https://www.nchc.org.tw/tw/" target="_blank"><span class="orgtitle">國家高速網路與計算中心</span></a>
-                                </div>
-                            </div>
-                            <div class="icon-container">
-                                <div>
-                                    <a href="http://findit.org.tw/" target="_blank">
-                                        <img style="width: 160px" src="images/organizer/findit.svg" />
-                                    </a>
-                                </div>
-                                <div class="inline">
-                                    <a href="http://findit.org.tw/ " target="_blank"><span class="orgtitle">FINDIT</span></a>
-                                </div>
-                            </div>
-                            <div class="icon-container">
-                                <div>
-                                    <a href="http://www.citi.sinica.edu.tw/" target="_blank">
-                                        <img src="images/organizer/02 citi.png" />
-                                    </a>
-                                </div>
-                                <div class="inline">
-                                    <a href="http://www.citi.sinica.edu.tw/" target="_blank"><span class="orgtitle">中央研究院<br>資訊科技創新研究中心</span></a>
-                                </div>
-                            </div>
-                            <div class="icon-container">
-                                <div>
-                                    <a href="https://sudo.com.tw/" target="_blank">
-                                        <img src="images/organizer/sudo.svg" />
-                                    </a>
-                                </div>
-                                <div class="inline">
-                                    <a href="https://sudo.com.tw/" target="_blank"><span class="orgtitle">Sudo Recruit</span></a>
                                 </div>
                             </div>
                             <div class="icon-container">
@@ -373,10 +514,34 @@
                                     <a href="http://codata.sinica.edu.tw/" target="_blank"><span class="orgtitle">國際科學與技術資料委員會中華民國委員會</span></a>
                                 </div>
                             </div>
+                            <div class="icon-container">
+                                <div>
+                                    <a href="http://findit.org.tw/" target="_blank">
+                                        <img src="images/organizer/findit.svg" />
+                                    </a>
+                                </div>
+                                <div class="inline">
+                                    <a href="http://findit.org.tw/ " target="_blank"><span class="orgtitle">FINDIT</span></a>
+                                </div>
+                            </div>
+                            <div class="icon-container">
+                                <div>
+                                    <a href="https://sudo.com.tw/" target="_blank">
+                                        <img src="images/organizer/sudo.svg" />
+                                    </a>
+                                </div>
+                                <div class="inline">
+                                    <a href="https://sudo.com.tw/" target="_blank"><span class="orgtitle">Sudo Recruit</span></a>
+                                </div>
+                            </div>
                             <!--</div>
                             <div id="organizer-sub-sub"> -->
                             <h5 id="media" class="target-link">媒體夥伴</h5>
                             <hr/>
+                            <a href="http://www.30.com.tw/" target="_blank">
+                                <img src="images/organizer/30.jpg" />
+                                <h4 class="orgtitle">《30》雜誌</h4>
+                            </a>
                             <a href="http://www.bnext.com.tw/" target="_blank">
                                 <img src="images/organizer/21.jpg" />
                                 <h4 class="orgtitle">BusinessNext 數位時代</h4>
@@ -384,14 +549,10 @@
                             <a href="http://www.businessweekly.com.tw/" target="_blank">
                                 <img src="images/organizer/商周.png" />
                                 <h4 class="orgtitle">商業週刊</h4>
-                            </a>                            
+                            </a>
                             <a href="http://www.cio.com.tw/magazine/index.html" target="_blank">
                                 <img src="images/organizer/CIOIT.png" />
                                 <h4 class="orgtitle">《CIO IT經理人》雜誌</h4>
-                            </a>
-                            <a href="http://www.30.com.tw/" target="_blank">
-                                <img src="images/organizer/30.jpg" />
-                                <h4 class="orgtitle">《30》雜誌</h4>
                             </a>
                             <a href="http://edn.udn.com/" target="_blank">
                                 <img src="images/organizer/經濟日報.jpg" />
@@ -415,7 +576,7 @@
                             </a>
                             <a href="http://pansci.asia/" target="_blank">
                                 <img src="images/organizer/24.png" />
-                                <h4 class="orgtitle">PanSci 泛科學</h4>
+                                <h4 class="orgtitle">泛科學</h4>
                             </a>
                             <a href="http://sa.ylib.com/" target="_blank">
                                 <img src="images/organizer/科學人.jpg" />
@@ -423,7 +584,7 @@
                             </a>
                             <a href="http://buzzorange.com/techorange/" target="_blank">
                                 <img src="images/organizer/26.png" />
-                                <h4 class="orgtitle">TechOrange 科技報橘</h4>
+                                <h4 class="orgtitle">TechOrange</h4>
                             </a>
                             <a href="http://www.thenewslens.com/" target="_blank">
                                 <img src="images/organizer/關鍵評論.svg" />

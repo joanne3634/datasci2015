@@ -628,44 +628,31 @@ label[for] {
 
 /*page about*/
 
-#organizer a img {
-    width: 180px;
-}
+
 
 #organizer a {
     text-align: center;
     display: inline-block;
-    margin: 0 30px 60px 30px;
+    margin: 5px 18px 10px;
     color: #ef8322;
     width: 180px;
 }
-
-#organizer-sub a img {
-    width: 120px;
+#organizer-main a {
+    width: 220px;
+}
+#organizer-main a img {
+    width: 220px;
 }
 
-#organizer-sub a {
+#organizer-main, #organizer-sub{
     text-align: center;
-    display: inline-block;
-    margin: 5px 10px 10px;
-    width: 165px;
 }
-
-.staff dt:before {
-    font-family: 'rt-icons';
-    content: "\e680";
-    font-size: 12px;
-    line-height: 1;
-    position: relative;
-    top: 0px;
-    padding-right: 13px;
-    color: #ef8322;
+#organizer-main h5, #organizer-sub h5{
+    text-align: left;
 }
-
-.staff dd {
-    text-indent: 25px;
+#organizer-sub a img{
+    width: 180px;
 }
-
 
 /*page sponsor*/
 
@@ -6210,11 +6197,11 @@ span.spacer {
 
 dl dd {
     line-height: 26px;
-    margin-top: 10px;
+    // margin-top: 10px;
 }
 
 dl dt {
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: 600;
     text-align: center;
 }
@@ -6304,6 +6291,7 @@ table.sche th {
 
 dl.staff dt {
     text-align: left;
+    color: #ef8322;
     padding: 0 0 10px 0;
 }
 

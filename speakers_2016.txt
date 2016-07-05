@@ -3,12 +3,12 @@
     "agenda": "info01",
     "speaker": "1",
     "name": [ "李宏毅", "Hung-yi Lee" ],
-    "title": "台灣大學電機系 / 助理教授",
+    "title": "臺灣大學電機系 / 助理教授",
     "website": {
         "home": "http://speech.ee.ntu.edu.tw/~tlkagk/index.html"
     },
     "info": [ 
-        "現為台大電機系助理教授，他的研究方向與興趣是以機器學習技術讓機器辨識並理解語音訊號的內容。以深度學習技術為基石，他正致力於語音數位內容搜尋、語音數位內容之自動化組織以及從語音數位內容擷取關鍵資訊等前瞻性研究，這些技術有很多的應用，例如：人機互動、問答系統、智慧型線上教學平台等等。他曾在台大開設和深度學習相關的課程「機器學習及其深層與結構化」。" 
+        "現為臺大電機系助理教授，他的研究方向與興趣是以機器學習技術讓機器辨識並理解語音訊號的內容。以深度學習技術為基石，他正致力於語音數位內容搜尋、語音數位內容之自動化組織以及從語音數位內容擷取關鍵資訊等前瞻性研究，這些技術有很多的應用，例如：人機互動、問答系統、智慧型線上教學平台等等。他曾在臺大開設和深度學習相關的課程「機器學習及其深層與結構化」。" 
     ]
 },
 {
@@ -31,7 +31,7 @@
     "name": [ "姜俊宇", "Jyun-Yu Jiang" ],
     "title": "美國加州大學洛杉磯分校 / 博士生",
     "info": [ 
-        "姜俊宇在國立台灣大學資訊工程系取得學士與碩士學位，其碩士論文曾獲中華民國人工智慧學會與計算語言學會之碩士論文獎。現於中央研究院擔任研究助理，並將於 2016 年秋季前往美國加州大學洛杉磯分校攻讀博士學位。","主要研究方向為資料探勘、資訊檢索、機器學習與社群網路，近年來的研究成果曾發表於 CIKM, SIGIR, WWW, ICWSM, CCS 等頂級國際學術會議。另外，在 2012 年亦與台灣大學的教授與同學共同組隊參加 KDDCUP 國際資料探勘大賽，並取得冠軍的成績。" 
+        "姜俊宇在國立臺灣大學資訊工程系取得學士與碩士學位，其碩士論文曾獲中華民國人工智慧學會與計算語言學會之碩士論文獎。現於中央研究院擔任研究助理，並將於 2016 年秋季前往美國加州大學洛杉磯分校攻讀博士學位。","主要研究方向為資料探勘、資訊檢索、機器學習與社群網路，近年來的研究成果曾發表於 CIKM, SIGIR, WWW, ICWSM, CCS 等頂級國際學術會議。另外，在 2012 年亦與臺灣大學的教授與同學共同組隊參加 KDDCUP 國際資料探勘大賽，並取得冠軍的成績。" 
     ]
 },
 {
@@ -52,7 +52,7 @@
         "facebook": "https://www.facebook.com/henry.chen.12382"
     },
     "info": [ 
-        "現任中央科學院資訊所擔任研究助理，並將於 2016 年秋季前往美國密西根大學攻讀碩士學位。畢業於台灣大學工商管理學系，畢業後前往北京 RedAtoms, Inc 移動社交遊戲公司任職運營專員。分析玩家行為模式的過程中，意外發現資料背後潛藏的價值與分析的樂趣，於是決心轉向資料分析領域發展，一路自學 R 語言與 Python。目前研究範圍包含健保資料庫分析、遊戲市場分析。" 
+        "現任中央科學院資訊所擔任研究助理，並將於 2016 年秋季前往美國密西根大學攻讀碩士學位。畢業於臺灣大學工商管理學系，畢業後前往北京 RedAtoms, Inc 移動社交遊戲公司任職運營專員。分析玩家行為模式的過程中，意外發現資料背後潛藏的價值與分析的樂趣，於是決心轉向資料分析領域發展，一路自學 R 語言與 Python。目前研究範圍包含健保資料庫分析、遊戲市場分析。" 
     ]
 },
 {
@@ -113,7 +113,7 @@
     },
     "title": "財團法人誠致教育基金會 / 執行長 CEO",
     "info": [
-        "台大醫學系畢業的呂冠緯，因著可汗學院的啟發，沒有走上醫師之路，轉而到誠致教育基金會擔任專案教師。在錄製了均一教育平台上 1000 支數學、物理、化學、生物教學短片，被看過 300 萬次後，接任了基金會的執行長。","他認為有效的教育與有效的醫療類似，都需要好的數據決策，來提升任何方法效果的「實證性」。目前，均一教育平台近 40 萬使用者，每週使用人數約 3-4 萬人，但他與夥伴並不以此為滿足。未來，他將持續與誠致的團隊朝「個人化教育」的理想邁進。"
+        "臺大醫學系畢業的呂冠緯，因著可汗學院的啟發，沒有走上醫師之路，轉而到誠致教育基金會擔任專案教師。在錄製了均一教育平台上 1000 支數學、物理、化學、生物教學短片，被看過 300 萬次後，接任了基金會的執行長。","他認為有效的教育與有效的醫療類似，都需要好的數據決策，來提升任何方法效果的「實證性」。目前，均一教育平台近 40 萬使用者，每週使用人數約 3-4 萬人，但他與夥伴並不以此為滿足。未來，他將持續與誠致的團隊朝「個人化教育」的理想邁進。"
     ]
 },
 {
@@ -121,7 +121,7 @@
     "name": [ "蘇倚恩"],
     "title": "財團法人誠致教育基金會 / 產品負責人",
     "info": [
-        "因為深信著資料可以幫助我們知道更多事實，而更多的真實，可以帶領我們做出更好的決定。","從加入均一那天起，就和整個團隊一起不斷努力，為了要讓資料分析可以融入整個組織當中成為決策的核心。過程中犯的錯誤比做對的事情要多得多，充滿掙扎時而看不見希望，但是憑藉著當初的相信，終於看見了些許曙光。非常感恩有機會和大家分享整個路程的血淚辛酸，期許團隊過去的經驗可以幫助更多新創團隊成功把資料分析融入每日的決策當中。","台大電機系、台大光電所畢，目前擔任均一的 Product Owner。上學期平均每天登入人數 3200，平均每人做 28 題練習題。"
+        "因為深信著資料可以幫助我們知道更多事實，而更多的真實，可以帶領我們做出更好的決定。","從加入均一那天起，就和整個團隊一起不斷努力，為了要讓資料分析可以融入整個組織當中成為決策的核心。過程中犯的錯誤比做對的事情要多得多，充滿掙扎時而看不見希望，但是憑藉著當初的相信，終於看見了些許曙光。非常感恩有機會和大家分享整個路程的血淚辛酸，期許團隊過去的經驗可以幫助更多新創團隊成功把資料分析融入每日的決策當中。","臺大電機系、臺大光電所畢，目前擔任均一的 Product Owner。上學期平均每天登入人數 3200，平均每人做 28 題練習題。"
     ]
 },
 {
@@ -130,7 +130,7 @@
     "name": [ "余致緯","Ronald Yu"],
     "title": "停車大聲公 / 執行長",
     "info": [
-        "余致緯 ( Ronald ) 先生畢業於台大電子工程所，目前為停車大聲公創辦人暨執行長。喜歡打球、看球、玩所有的體育活動，看書與打2K是閒暇之餘最愛做的活動。學生時代共同創辦圖像辨識引擎 CliPcik，於 IDEAS SHOW 上獲獎，代表台灣參加BDash及Boston Startup Challenge。 CliPick 專注於圖像辨識，並提供女性網購消費者更快更便捷的方式搜尋想要的服裝款式。之後，Ronald 加入 Gogolook 團隊並擔任事業總監，負責 Whoscall 於香港、印度、東南亞的事業開發與產品推廣。任職期間，成功拓展 Whoscall 於台灣、韓國以外海外用戶，讓 Whoscall 日活躍用戶成長超過 30%。同時，主導 Whoscall 與香港競爭對手小熊來電併購案，協助 Gogolook 團隊拓展香港市場。於2015年，Ronald 再次創業，創辦呼叫阿福 (Alfred) 的即時泊車服務，於2015年轉型專注經營停車大聲公。停車大聲公服務車主找到周遭有空車位的停車場，目前為台灣最大的停車應用程式。"
+        "余致緯 ( Ronald ) 先生畢業於臺大電子工程所，目前為停車大聲公創辦人暨執行長。喜歡打球、看球、玩所有的體育活動，看書與打2K是閒暇之餘最愛做的活動。學生時代共同創辦圖像辨識引擎 CliPcik，於 IDEAS SHOW 上獲獎，代表台灣參加BDash及Boston Startup Challenge。 CliPick 專注於圖像辨識，並提供女性網購消費者更快更便捷的方式搜尋想要的服裝款式。之後，Ronald 加入 Gogolook 團隊並擔任事業總監，負責 Whoscall 於香港、印度、東南亞的事業開發與產品推廣。任職期間，成功拓展 Whoscall 於台灣、韓國以外海外用戶，讓 Whoscall 日活躍用戶成長超過 30%。同時，主導 Whoscall 與香港競爭對手小熊來電併購案，協助 Gogolook 團隊拓展香港市場。於2015年，Ronald 再次創業，創辦呼叫阿福 (Alfred) 的即時泊車服務，於2015年轉型專注經營停車大聲公。停車大聲公服務車主找到周遭有空車位的停車場，目前為台灣最大的停車應用程式。"
     ]
 },
 {
@@ -154,7 +154,7 @@
     "name": [ "陳維超"],
     "title": "Skywatch / 共同創辦人",
     "info": [
-        "陳維超博士為 Skywatch ( 行品股份有限公司 ) 的共同創辦人，也是台灣大學資訊系的兼任助理教授，開設圖形處理器程式設計、與 IoT 物聯網應用等課程。陳博士畢業於北卡羅萊納教堂山大學，其主要研究領域為電腦繪圖、電腦視覺與虛擬實境等。曾於美國加州之矽谷研發多年，於 Intel 任職時參與 OpenLF 與 OpenCV 初始開發計劃，於 NVIDIA 開發繪圖晶片如 Sony Playstation 3 RSX、NVIDIDA Telsa、Fermi 等，並在 Nokia 柏拉圖研究中心，與史丹佛大學合作視訊資料檢索、增強實境 (AR) 與計算攝影學等研究計劃。陳博士曾於多個 IEEE 與 ACM 之期刊與學術會議中發表與擔任評審，著有數十篇期刊論文與專利，具有豐富的學術與業界之經驗。"
+        "陳維超博士為 Skywatch ( 行品股份有限公司 ) 的共同創辦人，也是臺灣大學資訊系的兼任助理教授，開設圖形處理器程式設計、與 IoT 物聯網應用等課程。陳博士畢業於北卡羅萊納教堂山大學，其主要研究領域為電腦繪圖、電腦視覺與虛擬實境等。曾於美國加州之矽谷研發多年，於 Intel 任職時參與 OpenLF 與 OpenCV 初始開發計劃，於 NVIDIA 開發繪圖晶片如 Sony Playstation 3 RSX、NVIDIDA Telsa、Fermi 等，並在 Nokia 柏拉圖研究中心，與史丹佛大學合作視訊資料檢索、增強實境 (AR) 與計算攝影學等研究計劃。陳博士曾於多個 IEEE 與 ACM 之期刊與學術會議中發表與擔任評審，著有數十篇期刊論文與專利，具有豐富的學術與業界之經驗。"
     ]
 },
 {
@@ -174,9 +174,9 @@
     "website": {
         "home": "http://lms.ntpu.edu.tw/blog.php?user=59500703&f=portfolio"
     },
-    "title": "台北大學 / 助理教授",
+    "title": "臺北大學 / 助理教授",
     "info": [
-        "顏汝芳畢業於台大數學系、台大財務金融學系財工組，並於 2013 年於台大財務金融學系取得博士學位，目前任職於國立台北大學商學院統計學系助理教授一職。研究方向包含公司理財與銀行放款策略。"
+        "顏汝芳畢業於臺大數學系、臺大財務金融學系財工組，並於 2013 年於臺大財務金融學系取得博士學位，目前任職於國立臺北大學商學院統計學系助理教授一職。研究方向包含公司理財與銀行放款策略。"
     ]
 },
 {
@@ -212,9 +212,9 @@
     "website": {
         "home": "http://mil.psy.ntu.edu.tw/~tren"
     },
-    "title": "台灣大學心理學系 / 助理教授",
+    "title": "臺灣大學心理學系 / 助理教授",
     "info": [
-        "黃從仁畢業於台灣大學數學系、台灣大學物理學研究所、波士頓大學認知與神經系統研究所。他的研究專長為應用數理模型與電腦模擬來解釋人類認知行為。目前他的研究團隊致力於使用資訊科技來進行心理學與神經科學的巨量資料研究，在議題上聚焦於社會認知/學習/記憶。研究之外，他曾擔任科羅拉多大學認知科學研究所以及台灣大學身體心靈文化整合影像研究中心的資訊系統架構師兼管理員。"
+        "黃從仁畢業於臺灣大學數學系、臺灣大學物理學研究所、波士頓大學認知與神經系統研究所。他的研究專長為應用數理模型與電腦模擬來解釋人類認知行為。目前他的研究團隊致力於使用資訊科技來進行心理學與神經科學的巨量資料研究，在議題上聚焦於社會認知/學習/記憶。研究之外，他曾擔任科羅拉多大學認知科學研究所以及臺灣大學身體心靈文化整合影像研究中心的資訊系統架構師兼管理員。"
     ]
 },
 {
@@ -222,7 +222,7 @@
     "name": [ "陳伶志"],
     "title": "中央研究院資訊科學所 / 副研究員",
     "info": [
-        "現任中央研究院資訊科學所副研究員。其研究專長為網路感測系統、行動無線網路與社群運算，已發表超過 100 篇的學術論於於國際期刊與研討會。其研究主題多以貼近生活的真實問題為出發點，重要的代表作包含玉山登山追蹤與搜救系統、大台北公車行車舒適度系統，以及近期的微型空氣品質感測系統，該系統目前已與 LASS 網路社群和台北市政府合作，在全台各地佈建超過 300 個感測站，並且同時收集包含環保署與其他民間社群的感測資料，是目前全台空氣品質感測資料最大的集散中心。"
+        "現任中央研究院資訊科學所副研究員。其研究專長為網路感測系統、行動無線網路與社群運算，已發表超過 100 篇的學術論於於國際期刊與研討會。其研究主題多以貼近生活的真實問題為出發點，重要的代表作包含玉山登山追蹤與搜救系統、大臺北公車行車舒適度系統，以及近期的微型空氣品質感測系統，該系統目前已與 LASS 網路社群和臺北市政府合作，在全台各地佈建超過 300 個感測站，並且同時收集包含環保署與其他民間社群的感測資料，是目前全台空氣品質感測資料最大的集散中心。"
     ]
 },
 {
@@ -242,7 +242,7 @@
         "linkedin": "https://tw.linkedin.com/in/chaokuojen"
     },
     "info": [
-        "大數據顧問、數據科學家。台大商研所博士。曾創立台灣第一個中文 BBS 系統、發展全球第一套中文套裝搜索引擎，以及創立龍捲風科技。曾任國立高雄應用科技大學專任助理教授，熱愛軟體開發與物聯網創新，喜歡新創事業商務模式發展、整合性資料分析與探索性研究。擅長行動廣告與 Facebook 廣告優化。"
+        "大數據顧問、數據科學家。臺大商研所博士。曾創立台灣第一個中文 BBS 系統、發展全球第一套中文套裝搜索引擎，以及創立龍捲風科技。曾任國立高雄應用科技大學專任助理教授，熱愛軟體開發與物聯網創新，喜歡新創事業商務模式發展、整合性資料分析與探索性研究。擅長行動廣告與 Facebook 廣告優化。"
     ]
 },
 {
@@ -250,7 +250,7 @@
     "name": [ "周世恩"],
     "title": "前 QSearch CTO",
     "info": [
-        "2012 年開啟了網頁抓取的生涯，先後在台大工程科學與海洋工程研究所與趨勢科技磨練。2014 年創立 QSearch，在社群數據抓取過程中打開潘朵拉的盒子，希望把揭開的社群趨勢分享給各個產業。數據分析最重要的資料擷取，這幾年來面對許多挑戰，數量大且變化大，各個產業又有不同的資料表達方式，未來將致力於資料擷取系統開發，讓資料分析者無後顧之憂。"
+        "2012 年開啟了網頁抓取的生涯，先後在臺大工程科學與海洋工程研究所與趨勢科技磨練。2014 年創立 QSearch，在社群數據抓取過程中打開潘朵拉的盒子，希望把揭開的社群趨勢分享給各個產業。數據分析最重要的資料擷取，這幾年來面對許多挑戰，數量大且變化大，各個產業又有不同的資料表達方式，未來將致力於資料擷取系統開發，讓資料分析者無後顧之憂。"
     ]
 },
 {
@@ -269,7 +269,7 @@
     "name": [ "彭盛韶"],
     "title": "行政院經濟部長 / 隨行秘書",
     "info": [
-        "彭盛韶任職於台北市政府資訊局，主責智慧城市及開放資料。因本身兼具資訊專業及具有任職於公部門之經驗，專長為跨域協調及整合資源。2016 年資訊局兩項重大計畫「空氣盒子」及「LoRa 物聯網實驗平台」，皆有參與及貢獻。在資料科學領域主要貢獻為整合公部門及私部門，產生出各類應用所需之資料。"
+        "彭盛韶任職於臺北市政府資訊局，主責智慧城市及開放資料。因本身兼具資訊專業及具有任職於公部門之經驗，專長為跨域協調及整合資源。2016 年資訊局兩項重大計畫「空氣盒子」及「LoRa 物聯網實驗平台」，皆有參與及貢獻。在資料科學領域主要貢獻為整合公部門及私部門，產生出各類應用所需之資料。"
     ]
 },
 {
@@ -298,7 +298,7 @@
     },
     "title": "國立清華大學電機工程學系 / 助理教授",
     "info": [
-        "李祈均博士目前是國立清華大學電機系的助理教授。他的研究專長在於運用及開發訊號處理及機器學習技術進行跨領域研究，尤其是在對人類行為進行分析、預測、及統計建模。他長期著墨在運用不同種類的資料檔 ( 文字、聲音、影像等等 ) 於醫療、教育、心理領域研發相關演算法。他曾是 ID Analytics 公司旗下的 id:a lab 的資料科學家，透過分析客戶信用申請函資訊進行金融信用產品之研發與開發。目前在清大跟榮總、國家衛生研究院、長庚醫院、台大醫院、及國家教育研究院等機構合作研究對人類情緒，教育演講，及醫療臨床行為進行量化建模及客觀辨識。"
+        "李祈均博士目前是國立清華大學電機系的助理教授。他的研究專長在於運用及開發訊號處理及機器學習技術進行跨領域研究，尤其是在對人類行為進行分析、預測、及統計建模。他長期著墨在運用不同種類的資料檔 ( 文字、聲音、影像等等 ) 於醫療、教育、心理領域研發相關演算法。他曾是 ID Analytics 公司旗下的 id:a lab 的資料科學家，透過分析客戶信用申請函資訊進行金融信用產品之研發與開發。目前在清大跟榮總、國家衛生研究院、長庚醫院、臺大醫院、及國家教育研究院等機構合作研究對人類情緒，教育演講，及醫療臨床行為進行量化建模及客觀辨識。"
     ]
 },
 {
@@ -310,7 +310,7 @@
     "title": "輝瑞大藥廠 / 醫師,博士",
     "info": [
         "林煜軒博士為國內少數兼具臨床、企業界資歷之精神科醫師，已發表 28 篇學術論文於國際期刊 (H index=8)，其中值班實習醫師之生理訊號研究成果於最具權威教科書《睡眠醫學原理與實務》網站專題報導；立法院、監察院探討醫師工時之公聽會、座談會均援引林醫師團隊之研究成果。",
-        "林醫師曾任職台大精神部，近年投入網路心理學等多項跨領域研究，致力研發雲端健康服務的手機程式 (App)、編製「智慧型手機成癮量表」，獲得多國學者要求授權翻譯。近期受邀編寫國際知名網路成癮教科書中「智慧型手機成癮」章節。並積極建立產學合作平台，協助政府部門研擬相關政策"
+        "林醫師曾任職臺大精神部，近年投入網路心理學等多項跨領域研究，致力研發雲端健康服務的手機程式 (App)、編製「智慧型手機成癮量表」，獲得多國學者要求授權翻譯。近期受邀編寫國際知名網路成癮教科書中「智慧型手機成癮」章節。並積極建立產學合作平台，協助政府部門研擬相關政策"
     ]
 },
 {
@@ -352,7 +352,7 @@
     "agenda": "日2D_江振宇",
     "image": "png",
     "name": [ "江振宇"],
-    "title": "國立台北大學通訊工程學系 / 助理教授",
+    "title": "國立臺北大學通訊工程學系 / 助理教授",
     "info": [
         "Chen-Yu Chiang was born in Taipei, Taiwan, in 1980. He received the B.S., M.S., Ph.D. degrees in communication engineering from National Chiao Tung University (NCTU), Hsinchu, Taiwan, in 2002, 2004, and 2009, respectively. In 2009, he was a Postdoctoral Fellow at the Department of Electrical Engineering, NCTU, where he primarily worked on prosody modeling for automatic speech recognition and text-to-speech system, under the guidance of Prof. Sin-Horng Chen. In 2012, he was a Visiting Scholar at the Center for Signal and Image Processing (CSIP), Georgia Institute of Technology, Atlanta. Currently he is the director of the Speech and Multimedia Signal Processing Lab and an assistant professor at the Department of Communication Engineering, National Taipei University. His main research interests are in speech processing, in particular prosody modeling, automatic speech recognition and text-to-speech systems."
     ]
@@ -363,7 +363,7 @@
     "website": {
         "home": "http://www.csie.ntu.edu.tw/~winston/"
     },
-    "title": "國立台灣大學資訊工程學系 / 教授",
+    "title": "國立臺灣大學資訊工程學系 / 教授",
     "info": [
         "Prof. Winston Hsu is an active researcher dedicated to large-scale image/video retrieval, social media mining, visual recognition, and machine intelligence. He is keen to realizing advanced researches towards business deliverables via academia-industry collaborations and co-founding startups. He is a Professor in the Department of Computer Science and Information Engineering, National Taiwan University, also a Visiting Scientist at Microsoft Research Redmond (2014) and IBM TJ Watson Research Center (2016) for visual cognition. He received his Ph.D. degree (2007) from Columbia University, New York. Before that, he worked for years as a founding engineer in the multimedia software company, CyberLink Corp., where experiencing Engineer, Project Leader, and R&D Manager. He has been recognized with technical awards in multimedia research community. He also received local recognitions such as 科技部吳大猷先生紀念獎 (2011) and 傑出資訊人才獎 (2013). He is proud to be an ironman, a marathoner, and a father of three."
     ]
@@ -371,7 +371,7 @@
 {
     "agenda": "日0F_林守德",
     "name": [ "林守德"],
-    "title": "國立台灣大學資訊工程學系 / 教授",
+    "title": "國立臺灣大學資訊工程學系 / 教授",
     "info": [
         "Shou-de Lin is currently a full professor in the CSIE department of National Taiwan University. He holds a BS in EE department from National Taiwan University, an MS-EE from the University of Michigan, and an MS in Computational Linguistics and PhD in Computer Science both from the University of Southern California. He leads the Machine Discovery and Social Network Mining Lab in NTU. Before joining NTU, he was a post-doctoral research fellow at the Los Alamos National Lab. Prof. Lin's research includes the areas of machine learning and data mining, social network analysis, and natural language processing. His international recognition includes the best paper award in IEEE Web Intelligent conference 2003, Google Research Award in 2007, Microsoft research award in 2008, merit paper award in TAAI 2010, best paper award in ASONAM 2011, US Aerospace AFOSR/AOARD research award winner for 5 years. He is the all-time winners in ACM KDD Cup, leading or co-leading the NTU team to win 5 championships. He also leads a team to win WSDM Cup 2016 Champion. He has served as the senior PC for SIGKDD and area chair for ACL. He is currently the associate editor for International Journal on Social Network Mining, Journal of Information Science and Engineering, and International Journal of Computational Linguistics and Chinese Language Processing. He receives the Young Scholars' Creativity Award from Foundation for the Advancement of Outstanding Scholarship and Ta-You Wu Memorial Award."
     ]
@@ -379,9 +379,9 @@
 {
     "agenda": "日1E_孔令傑",
     "name": [ "孔令傑"],
-    "title": "國立台灣大學資訊管理學系 / 助理教授",
+    "title": "國立臺灣大學資訊管理學系 / 助理教授",
     "info": [
-        "孔令傑畢業自台大資管系、台大資管所碩士班、加州大學柏克萊分校工業工程與作業研究博士班，現職台大資管系助理教授。他的研究主要是利用賽局理論與最佳化方法探討各種商管領域的決策問題，包括資訊經濟、平台策略、供應鍊管理、醫療照護管理等等。他在統計與資料分析方面其實是個外行人，不過他喜歡瞭解各種簡單的分析方法，並嘗試利用它們去解決各種問題。"
+        "孔令傑畢業自臺大資管系、臺大資管所碩士班、加州大學柏克萊分校工業工程與作業研究博士班，現職臺大資管系助理教授。他的研究主要是利用賽局理論與最佳化方法探討各種商管領域的決策問題，包括資訊經濟、平台策略、供應鍊管理、醫療照護管理等等。他在統計與資料分析方面其實是個外行人，不過他喜歡瞭解各種簡單的分析方法，並嘗試利用它們去解決各種問題。"
     ]
 },
 {
@@ -408,15 +408,15 @@
     },
     "title": "Carnegie Mellon University / 博士生",
     "info": [
-        "李俊良於 2012 年與 2013 年於台灣大學資訊工程系取得學士與碩士學位，目前就讀於卡內基美隆大學機器學習系博士班。研究方向包含機器學習的理論與實際應用，並曾於 2011 年與 2013 年贏得 KDD Cup 冠軍。"
+        "李俊良於 2012 年與 2013 年於臺灣大學資訊工程系取得學士與碩士學位，目前就讀於卡內基美隆大學機器學習系博士班。研究方向包含機器學習的理論與實際應用，並曾於 2011 年與 2013 年贏得 KDD Cup 冠軍。"
     ]
 },
 {
     "agenda": "日0G_吳齊軒",
     "name": [ "吳齊軒","Wush"],
-    "title": "台大電機所 / 博士生",
+    "title": "臺大電機所 / 博士生",
     "info": [
-        "國立台灣大學電機所博士生，平時致力於推廣 R 語言，曾主辦多場 R 語言推廣講座，並經常於 Taiwan R User Group 分享 R 的使用心得。有豐富的 R 語言實務經驗，包含資料的收集、整理、分析到報告製作。擅長根據專案需求，量身打造 R 的資料分析系統，以及運用 R 和 C++ 撰寫高效能演算法。"
+        "國立臺灣大學電機所博士生，平時致力於推廣 R 語言，曾主辦多場 R 語言推廣講座，並經常於 Taiwan R User Group 分享 R 的使用心得。有豐富的 R 語言實務經驗，包含資料的收集、整理、分析到報告製作。擅長根據專案需求，量身打造 R 的資料分析系統，以及運用 R 和 C++ 撰寫高效能演算法。"
     ]
 },
 {
@@ -426,7 +426,7 @@
     "website": {
         "home": "http://blog.clkao.org"
     },
-    "info": [ "clkao (高嘉良) - 喜歡寫程式、泡 ♨。參加 1997 年國際資訊奧林匹亞後，進入台大資訊系就讀，即活躍於國內外開放源碼社群，隨後旅居英國倫敦從事軟體開發及顧問工作。2012 年發起 g0v.tw 計畫。" ]
+    "info": [ "clkao (高嘉良) - 喜歡寫程式、泡 ♨。參加 1997 年國際資訊奧林匹亞後，進入臺大資訊系就讀，即活躍於國內外開放源碼社群，隨後旅居英國倫敦從事軟體開發及顧問工作。2012 年發起 g0v.tw 計畫。" ]
 },
 {
     "agenda": "日1H_劉正山",
@@ -442,7 +442,7 @@
     "name": [ "徐承原"],
     "title": "宸訊科技 / 總經理",
     "info": [
-        "畢業於台大地理研究所，將興趣投注於如何利用空間分析技術解決環境管理問題，因此成立宸訊科技，目前公司專心致力於智慧農業與環境污染相關領域之研究"
+        "畢業於臺大地理研究所，將興趣投注於如何利用空間分析技術解決環境管理問題，因此成立宸訊科技，目前公司專心致力於智慧農業與環境污染相關領域之研究"
     ]
 },
 {
@@ -450,7 +450,7 @@
     "name": [ "林佳賢"],
     "title": "端傳媒/數據產品經理",
     "info": [
-        "端傳媒數據產品經理，畢業於台灣大學經濟系，對數據分析和如何用視覺化的方式呈現數據感到興趣。曾製作「台北捷運所得地圖」、小碧潭捷運站分析、2016 大選圖表等圖表新聞。"
+        "端傳媒數據產品經理，畢業於臺灣大學經濟系，對數據分析和如何用視覺化的方式呈現數據感到興趣。曾製作「臺北捷運所得地圖」、小碧潭捷運站分析、2016 大選圖表等圖表新聞。"
     ]
 },
 {
@@ -526,7 +526,7 @@
     "photo": "資料視覺化_陳冠伶",
     "title": "紫冠策略資訊 / 策略總監",
     "info": [
-        "紫冠策略資訊創辦人暨策略總監，清華資工碩士與台大資工博士候選人。喜好視覺溝通，努力轉譯各領域菁英腦中的專業圖像讓非專業的各年齡層理解；希望讓周邊更多人發光的理想驅使，熱愛連結與整合資源以協助人才定位、發揮潛能與信心；目前致力協助客戶與合作夥伴，發想與實踐資訊科技與資料科學的創新應用，創造共享價值。"
+        "紫冠策略資訊創辦人暨策略總監，清華資工碩士與臺大資工博士候選人。喜好視覺溝通，努力轉譯各領域菁英腦中的專業圖像讓非專業的各年齡層理解；希望讓周邊更多人發光的理想驅使，熱愛連結與整合資源以協助人才定位、發揮潛能與信心；目前致力協助客戶與合作夥伴，發想與實踐資訊科技與資料科學的創新應用，創造共享價值。"
     ]
 },
 {
@@ -559,7 +559,7 @@
     "photo": "資訊安全_吳明璋",
     "title": "貝爾富 BELFOR / 業務發展經理",
     "info": [
-        "吳明璋先生現為全球災後復原公司貝爾富（BELFOR）業務發展經理。曾擔任趨勢科技客戶洞察專案負責人與安侯企管（KPMG Taiwan）企業經營績效服務經理。專長領域為資訊安全、災後復原計畫、客戶洞察、大數據、設計思考等。認證包括：資訊安全 BS7799 主導評審員證照、專案管理等。","他曾擔任 APEC Workshop on Application of Big Data and Open Data 講師、APEC BCP Train-The-Trainer Workshop 講師與指導老師、COMPUTEX Taipei & APEC O2O Training Workshop 講師、SEMI Taiwan 標準訓練課程講師、TiC100 創業競賽業師、台北設計之都工作營指導老師等。"
+        "吳明璋先生現為全球災後復原公司貝爾富（BELFOR）業務發展經理。曾擔任趨勢科技客戶洞察專案負責人與安侯企管（KPMG Taiwan）企業經營績效服務經理。專長領域為資訊安全、災後復原計畫、客戶洞察、大數據、設計思考等。認證包括：資訊安全 BS7799 主導評審員證照、專案管理等。","他曾擔任 APEC Workshop on Application of Big Data and Open Data 講師、APEC BCP Train-The-Trainer Workshop 講師與指導老師、COMPUTEX Taipei & APEC O2O Training Workshop 講師、SEMI Taiwan 標準訓練課程講師、TiC100 創業競賽業師、臺北設計之都工作營指導老師等。"
     ]
 },
 {
@@ -568,7 +568,7 @@
     "photo": "",
     "title": "凱度醫藥諮詢 / 研究副理",
     "info": [
-        "時瑩畢業於台灣大學微生物所。自 2011 年起進入醫療市場顧問產業， 進行質化與量化研究專案，從資料蒐集、分析，到最後提供市場洞見，五年來與不同藥廠合作，接觸各式各樣醫療領域，包含癌症處方藥、罕病用藥、生物製劑、醫材及營養補充品等。近幾年公司積極發展數位資料的蒐集與應用，將市場調查與數位醫療資訊結合，期待提供客戶更精準與即時的資訊，並加強資料視覺化是近期努力學習的方向。"
+        "時瑩畢業於臺灣大學微生物所。自 2011 年起進入醫療市場顧問產業， 進行質化與量化研究專案，從資料蒐集、分析，到最後提供市場洞見，五年來與不同藥廠合作，接觸各式各樣醫療領域，包含癌症處方藥、罕病用藥、生物製劑、醫材及營養補充品等。近幾年公司積極發展數位資料的蒐集與應用，將市場調查與數位醫療資訊結合，期待提供客戶更精準與即時的資訊，並加強資料視覺化是近期努力學習的方向。"
     ]
 },
 {
@@ -578,9 +578,9 @@
     "website": {
         "home": "http://yfwu.github.io"
     },
-    "title": "台北榮民總醫院 / 實習醫學生",
+    "title": "臺北榮民總醫院 / 實習醫學生",
     "info": [
-        "目前為台北榮總實習醫師。於中國醫藥大學就學期間接觸到健保資料庫，除了設計能自動化進行傳統假說導向研究如疾病關聯性、藥物副作用的程式外，也結合近年釋出的政府開放資料、機器學習技術、病歷解析模組等進行新一代的健保資料庫挖掘。與同學創設醫療決策輔助系統研發公司 Hazalyst R&D Ltd. 期待能夠以研究成果協助醫界、學界、保險業界及病患建立更準確的疾病關聯性及併發模型。為準醫學工程師，對於生醫材料、影像處理、數位建模等均有一定經驗。"
+        "目前為臺北榮總實習醫師。於中國醫藥大學就學期間接觸到健保資料庫，除了設計能自動化進行傳統假說導向研究如疾病關聯性、藥物副作用的程式外，也結合近年釋出的政府開放資料、機器學習技術、病歷解析模組等進行新一代的健保資料庫挖掘。與同學創設醫療決策輔助系統研發公司 Hazalyst R&D Ltd. 期待能夠以研究成果協助醫界、學界、保險業界及病患建立更準確的疾病關聯性及併發模型。為準醫學工程師，對於生醫材料、影像處理、數位建模等均有一定經驗。"
     ]
 },
 {
@@ -589,7 +589,7 @@
     "photo": "健康醫療_邱銘心",
     "title": "國立台灣師範大學圖書資訊學研究所 / 副教授",
     "info": [
-        "邱銘心副教授任職於國立台灣師範大學圖書資訊學研究所，於 Purdue University 取得教育碩士，並於 University of Wisconsin-Madison 取得圖書資訊學博士學位。目前擔任 Association for Information Science and Technology 台北分會會長，希望可以於把 data science 推廣到圖資領域。主要研究方向為消費者健康資訊學，尤其關注社群媒體中由使用者產製的健康醫療相關資料與健康傳播以及醫療決策的關聯性，除了文字資料與數據資料，近年來也開始關注社群媒體視覺資料在急難救助與健康行為的應用。希望在 65 歲退休後，還可以成為一個高齡瑜伽老師。"
+        "邱銘心副教授任職於國立台灣師範大學圖書資訊學研究所，於 Purdue University 取得教育碩士，並於 University of Wisconsin-Madison 取得圖書資訊學博士學位。目前擔任 Association for Information Science and Technology 臺北分會會長，希望可以於把 data science 推廣到圖資領域。主要研究方向為消費者健康資訊學，尤其關注社群媒體中由使用者產製的健康醫療相關資料與健康傳播以及醫療決策的關聯性，除了文字資料與數據資料，近年來也開始關注社群媒體視覺資料在急難救助與健康行為的應用。希望在 65 歲退休後，還可以成為一個高齡瑜伽老師。"
     ]
 },
 {
@@ -605,9 +605,9 @@
     "talk": "康仕仲",
     "name": [ "康仕仲","Prof. Shih-Chung Jessy Kang"],
     "photo": "教育大數據_康仕仲",
-    "title": "台大土木系 / 教授兼副教務長",
+    "title": "臺大土木系 / 教授兼副教務長",
     "info": [
-        "康仕仲教授是台大土木系教授兼副教務長、美國史丹福大學博士。康教授長期投入於工程視覺化、自動化機器人、工程教育以及防災資訊系統之研發。在台大開設電腦繪圖、遊戲引擎、資料視覺化及機器人等課程，曾獲得優良教師獎。康教授曾擔任教學發展中心數位媒體組組長，負責開放式課程及數位化教育的推廣，他在 Coursera 上開設的工程圖學系列課程，共有超過 5 萬人修習。現擔任國際期刊 Visualization in Engineering 總編輯，編輯十餘本工程視覺化及機器人自動化主題之特刊和專書，發表超過 50 篇的期刊論文。"
+        "康仕仲教授是臺大土木系教授兼副教務長、美國史丹福大學博士。康教授長期投入於工程視覺化、自動化機器人、工程教育以及防災資訊系統之研發。在臺大開設電腦繪圖、遊戲引擎、資料視覺化及機器人等課程，曾獲得優良教師獎。康教授曾擔任教學發展中心數位媒體組組長，負責開放式課程及數位化教育的推廣，他在 Coursera 上開設的工程圖學系列課程，共有超過 5 萬人修習。現擔任國際期刊 Visualization in Engineering 總編輯，編輯十餘本工程視覺化及機器人自動化主題之特刊和專書，發表超過 50 篇的期刊論文。"
     ]
 },
 {
@@ -643,7 +643,7 @@
     },
     "title": "育生堂中藥房 / Data Engineer",
     "info": [
-        "Business Lead@Installments, Researcher@Team T5, COO@Sharelike, BS,MS@NTUEE","就讀台大電機研究所期間專研基因演算法在影音方面的應用，畢業後到矽谷讀闖了三個月，後來在台灣的新創圈打滾三年多，待過資安與金融科技等不同類型的新創公司，因緣際會下得以再到以色列與芬蘭去探索不同地區新創圈的內涵。平時興趣是翻譯 YC 創辦人 Paul Graham 的論文以及探討與創業有關的思想與科技發展，生活由 33% 的 Hacking、33% 的 Business Development、33% 的 Cooking 與 1% 的 Random 組成，目前為自由工作者，過著左手包藥右手寫程式的生活。"
+        "Business Lead@Installments, Researcher@Team T5, COO@Sharelike, BS,MS@NTUEE","就讀臺大電機研究所期間專研基因演算法在影音方面的應用，畢業後到矽谷讀闖了三個月，後來在台灣的新創圈打滾三年多，待過資安與金融科技等不同類型的新創公司，因緣際會下得以再到以色列與芬蘭去探索不同地區新創圈的內涵。平時興趣是翻譯 YC 創辦人 Paul Graham 的論文以及探討與創業有關的思想與科技發展，生活由 33% 的 Hacking、33% 的 Business Development、33% 的 Cooking 與 1% 的 Random 組成，目前為自由工作者，過著左手包藥右手寫程式的生活。"
     ]
 },
 {
@@ -667,7 +667,7 @@
     "photo": "人工智慧機器學習深度學習_戴敏育",
     "title": "淡江大學資訊管理學系 / 助理教授",
     "info": [
-        "戴敏育博士目前任教於淡江大學資訊管理學系。他曾任職於中央研究院資訊科學研究所智慧型代理人系統實驗室博士後研究員。他於 2010 年取得國立台灣大學資訊管理博士學位。他的研究興趣包括社群運算、大數據分析、深度學習、問答系統、文本探勘、情感分析、電子商務、金融科技。他曾帶領 IMTKU 團隊參加日本 NTCIR 國際資訊檢索評估競賽表現優異，於文本蘊涵 (Recognizing Inference in TExt, RITE) 項目榮獲優秀成績，並於2012年開始共同創辦 IEEE International Workshop on Empirical Methods for Recognizing Inference in TExt (IEEE EM-RITE)。他目前是 IEEE IRI 會議共同主席 與 IEEE/ACM ASONAM 出版主席。"
+        "戴敏育博士目前任教於淡江大學資訊管理學系。他曾任職於中央研究院資訊科學研究所智慧型代理人系統實驗室博士後研究員。他於 2010 年取得國立臺灣大學資訊管理博士學位。他的研究興趣包括社群運算、大數據分析、深度學習、問答系統、文本探勘、情感分析、電子商務、金融科技。他曾帶領 IMTKU 團隊參加日本 NTCIR 國際資訊檢索評估競賽表現優異，於文本蘊涵 (Recognizing Inference in TExt, RITE) 項目榮獲優秀成績，並於2012年開始共同創辦 IEEE International Workshop on Empirical Methods for Recognizing Inference in TExt (IEEE EM-RITE)。他目前是 IEEE IRI 會議共同主席 與 IEEE/ACM ASONAM 出版主席。"
     ]
 },
 {

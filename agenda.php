@@ -260,7 +260,7 @@
                                         </tr>
                                         <tr class="bg-orange">
                                             <td>10:30 - 11:00</td>
-                                            <td colspan="3">茶點與交流時間</td>
+                                            <td colspan="3">茶點時間</td>
                                         </tr>
                                         <tr>
                                             <td>11:00 - 12:30</td>
@@ -296,7 +296,7 @@
                                         </tr>
                                         <tr class="bg-orange">
                                             <td>15:20 - 15:50</td>
-                                            <td colspan="3">茶點與交流時間</td>
+                                            <td colspan="3">茶點時間</td>
                                         </tr>
                                         <tr>
                                             <td>15:50 - 16:20</td>
@@ -336,7 +336,7 @@
                                                     <img src="images/course/dl.svg" class="class-icon">
                                                     <h3>一天搞懂深度學習</h3>
                                                 </a>
-                                                <span data-toggle="modal" data-target="#info01" class="text-primary speaker-info">李宏毅 / 台灣大學電機系助理教授</span>
+                                                <span data-toggle="modal" data-target="#info01" class="text-primary speaker-info">李宏毅 / 臺灣大學電機系助理教授</span>
                                             </td>
                                             <td width="28%">
                                                 <a href="intro-R-step.html">
@@ -378,7 +378,7 @@
                                         </tr>
                                         <tr class="bg-orange">
                                             <td>10:30 - 11:00</td>
-                                            <td colspan="3">茶點與交流時間</td>
+                                            <td colspan="3">茶點時間</td>
                                         </tr>
                                         <tr>
                                             <td>11:00 - 12:30</td>
@@ -412,7 +412,7 @@
                                         </tr>
                                         <tr class="bg-orange">
                                             <td>15:20 - 15:50</td>
-                                            <td colspan="3">茶點與交流時間</td>
+                                            <td colspan="3">茶點時間</td>
                                         </tr>
                                         <tr>
                                             <td>15:50 - 17:20</td>
@@ -472,7 +472,7 @@
                                         </tr>
                                         <tr class="bg-orange">
                                             <td>10:30 - 11:00</td>
-                                            <td colspan="4">茶點與交流時間</td>
+                                            <td colspan="4">茶點時間</td>
                                         </tr>
                                         <tr>
                                             <td>11:00 - 11:45</td>
@@ -561,7 +561,7 @@
                                             </td>
                                             <td>
                                                 <h4>從薪酬制度讀 CEO 的行為心理學</h4>
-                                                <span data-toggle="modal" data-target="#六1F_顏汝芳" class="text-primary speaker-info">顏汝芳 / 台北大學助理教授</span>
+                                                <span data-toggle="modal" data-target="#六1F_顏汝芳" class="text-primary speaker-info">顏汝芳 / 臺北大學助理教授</span>
                                                 <br/>
                                             </td>
                                             <td>
@@ -571,7 +571,7 @@
                                         </tr>
                                         <tr class="bg-orange">
                                             <td>15:20 - 15:50</td>
-                                            <td colspan="4">茶點與交流時間</td>
+                                            <td colspan="4">茶點時間</td>
                                         </tr>
                                         <tr>
                                             <td>15:50 - 16:35</td>
@@ -599,7 +599,7 @@
                                             <td>16:35 - 17:20</td>
                                             <td>
                                                 <h4>心理與行為資料中的因與果</h4>
-                                                <span data-toggle="modal" data-target="#六0H_黃從仁" class="text-primary speaker-info">黃從仁 / 台灣大學心理學系助理教授</span>
+                                                <span data-toggle="modal" data-target="#六0H_黃從仁" class="text-primary speaker-info">黃從仁 / 臺灣大學心理學系助理教授</span>
                                                 <br/>
                                             </td>
                                             <td>
@@ -673,7 +673,7 @@
                                         <tr>
                                             <td>09:45 - 10:30</td>
                                             <td>
-                                                <h4>台北智慧城市及其資料</h4>
+                                                <h4>臺北智慧城市及其資料</h4>
                                                 <span data-toggle="modal" data-target="#日0B_彭盛韶" class="text-primary speaker-info">彭盛韶 / 行政院經濟部長隨行秘書</span>
                                                 <br/>
                                             </td>
@@ -695,7 +695,7 @@
                                         </tr>
                                         <tr class="bg-orange">
                                             <td>10:30 - 11:00</td>
-                                            <td colspan="4">茶點與交流時間</td>
+                                            <td colspan="4">茶點時間</td>
                                         </tr>
                                         <tr>
                                             <td>11:00 - 11:45</td>
@@ -718,7 +718,7 @@
                                                 <h4>有志一同</h4><span>健康醫療<span><br>
                                                 <span data-toggle="modal" data-target="#伍時瑩" class="text-primary speaker-info">伍時瑩 / 凱度醫藥諮詢研究副理</span>
                                                 <br>
-                                                <span data-toggle="modal" data-target="#吳昱甫" class="text-primary speaker-info">吳昱甫 / 台北榮民總醫院實習醫學生</span>
+                                                <span data-toggle="modal" data-target="#吳昱甫" class="text-primary speaker-info">吳昱甫 / 臺北榮民總醫院實習醫學生</span>
                                                 <br>
                                                 <span data-toggle="modal" data-target="#邱銘心" class="text-primary speaker-info">邱銘心 / 國立台灣師範大學圖書資訊學研究所副教授</span>
                                                 <br>
@@ -729,7 +729,7 @@
                                             <td>11:45 - 12:30</td>
                                             <td>
                                                 <h4>當語音處理遇上深度學習</h4>
-                                                <span data-toggle="modal" data-target="#info01" class="text-primary speaker-info">李宏毅 / 台灣大學電機系助理教授</span>
+                                                <span data-toggle="modal" data-target="#info01" class="text-primary speaker-info">李宏毅 / 臺灣大學電機系助理教授</span>
                                                 <br/>
                                             </td>
                                             <td>
@@ -739,14 +739,14 @@
                                             </td>
                                             <td>
                                                 <h4>It's Not What You Say: It's How You Say It!</h4>
-                                                <span data-toggle="modal" data-target="#日2D_江振宇" class="text-primary speaker-info">江振宇 / 國立台北大學通訊工程學系助理教授</span>
+                                                <span data-toggle="modal" data-target="#日2D_江振宇" class="text-primary speaker-info">江振宇 / 國立臺北大學通訊工程學系助理教授</span>
                                                 <br/>
                                             </td>
                                             <td>
                                                 <h4>有志一同</h4><span>教育大數據<span><br>
                                                 <span data-toggle="modal" data-target="#日2A_李祈均" class="text-primary speaker-info">李祈均 / 清大電機助理教授</span>
                                                 <br>
-                                                <span data-toggle="modal" data-target="#康仕仲" class="text-primary speaker-info">康仕仲 / 台大土木系教授兼副教務長</span>
+                                                <span data-toggle="modal" data-target="#康仕仲" class="text-primary speaker-info">康仕仲 / 臺大土木系教授兼副教務長</span>
                                                 <br>
                                                 <span data-toggle="modal" data-target="#張大明" class="text-primary speaker-info">張大明 / 育睿科技執行長</span>
                                                 <br>
@@ -761,12 +761,12 @@
                                             <td>13:50 - 14:35</td>
                                             <td>
                                                 <h4>視覺資料淘金 : 巨量社群影像深度解析</h4>
-                                                <span data-toggle="modal" data-target="#日0E_徐宏民" class="text-primary speaker-info">徐宏民 / 國立台灣大學資訊工程學系教授 </span>
+                                                <span data-toggle="modal" data-target="#日0E_徐宏民" class="text-primary speaker-info">徐宏民 / 國立臺灣大學資訊工程學系教授 </span>
                                                 <br/>
                                             </td>
                                             <td>
                                                 <h4>貓都學得會的手機維修資料分析</h4>
-                                                <span data-toggle="modal" data-target="#日1E_孔令傑" class="text-primary speaker-info">孔令傑 / 國立台灣大學資訊管理學系助理教授</span>
+                                                <span data-toggle="modal" data-target="#日1E_孔令傑" class="text-primary speaker-info">孔令傑 / 國立臺灣大學資訊管理學系助理教授</span>
                                                 <br/>
                                             </td>
                                             <td>
@@ -785,7 +785,7 @@
                                             <td>14:35 - 15:20</td>
                                             <td>
                                                 <h4>Practical Issues in Machine Learning</h4>
-                                                <span data-toggle="modal" data-target="#日0F_林守德" class="text-primary speaker-info">林守德 / 國立台灣大學資訊工程學系教授</span>
+                                                <span data-toggle="modal" data-target="#日0F_林守德" class="text-primary speaker-info">林守德 / 國立臺灣大學資訊工程學系教授</span>
                                                 <br/>
                                             </td>
                                             <td>
@@ -807,13 +807,13 @@
                                         </tr>
                                         <tr class="bg-orange">
                                             <td>15:20 - 15:50</td>
-                                            <td colspan="4">茶點與交流時間</td>
+                                            <td colspan="4">茶點時間</td>
                                         </tr>
                                         <tr>
                                             <td>15:50 - 16:35</td>
                                             <td>
                                                 <h4>漫談 R 的學習挑戰與 R 語言翻轉教室</h4>
-                                                <span data-toggle="modal" data-target="#日0G_吳齊軒" class="text-primary speaker-info">吳齊軒 / 台大電機所博士生</span>
+                                                <span data-toggle="modal" data-target="#日0G_吳齊軒" class="text-primary speaker-info">吳齊軒 / 臺大電機所博士生</span>
                                                 <br/>
                                             </td>
                                             <td>
@@ -828,7 +828,7 @@
                                             </td>
                                             <td>
                                                 <h4>有志一同</h4><span>人工智慧/機器學習/深度學習<span><br>
-                                                <span data-toggle="modal" data-target="#日0E_徐宏民" class="text-primary speaker-info">徐宏民 / 國立台灣大學資訊工程學系教授 </span>
+                                                <span data-toggle="modal" data-target="#日0E_徐宏民" class="text-primary speaker-info">徐宏民 / 國立臺灣大學資訊工程學系教授 </span>
                                                 <br>
                                                 <span data-toggle="modal" data-target="#連卿閔" class="text-primary speaker-info">連卿閔 / HTC Principal Engineer</span>
                                                 <br>

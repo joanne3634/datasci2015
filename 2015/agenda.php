@@ -279,7 +279,7 @@ a > i.-slideshow
         </tr>
         <tr class="bg-orange">
             <td >10:30 - 11:00</td>
-            <td colspan="3" >茶點與交流時間</td>
+            <td colspan="3" >茶點時間</td>
         </tr>
         <tr>
             <td>11:00 - 11:30</td>
@@ -338,7 +338,7 @@ a > i.-slideshow
         </tr>
         <tr class="bg-orange">
             <td >15:00 - 15:30</td>
-            <td colspan="3">茶點與交流時間</td>
+            <td colspan="3">茶點時間</td>
         </tr>
         <tr>
             <td>15:30 - 16:00</td>
@@ -450,7 +450,7 @@ a > i.-slideshow
         </tr>
         <tr class="bg-orange">
             <td>10:30 - 11:00</td>
-            <td colspan="3" >茶點與交流時間</td>
+            <td colspan="3" >茶點時間</td>
         </tr>
         <tr>
             <td>11:00 - 11:30</td>
@@ -506,7 +506,7 @@ a > i.-slideshow
             <td rowspan="3">
                 <h4>資料分析，讓交通開竅</h4>
                 <span class="label label-warning">主持人</span><br/>
-                <span data-toggle="modal" data-target="#info49" class="text-primary speaker-info">濮大威 / 台北捷運公司顧問</span><br/>
+                <span data-toggle="modal" data-target="#info49" class="text-primary speaker-info">濮大威 / 臺北捷運公司顧問</span><br/>
                 <span class="label label-primary">與談人</span><br/>
                 <h4 class="sub">鼎漢的交通大數據探索</h4>
                 <span data-toggle="modal" data-target="#info50" class="text-primary speaker-info">李俊賢 / 鼎漢國際工程顧問董事長</span><br/>
@@ -526,12 +526,12 @@ a > i.-slideshow
         </tr>
         <tr>
             <td>15:00 - 15:30</td>
-            <td class="bg-orange">茶點與交流時間</td>
-            <td class="bg-orange">茶點與交流時間</td>
+            <td class="bg-orange">茶點時間</td>
+            <td class="bg-orange">茶點時間</td>
         </tr>
         <tr>
             <td>15:30 - 16:00</td>
-            <td class="bg-orange">茶點與交流時間</td>
+            <td class="bg-orange">茶點時間</td>
             <td rowspan="3">
                 <h4>R 專題實習</h4>
                 <span data-toggle="modal" data-target="#info13" class="text-primary speaker-info">吳齊軒 / 台灣大學電機所博士生</span>
@@ -624,7 +624,7 @@ a > i.-slideshow
         </tr>
         <tr class="bg-orange">
             <td >10:30 - 11:00</td>
-            <td colspan="3">茶點與交流時間</td>
+            <td colspan="3">茶點時間</td>
         </tr>
         <tr>
             <td>11:00 - 12:00</td>
@@ -682,7 +682,7 @@ a > i.-slideshow
         </tr>
         <tr class="bg-orange">
             <td >15:30 - 16:00</td>
-            <td colspan="3" >茶點與交流時間</td>
+            <td colspan="3" >茶點時間</td>
         </tr>
         <tr>
             <td>16:00 - 16:45</td>
@@ -753,7 +753,7 @@ a > i.-slideshow
         </tr>
         <tr class="bg-orange">
             <td>10:00 - 10:30</td>
-            <td colspan="3">茶點與交流時間</td>
+            <td colspan="3">茶點時間</td>
         </tr>
         <tr>
             <td>10:30 - 11:15</td>
@@ -828,7 +828,7 @@ a > i.-slideshow
         </tr>
         <tr class="bg-orange">
             <td >15:35-16:05</td>
-            <td colspan="3">茶點與交流時間</td>
+            <td colspan="3">茶點時間</td>
         </tr>
         <tr>
             <td>16:05-17:05</td>

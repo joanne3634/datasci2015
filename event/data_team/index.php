@@ -65,7 +65,7 @@ $speakers = array(
             'g0v.tw 台灣零時政府共同發起人'
         ),
         'info' => array(
-            "clkao (高嘉良) - 喜歡寫程式、泡 ♨。參加 1997 年國際資訊奧林匹亞後，進入台大資訊系就讀，即活躍於國內外開放源碼社群，隨後旅居英國倫敦從事軟體開發及顧問工作。2012 年發起 g0v.tw 計畫，現為開放文化基金會董事。"
+            "clkao (高嘉良) - 喜歡寫程式、泡 ♨。參加 1997 年國際資訊奧林匹亞後，進入臺大資訊系就讀，即活躍於國內外開放源碼社群，隨後旅居英國倫敦從事軟體開發及顧問工作。2012 年發起 g0v.tw 計畫，現為開放文化基金會董事。"
         )
     ),
     'wcchen' => array(
@@ -74,7 +74,7 @@ $speakers = array(
         'engn' => '(Wei-Chao Chen)',
         'title' => array(
             'Skywatch 共同創辦人',
-            '台灣大學兼任助理教授'
+            '臺灣大學兼任助理教授'
         ),
         'info' => array(
             "Wei-Chao Chen is a co-founder at Skywatch Innovation, a company that provides cloud-based video products and solutions. He is also an adjunct faculty member at the National Taiwan University. His research interests involve graphics hardware, computational photography, augmented reality, and user interfaces. Dr. Chen was a senior research scientist in Nokia Research Center at Palo Al to between 2007 - 2009, and a 3D Graphics Architect in NVIDIA between 2002 - 2006. Dr. Chen received his MS in Electrical Engineering from National Taiwan University (1996), and MS (2001) and PhD (2002) in Computer Science from the University of North Carolina at Chapel Hill."
