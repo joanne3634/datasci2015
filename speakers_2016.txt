@@ -58,7 +58,7 @@
 {
     "agenda": "info06",
     "speaker": "6",
-    "name": [ "許懷中博士", "Dr. Hwai-Jung Hsu" ],
+    "name": [ "許懷中博士", "Hwai-Jung Hsu" ],
     "title": "中央研究院資訊科學研究所 / 博士後研究員",
     "website": {
         "linkedin": "https://www.linkedin.com/in/hjhsu"
@@ -86,7 +86,15 @@
         "home": "http://edchi.net"
     },
     "info": [
-        "Ed H. Chi is a Research Scientist at Google, leading a team focused on recommender and machine learning, as well as social interaction research. He has led research and launched significant product features in recommenders for the Google Play Store and Google+. Previous to Google, he was the Area Manager and a Principal Scientist at Palo Alto Research Center's Augmented Social Cognition Group, where he led the group in understanding how social computing systems help groups of people to remember, think and reason. Ed completed his three degrees (B.S., M.S., and Ph.D.) in 6.5 years from University of Minnesota, and has been doing research on user interface software systems since 1993. He has been featured and quoted in the press, including the Economist, Time Magazine, LA Times, and the Associated Press.","With over 35 patents and over 100 research articles, he is known for research in Web and online social sites, and the effects of social signals on user behavior. For example, he led a group of researchers at PARC to understand the underlying mechanisms in Wikipedia. He has also worked on information visualization, computational molecular biology, ubicomp, and has won awards for both teaching and research. In his spare time, Ed is an avid photographer and snowboarder."
+        "Ed H. Chi is a Research Scientist at Google, leading a team focused on recommender and machine learning, as well as social interaction research. He has led research and launched significant product features in recommenders for the Google Play Store and Google+. Previous to Google, he was the Area Manager and a Principal Scientist at Palo Alto Research Center's Augmented Social Cognition Group, where he led the group in understanding how social computing systems help groups of people to remember, think and reason. Ed completed his three degrees (B.S., M.S., and Ph.D.) in 6.5 years from University of Minnesota, and has been doing research on user interface software systems since 1993. He has been featured and quoted in the press, including the Economist, Time Magazine, LA Times, and the Associated Press."
+    ]
+},
+{
+    "agenda": "廖俊智",
+    "name": [ "廖俊智" ],
+    "title": "中央研究院 / 院長",
+    "info": [
+        "廖院長為臺灣大學化學工程系畢業，美國威斯康辛大學麥迪生校區化學工程研究所博士；先後任職紐約羅徹斯特柯達公司生命科學實驗室、德州農工大學、加州大學洛杉磯校區等，就任中研院院長前任職於加州大學洛杉磯校區化學與生物分子工程系以及生物工程系等兩系主任。長期從事代謝系統改造、合成生物學、系統生物學及微生物合成燃料等基礎前瞻科學研究，研發的異丁醇生物合成技術已被應用在生質燃油製造；把細菌裡的不同物質轉化成化學品，以生物取代石油生產化學品，向大自然取材，直接將二氧化碳轉化為化學品，是廖院長另一項重大科學突破，減少人類對石油的依賴。","廖院長過去雖然長期旅美，卻相當關注臺灣學術研究與綠色能源發展，曾先後擔任工業技術研究院高級研究顧問委員會委員、中油公司綠能研究所顧問，目前也是本院化學研究所與生物化學研究所諮詢委員，也曾應邀擔任國內多所大學及研究機構榮譽講座教授，對於臺灣的教育、學術研究、能源政策都深入瞭解及參與。","廖院長研究成就斐然，學術聲望崇隆，屢獲國際重要研究獎項。2010 年獲美國環保署綠色化學學術組總統獎、2012 年美國白宮再生能源創新獎、2013 年義大利總統頒授 ENI 再生能源獎，並獲選為美國國家工程學院院士 (2013 年 )、美國國家科學院院士 (2015 年 )、美國發明家學院院士 (2016 年 )，於 2014 年獲選為中央研究院院士。研究領域橫跨工程、生物、化學及醫學等，為國際知名的傑出科學家。"
     ]
 },
 {
@@ -130,7 +138,7 @@
     "name": [ "余致緯","Ronald Yu"],
     "title": "停車大聲公 / 執行長",
     "info": [
-        "余致緯 ( Ronald ) 先生畢業於臺大電子工程所，目前為停車大聲公創辦人暨執行長。喜歡打球、看球、玩所有的體育活動，看書與打2K是閒暇之餘最愛做的活動。學生時代共同創辦圖像辨識引擎 CliPcik，於 IDEAS SHOW 上獲獎，代表台灣參加BDash及Boston Startup Challenge。 CliPick 專注於圖像辨識，並提供女性網購消費者更快更便捷的方式搜尋想要的服裝款式。之後，Ronald 加入 Gogolook 團隊並擔任事業總監，負責 Whoscall 於香港、印度、東南亞的事業開發與產品推廣。任職期間，成功拓展 Whoscall 於台灣、韓國以外海外用戶，讓 Whoscall 日活躍用戶成長超過 30%。同時，主導 Whoscall 與香港競爭對手小熊來電併購案，協助 Gogolook 團隊拓展香港市場。於2015年，Ronald 再次創業，創辦呼叫阿福 (Alfred) 的即時泊車服務，於2015年轉型專注經營停車大聲公。停車大聲公服務車主找到周遭有空車位的停車場，目前為台灣最大的停車應用程式。"
+        "余致緯 (Ronald) 畢業於臺大電子工程所，目前為停車大聲公創辦人暨執行長。喜歡打球、看球、玩所有的體育活動，看書與打2K是閒暇之餘最愛做的活動。學生時代共同創辦圖像辨識引擎 CliPcik，於 IDEAS SHOW 上獲獎，代表台灣參加BDash及Boston Startup Challenge。 CliPick 專注於圖像辨識，並提供女性網購消費者更快更便捷的方式搜尋想要的服裝款式。之後，Ronald 加入 Gogolook 團隊並擔任事業總監，負責 Whoscall 於香港、印度、東南亞的事業開發與產品推廣。任職期間，成功拓展 Whoscall 於台灣、韓國以外海外用戶，讓 Whoscall 日活躍用戶成長超過 30%。同時，主導 Whoscall 與香港競爭對手小熊來電併購案，協助 Gogolook 團隊拓展香港市場。於2015年，Ronald 再次創業，創辦呼叫阿福 (Alfred) 的即時泊車服務，於2015年轉型專注經營停車大聲公。停車大聲公服務車主找到周遭有空車位的停車場，目前為台灣最大的停車應用程式。"
     ]
 },
 {
@@ -146,7 +154,7 @@
     "name": [ "陸永祥"],
     "title": "美國普度大學 / 副教授",
     "info": [
-        "陸永祥是美國普度大學電機計算機工程學副教授。他是 ACM 傑出的科學家和 ACM 傑出的演講者。他的研究小組用雲計算系統分析網路攝影機的數據。這是開放式系統;目前已經有兩百多個用戶。他從斯坦福大學獲得博士學位。"
+        "陸永祥是美國普度大學電機計算機工程學副教授。他是 ACM 傑出的科學家和 ACM 傑出的演講者。他的研究小組用雲計算系統分析網路攝影機的數據。這是開放式系統；目前已經有兩百多個用戶。他從斯坦福大學獲得博士學位。"
     ]
 },
 {
@@ -163,7 +171,7 @@
     "website": {
         "home": "http://www.yishin.info"
     },
-    "title": "清華大學資工系 / 助理教授",
+    "title": "清華大學資工系 / 副教授",
     "info": [
         "陳宜欣，美國南加州大學資訊科學博士，目前在清華大學資訊工程系任教，自大學與碩士時期在管理學院的薰陶，始終相信：好的科技技術應該蘊涵著人文關懷。帶領來自世界各地的研究團隊成員，致力運用資料分析技術來找出大數據背後的群眾智慧，最近將焦點放在跨語系情緒與心理分析技術。研究之餘，協助實驗教育的照海華德福建校，並執筆人氣部落格『 教書匠的夢想 』。"
     ]
@@ -267,7 +275,7 @@
 {
     "agenda": "日0B_彭盛韶",
     "name": [ "彭盛韶"],
-    "title": "行政院經濟部長 / 隨行秘書",
+    "title": "行政院經濟部 / 部長隨行秘書",
     "info": [
         "彭盛韶任職於臺北市政府資訊局，主責智慧城市及開放資料。因本身兼具資訊專業及具有任職於公部門之經驗，專長為跨域協調及整合資源。2016 年資訊局兩項重大計畫「空氣盒子」及「LoRa 物聯網實驗平台」，皆有參與及貢獻。在資料科學領域主要貢獻為整合公部門及私部門，產生出各類應用所需之資料。"
     ]
@@ -277,7 +285,7 @@
     "name": [ "孫民","Min Sun"],
     "title": "國立清華大學電機工程學系 / 助理教授",
     "info": [
-        "孫民博士目前任教於國立清華大學電機系，他畢業於國立交通大學電子工程學系後，取得史坦福電機碩士、密西根安雅堡電機系統組博士、以及西雅圖華盛頓大學計算機工程博士後的經歷。他的研究興趣在電腦視覺、機器學習、以及人機互動領域，近年來基於深度學習在電腦視覺的突破，他致力於開發橫跨人工智慧不同子領域的系統，如自動影片文字描述(視覺x自然語言)、以及與人類行為互動的智慧機器 ( 視覺x控制 )。","欲瞭解孫博士的研究，請瀏覽他的<a target=\"_blank\" href=\"http://aliensunmin.github.io/\">個人網頁</a>。"
+        "孫民博士目前任教於國立清華大學電機系，他畢業於國立交通大學電子工程學系後，取得史坦福電機碩士、密西根安雅堡電機系統組博士、以及西雅圖華盛頓大學計算機工程博士後的經歷。他的研究興趣在電腦視覺、機器學習、以及人機互動領域，近年來基於深度學習在電腦視覺的突破，他致力於開發橫跨人工智慧不同子領域的系統，如自動影片文字描述 ( 視覺 x 自然語言 )、以及與人類行為互動的智慧機器 ( 視覺 x 控制 )。","欲瞭解孫博士的研究，請瀏覽他的<a target=\"_blank\" href=\"http://aliensunmin.github.io/\">個人網頁</a>。"
     ]
 },
 {
@@ -307,7 +315,7 @@
     "website": {
         "home": "http://www.researchgate.net/profile/Yu-Hsuan_Lin2"
     },
-    "title": "輝瑞大藥廠 / 醫師,博士",
+    "title": "輝瑞大藥廠 / 產品醫師",
     "info": [
         "林煜軒博士為國內少數兼具臨床、企業界資歷之精神科醫師，已發表 28 篇學術論文於國際期刊 (H index=8)，其中值班實習醫師之生理訊號研究成果於最具權威教科書《睡眠醫學原理與實務》網站專題報導；立法院、監察院探討醫師工時之公聽會、座談會均援引林醫師團隊之研究成果。",
         "林醫師曾任職臺大精神部，近年投入網路心理學等多項跨領域研究，致力研發雲端健康服務的手機程式 (App)、編製「智慧型手機成癮量表」，獲得多國學者要求授權翻譯。近期受邀編寫國際知名網路成癮教科書中「智慧型手機成癮」章節。並積極建立產學合作平台，協助政府部門研擬相關政策"
@@ -387,7 +395,7 @@
 {
     "agenda": "日1F_曾韵",
     "name": [ "曾韵"],
-    "title": "勤業眾信聯合會計師事務所 / 副總 ",
+    "title": "勤業眾信聯合會計師事務所 / 副總經理 ",
     "info": [
         "曾韵小姐從企業風險管理議題開始投入資訊管理顧問產業，透過營運流程與資料流分析，協助客戶辨識流程間之風險，同時規劃控管流程與預警通報機制，使客戶能有效建立一整套完善的風險管理機制；在舞弊與鑑識調查服務中，協助客戶規劃內部舞弊偵測機制，或者針對懷疑之舞弊情況進行調查，並將相關證物以適當方式進行蒐證協助客戶提供後續訴訟使用。 經過十多年的管理顧問、舞弊偵防分析與數位資料鑑識分析經驗後，她開始思考，在會計師事務所下的風險管理顧問部門，是不是有更多提供客戶資料應用的機會，特別是針對會計師事務所主要面對的金融業、高科技、製造業、零售業等產業客群，透過對產業、流程的了解，將企業內部分散四處的小數據整合起來，發揮最大的數據應用價值。"
     ]
@@ -397,7 +405,7 @@
     "name": [ "李育杰"],
     "title": "國立交通大學應用數學系 / 教授",
     "info": [
-        ""
+        "李育杰教授於 2001 年於美國威斯康辛大學麥迪遜分校取得電腦科學博士後，回台於中正大學資訊工程系任教一年，轉任臺灣科技大學資訊工程系任教，2016 年二月至交通大學應用數學系擔任教授。2012 年起，於 Intel- 臺大創新研究中心擔任分項計畫主持人。李教授之研究主要在資料科學、資料探勘與機器學習。在過去十多年間，李教授在監督式學習、半監督式學習與非監督式學習 ( 線性 / 非線性維度縮減 ) 等領域中已發展了相當多的有效率的學習演算法，並將其應用於網路入侵偵測、網路異常檢測、惡意網址檢測與合法用戶識別等領域。李教授近年則利用 Online Learning 技術，處理巨量資料、物聯網安全問題與巨量資料之異常檢測需求等問題。"
     ]
 },
 {
@@ -434,7 +442,7 @@
     "name": [ "劉正山"],
     "title": "國立中山大學政治學研究所 / 副教授",
     "info": [
-        "我是個民意調查資料的使用者和收集者，也是個從事政治學方法論教學的實存主義者。我有些理念與大家一樣堅持者：資料科學是開放的，因此這個新領域不應受制數據大小或領域專長，亦不應自限於資料形態是數據還是文字。資料科學的核心價值是開放與自由，因此我們不必限於或獨尊特定工具。我 2002 正式告別 SAS；2004 確定自己不必繼續使用 SPSS 也可以完成研究；2006 至今我的教學與研究都使用 R，目前尚未覺得需要更換。我深知社管人文領域師生對R的學習心態，因此致力讓R的使用更白話，並且未曾放棄幫助更多社科人透過跨學門的語言工具擴展自己的可能性。Data-driven 與 method-driven 的研究或探索有其潛力，但我的訓練告訴我，尋求知識的途徑亦不宜定於一尊。我仍相信 theory-driven 研究有其必要性，並將在這個領域努力。個人網誌：<a target=\"_blank\" href=\"http://frankcsliu.postach.io/\">http://frankcsliu.postach.io/</a>；教學網誌：<a target=\"_blank\" href=\"http://psqdata.postach.io/\">http://psqdata.postach.io/</a>"
+        "我是個民意調查資料的使用者和收集者，也是個從事政治學方法論教學的實存主義者。我有些理念與大家一樣堅持者：資料科學是開放的，因此這個新領域不應受制數據大小或領域專長，亦不應自限於資料形態是數據還是文字。資料科學的核心價值是開放與自由，因此我們不必限於或獨尊特定工具。我 2002 正式告別 SAS；2004 確定自己不必繼續使用 SPSS 也可以完成研究；2006 至今我的教學與研究都使用 R，目前尚未覺得需要更換。我深知社管人文領域師生對R的學習心態，因此致力讓R的使用更白話，並且未曾放棄幫助更多社科人透過跨學門的語言工具擴展自己的可能性。Data-driven 與 method-driven 的研究或探索有其潛力，但我的訓練告訴我，尋求知識的途徑亦不宜定於一尊。我仍相信 theory-driven 研究有其必要性，並將在這個領域努力。<br>個人網誌：<a target=\"_blank\" href=\"http://frankcsliu.postach.io/\">http://frankcsliu.postach.io/</a><br>教學網誌：<a target=\"_blank\" href=\"http://psqdata.postach.io/\">http://psqdata.postach.io/</a>"
     ]
 },
 {
@@ -450,21 +458,21 @@
     "name": [ "林佳賢"],
     "title": "端傳媒/數據產品經理",
     "info": [
-        "端傳媒數據產品經理，畢業於臺灣大學經濟系，對數據分析和如何用視覺化的方式呈現數據感到興趣。曾製作「臺北捷運所得地圖」、小碧潭捷運站分析、2016 大選圖表等圖表新聞。"
+        "畢業於臺灣大學經濟系，對數據分析和如何用視覺化的方式呈現數據感到興趣。曾製作「臺北捷運所得地圖」、小碧潭捷運站分析、2016 大選圖表等圖表新聞。"
     ]
 },
 {
     "agenda": "六2G_李慕約",
     "name": [ "李慕約","muyueh"],
-    "title": "資料視覺化 李慕約公司 / 共同創辦人",
+    "title": "資料視覺化李慕約公司 / 共同創辦人",
     "info": [
-        "李慕約公司共同創辦人，提供資料分析、視覺化服務。分析就像炒菜。炒菜重要，買了一堆炒鍋。但炒不出菜不是因為沒鍋，因為炒菜真正難在：決定炒什麼菜、如何處理食材、炒菜技術。市場上很多人在賣各式炒鍋（資料軟體/平台/機器），我們幫客戶炒菜。","客戶包含：<br>- 國內三大電信（分析客戶訴訟、3D 建築物以及4G 基地台）<br>- 銀行（時間序列分析）<br>- 蔡英文總統（視覺化選舉政策）<br>- 世界衛生組織與中國雙年度合作計畫（分析 750 家三甲醫院）<br>另協助 Google 香港、世界銀行與新加坡政府，進行資料視覺化課程工作坊。"
+        "李慕約公司共同創辦人，提供資料分析、視覺化服務。分析就像炒菜。炒菜重要，買了一堆炒鍋。但炒不出菜不是因為沒鍋，因為炒菜真正難在：決定炒什麼菜、如何處理食材、炒菜技術。市場上很多人在賣各式炒鍋（ 資料軟體 / 平台 /機器 ），我們幫客戶炒菜。","客戶包含：<br>- 國內三大電信（ 分析客戶訴訟、3D 建築物以及 4G 基地台 ）<br>- 銀行（ 時間序列分析 ）<br>- 蔡英文總統（ 視覺化選舉政策 ）<br>- 世界衛生組織與中國雙年度合作計畫（ 分析 750 家三甲醫院 ）<br>另協助 Google 香港、世界銀行與新加坡政府，進行資料視覺化課程工作坊。"
     ]
 },
 {
     "agenda": "六2G_王向榮",
     "name": [ "王向榮"],
-    "title": "資料視覺化 李慕約公司 / 共同創辦人",
+    "title": "資料視覺化李慕約公司 / 共同創辦人",
     "info": [
         "交通大學網路策進會會長，曾任痞客邦產品開發副理，現在為李慕約公司共同創辦人。在 g0v 零時政府曾參與及發起台灣公司資料、求職小幫手、新聞小幫手、開放政治獻金等專案，喜歡爬資料收集資料並使用資料放出資料。"
     ]
@@ -499,7 +507,7 @@
     "photo": "電商及網路行銷_李慧如",
     "title": "艾肯娛樂 / 專案經理",
     "info": [
-        "具有超過 15 年以上的廣告行銷經驗，服務國際性客戶為主，經歷過傳統以及數位行銷的專業訓練，去年底轉至遊戲產業。不管哪一份工作，我的角色以企劃為主，喜歡觀察，從冰山的表面往下挖掘出關鍵點，系統化去看一件事情，找出更高的觀點，找出脈絡，進而提出策略。在大陸工作的經驗，深深覺得行銷與媒體費用是相當精算的、高技術含量的活，這也就是我為什麼對資訊科學會特別感興趣，並祝福台灣可以與國際並駕齊驅！"
+        "具有超過 15 年以上的廣告行銷經驗，服務國際性客戶為主，經歷過傳統以及數位行銷的專業訓練，去年底轉至遊戲產業。不管哪一份工作，我的角色以企劃為主，喜歡觀察，從冰山的表面往下挖掘出關鍵點，系統化去看一件事情，找出更高的觀點，找出脈絡，進而提出策略。在大陸工作的經驗，深深覺得行銷與媒體費用是相當精算的、高技術含量的活，這也就是我為什麼對資訊科學會特別感興趣，並祝福台灣可以與國際並駕齊驅。"
     ]
 },
 {
@@ -514,10 +522,10 @@
 {
     "talk": "張俊盛",
     "name": [ "張俊盛"],
-    "photo": "",
-    "title": "",
+    "photo": "張俊盛",
+    "title": "清大資工系 / 教授",
     "info": [
-        ""
+        "Ph.D., New York University<br>研究領域:自然語言處理、數位學習、機器翻譯、自動問題回答、跨語言檢索<br>教學:自然語言處理實作、機器翻譯、學術英文寫作"
     ]
 },
 {
@@ -565,7 +573,7 @@
 {
     "talk": "伍時瑩",
     "name": [ "伍時瑩"],
-    "photo": "",
+    "photo": "伍時瑩",
     "title": "凱度醫藥諮詢 / 研究副理",
     "info": [
         "時瑩畢業於臺灣大學微生物所。自 2011 年起進入醫療市場顧問產業， 進行質化與量化研究專案，從資料蒐集、分析，到最後提供市場洞見，五年來與不同藥廠合作，接觸各式各樣醫療領域，包含癌症處方藥、罕病用藥、生物製劑、醫材及營養補充品等。近幾年公司積極發展數位資料的蒐集與應用，將市場調查與數位醫療資訊結合，期待提供客戶更精準與即時的資訊，並加強資料視覺化是近期努力學習的方向。"
@@ -686,6 +694,33 @@
     "title": "行政院科技會報辦公室 / 副研究員",
     "info": [
         "- 行政院科技會報辦公室 副研究員<br>- 資策會資安所 政策研究中心 組長<br>- 亞洲 PKI 聯盟 商業案例應用工作組 主席<h4>著重領域</h4>- 政府雲端運算應用、Open Data 及 Big Data 推動政策、科技服務與創新、國際合作<br>- 曾任跨國資安計畫 International Collaboration for Advanced Security Technology (iCAST) <br>辦公室主任；連結美國加州柏克萊大學、卡內基美隆大學，與國內各大學、法人、中研院及國防部共同合作<br>- 擔任亞洲PKI聯盟 商業案例應用工作組 主席 (Business Case and Application Working Group, Asia PKI Consortium, APKIC)，定期規劃年度活動，活絡亞洲各國相關合作"
+    ]
+},
+{
+    "talk": "鄭仁傑",
+    "name": [ "鄭仁傑"],
+    "photo": "鄭仁傑",
+    "title": "工研院巨資中心 / 副主任",
+    "info": [
+        "鄭仁傑現為工研院巨資中心副主任、中華民國資訊軟體協會常務理事，研究領域為巨量資料、智慧應用、行動網路應用與圖形識別等，擔任巨量資料創新技術與智慧應用計畫協同計畫主持人，並主持智慧生活應用與行動生活系統與技術發展等多項計畫，並代表工研院參與 World Wide Web Consortium (W3C) Advisory Committee 與 World Information Technology and Services Alliance (WITSA) Advisory Council。","帶領團隊在工程技術、產業推動及 mobile/Big Data 創新研究有成，個人並獲得十大傑出工程師獎與傑出資訊人才獎。致力於行動化、智慧化技術開發與產業應用，期許資料價值能提升經濟發展、人民有感與產業創新。"
+    ]
+},
+{
+    "talk": "Eric",
+    "name": [ "Eric"],
+    "photo": "Sudo-Eric",
+    "title": "Sudo Recruit / 共同創辦人暨營運長",
+    "info": [
+        "政大資管系畢業 ,Sudo Recruit 的共同創辦人暨營運長。 曾於外商銀行擔任系統自動化工程師,也是臺灣最大實習資訊社群「WeStudent 學生實習」的共同創辦人。"
+    ]
+},
+{
+    "talk": "Heart",
+    "name": [ "Heart"],
+    "photo": "Sudo-Heart",
+    "title": "Sudo Recruit / 外星人",
+    "info": [
+        "Sudo 外星人 , 負責 Sudo 大小型活動及社群合作。"
     ]
 }
 

@@ -43,6 +43,7 @@
     table h4 {
         line-height: 1.3em;
         margin-bottom: 5px;
+        margin-top: 0px;
     }
     
     table h4.sub {
@@ -70,6 +71,13 @@
     .carousel-inner > .item > a > img {
         width: 95%;
         margin: auto;
+    }
+    img.sudo-image {
+        width: 100px;
+        padding: 0px 10px;
+    }
+    p.text-right {
+        text-align: right;
     }
     </style>
 </head>
@@ -456,10 +464,11 @@
                                             <td colspan="4">
                                                 <!-- <h4>敬請期待</h4> -->
                                                 <h4>開幕式 <!-- <a href="http://www.slideshare.net/tw_dsconf/2016-51937879" title="投影片" target="_blank"><i class="fa fa-desktop -slideshow"></i></a> --></h4>
+                                                
                                                 <span data-toggle="modal" data-target="#info02" class="text-primary speaker-info">陳昇瑋 / 年會總召、台灣資料科學協會理事長</span>
                                                 <br/>
-                                                <!-- <span class="label label-primary">致詞嘉賓</span><br/> -->
-                                                <!-- <span data-toggle="modal" data-target="#info63" class="text-primary speaker-info">鄭清水 / 中央研究院統計科學研究所所長</span> -->
+                                                <span class="label label-primary">致詞嘉賓</span><br/>
+                                                <span data-toggle="modal" data-target="#廖俊智" class="text-primary speaker-info">廖俊智 / 中央研究院院長</span>
                                             </td>
                                         </tr>
                                         <tr>
@@ -490,12 +499,12 @@
                                             </td>
                                             <td>
                                                 <h4>用數據解決都會城市的停車問題</h4>
-                                                <span data-toggle="modal" data-target="#六2C_余致緯" class="text-primary speaker-info">Ronald Yu / 停車大聲公執行長</span>
+                                                <span data-toggle="modal" data-target="#六2C_余致緯" class="text-primary speaker-info">余致緯 / 停車大聲公執行長</span>
                                                 <br/>
                                             </td>
                                             <td>
-                                                <h4>有志一同</h4><span>社群網路分析</span>
-                                                <br>
+                                                <span class="label label-danger">有志一同</span><br><h4>社群網路分析</h4>
+                                            
                                                 <span data-toggle="modal" data-target="#胡筱薇" class="text-primary speaker-info">胡筱薇 / 東吳大學巨量資料管理學院助理教授</span>
                                                 <br/>
                                                 <span data-toggle="modal" data-target="#蕭偉強" class="text-primary speaker-info">蕭偉強 / 麟數據科技數據分析總監</span>
@@ -519,7 +528,7 @@
                                                 <br/>
                                             </td>
                                             <td>
-                                                <h4>有志一同</h4><span>電商、零售及網路行銷<span><br>
+                                                <span class="label label-danger">有志一同</span><br><h4>電商、零售及網路行銷</h4>
                                                 <span data-toggle="modal" data-target="#李慧如" class="text-primary speaker-info">李慧如 / 艾肯娛樂專案經理</span>
                                                 <br>
                                                 <span data-toggle="modal" data-target="#周曼如" class="text-primary speaker-info">周曼如 / Yahoo! Taiwan Data Engineer</span>
@@ -540,7 +549,7 @@
                                             </td>
                                             <td>
                                                 <h4>大數據下的情緒分析</h4>
-                                                <span data-toggle="modal" data-target="#六1E_陳宜欣" class="text-primary speaker-info">陳宜欣 / 清華大學資工系助理教授</span>
+                                                <span data-toggle="modal" data-target="#六1E_陳宜欣" class="text-primary speaker-info">陳宜欣 / 清華大學資工系副教授</span>
                                                 <br/>
                                             </td>
                                             <td>
@@ -549,7 +558,8 @@
                                                 <br/>
                                             </td>
                                             <td rowspan="2">
-                                                <h4>產官學合作交流</h4>
+                                                <span data-toggle="modal" data-target="#cooperation" class="text-primary speaker-info"><h4>產官學合作交流</h4></span>
+                                                <span data-toggle="modal" data-target="#鄭仁傑" class="text-primary speaker-info">鄭仁傑 / 工研院巨資中心副主任</span></td>
                                             </td>
                                         </tr>
                                         <tr>
@@ -592,7 +602,10 @@
                                                 <br/>
                                             </td>
                                             <td rowspan="2">
-                                                <h4>人才媒合</h4>
+                                                <h4><span data-toggle="modal" data-target="#talented" class="text-primary speaker-info">人才媒合</span></h4>
+                                                <span data-toggle="modal" data-target="#Eric" class="text-primary speaker-info">Eric / Sudo Recruit 共同創辦人暨營運長</span><br>
+                                                <span data-toggle="modal" data-target="#Heart" class="text-primary speaker-info">Heart / Sudo Recruit 外星人</span>
+                                                
                                             </td>
                                         </tr>
                                         <tr>
@@ -662,8 +675,8 @@
                                                 <br/>
                                             </td>
                                             <td>
-                                                <h4>有志一同</h4><span>資料視覺化<span><br>
-                                                <span data-toggle="modal" data-target="#張俊盛" class="text-primary speaker-info">張俊盛 / 待補</span>
+                                                <span class="label label-danger">有志一同</span><br><h4>資料視覺化</h4>
+                                                <span data-toggle="modal" data-target="#張俊盛" class="text-primary speaker-info">張俊盛 / 清大資工系教授</span>
                                                 <br>
                                                 <span data-toggle="modal" data-target="#K-LingChen" class="text-primary speaker-info">陳冠伶 / 紫冠策略資訊策略總監</span>
                                                 <br>
@@ -673,8 +686,8 @@
                                         <tr>
                                             <td>09:45 - 10:30</td>
                                             <td>
-                                                <h4>臺北智慧城市及其資料</h4>
-                                                <span data-toggle="modal" data-target="#日0B_彭盛韶" class="text-primary speaker-info">彭盛韶 / 行政院經濟部長隨行秘書</span>
+                                                <h4>公私協力的公共服務 - 以資料面詮釋</h4>
+                                                <span data-toggle="modal" data-target="#日0B_彭盛韶" class="text-primary speaker-info">彭盛韶 / 行政院經濟部部長隨行秘書</span>
                                                 <br/>
                                             </td>
                                             <td>
@@ -684,11 +697,11 @@
                                             </td>
                                             <td>
                                                 <h4>從手機解讀行為與心理</h4>
-                                                <span data-toggle="modal" data-target="#日2B_林煜軒" class="text-primary speaker-info">林煜軒 / 輝瑞大藥廠醫師</span>
+                                                <span data-toggle="modal" data-target="#日2B_林煜軒" class="text-primary speaker-info">林煜軒 / 輝瑞大藥廠產品醫師</span>
                                                 <br/>
                                             </td>
                                             <td>
-                                                <h4>有志一同</h4><span>資訊安全<span><br>
+                                                <span class="label label-danger">有志一同</span><br><h4>資訊安全</h4>
                                                 <span data-toggle="modal" data-target="#蔡一郎" class="text-primary speaker-info">蔡一郎 / 財團法人國家實驗研究院國家高速網路與計算中心研究員</span></br>
                                                 <span data-toggle="modal" data-target="#吳明璋" class="text-primary speaker-info">吳明璋 / BELFOR 業務發展經理</span>
                                             </td>
@@ -715,7 +728,7 @@
                                                 <br/>
                                             </td>
                                             <td>
-                                                <h4>有志一同</h4><span>健康醫療<span><br>
+                                                <span class="label label-danger">有志一同</span><br><h4>健康醫療</h4>
                                                 <span data-toggle="modal" data-target="#伍時瑩" class="text-primary speaker-info">伍時瑩 / 凱度醫藥諮詢研究副理</span>
                                                 <br>
                                                 <span data-toggle="modal" data-target="#吳昱甫" class="text-primary speaker-info">吳昱甫 / 臺北榮民總醫院實習醫學生</span>
@@ -743,7 +756,7 @@
                                                 <br/>
                                             </td>
                                             <td>
-                                                <h4>有志一同</h4><span>教育大數據<span><br>
+                                                <span class="label label-danger">有志一同</span><br><h4>教育大數據</h4>
                                                 <span data-toggle="modal" data-target="#日2A_李祈均" class="text-primary speaker-info">李祈均 / 清大電機助理教授</span>
                                                 <br>
                                                 <span data-toggle="modal" data-target="#康仕仲" class="text-primary speaker-info">康仕仲 / 臺大土木系教授兼副教務長</span>
@@ -775,7 +788,7 @@
                                                 <br/>
                                             </td>
                                             <td>
-                                                <h4>有志一同</h4><span>財務金融<span><br>
+                                                <span class="label label-danger">有志一同</span><br><h4>財務金融</h4>
                                                 <span data-toggle="modal" data-target="#六2E_吳牧恩" class="text-primary speaker-info">吳牧恩 / 東吳大學數學系助理教授</span>
                                                 <br>
                                                 <span data-toggle="modal" data-target="#薛仲翔" class="text-primary speaker-info">薛仲翔 / 育生堂中藥房 Data Engineer</span>
@@ -799,7 +812,7 @@
                                                 <br/>
                                             </td>
                                             <td>
-                                                <h4>有志一同</h4><span>未來城市的交通運輸<span><br>
+                                                <span class="label label-danger">有志一同</span><br><h4>未來城市的交通運輸</h4>
                                                 <span data-toggle="modal" data-target="#日1D_闕嘉宏" class="text-primary speaker-info">闕嘉宏 / 創代科技股份有限公司執行長</span>
                                                 <br>
                                                 <span data-toggle="modal" data-target="#日0A_鄭世昐" class="text-primary speaker-info">鄭世昐 / Singapore Management University Associate Professor and Deputy Director</span>
@@ -827,7 +840,7 @@
                                                 <br/>
                                             </td>
                                             <td>
-                                                <h4>有志一同</h4><span>人工智慧/機器學習/深度學習<span><br>
+                                                <span class="label label-danger">有志一同</span><br><h4>人工智慧/機器學習/深度學習</h4>
                                                 <span data-toggle="modal" data-target="#日0E_徐宏民" class="text-primary speaker-info">徐宏民 / 國立臺灣大學資訊工程學系教授 </span>
                                                 <br>
                                                 <span data-toggle="modal" data-target="#連卿閔" class="text-primary speaker-info">連卿閔 / HTC Principal Engineer</span>
@@ -853,7 +866,7 @@
                                                 <br/>
                                             </td>
                                             <td>
-                                                <h4>有志一同</h4><span>開放資料及個資保護<span><br>
+                                                <span class="label label-danger">有志一同</span><br><h4>開放資料及個資保護</h4>
                                                 <span data-toggle="modal" data-target="#六0E_陸永祥" class="text-primary speaker-info">陸永祥 / 美國普度大學副教授</span><br>
                                                 <span data-toggle="modal" data-target="#張心玲" class="text-primary speaker-info">張心玲 / 行政院科技會報辦公室副研究員</span>
                                             </td>
@@ -868,6 +881,75 @@
                                         </tr>
                                     </tbody>
                                 </table>
+                            </div>
+                            <div class="modal fade" id="cooperation" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+                                            <div class="row"><h3 class="col-md-12">產官學合作交流</h3></div>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>資料科學領域推展的一個挑戰是，擁有資料的人，發生問題的人，與懂得使用資料的人，往往碰不到一起。可能在同一棟大樓，同一個園區，同一個城市，至少在同一個國家，但現況通常是：想做資料分析的人沒有資料，想解決問題的人沒有足夠資源來解決。為打破這個困難，我們設立產官學合作交流場次。目的在於讓來自於產官學界的資料科學愛好者們同聚一堂，由資料擁有者提出他們的問題 / 需求，與在場的資料處理 / 分析專家即時互動，達到交流及媒合的目的。</p>
+                                    
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="talented" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+                                            <div class="row"><h3 class="col-md-12">人才媒合</h3></div>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>各領域都一樣，人才是難得的。國內的企業開始投入資料科學的發展，第一個遇到的問題就是，找不到人才，人才在哪呢？</p><p>事實上，有許多優秀的初入社會的新鮮人，可能來自資工資管領域，或者經濟、會計、財管、國貿、工工、企管、統計領域，甚至醫管、風控、財工、航太、社會、政治、心理領域，對於資料科學及應用非常有興趣及潛力，同時也具有企圖心，盡全心在追求自己的夢想，尋找能夠發光的舞台。</p><p>我們希望能在人才及需求媒合問題上提供一個平台，由年會的人才媒合交流場次開始。不論是人才或是尋覓千里馬的白樂，希望可以透過此場次，有個現場交流進行媒合的機會。</p><h4 class="text-right">Organized by Sudo Recruit<img class="sudo-image" src="images/organizer/sudo_sm.svg"></h4>
+                                            <div>
+                                                <br>
+                                                <div id="myCarousel1" class="carousel slide" data-ride="carousel">
+                                                    <!-- Indicators -->
+                                                    <ol class="carousel-indicators">
+                                                        <li data-target="#myCarousel1" data-slide-to="0" class="active"></li>
+                                                        <li data-target="#myCarousel1" data-slide-to="1"></li>
+                                                        <li data-target="#myCarousel1" data-slide-to="2"></li>
+                                                        <li data-target="#myCarousel1" data-slide-to="3"></li>
+                                                    </ol>
+                                                    <!-- Wrapper for slides -->
+                                                    <div class="carousel-inner" role="listbox">
+                                                        <div class="item active">
+                                                            <img src="images/sudo/Sudo1.jpg">
+                                                        </div>
+                                                        <div class="item">
+                                                            <img src="images/sudo/Sudo2.jpg">
+                                                        </div>
+                                                        <div class="item">
+                                                            <img src="images/sudo/Sudo3.jpg">
+                                                        </div>
+                                                        <div class="item">
+                                                            <img src="images/sudo/Sudo4.jpg">
+                                                        </div>
+                                                    </div>
+                                                    <!-- Left and right controls -->
+                                                    <a class="left carousel-control" href="#myCarousel1" role="button" data-slide="prev">
+                                                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                                        <span class="sr-only">Previous</span>
+                                                    </a>
+                                                    <a class="right carousel-control" href="#myCarousel1" role="button" data-slide="next">
+                                                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                                        <span class="sr-only">Next</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="modal fade" id="dinner" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                                 <div class="modal-dialog">
@@ -889,19 +971,11 @@
                                                         <li data-target="#myCarousel" data-slide-to="3"></li>
                                                         <li data-target="#myCarousel" data-slide-to="4"></li>
                                                         <li data-target="#myCarousel" data-slide-to="5"></li>
-                                                        <li data-target="#myCarousel" data-slide-to="6"></li>
-                                                        <li data-target="#myCarousel" data-slide-to="7"></li>
                                                     </ol>
                                                     <!-- Wrapper for slides -->
                                                     <div class="carousel-inner" role="listbox">
                                                         <div class="item active">
                                                             <img src="images/dinner/21535414833_8232843232_z.jpg">
-                                                        </div>
-                                                        <div class="item">
-                                                            <img src="images/dinner/21968385830_284c7bfd19_z.jpg">
-                                                        </div>
-                                                        <div class="item">
-                                                            <img src="images/dinner/21968687788_f5b8142d1d_z.jpg">
                                                         </div>
                                                         <div class="item">
                                                             <img src="images/dinner/22156500585_92ce0a5e72_z.jpg">
