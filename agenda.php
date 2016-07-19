@@ -242,7 +242,7 @@
                                                     <img src="images/course/R.svg" class="class-icon">
                                                     <h3>R 語言資料工程<br/>及探勘實務</h3>
                                                 </a>
-                                                <span data-toggle="modal" data-target="#info06" class="text-primary speaker-info">許懷中 / 中央研究院博士後研究員</span>
+                                                <span data-toggle="modal" data-target="#info06" class="text-primary speaker-info">許懷中 / 中研院博士後研究員</span>
                                                 <br>
                                                 <span data-toggle="modal" data-target="#info07" class="text-primary speaker-info">謝宗震 / DSP 智庫驅動資料科學家</span>
                                             </td>
@@ -344,23 +344,23 @@
                                                     <img src="images/course/dl.svg" class="class-icon">
                                                     <h3>一天搞懂深度學習</h3>
                                                 </a>
-                                                <span data-toggle="modal" data-target="#info01" class="text-primary speaker-info">李宏毅 / 臺灣大學電機系助理教授</span>
+                                                <span data-toggle="modal" data-target="#info01" class="text-primary speaker-info">李宏毅 / 臺大電機系助理教授</span>
                                             </td>
                                             <td width="28%">
                                                 <a href="intro-R-step.html">
                                                     <img src="images/course/R_step.svg" class="class-icon">
                                                     <h3>手把手教你 R 語言<br/>資料分析實務</h3>
                                                 </a>
-                                                <span data-toggle="modal" data-target="#info04" class="text-primary speaker-info">張毓倫 / 中央研究院研究助理</span>
+                                                <span data-toggle="modal" data-target="#info04" class="text-primary speaker-info">張毓倫 / 中研院資科所研究助理</span>
                                                 <br/>
-                                                <span data-toggle="modal" data-target="#info05" class="text-primary speaker-info">陳柏亨 / 中央研究院研究助理</span>
+                                                <span data-toggle="modal" data-target="#info05" class="text-primary speaker-info">陳柏亨 / 中研院資科所研究助理</span>
                                             </td>
                                             <td width="29%">
                                                 <a href="intro-R.html" target="_blank">
                                                     <img src="images/course/R.svg" class="class-icon">
                                                     <h3>R 語言資料工程<br/>及探勘實務</h3>
                                                 </a>
-                                                <span data-toggle="modal" data-target="#info06" class="text-primary speaker-info">許懷中 / 中央研究院博士後研究員</span>
+                                                <span data-toggle="modal" data-target="#info06" class="text-primary speaker-info">許懷中 / 中研院資科所博士後研究員</span>
                                                 <br/>
                                                 <span data-toggle="modal" data-target="#info07" class="text-primary speaker-info">謝宗震 / DSP 智庫驅動資料科學家</span>
                                             </td>
@@ -464,17 +464,16 @@
                                             <td colspan="4">
                                                 <!-- <h4>敬請期待</h4> -->
                                                 <h4>開幕式 <!-- <a href="http://www.slideshare.net/tw_dsconf/2016-51937879" title="投影片" target="_blank"><i class="fa fa-desktop -slideshow"></i></a> --></h4>
-                                                
+                                                <span class="label label-primary">致詞嘉賓</span>
+                                                <span data-toggle="modal" data-target="#廖俊智" class="text-primary speaker-info">廖俊智 / 中央研究院院長</span><br/>
                                                 <span data-toggle="modal" data-target="#info02" class="text-primary speaker-info">陳昇瑋 / 年會總召、台灣資料科學協會理事長</span>
-                                                <br/>
-                                                <span class="label label-primary">致詞嘉賓</span><br/>
-                                                <span data-toggle="modal" data-target="#廖俊智" class="text-primary speaker-info">廖俊智 / 中央研究院院長</span>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>09:30 - 10:30</td>
                                             <td colspan="4">
                                                 <h4>主題演講 / A Culture of Big Data: Case Studies from Google</h4>
+                                                <span>主持: 陳昇瑋 / 年會總召、台灣資料科學協會理事長</span><br>
                                                 <span data-toggle="modal" data-target="#Keynote_紀懷新" class="text-primary speaker-info">紀懷新 / Google Research Scientist</span>
                                                 <br/>
                                             </td>
@@ -487,11 +486,13 @@
                                             <td>11:00 - 11:45</td>
                                             <td>
                                                 <h4>Data Science at Riot Games</h4>
+                                                <span>主持: 翟本喬 / 和沛科技總經理</span><br>
                                                 <span data-toggle="modal" data-target="#六0C_李仁杰" class="text-primary speaker-info">李仁杰 / Riot Games Head of Data Science</span>
                                                 <br/>
                                             </td>
                                             <td>
                                                 <h4>善用資料改善線上教育 : 一個十五人團隊，如何從無到有，融入資訊做決策</h4>
+                                                <span>主持: 盧鴻興 / 交大統計系教授</span><br>
                                                 <span data-toggle="modal" data-target="#六1C_呂冠緯" class="text-primary speaker-info">呂冠緯 / 財團法人誠致教育基金會執行長 CEO</span>
                                                 <br/>
                                                 <span data-toggle="modal" data-target="#六1C_蘇倚恩" class="text-primary speaker-info">蘇倚恩 / 財團法人誠致教育基金會產品負責人</span>
@@ -499,6 +500,7 @@
                                             </td>
                                             <td>
                                                 <h4>用數據解決都會城市的停車問題</h4>
+                                                <span>主持: 張嘉惠 / 中央大學資工系主任</span><br>
                                                 <span data-toggle="modal" data-target="#六2C_余致緯" class="text-primary speaker-info">余致緯 / 停車大聲公執行長</span>
                                                 <br/>
                                             </td>
@@ -514,17 +516,20 @@
                                             <td>11:45 - 12:30</td>
                                             <td>
                                                 <h4>Data as a Service: 數據的新經濟</h4>
+                                                <span>主持: 翟本喬 / 和沛科技總經理</span><br>
                                                 <span data-toggle="modal" data-target="#六0D_張宗堯" class="text-primary speaker-info">張宗堯 / Kyper Data Technologies CEO</span>
                                                 <br/>
                                             </td>
                                             <td>
                                                 <h4>隨機對照實驗在公共領域的應用</h4>
+                                                <span>主持: 盧鴻興 / 交大統計系教授</span><br>
                                                 <span data-toggle="modal" data-target="#info07" class="text-primary speaker-info">謝宗震 / DSP智庫驅動資料科學家</span>
                                                 <br/>
                                             </td>
                                             <td>
                                                 <h4>數據分析在運輸管理之應用</h4>
-                                                <span data-toggle="modal" data-target="#六2D_王晉元" class="text-primary speaker-info">王晉元 / 國立交通大學運輸與物流管理學系副教授</span>
+                                                <span>主持: 張嘉惠 / 中央大學資工系主任</span><br>
+                                                <span data-toggle="modal" data-target="#六2D_王晉元" class="text-primary speaker-info">王晉元 / 交大運輸與物流管理學系副教授</span>
                                                 <br/>
                                             </td>
                                             <td>
@@ -544,16 +549,19 @@
                                             <td>13:50 - 14:35</td>
                                             <td>
                                                 <h4>全球網路攝影機帶來的機會與挑戰</h4>
+                                                <span>主持: Peter Lin / Stevens Institute of Technology Industry Professor</span><br>
                                                 <span data-toggle="modal" data-target="#六0E_陸永祥" class="text-primary speaker-info">陸永祥 / 美國普度大學副教授</span>
                                                 <br/>
                                             </td>
                                             <td>
                                                 <h4>大數據下的情緒分析</h4>
-                                                <span data-toggle="modal" data-target="#六1E_陳宜欣" class="text-primary speaker-info">陳宜欣 / 清華大學資工系副教授</span>
+                                                <span>主持: 馮瑞麒 / 台灣數位文化協會執行長</span><br>
+                                                <span data-toggle="modal" data-target="#六1E_陳宜欣" class="text-primary speaker-info">陳宜欣 / 清大資工系副教授</span>
                                                 <br/>
                                             </td>
                                             <td>
                                                 <h4>一個賭徒的告白 2：交易策略建構與分析，為何你該賭小一點？</h4>
+                                                <span>主持: 陳珍信 / 中研院統計所研究員</span><br>
                                                 <span data-toggle="modal" data-target="#六2E_吳牧恩" class="text-primary speaker-info">吳牧恩 / 東吳大學數學系助理教授</span>
                                                 <br/>
                                             </td>
@@ -566,16 +574,19 @@
                                             <td>14:35 - 15:20</td>
                                             <td>
                                                 <h4>銀行資料這樣玩</h4>
+                                                <span>主持: Peter Lin / Stevens Institute of Technology Industry Professor</span><br>
                                                 <span data-toggle="modal" data-target="#六0F_洪采襄" class="text-primary speaker-info">洪采襄 / 玉山銀行資訊處襄理</span>
                                                 <br/>
                                             </td>
                                             <td>
                                                 <h4>從薪酬制度讀 CEO 的行為心理學</h4>
+                                                <span>主持: 馮瑞麒 / 台灣數位文化協會執行長</span><br>
                                                 <span data-toggle="modal" data-target="#六1F_顏汝芳" class="text-primary speaker-info">顏汝芳 / 臺北大學助理教授</span>
                                                 <br/>
                                             </td>
                                             <td>
                                                 <h4>數位廣告大數據</h4>
+                                                <span>主持: 陳珍信 / 中研院統計所研究員</span><br>
                                                 <span data-toggle="modal" data-target="#六2G_趙國仁" class="text-primary speaker-info">趙國仁 / 隆中網絡、東森科技資深數據科學家</span>
                                             </td>
                                         </tr>
@@ -587,16 +598,19 @@
                                             <td>15:50 - 16:35</td>
                                             <td>
                                                 <h4>How to Approach Data Science Problems from Start to End: Two Case Studies</h4>
+                                                <span>主持: 周培林 / 宇匯知識董事長</span><br>
                                                 <span data-toggle="modal" data-target="#六0G_林伯龍" class="text-primary speaker-info">林伯龍 / IBM Analytics Platform, Emerging Technologies Data Scientist</span>
                                                 <br/>
                                             </td>
                                             <td>
                                                 <h4>自己的空氣品質自己量 : 談參與式環境感測的機會與挑戰</h4>
-                                                <span data-toggle="modal" data-target="#六1G_陳伶志_尺寸不足" class="text-primary speaker-info">陳伶志 / 中央研究院資訊科學所副研究員</span>
+                                                <span>主持: 黃家煦 / 神通資訊處長</span><br>
+                                                <span data-toggle="modal" data-target="#六1G_陳伶志_尺寸不足" class="text-primary speaker-info">陳伶志 / 中研院資科所副研究員</span>
                                                 <br/>
                                             </td>
                                             <td>
                                                 <h4>如何備料：資料的抓取、清理以及串接</h4>
+                                                <span>主持: 何建明 / 中研院資科所研究員</span><br>
                                                 <span data-toggle="modal" data-target="#六2G_李慕約" class="text-primary speaker-info">李慕約 / 資料視覺化李慕約公司共同創辦人</span><br>
                                                 <span data-toggle="modal" data-target="#六2G_王向榮" class="text-primary speaker-info">王向榮 / 資料視覺化李慕約公司共同創辦人</span>
                                                 <br/>
@@ -612,16 +626,19 @@
                                             <td>16:35 - 17:20</td>
                                             <td>
                                                 <h4>心理與行為資料中的因與果</h4>
-                                                <span data-toggle="modal" data-target="#六0H_黃從仁" class="text-primary speaker-info">黃從仁 / 臺灣大學心理學系助理教授</span>
+                                                <span>主持: 周培林 / 宇匯知識董事長</span><br>
+                                                <span data-toggle="modal" data-target="#六0H_黃從仁" class="text-primary speaker-info">黃從仁 / 臺大心理系助理教授</span>
                                                 <br/>
                                             </td>
                                             <td>
                                                 <h4>資料科學與防疫應用的結合 : 以登革熱防治為例</h4>
-                                                <span data-toggle="modal" data-target="#六1H_莊坤達" class="text-primary speaker-info">莊坤達 / 成功大學助理教授</span>
+                                                <span>主持: 黃家煦 / 神通資訊處長</span><br>
+                                                <span data-toggle="modal" data-target="#六1H_莊坤達" class="text-primary speaker-info">莊坤達 / 成大助理教授</span>
                                                 <br/>
                                             </td>
                                             <td>
                                                 <h4>資料分析前的奏曲 : 談資料收集的挑戰</h4>
+                                                <span>主持: 何建明 / 中研院資科所研究員</span><br>
                                                 <span data-toggle="modal" data-target="#六2H_周世恩" class="text-primary speaker-info">周世恩 / 前 QSearch CTO</span>
                                                 <br/>
                                             </td>
@@ -661,17 +678,20 @@
                                             <td>09:00 - 09:45</td>
                                             <td>
                                                 <h4>未來城市的任意門 (Mobility on Demand for Future Cities)</h4>
+                                                <span>主持: 彭啟明 / 天氣風險管理開發總經理</span><br>
                                                 <span data-toggle="modal" data-target="#日0A_鄭世昐" class="text-primary speaker-info">鄭世昐 / Singapore Management University Associate Professor and Deputy Director</span>
                                                 <br/>
                                             </td>
                                             <td>
                                                 <h4>從電腦視覺看人工智慧 : 下一件大事</h4>
-                                                <span data-toggle="modal" data-target="#日1A_孫民" class="text-primary speaker-info">孫民 / 國立清華大學電機工程學系助理教授</span>
+                                                <span>主持: 邱泊寰 / CAMEO CTO</span><br>
+                                                <span data-toggle="modal" data-target="#日1A_孫民" class="text-primary speaker-info">孫民 / 清大電機系助理教授</span>
                                                 <br/>
                                             </td>
                                             <td>
                                                 <h4>人類行為訊號處理 : 跨學科 (醫療、教育、心理) 應用實例分享、心得、展望</h4>
-                                                <span data-toggle="modal" data-target="#日2A_李祈均" class="text-primary speaker-info">李祈均 / 國立清華大學電機工程學系助理教授</span>
+                                                <span>主持: 周立德 / 國家高速網路與計算中心副主任</span><br>
+                                                <span data-toggle="modal" data-target="#日2A_李祈均" class="text-primary speaker-info">李祈均 / 清大電機系助理教授</span>
                                                 <br/>
                                             </td>
                                             <td>
@@ -687,22 +707,25 @@
                                             <td>09:45 - 10:30</td>
                                             <td>
                                                 <h4>公私協力的公共服務 - 以資料面詮釋</h4>
+                                                <span>主持: 彭啟明 / 天氣風險管理開發總經理</span><br>
                                                 <span data-toggle="modal" data-target="#日0B_彭盛韶" class="text-primary speaker-info">彭盛韶 / 行政院經濟部部長隨行秘書</span>
                                                 <br/>
                                             </td>
                                             <td>
                                                 <h4>The Inception of Learning from Big Video Data</h4>
+                                                <span>主持: 邱泊寰 / CAMEO CTO</span><br>
                                                 <span data-toggle="modal" data-target="#日1B_張秉霖" class="text-primary speaker-info">張秉霖 / Umbo CV 技術長</span>
                                                 <br/>
                                             </td>
                                             <td>
                                                 <h4>從手機解讀行為與心理</h4>
+                                                <span>主持: 周立德 / 國家高速網路與計算中心副主任</span><br>
                                                 <span data-toggle="modal" data-target="#日2B_林煜軒" class="text-primary speaker-info">林煜軒 / 輝瑞大藥廠產品醫師</span>
                                                 <br/>
                                             </td>
                                             <td>
                                                 <span class="label label-danger">有志一同</span><br><h4>資訊安全</h4>
-                                                <span data-toggle="modal" data-target="#蔡一郎" class="text-primary speaker-info">蔡一郎 / 財團法人國家實驗研究院國家高速網路與計算中心研究員</span></br>
+                                                <span data-toggle="modal" data-target="#蔡一郎" class="text-primary speaker-info">蔡一郎 / 國家高速網路與計算中心研究員</span></br>
                                                 <span data-toggle="modal" data-target="#吳明璋" class="text-primary speaker-info">吳明璋 / BELFOR 業務發展經理</span>
                                             </td>
                                         </tr>
@@ -714,26 +737,29 @@
                                             <td>11:00 - 11:45</td>
                                             <td>
                                                 <h4>Crowd Computing for Big and Deep AI</h4>
+                                                <span>主持: 許聞廉 / 中研院資科所特聘研究員</span><br>
                                                 <span data-toggle="modal" data-target="#日0C_許永真" class="text-primary speaker-info">許永真 / NTU IoX Center Professor and Director</span>
                                                 <br/>
                                             </td>
                                             <td>
                                                 <h4>智慧型工程管考系統 : 資料分析經驗談</h4>
+                                                <span>主持: 黃維中 / 巨資中心智慧應用技術組組長</span><br>
                                                 <span data-toggle="modal" data-target="#日1C_林峰正_有點模糊" class="text-primary speaker-info">林峰正 / 逢甲大學 GIS 中心研究副教授</span>
                                                 <br/>
                                             </td>
                                             <td>
                                                 <h4>音樂資料檢索</h4>
-                                                <span data-toggle="modal" data-target="#日2C_楊奕軒" class="text-primary speaker-info">楊奕軒 / 中央研究院資創中心副研究員</span>
+                                                <span>主持: 許丕文 James / 香港科大電子及計算機工程系助理教授</span><br>
+                                                <span data-toggle="modal" data-target="#日2C_楊奕軒" class="text-primary speaker-info">楊奕軒 / 中研院資創中心副研究員</span>
                                                 <br/>
                                             </td>
                                             <td>
                                                 <span class="label label-danger">有志一同</span><br><h4>健康醫療</h4>
                                                 <span data-toggle="modal" data-target="#伍時瑩" class="text-primary speaker-info">伍時瑩 / 凱度醫藥諮詢研究副理</span>
                                                 <br>
-                                                <span data-toggle="modal" data-target="#吳昱甫" class="text-primary speaker-info">吳昱甫 / 臺北榮民總醫院實習醫學生</span>
+                                                <span data-toggle="modal" data-target="#吳昱甫" class="text-primary speaker-info">吳昱甫 / 臺北榮總實習醫學生</span>
                                                 <br>
-                                                <span data-toggle="modal" data-target="#邱銘心" class="text-primary speaker-info">邱銘心 / 國立台灣師範大學圖書資訊學研究所副教授</span>
+                                                <span data-toggle="modal" data-target="#邱銘心" class="text-primary speaker-info">邱銘心 / 師大圖書資訊所副教授</span>
                                                 <br>
                                                 <span data-toggle="modal" data-target="#許駿鵬" class="text-primary speaker-info">許駿鵬 / 緯創資通 Project Mananger</span>
                                             </td>
@@ -742,17 +768,20 @@
                                             <td>11:45 - 12:30</td>
                                             <td>
                                                 <h4>當語音處理遇上深度學習</h4>
-                                                <span data-toggle="modal" data-target="#info01" class="text-primary speaker-info">李宏毅 / 臺灣大學電機系助理教授</span>
+                                                <span>主持: 許聞廉 / 中研院資科所特聘研究員</span><br>
+                                                <span data-toggle="modal" data-target="#info01" class="text-primary speaker-info">李宏毅 / 臺大電機系助理教授</span>
                                                 <br/>
                                             </td>
                                             <td>
                                                 <h4>我在智慧交通資料解析的失敗歷程</h4>
-                                                <span data-toggle="modal" data-target="#日1D_闕嘉宏" class="text-primary speaker-info">闕嘉宏 / 創代科技股份有限公司執行長</span>
+                                                <span>主持: 黃維中 / 巨資中心智慧應用技術組組長</span><br>
+                                                <span data-toggle="modal" data-target="#日1D_闕嘉宏" class="text-primary speaker-info">闕嘉宏 / 創代科技執行長</span>
                                                 <br/>
                                             </td>
                                             <td>
                                                 <h4>It's Not What You Say: It's How You Say It!</h4>
-                                                <span data-toggle="modal" data-target="#日2D_江振宇" class="text-primary speaker-info">江振宇 / 國立臺北大學通訊工程學系助理教授</span>
+                                                <span>主持: 許丕文 James / 香港科大電子及計算機工程系助理教授</span><br>
+                                                <span data-toggle="modal" data-target="#日2D_江振宇" class="text-primary speaker-info">江振宇 / 臺北大學通訊工程系助理教授</span>
                                                 <br/>
                                             </td>
                                             <td>
@@ -763,7 +792,7 @@
                                                 <br>
                                                 <span data-toggle="modal" data-target="#張大明" class="text-primary speaker-info">張大明 / 育睿科技執行長</span>
                                                 <br>
-                                                <span data-toggle="modal" data-target="#劉明機" class="text-primary speaker-info">劉明機 / 國立成功大學博士後研究員</span>
+                                                <span data-toggle="modal" data-target="#劉明機" class="text-primary speaker-info">劉明機 / 成大博士後研究員</span>
                                             </td>
                                         </tr>
                                         <tr class="bg-orange">
@@ -774,17 +803,20 @@
                                             <td>13:50 - 14:35</td>
                                             <td>
                                                 <h4>視覺資料淘金 : 巨量社群影像深度解析</h4>
-                                                <span data-toggle="modal" data-target="#日0E_徐宏民" class="text-primary speaker-info">徐宏民 / 國立臺灣大學資訊工程學系教授 </span>
+                                                <span>主持: 余孝先 / 工研院巨量資訊科技中心主任</span><br>
+                                                <span data-toggle="modal" data-target="#日0E_徐宏民" class="text-primary speaker-info">徐宏民 / 臺大資工系教授 </span>
                                                 <br/>
                                             </td>
                                             <td>
                                                 <h4>貓都學得會的手機維修資料分析</h4>
-                                                <span data-toggle="modal" data-target="#日1E_孔令傑" class="text-primary speaker-info">孔令傑 / 國立臺灣大學資訊管理學系助理教授</span>
+                                                <span>主持: 馮明惠 / 資策會智惠網通系統所所長</span><br>
+                                                <span data-toggle="modal" data-target="#日1E_孔令傑" class="text-primary speaker-info">孔令傑 / 臺大資管系助理教授</span>
                                                 <br/>
                                             </td>
                                             <td>
                                                 <h4>The Growth of a Data Scientist</h4>
-                                                <span data-toggle="modal" data-target="#日2E_李育杰_人比例小" class="text-primary speaker-info">李育杰 / 國立交通大學應用數學系教授</span>
+                                                <span>主持: 陳君厚 / 中研院統計所研究員</span><br>
+                                                <span data-toggle="modal" data-target="#日2E_李育杰_人比例小" class="text-primary speaker-info">李育杰 / 交大應數系教授</span>
                                                 <br/>
                                             </td>
                                             <td>
@@ -798,22 +830,25 @@
                                             <td>14:35 - 15:20</td>
                                             <td>
                                                 <h4>Practical Issues in Machine Learning</h4>
-                                                <span data-toggle="modal" data-target="#日0F_林守德" class="text-primary speaker-info">林守德 / 國立臺灣大學資訊工程學系教授</span>
+                                                <span>主持: 余孝先 / 工研院巨量資訊科技中心主任</span><br>
+                                                <span data-toggle="modal" data-target="#日0F_林守德" class="text-primary speaker-info">林守德 / 臺大資工系教授</span>
                                                 <br/>
                                             </td>
                                             <td>
                                                 <h4>沒有大數據怎麼辦 ? 會計師事務所的小數據科學</h4>
+                                                <span>主持: 馮明惠 / 資策會智惠網通系統所所長</span><br>
                                                 <span data-toggle="modal" data-target="#日1F_曾韵" class="text-primary speaker-info">曾韵 / 勤業眾信聯合會計師事務所副總經理</span>
                                                 <br/>
                                             </td>
                                             <td>
                                                 <h4>Feature Engineering in Machine Learning</h4>
+                                                <span>主持: 陳君厚 / 中研院統計所研究員</span><br>
                                                 <span data-toggle="modal" data-target="#日2F_李俊良" class="text-primary speaker-info">李俊良 / Carnegie Mellon University 博士生</span>
                                                 <br/>
                                             </td>
                                             <td>
                                                 <span class="label label-danger">有志一同</span><br><h4>未來城市的交通運輸</h4>
-                                                <span data-toggle="modal" data-target="#日1D_闕嘉宏" class="text-primary speaker-info">闕嘉宏 / 創代科技股份有限公司執行長</span>
+                                                <span data-toggle="modal" data-target="#日1D_闕嘉宏" class="text-primary speaker-info">闕嘉宏 / 創代科技執行長</span>
                                                 <br>
                                                 <span data-toggle="modal" data-target="#日0A_鄭世昐" class="text-primary speaker-info">鄭世昐 / Singapore Management University Associate Professor and Deputy Director</span>
                                             </td>
@@ -826,42 +861,48 @@
                                             <td>15:50 - 16:35</td>
                                             <td>
                                                 <h4>漫談 R 的學習挑戰與 R 語言翻轉教室</h4>
+                                                <span>主持: 林禎舜 / 江蘇先鋒信息 CEO</span><br>
                                                 <span data-toggle="modal" data-target="#日0G_吳齊軒" class="text-primary speaker-info">吳齊軒 / 臺大電機所博士生</span>
                                                 <br/>
                                             </td>
                                             <td>
                                                 <h4>娛樂產業中的資料科學家 : 談資料科學於線上遊戲與職業運動之應用</h4>
-                                                <span data-toggle="modal" data-target="#info06" class="text-primary speaker-info">許懷中 / 中央研究院資訊科學研究所博士後研究員</span>
+                                                <span>主持: 詹家琛 / 台灣新蛋總經理</span><br>
+                                                <span data-toggle="modal" data-target="#info06" class="text-primary speaker-info">許懷中 / 中研院資科所博士後研究員</span>
                                                 <br/>
                                             </td>
                                             <td>
                                                 <h4>空間數據分析推動精準新農業</h4>
+                                                <span>主持: 徐偉城 / 達雲科技總經理 </span><br>
                                                 <span data-toggle="modal" data-target="#日2G_徐承原" class="text-primary speaker-info">徐承原 / 宸訊科技總經理</span>
                                                 <br/>
                                             </td>
                                             <td>
                                                 <span class="label label-danger">有志一同</span><br><h4>人工智慧/機器學習/深度學習</h4>
-                                                <span data-toggle="modal" data-target="#日0E_徐宏民" class="text-primary speaker-info">徐宏民 / 國立臺灣大學資訊工程學系教授 </span>
+                                                <span data-toggle="modal" data-target="#日0E_徐宏民" class="text-primary speaker-info">徐宏民 / 臺大資工系教授 </span>
                                                 <br>
                                                 <span data-toggle="modal" data-target="#連卿閔" class="text-primary speaker-info">連卿閔 / HTC Principal Engineer</span>
                                                 <br>
-                                                <span data-toggle="modal" data-target="#戴敏育" class="text-primary speaker-info">戴敏育 / 淡江大學資訊管理學系助理教授</span>
+                                                <span data-toggle="modal" data-target="#戴敏育" class="text-primary speaker-info">戴敏育 / 淡江大學資管系助理教授</span>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>16:35 - 17:20</td>
                                             <td>
                                                 <h4>Open Innovation as Strategic Plan</h4>
+                                                <span>主持: 林禎舜 / 江蘇先鋒信息 CEO</span><br>
                                                 <span data-toggle="modal" data-target="#日0H_高嘉良" class="text-primary speaker-info">高嘉良 / g0v.tw 共同發起人</span>
                                                 <br/>
                                             </td>
                                             <td>
                                                 <h4>世代之爭爭什麼 ? 談談如何從調查資料挖掘出豐厚的意義</h4>
-                                                <span data-toggle="modal" data-target="#日1H_劉正山" class="text-primary speaker-info">劉正山 / 國立中山大學政治學研究所副教授</span>
+                                                <span>主持: 詹家琛 / 台灣新蛋總經理</span><br>
+                                                <span data-toggle="modal" data-target="#日1H_劉正山" class="text-primary speaker-info">劉正山 / 中山大學政治所副教授</span>
                                                 <br/>
                                             </td>
                                             <td>
                                                 <h4>資料視覺化的 20 個小訣竅</h4>
+                                                <span>主持: 徐偉城 / 達雲科技總經理</span><br>
                                                 <span data-toggle="modal" data-target="#日2H_林佳賢" class="text-primary speaker-info">林佳賢 / 端傳媒數據產品經理</span>
                                                 <br/>
                                             </td>
