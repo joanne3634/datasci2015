@@ -21,7 +21,7 @@ if ( isset($reg_date) )
 {
     if( $today < $reg_date )
     {
-        $register_string = date('Y/n/j',$reg_date);
+        $register_string = date('Y/n/j',$reg_date). ' (' . $weekdays[date('w', $reg_date)] . ')';
         if( isset($reg_time) ) { $register_string .= ' ' . $reg_time; }
         $register_string .= ' 開放報名！';
     }

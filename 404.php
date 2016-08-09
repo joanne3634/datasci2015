@@ -7,7 +7,7 @@
 <!--<![endif]-->
 
 <head>
-    <title>404 not found - 2016 台灣資料科學年會</title>
+    <title>404 Not Found | 2016 台灣資料科學年會</title>
     <meta charset="utf-8">
     <!--[if IE]>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,7 +21,7 @@
     <meta content="image/png" property="og:image:type">
     <meta content="500" property="og:image:width">
     <meta content="472" property="og:image:height">
-    <meta content="404 - 2016台灣資料科學愛年會" property="og:site_name">
+    <meta content="2016 台灣資料科學愛年會" property="og:site_name">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <link rel="stylesheet" href="http://<?php echo  $_SERVER['HTTP_HOST']; ?>/css/bootstrap.min.css">
     <link rel="stylesheet" href="http://<?php echo  $_SERVER['HTTP_HOST']; ?>/css/main.css">

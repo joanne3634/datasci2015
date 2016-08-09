@@ -103,14 +103,14 @@ $speakers = array(
 <!--<![endif]-->
 
 <head>
-    <title>2016 台灣資料科學年會 — Exploring the Potentials of Real-world Data Analytics</title>
+    <title>2016 台灣資料科學年會</title>
     <meta charset="utf-8">
     <!--[if IE]>
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <![endif]-->
     <meta name="description" content="台灣資料科學年會，主意在推動資料科學在台灣的認知及普及應用，期望能看到台灣的產業甚至政府部門能夠有效利用各自手上的各類型資料，經過適當的資料分析及／或預測技術，來為產業建立更大的價值，提供使用者／大眾更好的服務及生活品質">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta content="2016 台灣資料科學年會 — Exploring the Potentials of Real-world Data Analytics" property="og:title">
+    <meta content="2016 台灣資料科學年會" property="og:title">
     <meta content="website" property="og:type">
     <meta content="台灣資料科學年會，主意在推動資料科學在台灣的認知及普及應用，期望能看到台灣的產業甚至政府部門能夠有效利用各自手上的各類型資料，經過適當的資料分析及／或預測技術，來為產業建立更大的價值，提供使用者／大眾更好的服務及生活品質。" property="og:description">
     <meta content="http://datasci.tw/" property="og:url">
@@ -118,7 +118,7 @@ $speakers = array(
     <meta content="image/png" property="og:image:type">
     <meta content="600" property="og:image:width">
     <meta content="400" property="og:image:height">
-    <meta content="2016 台灣資料科學年會 Data Science in Taiwan Conference 2016" property="og:site_name">
+    <meta content="2016 台灣資料科學年會" property="og:site_name">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
