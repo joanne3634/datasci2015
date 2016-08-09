@@ -9,24 +9,25 @@ $date_string = date('Y/n/j', $event_date) . ' (' . $weekdays[date('w', $event_da
 $location_string = '中央研究院人文社會科學館 第二會議室';
 
 $kktix_link = 'step-by-step-r';
-$kktix_date = strtotime('2015-08-15 12:00:00');
-$reg_date = strtotime('2016-08-17 12:00:00');
+$kktix_date = strtotime('2016-08-14 12:00:00');
+$reg_date = strtotime('2016-08-16 12:00:00');
 $reg_time = '中午 12:00';
-$deadline = strtotime('2016-08-25 12:00:00');
+$deadline = strtotime('2016-08-22 12:00:00');
 $price = 2480;
 // $ticket_full = true;
 
 $about = array(
 	'title' => '手把手教你 R 語言資料分析實務',
 	'content' => array(
-    '在此課程中，兩位老師將帶領對資料分析稍微有點陌生卻又充滿興趣的您，完整地學會運用 R 語言從自己寫爬蟲蒐集資料、進行探索性分析解讀資料，到真正建構解釋與預測模型，發現那些肉眼看不見隱藏在資料底下的意義。',
-    '此課程主要設計給對於 R 語言有基本認識，想要進一步熟悉實作分析的朋友們，希望在課程結束後，您能夠更熟悉 R 語言這個豐富分析工具：了解如何解析網頁、熟悉 xpath 語法，撰寫爬蟲自動化收集資訊 ( RCurl, xml )；取得資料後靈活使用熱門的套件 ( data.table, dplyr )，提高資料清洗及整合的效率；利用現成的套件進行文字探勘、文本解析 ( jiebaR, text2vec )；更重要的是最終能夠從資料中找出不分析就不會輕易發現的意義。我們透過蘋果日報慈善捐款的公開資料，帶著大家實際走一回資料分析的歷程，一步步處理、觀察、解構資料，試著看看究竟是什麼原因在不經意中影響了人們在做捐款的決策過程，以及這些結果又是如何從資料中挖掘而出的呢？')
+    '在此課程中將帶領對資料分析感到陌生卻又充滿興趣的您，完整地學會運用 R 語言從最初的蒐集資料、探索性分析解讀資料，並進行文字探勘，發現那些肉眼看不見、隱藏在資料底下的意義。',
+    '此課程主要設計給對於 R 語言有基本認識，想要進一步熟悉實作分析的朋友們，希望在課程結束後，您能夠更熟悉 R 語言這個豐富的分析工具。透過蘋果日報慈善捐款的資料集，了解如何從頭解析網頁、熟悉 xpath 語法，撰寫爬蟲自動化收集資訊；取得資料後，能夠靈活處理資料，做清洗、整合及探索；並利用現成的套件進行文字探勘、文本解析；我們將一步步實際走一回資料分析的歷程，處理、觀察、解構資料，試著看看人們在捐款的決策過程中，究竟是什麼因素產生了影響，以及這些結果又是如何從資料中挖掘而出的呢？')
 );
 
 $content = array(
 	'學員基本要求' => array(
-		'本課程針對對 R 語言有基本認識但想更進一步擁有實務經驗的夥伴們。我們將一步一步帶領著您寫出程式。但若對 R 為零經驗的朋友們，也可以先透過 R 語言基礎自學教材 <a href="http://swirlstats.com/">swirl</a> 練習基本操作，再來參加我們的分析實務教學。',
-        '因為是會手把手地教您寫出實用的程式，當然需要帶筆記型電腦來參加囉！請先將 <a href="https://cran.r-project.org/">R 3.2</a> 以上的版本安裝起來。'
+        '本課程針對對 R 語言有基本認識但想更進一步擁有實務經驗的夥伴們。若您 <a href="http://datascienceandr.org/">R 語言翻轉教室</a> 的內容都熟悉了，卻苦無實戰機會，最適合來和我們一起實作練習。',
+        '請先將 <a href="https://cran.r-project.org/">R 3.2</a> 以上的版本安裝起來，課堂上會在 RStudio 的環境下講解，建議也可先安裝好，但非必須。',
+        '因為會是手把手地實際操作，當然需要帶筆記型電腦來參加囉！'
 	),
 	'退票須知' => array(
         '本活動委由 <a href="https://kktix.com/" target="_blank">KKTIX</a> 代為處理退票退款事宜。',
@@ -37,13 +38,13 @@ $content = array(
 
 $schedule = array(
 	'9:00 - 9:30' => array('title' => '報到'),
-	'9:30 - 11:00' => array('title' => '爬蟲是什麼？好吃嗎？','subtitle' => '自製網路爬蟲蒐集資料'),
-	'11:00 - 11:20' => array('title' => '茶點時間'),
-	'11:20 - 12:50' => array('title' => '資料礦工的一天：','subtitle' => '探索式資料解析'),
-	'12:50 - 13:40' => array('title' => '午餐'),
-	'13:40 - 15:10' => array('title' => '名模生死鬥：','subtitle' => '建構解釋與預測模型'),
-	'15:10 - 15:30' => array('title' => '茶點時間'),
-	'15:30 - 17:00' => array('title' => '那些資料告訴我們 ( 與沒告訴我們 ) 的事'),
+	'9:30 - 10:30' => array('title' => '自製網路爬蟲蒐集資料'),
+	'10:30 - 10:50' => array('title' => '茶點時間'),
+	'10:50 - 12:30' => array('title' => '探索式資料解析'),
+	'12:30 - 13:20' => array('title' => '午餐'),
+	'13:20 - 15:00' => array('title' => '文字探勘與文本解析'),
+	'15:00 - 15:20' => array('title' => '茶點時間'),
+	'15:20 - 17:00' => array('title' => '建構解釋與預測模型')
 );
 
 $speakers = array(
@@ -57,28 +58,23 @@ $speakers = array(
 			'中央研究院資訊科學研究所 / 研究助理',
 		),
 		'info' => array(
-			'清大材料所畢，學生時期受的是微觀層級的訓練，後來到傳統產業當 PM，做的卻都是巨型產品；每天都比昨天更明白資源的有限，想盡辦法維持動態平衡。現栽入資料海裡載浮載沉，學著觀測人類行為的同時，也藉以修剪自己的偏見謬誤。覺得一切事物都關乎設計，希望世界的冗餘或浪費降到最低。推理迷，不喜歡沒有謎題的故事，也很愛玩拼圖；唯一不可或缺的是音樂，最近都在聽山形瑞秋的歌。',
+			'清大材料所畢，學生時期受的是微觀層級的訓練，後來到傳統產業當 PM，做的卻都是巨型產品；每天都比昨天更明白資源的有限，想盡辦法維持動態平衡。現栽入資料海裡載浮載沉，學著觀測人類行為的同時，也藉以修剪自己的偏見謬誤。覺得一切事物都關乎設計，希望世界的冗餘或浪費降到最低。推理迷，不喜歡沒有謎題的故事，也很愛玩拼圖；唯一不可或缺的是音樂，最近都在聽 Brett Dennen 的歌。',
 		),
 	),
 );
-
 $team = array(
-	'主辦單位' => array(
-		array(
-			'name' => '台灣資料科學年會',
-			'href' => 'http://datasci.tw/',
-			'image' => 'dsc2016_logo_fb.png',
-		), array(
-			'name' => '中華民國計算語言學學會',
-			'href' => 'http://www.aclclp.org.tw/index_c.php',
-			'image' => 'aclclp.png',
-		),
-		array(
-			'name' => '中央研究院資訊科學研究所',
-			'href' => 'http://www.iis.sinica.edu.tw/',
-			'image' => 'iis_s.png',
-		),
-	),
+    '主辦單位' => array(
+        array(
+            'name' => '台灣資料科學協會',
+            'href' => 'http://datasci.tw/',
+            'image' => '台灣資料科學協會.png'
+        ),
+        array(
+            'name' => '中央研究院資訊科學研究所',
+            'href' => 'http://www.iis.sinica.edu.tw/',
+            'image' => 'iis_s.png'
+        )
+    ),
 );
 ?>
 
@@ -90,14 +86,14 @@ $team = array(
 <html class="no-js">
     <!--<![endif]-->
     <head>
-        <title><?php echo $title ?> - 2016 台灣資料科學年會系列活動</title>
+        <title><?php echo $title ?> - 台灣資料科學年會系列活動</title>
         <meta charset="utf-8">
         <!--[if IE]>
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <![endif]-->
         <meta name="description" content="<?php echo $title ?>">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta content="<?php echo $title ?> - 2016 台灣資料科學年會" property="og:title">
+        <meta content="<?php echo $title ?> - 台灣資料科學年會系列活動" property="og:title">
         <meta content="website" property="og:type">
         <meta content="<?php echo $title ?>" property="og:description">
         <meta content="http://datasci.tw<?php echo $_SERVER['REQUEST_URI']; ?>" property="og:url">
@@ -105,7 +101,7 @@ $team = array(
         <meta content="image/png" property="og:image:type">
         <meta content="600" property="og:image:width">
         <meta content="400" property="og:image:height">
-        <meta content="<?php echo $title ?> - 2016 台灣資料科學年會系列活動" property="og:site_name">
+        <meta content="2016 台灣資料科學年會" property="og:site_name">
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         <link rel="stylesheet" href="../_css/bootstrap.min.css">
         <link rel="stylesheet" href="../_css/main.css">
@@ -145,7 +141,7 @@ $team = array(
                                     <i class="fa fa-map-marker"></i> 地點: 中央研究院人文社會科學館 第二會議室
                                 </h4>
                             </div>
-                            <a href="/"style="position:absolute;top:0px;left:4%;display:block;width:24%;height:50%;background-color:transparent;"></a>
+                            <a href="/event/"style="position:absolute;top:0px;left:4%;display:block;width:24%;height:50%;background-color:transparent;"></a>
                         </div>
                     </div>
                 </div>

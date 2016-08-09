@@ -9,10 +9,10 @@ $date_string = date('Y/n/j', $event_date) . ' (' . $weekdays[date('w', $event_da
 $location_string = '中央研究院人文社會科學館 國際會議廳';
 
 $kktix_link = 'engineer-statistics';
-$kktix_date = strtotime('2015-08-15 12:00:00');
-$reg_date = strtotime('2016-08-17 12:00:00');
+$kktix_date = strtotime('2016-08-14 12:00:00');
+$reg_date = strtotime('2016-08-16 12:00:00');
 $reg_time = '中午 12:00';
-$deadline = strtotime('2016-08-25 12:00:00');
+$deadline = strtotime('2016-08-22 12:00:00');
 $price = 1980;
 // $ticket_full = true;
 
@@ -44,13 +44,13 @@ $content = array(
 
 $schedule = array(
 	'9:00 - 9:30' => array('title' => '報到'),
-	'9:30 - 11:00' => array('title' => '貓都嫌簡單的資料摘要與視覺化'),
-	'11:00 - 11:20' => array('title' => '茶點時間'),
-	'11:20 - 12:50' => array('title' => '假設檢定與一點都不神秘的 p 值'),
-	'12:50 - 13:40' => array('title' => '午餐'),
-	'13:40 - 15:10' => array('title' => '讓你一秒看起來像專家的迴歸分析'),
-	'15:10 - 15:30' => array('title' => '茶點時間'),
-	'15:30 - 17:00' => array('title' => '想當然爾的綜合應用與案例研討'),
+	'9:30 - 10:30' => array('title' => '貓都嫌簡單的資料摘要與視覺化'),
+	'10:30 - 10:50' => array('title' => '茶點時間'),
+	'10:50 - 12:30' => array('title' => '假設檢定與一點都不神秘的 p 值'),
+	'12:30 - 13:20' => array('title' => '午餐'),
+	'13:20 - 15:00' => array('title' => '讓你一秒看起來像專家的迴歸分析'),
+	'15:00 - 15:20' => array('title' => '茶點時間'),
+	'15:20 - 17:00' => array('title' => '想當然爾的綜合應用與案例研討'),
 );
 
 $speakers = array(
@@ -72,19 +72,15 @@ $speakers = array(
 $team = array(
 	'主辦單位' => array(
 		array(
-			'name' => '台灣資料科學年會',
+			'name' => '台灣資料科學協會',
 			'href' => 'http://datasci.tw/',
-			'image' => 'dsc2016_logo_fb.png',
-		), array(
-			'name' => '中華民國計算語言學學會',
-			'href' => 'http://www.aclclp.org.tw/index_c.php',
-			'image' => 'aclclp.png',
+			'image' => '台灣資料科學協會.png'
 		),
 		array(
 			'name' => '中央研究院資訊科學研究所',
 			'href' => 'http://www.iis.sinica.edu.tw/',
-			'image' => 'iis_s.png',
-		),
+			'image' => 'iis_s.png'
+		)
 	),
 );
 ?>
@@ -97,14 +93,14 @@ $team = array(
 <html class="no-js">
     <!--<![endif]-->
     <head>
-        <title><?php echo $title ?> - 2016 台灣資料科學年會系列活動</title>
+        <title><?php echo $title ?> - 台灣資料科學年會系列活動</title>
         <meta charset="utf-8">
         <!--[if IE]>
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <![endif]-->
         <meta name="description" content="<?php echo $title ?>">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta content="<?php echo $title ?> - 2016 台灣資料科學年會" property="og:title">
+        <meta content="<?php echo $title ?> - 台灣資料科學年會系列活動" property="og:title">
         <meta content="website" property="og:type">
         <meta content="<?php echo $title ?>" property="og:description">
         <meta content="http://datasci.tw<?php echo $_SERVER['REQUEST_URI']; ?>" property="og:url">
@@ -112,7 +108,7 @@ $team = array(
         <meta content="image/png" property="og:image:type">
         <meta content="600" property="og:image:width">
         <meta content="400" property="og:image:height">
-        <meta content="<?php echo $title ?> - 2016 台灣資料科學年會系列活動" property="og:site_name">
+        <meta content="2016 台灣資料科學年會" property="og:site_name">
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         <link rel="stylesheet" href="../_css/bootstrap.min.css">
         <link rel="stylesheet" href="../_css/main.css">
@@ -152,7 +148,7 @@ $team = array(
                                     <i class="fa fa-map-marker"></i> 地點: 中央研究院人文社會科學館 國際會議室
                                 </h4>
                             </div>
-                            <a href="/"style="position:absolute;top:0px;left:4%;display:block;width:24%;height:50%;background-color:transparent;"></a>
+                            <a href="/event/"style="position:absolute;top:0px;left:4%;display:block;width:24%;height:50%;background-color:transparent;"></a>
                         </div>
                     </div>
                 </div>
