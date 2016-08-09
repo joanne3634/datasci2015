@@ -2,7 +2,7 @@
 $title = '手把手教你 R 語言資料分析實務';
 // $title_rwd = array(  '視訊訊號處理與深度學習應用', '<span style="font-size:0.8em;">理論、賞析與實作</span>' );
 $caption = array('手把手教你 R 語言資料分析實務');
-
+date_default_timezone_set('Asia/Taipei');
 $event_date = strtotime('2016-09-04 17:00:00');
 $weekdays = array('0' => '日', '1' => '一', '2' => '二', '3' => '三', '4' => '四', '5' => '五', '6' => '六');
 $date_string = date('Y/n/j', $event_date) . ' (' . $weekdays[date('w', $event_date)] . ')';
@@ -138,7 +138,7 @@ $team = array(
                                     </div>
                                 </h4>
                                 <h4 class="text-center">
-                                    <i class="fa fa-map-marker"></i> 地點: 中央研究院人文社會科學館 第二會議室
+                                    <i class="fa fa-map-marker"></i> 地點: <?php echo $location_string;?>
                                 </h4>
                             </div>
                             <a href="/event/"style="position:absolute;top:0px;left:4%;display:block;width:24%;height:50%;background-color:transparent;"></a>
