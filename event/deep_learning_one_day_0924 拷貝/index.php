@@ -25,7 +25,9 @@ $about = array(
 
 $content = array(
     '學員基本要求' => array(
-        '本課程著重深度學習的理論與實作，有機器學習相關背景知識更能進入狀況，但沒有也沒關係。不需自備任何軟硬體與前置作業。',
+        '',
+        '',
+        ''
     ),
     '退票須知' => array(
         '本活動委由 <a href="https://kktix.com/" target="_blank">KKTIX</a> 代為處理退票退款事宜。',
@@ -57,7 +59,6 @@ $speakers = array(
         ),
         'info' => array(
             '現為臺大電機系助理教授，他的研究方向與興趣是以機器學習技術讓機器辨識並理解語音訊號的內容。以深度學習技術為基石，他正致力於語音數位內容搜尋、語音數位內容之自動化組織以及從語音數位內容擷取關鍵資訊等前瞻性研究，這些技術有很多的應用，例如：人機互動、問答系統、智慧型線上教學平台等等。他曾在臺大開設和深度學習相關的課程「機器學習及其深層與結構化」。',
-            '<a href="http://speech.ee.ntu.edu.tw/~tlkagk/index.html" target="_blank"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>&nbsp;個人網頁</a>',
         ),
     ),
 );
