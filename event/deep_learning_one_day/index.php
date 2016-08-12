@@ -2,6 +2,7 @@
 $title = '一天搞懂深度學習';
 // $title_rwd = array(  '視訊訊號處理與深度學習應用', '<span style="font-size:0.8em;">理論、賞析與實作</span>' );
 $caption = array('一天搞懂深度學習');
+date_default_timezone_set('Asia/Taipei');
 
 $event_date = strtotime('2016-05-21 17:00:00');
 $weekdays = array('0' => '日', '1' => '一', '2' => '二', '3' => '三', '4' => '四', '5' => '五', '6' => '六');
