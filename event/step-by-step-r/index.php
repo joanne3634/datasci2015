@@ -8,8 +8,8 @@ $weekdays = array('0' => '日', '1' => '一', '2' => '二', '3' => '三', '4' =>
 $date_string = date('Y/n/j', $event_date) . ' (' . $weekdays[date('w', $event_date)] . ')';
 $location_string = '中央研究院人文社會科學館 第二會議室';
 
-$kktix_link = 'step-by-step-r';
-$kktix_date = strtotime('2016-08-14 12:00:00');
+$kktix_link = 'series-events0904';
+$kktix_date = strtotime('2016-08-15 12:00:00');
 $reg_date = strtotime('2016-08-16 12:00:00');
 $reg_time = '中午 12:00';
 $deadline = strtotime('2016-08-22 12:00:00');
@@ -105,7 +105,7 @@ $team = array(
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         <link rel="stylesheet" href="../_css/bootstrap.min.css">
         <link rel="stylesheet" href="../_css/main.css">
-        <link rel="stylesheet" href="../_css/deep_learning_one_day.css">
+        <link rel="stylesheet" href="../_css/engineer.css">
         <link rel="stylesheet" href="../_css/animations.css">
         <link rel="stylesheet" href="../_css/fonts.css">
         <script src="../_js/vendor/modernizr-2.6.2.min.js"></script>
@@ -121,31 +121,7 @@ $team = array(
         <![endif]-->
         <div id="box_wrapper">
             <?php include '../_template/menu.php';?>
-            <section id="mainslider">
-                <div class="container" style="padding-top:80px;" ><!-- style="padding-top:80px;" -->
-                    <div class="row">
-                        <div class="col-md-12">
-                            <img src="../_images/dsc2016-series_main.svg" class="img-responsive logoInline">
-                            <div class="mainTitle">
-                                <h2 class="mt"><?php echo $title ?></h2>
-                            </div>
-                            <div class="maindate">
-                                <h4 class="text-center">
-                                    <i class="fa fa-calendar"></i> 日期: <?php echo $date_string; ?> &nbsp; &nbsp;
-                                    <div class="fb-share-button" style="margin-top:15px;"
-                                        data-href="http://datasci.tw<?php echo $_SERVER['REQUEST_URI']; ?>"
-                                        data-layout="button_count">
-                                    </div>
-                                </h4>
-                                <h4 class="text-center">
-                                    <i class="fa fa-map-marker"></i> 地點: <?php echo $location_string;?>
-                                </h4>
-                            </div>
-                            <a href="/event/"style="position:absolute;top:0px;left:4%;display:block;width:24%;height:50%;background-color:transparent;"></a>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <section id="mainslider"><?php include '../_template/slide.php';?></section>
             <section id="about_us"><?php include '../_template/about.php';?></section>
             <section id="schedule"><div  class="pic_section" ><?php include '../_template/schedule.php';?></div></section>
             <section id="speaker"><?php include '../_template/speaker.php';?></section>

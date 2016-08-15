@@ -5,10 +5,6 @@
     max-width: none;
 }
 
-.mainTitle{
-    top: 54%; 
-}
-
 @media (max-width: 953px) {
     #header .navbar-brand {
         padding-top: 15px;
@@ -19,7 +15,7 @@
 
 @media (min-width: 768px) and ( max-width: 800px) {
     #header .navbar-brand {
-        font-size: 17px;
+        font-size: 18px;
     }
 }
 
@@ -48,7 +44,7 @@
 @media (max-width: 490px) {
     .mainTitle {
         background: #8dd2c8;
-        top: 43%;
+        top: 58%;
         font-size: 1.5em;
         width: 89%;
         left: 5.5%;
@@ -81,25 +77,24 @@
 
 @media (max-width: 375px) {
     .mainTitle {
-        top: 43%;
+        top: 55%;
         font-size: 1.4em;
     }
     #header .navbar-brand {
-        font-size: 17px;
+        font-size: 18px;
         padding: 15px 0px 15px 0px;
     }
 }
 
 @media (max-width: 320px) {
     .mainTitle {
-        top: 38%;
+        top: 50%;
         font-size: 1.3em;
     }
     #header .navbar-brand {
-        font-size: 15px;
+        font-size: 16px;
     }
 }
-
 
 #header {
     position: fixed;
@@ -115,20 +110,6 @@
     margin-top: 0px !important;
     padding-top: 0px !important;
 }
-#about_us p, #about_us ul{
-    line-height: 28px;
-}
-ul.about_ul {
-    list-style: none;
-}
-
-ul.about_ul li:before {
-    content: "\2022";
-    font-size: 28px;
-    line-height: 1;
-    position: relative;
-    top: 3px;
-    padding-right: 10px;
-    margin-left: -20px;
-    color: #ef8322;
+ul.list2{
+    font-size: 21px;
 }
