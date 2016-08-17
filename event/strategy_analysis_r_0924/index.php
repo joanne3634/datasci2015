@@ -64,7 +64,7 @@ $schedule = array(
 $speakers = array(
     'helen' => array(
         'detail' => true,
-        'image' => 'mnwu.png',
+        'image' => 'mewu.png',
         'name' => '吳牧恩',
         'suffix' => '',
         'engn' => '( Mu-en Wu )',
@@ -77,7 +77,7 @@ $speakers = array(
     ),    
     'blabla' => array(
         'detail' => true,
-        'image' => '',
+        'image' => 'cwlin.png',
         'name' => '林佳緯',
         'suffix' => '',
         'engn' => '( Chia-wei Lin )',
