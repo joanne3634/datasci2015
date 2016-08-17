@@ -8,11 +8,11 @@ $weekdays = array('0' => '日', '1' => '一', '2' => '二', '3' => '三', '4' =>
 $date_string = date('Y/n/j', $event_date) . ' (' . $weekdays[date('w', $event_date)] . ')';
 $location_string = '中央研究院人文社會科學館 第二會議室';
 
-$kktix_link = 'deep_learning_one_day_0924';
-$kktix_date = strtotime('2016-08-16 12:00:00');
-$reg_date = strtotime('2016-08-16 12:00:00');
+$kktix_link = 'strategy_analysis_r_0924';
+$kktix_date = strtotime('2016-08-30 16:00:00');
+$reg_date = strtotime('2016-08-31 12:00:00');
 $reg_time = '中午 12:00';
-$deadline = strtotime('2016-08-22 12:00:00');
+$deadline = strtotime('2016-09-13 12:00:00');
 $price = 2480;
 // $ticket_full = true;
 
