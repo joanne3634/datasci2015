@@ -9,10 +9,10 @@ $date_string = date('Y/n/j', $event_date) . ' (' . $weekdays[date('w', $event_da
 $location_string = '中央研究院人文社會科學館 國際會議廳';
 
 $kktix_link = 'deep_learning_one_day_0924';
-$kktix_date = strtotime('2016-08-16 12:00:00');
-$reg_date = strtotime('2016-08-16 12:00:00');
+$kktix_date = strtotime('2016-08-30 16:00:00');
+$reg_date = strtotime('2016-08-31 12:00:00');
 $reg_time = '中午 12:00';
-$deadline = strtotime('2016-08-22 12:00:00');
+$deadline = strtotime('2016-09-13 12:00:00');
 $price = 1980;
 // $ticket_full = true;
 
