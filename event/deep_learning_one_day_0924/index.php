@@ -51,7 +51,7 @@ $speakers = array(
         'image' => 'hylee.png',
         'name' => '李宏毅',
         'suffix' => '',
-        'engn' => '( Hung-yi Lee )',
+        'engn' => '(Hung-yi Lee)',
         'title' => array(
             '臺灣大學電機系 / 助理教授',
         ),
