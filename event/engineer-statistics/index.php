@@ -13,7 +13,7 @@ $kktix_link = 'series-events0904';
 $kktix_date = strtotime('2016-08-15 12:00:00');
 $reg_date = strtotime('2016-08-16 12:00:00');
 $reg_time = '中午 12:00';
-$deadline = strtotime('2016-08-22 12:00:00');
+$deadline = strtotime('2016-08-23 12:00:00');
 $price = 1980;
 // $ticket_full = true;
 
