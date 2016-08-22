@@ -50,6 +50,20 @@ $content = array(
     )
 );
 
+$content = array(
+    '學員基本要求' => array(
+        '本課程建議學員於課前自行安裝好 R 語言 (3.2 以上版本)，課程會在 RStudio 的環境下講解。(建議也可先自行安裝 RStudio)',
+        '本課程雖為 R 語言的策略回測實作課程，但課程設計上儘量以簡單為訴求，對 R 語言不熟悉的學員亦歡迎報名。程式碼原則上會於上課中直接 share 給大家，課堂上只需聽講或修改簡單參數、條件指令即可進行回測。',
+        '當然，亦歡迎對 R 語言有基本認識但想更進一步擁有實務經驗的學員。',
+        '最後記得，請自行攜帶您的筆記型電腦參加！'
+    ),
+    '退票須知' => array(
+        '本活動委由 <a href="https://kktix.com/" target="_blank">KKTIX</a> 代為處理退票退款事宜。',
+        '退票時將酌收 10% 手續費、且活動前十天內（不含活動日）不予退票。',
+        '詳情請見 <a href="http://support.kktix.com/knowledgebase/articles/356418" target="_blank">KKTIX 代理退換票辦法</a>。'
+    )
+);
+
 $schedule = array(
     '9:00 - 9:30' => array('title' => '報到'),
     '9:30 - 10:30' => array('title' => '第一次使用 R 語言做回測就上手'),
