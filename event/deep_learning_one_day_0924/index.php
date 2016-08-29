@@ -8,7 +8,7 @@ $weekdays = array('0' => '日', '1' => '一', '2' => '二', '3' => '三', '4' =>
 $date_string = date('Y/n/j', $event_date) . ' (' . $weekdays[date('w', $event_date)] . ')';
 $location_string = '中央研究院人文社會科學館 國際會議廳';
 
-$kktix_link = 'deep_learning_one_day_0924';
+$kktix_link = 'series-events0924';
 $kktix_date = strtotime('2016-08-30 16:00:00');
 $reg_date = strtotime('2016-08-31 12:00:00');
 $reg_time = '中午 12:00';
