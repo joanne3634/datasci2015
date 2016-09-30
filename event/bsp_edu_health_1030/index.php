@@ -7,7 +7,7 @@ $weekdays = array('0' => '日', '1' => '一', '2' => '二', '3' => '三', '4' =>
 $date_string = date('Y/n/j', $event_date) . ' (' . $weekdays[date('w', $event_date)] . ')';
 $location_string = '中央研究院人文社會科學館 國際會議廳';
 
-$kktix_link = '';
+$kktix_link = 'series-events-1030';
 $kktix_date = strtotime('2016-10-03 16:00:00');
 $reg_date = strtotime('2016-10-04 12:00:00');
 $reg_time = '中午 12:00';
