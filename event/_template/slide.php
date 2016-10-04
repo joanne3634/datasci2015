@@ -25,14 +25,14 @@
                     echo '<div class="ticket-container">';
                     if ( $today > $event_date )
                     {
-                        echo '<h4><i class="fa fa-check"></i>活動已結束，請期待下一場系列活動！</h4>';
+                        echo '<h4><i class="fa fa-check"></i> 活動已結束，請期待下一場系列活動！</h4>';
                     }
                     else if( $reg_end )
                     {
-                        echo '<h4><i class="fa fa-check"></i>報名已經截止，感謝大家的支持！</h4>';
+                        echo '<h4><i class="fa fa-check"></i> 報名已經截止，感謝大家的支持！</h4>';
                     }else if( isset($ticket_full) ) 
                     {
-                        echo '<h4><i class="fa fa-check"></i>報名名額已額滿，感謝大家的支持！</h4>';
+                        echo '<h4><i class="fa fa-check"></i> 報名名額已額滿，感謝大家的支持！</h4>';
                     }
                     else
                     {
@@ -48,7 +48,11 @@
                     }
                     echo '</div>';
                 }else{
-                    echo '<div class="ticket-container"><h4><i class="fa fa-check"></i>報名尚未開放</h4></div>';
+                    
+                    $register_string = date('Y/n/j',$reg_date). ' (' . $weekdays[date('w', $reg_date)] . ')';
+                    if( isset($reg_time) ) { $register_string .= ' ' . $reg_time; }
+                    $register_string .= ' 開放報名！';
+                    echo '<div class="ticket-container"><h4><i class="fa fa-check"></i> '. $register_string .'</h4></div>';
                 }
                 ?>
             </div>
