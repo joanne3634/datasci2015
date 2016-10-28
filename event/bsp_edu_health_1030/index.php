@@ -1,7 +1,6 @@
 <?php
 $title = '人類行為大數據分析：資料科學如何應用在教育及醫療領域';
-// $title_rwd = array(  '視訊訊號處理與深度學習應用', '<span style="font-size:0.8em;">理論、賞析與實作</span>' );
-$caption = array('人類行為大數據分析：資料科學如何應用在教育及醫療領域');
+$caption = array('人類行為大數據分析', '<span style="font-size:0.8em;">資料科學如何應用在教育及醫療領域</span>' );
 date_default_timezone_set('Asia/Taipei');
 $event_date = strtotime('2016-10-30 17:00:00');
 $weekdays = array('0' => '日', '1' => '一', '2' => '二', '3' => '三', '4' => '四', '5' => '五', '6' => '六');
@@ -132,7 +131,7 @@ $team = array(
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         <link rel="stylesheet" href="../_css/bootstrap.min.css">
         <link rel="stylesheet" href="../_css/main.css">
-        <link rel="stylesheet" href="../_css/r_0924.css">
+        <link rel="stylesheet" href="../_css/bsp.css">
         <link rel="stylesheet" href="../_css/animations.css">
         <link rel="stylesheet" href="../_css/fonts.css">
         <script src="../_js/vendor/modernizr-2.6.2.min.js"></script>

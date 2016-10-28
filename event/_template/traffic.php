@@ -42,7 +42,7 @@
                         <h3>中央研究院位置圖</h3>
                         <hr/>
                         <!--<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5112.053115422075!2d121.61416009472443!3d25.041965742688326!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x53ceacf197917004!2z5Lq65paH56S-5pyD56eR5a246IGv5ZCI5ZyW5pu46aSoL-S4reWkrueglOeptumZog!5e0!3m2!1szh-TW!2stw!4v1447041792966" width="600" height="450" frameborder="0" style="border:0"></iframe>-->
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7229.468323480026!2d121.614417005612!3d25.04309418260665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ab4501e8c151%3A0x2f2b63fe4251d55c!2z5Lit5aSu56CU56m26Zmi!5e0!3m2!1szh-TW!2stw!4v1431276471799" width="600" height="550" frameborder="0" style="border:0"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d903.7004098652079!2d121.6112542616693!3d25.040804894690684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ab46b2f9a81f%3A0x74112a66e7796ca!2zMTE16Ie65YyX5biC5Y2X5riv5Y2A56CU56m26Zmi6Lev5LqM5q615Lit5aSu56CU56m26Zmi5Lq65paH56S-5pyD56eR5a246aSo!5e0!3m2!1szh-TW!2stw!4v1475470663411" width="600" height="550" frameborder="0" style="border:0"></iframe>
                     </div>
                     <div class="col-md-6 text-center">
                         <h3>人文社會科學館位置圖</h3>
