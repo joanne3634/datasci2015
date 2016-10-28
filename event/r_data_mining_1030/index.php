@@ -93,7 +93,7 @@ $team = array(
     '主辦單位' => array(
         array(
             'name' => '台灣資料科學協會',
-            'href' => 'http://datasci.tw/',
+            'href' => 'http://foundation.datasci.tw/',
             'image' => '台灣資料科學協會.png'
         ),
         array(
@@ -161,7 +161,7 @@ $team = array(
                     <div class="row">
                         <div class="col-sm-12 text-center">
                             <p> <a href="https://www.facebook.com/twdsconf" target="_blank" title="" data-toggle="tooltip" data-original-title="Facebook">find us on facebook</a></p>
-                            <p>&copy; Copyright <a href="/">2016 - 台灣資料科學年會</a> </p>
+                            <p>&copy; Copyright 2016 - <a href="http://foundation.datasci.tw/" target="_blank">台灣資料科學協會</a> </p>
                         </div>
                     </div>
                 </div>
