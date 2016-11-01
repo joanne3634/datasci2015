@@ -1,7 +1,7 @@
 <?php
-$title = 'DSC × TAAI 2016 [人工智慧與機器學習在推薦系統上的應用]';
+$title = 'DSC × TAAI 2016 人工智慧與機器學習在推薦系統上的應用';
 // $title_rwd = array(  '視訊訊號處理與深度學習應用', '<span style="font-size:0.8em;">理論、賞析與實作</span>' );
-$caption = array('DSC × TAAI 2016 [人工智慧與機器學習在推薦系統上的應用]');
+$caption = array('DSC × TAAI 2016 人工智慧與機器學習在推薦系統上的應用');
 date_default_timezone_set('Asia/Taipei');
 $event_date = strtotime('2016-11-25 17:00:00');
 $weekdays = array('0' => '日', '1' => '一', '2' => '二', '3' => '三', '4' => '四', '5' => '五', '6' => '六');
@@ -10,7 +10,7 @@ $location_string = '國立清華大學旺宏館 學習資源中心';
 
 $kktix_link = 'series-events-1125-1126';
 $kktix_date = strtotime('2016-10-31 16:00:00');
-$reg_date = strtotime('2016-11-1 12:00:00');
+$reg_date = strtotime('2016-11-2 12:00:00');
 $reg_time = '中午 12:00';
 $deadline = strtotime('2016-11-9 12:00:00');
 $price = 1980;
@@ -38,10 +38,10 @@ $about = array(
 );
 
 $content = array(
-    'DSC × TAAI 2016 特別福利' => array(
-        '報名此場次的與會者可以參加當天早上 TAAI 2016 的 Keynote —— 廖弘源老師主講的 It is all about AI。',
-        'TAAI 為全台灣一年一度的人工智慧學者聚集的場合，與會者們等同於擁有與所有 AI 學者交流的機會！',
-        '當天 TAAI 2016 會安排 AI 研究成果的海報展示，可讓與會者們進一步深入了解 AI 學者的研究成果。',
+    'DSC × <a href="http://www.cs.nthu.edu.tw/~taai2016/" target="_blank">TAAI 2016</a> 特別福利' => array(
+        '報名此場次的與會者可以參加當天早上 <a href="http://www.cs.nthu.edu.tw/~taai2016/" target="_blank">TAAI 2016</a> 的 <a href="http://www.cs.nthu.edu.tw/~taai2016/keynote.html" target="_blank">Keynote Speech</a> —— 廖弘源老師主講的 It is all about AI。',
+        '<a href="http://www.cs.nthu.edu.tw/~taai2016/" target="_blank">TAAI</a> 為全台灣一年一度的人工智慧學者聚集的場合，與會者們等同於擁有與所有 AI 學者交流的機會！',
+        '當天 <a href="http://www.cs.nthu.edu.tw/~taai2016/" target="_blank">TAAI 2016</a> 會安排 AI 研究成果的海報展示，可讓與會者們進一步深入了解 AI 學者的研究成果。',
     ),
     '學員基本要求' => array(
         '本課程無需人工智慧或機器學習相關背景。',
@@ -55,7 +55,7 @@ $content = array(
 
 $schedule = array(
     '8:00 - 8:30' => array('title' => '報到'),
-    '8:30 - 9:00' => array('title' => 'TAAI 開幕式'),
+    '8:30 - 9:00' => array('title' => '<a href="http://www.cs.nthu.edu.tw/~taai2016/" target="_blank">TAAI</a> 開幕式'),
     '9:00 - 9:50' => array('title' => 'Keynote Speech I: It is all about AI'),
     '9:50 - 10:10' => array('title' => '茶點時間'),
     '10:10 - 12:10' => array('title' => '綜觀人工智慧'),

@@ -1,7 +1,7 @@
 <?php
-$title = 'DSC × TAAI 2016 [一天搞懂深度學習]';
+$title = 'DSC × TAAI 2016 一天搞懂深度學習';
 // $title_rwd = array(  '視訊訊號處理與深度學習應用', '<span style="font-size:0.8em;">理論、賞析與實作</span>' );
-$caption = array('DSC × TAAI 2016 [一天搞懂深度學習]');
+$caption = array('DSC × TAAI 2016 一天搞懂深度學習');
 date_default_timezone_set('Asia/Taipei');
 $event_date = strtotime('2016-11-26 17:00:00');
 $weekdays = array('0' => '日', '1' => '一', '2' => '二', '3' => '三', '4' => '四', '5' => '五', '6' => '六');
@@ -10,7 +10,7 @@ $location_string = '國立清華大學旺宏館 學習資源中心';
 
 $kktix_link = 'series-events-1125-1126';
 $kktix_date = strtotime('2016-10-31 16:00:00');
-$reg_date = strtotime('2016-11-1 12:00:00');
+$reg_date = strtotime('2016-11-2 12:00:00');
 $reg_time = '中午 12:00';
 $deadline = strtotime('2016-11-9 12:00:00');
 $price = 1980;
@@ -26,7 +26,6 @@ $about = array(
         <li>
             什麼是深度學習<br>
             深度學習的技術其實就是三個步驟：設定好類神經網路架構、訂出學習目標、然後就開始學習了，這堂課會簡介如何使用深度學習的工具 Keras。雖然要寫一個深度學習的程式只是舉手之勞，但要得到好的成果可不簡單，訓練過程中的一些小技巧才是成敗的關鍵，本課程中還會分享深度學習的實作技巧及實戰經驗。
-
         </li><br>
         <li>
             深度學習的各種模型<br>
@@ -41,9 +40,9 @@ $about = array(
 
 $content = array(
     'DSC × TAAI 2016 特別福利' => array(
-        '報名此場次的與會者可以參加當天早上 TAAI 2016 的 Keynote Speech。',
-        'TAAI 為全台灣一年一度的人工智慧學者聚集的場合，與會者們等同於擁有與所有 AI 學者交流的機會！',
-        '當天 TAAI 2016 會安排 AI 研究成果的海報展示，可讓與會者們進一步深入了解 AI 學者的研究成果。',
+        '報名此場次的與會者可以參加當天早上 <a href="http://www.cs.nthu.edu.tw/~taai2016/" target="_blank">TAAI 2016</a> 的 <a href="http://www.cs.nthu.edu.tw/~taai2016/keynote.html" target="_blank">Keynote Speech</a> —— Intercultural Collaboration as a Multi-Agent System。',
+        '<a href="http://www.cs.nthu.edu.tw/~taai2016/" target="_blank">TAAI</a> 為全台灣一年一度的人工智慧學者聚集的場合，與會者們等同於擁有與所有 AI 學者交流的機會！',
+        '當天 <a href="http://www.cs.nthu.edu.tw/~taai2016/" target="_blank">TAAI 2016</a> 會安排 AI 研究成果的海報展示，可讓與會者們進一步深入了解 AI 學者的研究成果。',
     ),
     '學員基本要求' => array(
         '本課程著重深度學習的理論與實作，有機器學習相關背景知識更能進入狀況，但沒有也沒關係。不需自備任何軟硬體與前置作業。',
@@ -57,7 +56,8 @@ $content = array(
 
 $schedule = array(
     '8:00 - 9:00' => array('title' => '報到'),
-    '9:00 - 9:50' => array('title' => 'Keynote Speech II'),
+    '9:00 - 9:50' => array('title' => 'Keynote Speech II: <br>
+        Intercultural Collaboration as a Multi-Agent System'),
     '9:50 - 10:10' => array('title' => '茶點時間'),
     '10:10 - 12:10' => array('title' => '什麼是深度學習'),
     '12:10 - 13:00' => array('title' => '午餐'),
