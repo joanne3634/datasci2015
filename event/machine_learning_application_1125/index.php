@@ -1,14 +1,21 @@
 <?php
-$title = 'DSC × TAAI 2016 人工智慧與機器學習在推薦系統上的應用';
 
+
+// $title = 'DSC × TAAI 2016 人工智慧與機器學習在推薦系統上的應用';
+$title = '人工智慧與機器學習在推薦系統上的應用';
 $main_title = '人工智慧與機器學習在推薦系統上的應用';
 $title_rwd = array('<span style="font-size:0.6em;">DSC × TAAI 2016</span>','<span style="font-size:0.8em;">人工智慧與機器學習</span>','<span style="font-size:0.8em;">在推薦系統上的應用</span>');
 $caption = array('DSC × TAAI 2016','<span class="caption-span">人工智慧與機器學習在推薦系統上的應用</span>');
+
+// $title_rwd = array(  '視訊訊號處理與深度學習應用', '<span style="font-size:0.8em;">理論、賞析與實作</span>' );
+// $caption = array('人工智慧與機器學習在推薦系統上的應用');
+
+
 date_default_timezone_set('Asia/Taipei');
 $event_date = strtotime('2016-11-25 17:00:00');
 $weekdays = array('0' => '日', '1' => '一', '2' => '二', '3' => '三', '4' => '四', '5' => '五', '6' => '六');
 $date_string = date('Y/n/j', $event_date) . ' (' . $weekdays[date('w', $event_date)] . ')';
-$location_string = '國立清華大學旺宏館 學習資源中心';
+$location_string = '國立清華大學旺宏館 國際會議廳';
 
 $kktix_link = 'series-events-1125-1126';
 $kktix_date = strtotime('2016-10-31 16:00:00');
