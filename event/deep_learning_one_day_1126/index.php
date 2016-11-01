@@ -147,7 +147,7 @@ $team = array(
             <section id="speaker"><?php include '../_template/speaker.php';?></section>
             <section id="content" ><div class="grey_section" ><?php include '../_template/content.php';?></div></section>
             <section id="ticket"><?php include '../_template/ticket.php';?></section>
-            <section id="traffic" ><div class="grey_section" ><?php include '../_template/traffic.php';?></div></section>
+            <section id="traffic" ><div class="grey_section" ><?php include '../_template/traffic_taai.php';?></div></section>
             <section id="team"><?php include '../_template/team.php';?></section>
             <section id="copyright" class="color_section">
                 <div class="container">

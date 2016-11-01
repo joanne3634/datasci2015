@@ -1,7 +1,9 @@
 <?php
 $title = 'DSC × TAAI 2016 人工智慧與機器學習在推薦系統上的應用';
-// $title_rwd = array(  '視訊訊號處理與深度學習應用', '<span style="font-size:0.8em;">理論、賞析與實作</span>' );
-$caption = array('DSC × TAAI 2016 人工智慧與機器學習在推薦系統上的應用');
+
+$main_title = '人工智慧與機器學習在推薦系統上的應用';
+$title_rwd = array('<span style="font-size:0.6em;">DSC × TAAI 2016</span>','<span style="font-size:0.8em;">人工智慧與機器學習</span>','<span style="font-size:0.8em;">在推薦系統上的應用</span>');
+$caption = array('DSC × TAAI 2016','<span class="caption-span">人工智慧與機器學習在推薦系統上的應用</span>');
 date_default_timezone_set('Asia/Taipei');
 $event_date = strtotime('2016-11-25 17:00:00');
 $weekdays = array('0' => '日', '1' => '一', '2' => '二', '3' => '三', '4' => '四', '5' => '五', '6' => '六');
@@ -123,7 +125,7 @@ $team = array(
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         <link rel="stylesheet" href="../_css/bootstrap.min.css">
         <link rel="stylesheet" href="../_css/main.css">
-        <link rel="stylesheet" href="../_css/deep_learning_one_day_0924.css">
+        <link rel="stylesheet" href="../_css/ml_1125.css">
         <link rel="stylesheet" href="../_css/animations.css">
         <link rel="stylesheet" href="../_css/fonts.css">
         <script src="../_js/vendor/modernizr-2.6.2.min.js"></script>
@@ -139,13 +141,80 @@ $team = array(
         <![endif]-->
         <div id="box_wrapper">
             <?php include '../_template/menu.php';?>
-            <section id="mainslider"><?php include '../_template/slide.php';?></section>
+            <section id="mainslider"><div class="container" style="padding-top:80px;" ><!-- style="padding-top:80px;" -->
+    <div class="row">
+        <div class="col-md-12">
+            <img src="../_images/dsc2016-series_main.svg" class="img-responsive logoInline">
+            <div class="mainTitle">
+                <h2 class="small-title"><?php echo implode('<br/>',$title_rwd); ?></h2>
+                <h2 class="mt"><?php echo $main_title ?></h2>
+            </div>
+            <div class="maindate">
+                <h4 class="text-center">
+                    <i class="fa fa-calendar"></i> 日期: <?php echo $date_string; ?> &nbsp; &nbsp;
+                    <div class="fb-share-button" style="margin-top:15px;"
+                        data-href="http://datasci.tw<?php echo $_SERVER['REQUEST_URI']; ?>"
+                        data-layout="button_count">
+                    </div>
+                </h4>
+                <h4 class="text-center">
+                    <i class="fa fa-map-marker"></i> 地點: <?php echo $location_string;?>
+                </h4>
+                <?php
+                $today = time();
+                $reg_end = ( isset($deadline) AND $today > $deadline );
+                if ( isset($kktix_date) AND $today > $kktix_date )
+                {
+                    // $end_string = '已開放報名！';
+                    echo '<div class="ticket-container">';
+                    if ( $today > $event_date )
+                    {
+                        echo '<h4><i class="fa fa-check"></i> 活動已結束，請期待下一場系列活動！</h4>';
+                    }
+                    else if( $reg_end )
+                    {
+                        echo '<h4><i class="fa fa-check"></i> 報名已經截止，感謝大家的支持！</h4>';
+                    }else if( isset($ticket_full) ) 
+                    {
+                        echo '<h4><i class="fa fa-check"></i> 報名名額已額滿，感謝大家的支持！</h4>';
+                    }
+                    else
+                    {
+                        $prefix = ( $today > $reg_date ) ? '立即報名' : '預覽報名頁面';
+                ?>
+                    
+                        <a class="type-15" href="http://dsc.kktix.cc/events/<?php echo $kktix_link; ?>" target="_blank">
+                            <span><?php echo $prefix; ?> <i class="fa fa-arrow-circle-right"></i></span>
+                            <span></span>
+                        </a>
+                    
+                <?php
+                    }
+                    echo '</div>';
+                }else{
+                    
+                    $register_string = date('Y/n/j',$reg_date). ' (' . $weekdays[date('w', $reg_date)] . ')';
+                    if( isset($reg_time) ) { $register_string .= ' ' . $reg_time; }
+                    $register_string .= ' 開放報名！';
+                    echo '<div class="ticket-container"><h4><i class="fa fa-check"></i> '. $register_string .'</h4></div>';
+                }
+                ?>
+            </div>
+            <a href="/event/" style="position:absolute;top:0px;left:4%;display:block;width:24%;height:50%;background-color:transparent;"></a>
+        </div>
+    </div>
+</div>  
+    
+
+            </section>
             <section id="about_us"><?php include '../_template/about.php';?></section>
             <section id="schedule"><div  class="pic_section" ><?php include '../_template/schedule.php';?></div></section>
             <section id="speaker"><?php include '../_template/speaker.php';?></section>
             <section id="content" ><div class="grey_section" ><?php include '../_template/content.php';?></div></section>
             <section id="ticket"><?php include '../_template/ticket.php';?></section>
-            <section id="traffic" ><div class="grey_section" ><?php include '../_template/traffic.php';?></div></section>
+            <section id="traffic" >
+
+            <div class="grey_section" ><?php include '../_template/traffic_taai.php';?></div></section>
             <section id="team"><?php include '../_template/team.php';?></section>
             <section id="copyright" class="color_section">
                 <div class="container">
