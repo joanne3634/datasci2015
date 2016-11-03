@@ -1,7 +1,16 @@
 <?php
+
+
+// $title = 'DSC × TAAI 2016 人工智慧與機器學習在推薦系統上的應用';
 $title = '人工智慧與機器學習在推薦系統上的應用';
+$main_title = '人工智慧與機器學習在推薦系統上的應用';
+$title_rwd = array('<span style="font-size:0.6em;">DSC × TAAI 2016</span>','<span style="font-size:0.8em;">人工智慧與機器學習</span>','<span style="font-size:0.8em;">在推薦系統上的應用</span>');
+$caption = array('DSC × TAAI 2016','<span class="caption-span">人工智慧與機器學習在推薦系統上的應用</span>');
+
 // $title_rwd = array(  '視訊訊號處理與深度學習應用', '<span style="font-size:0.8em;">理論、賞析與實作</span>' );
-$caption = array('人工智慧與機器學習在推薦系統上的應用');
+// $caption = array('人工智慧與機器學習在推薦系統上的應用');
+
+
 date_default_timezone_set('Asia/Taipei');
 $event_date = strtotime('2016-11-25 17:00:00');
 $weekdays = array('0' => '日', '1' => '一', '2' => '二', '3' => '三', '4' => '四', '5' => '五', '6' => '六');
@@ -76,7 +85,7 @@ $speakers = array(
             '臺灣大學資訊工程系 / 教授',
         ),
         'info' => array(
-            'Prof. Shou-de Lin is currently a full professor in the CSIE department of National Taiwan University. He holds a BS in EE department from National Taiwan University, an MS-EE from the University of Michigan, and an MS in Computational Linguistics and PhD in Computer Science both from the University of Southern California. He leads the Machine Discovery and Social Network Mining Lab in NTU. Before joining NTU, he was a post-doctoral research fellow at the Los Alamos National Lab. Prof. Lin’s research includes the areas of machine learning and data mining, social network analysis, and natural language processing. His international recognition includes the best paper award in IEEE Web Intelligent conference 2003, Google Research Award in 2007, Microsoft research award in 2008, merit paper award in TAAI 2010, best paper award in ASONAM 2011, US Aerospace AFOSR/AOARD research award winner for 5 years. He is the all-time winners in ACM KDD Cup, leading or co-leading the NTU team to win 5 championships. He also leads an NTU research team to win WSDM Cup 2016. He has served as the senior PC for SIGKDD and area chair for ACL. He is currently the associate editor for International Journal on Social Network Mining, Journal of Information Science and Engineering, and International Journal of Computational Linguistics and Chinese Language Processing.',
+            '林守德老師擁有台灣大學電機工程學士學位、密西根大學電機學士學位、南加州大學計算語言學碩士學位和計算機科學博士學位，目前為國立臺灣大學資訊工程學系的教授暨台大的機器發明與社群網路探勘實驗室主持人，在加入台大之前，他是洛斯阿拉莫斯國家實驗室的博士後研究員。林教授的研究包括機器學習和資料探勘、社會網絡分析和自然語言處理等領域，他的國際認可包括2003 年 IEEE 網路智能會議最佳論文獎、2007 年 Google 研究獎、2008 年微軟研究獎、2010 年 TAAI 優秀論文獎、2011 年 ASONAM 最佳論文獎，以及連續5年獲得美國航空航天 AFOSR / AOARD 研究獎。他亦是 ACM KDD Cup 的常勝軍，領導或共同領導台大團隊贏得5次冠軍，今年也帶領一個台大的研究團隊贏得 2016 年 WSDM 盃。他曾擔任 SIGKDD 的高級程序委員及 ACL 的區域主席，目前是國際社會網絡探勘雜誌、資訊科學與工程學報和中文計算語言學期刊的副主編。',
         ),
     ),
 );
@@ -91,6 +100,11 @@ $team = array(
             'name' => '中央研究院資訊科學研究所',
             'href' => 'http://www.iis.sinica.edu.tw/',
             'image' => 'iis_s.png'
+        ),
+        array(
+            'name' => 'TAAI 2016',
+            'href' => 'http://www.cs.nthu.edu.tw/~taai2016/',
+            'image' => 'LOGO-nthu_solid_s.png'
         )
     ),
 );
@@ -123,7 +137,7 @@ $team = array(
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         <link rel="stylesheet" href="../_css/bootstrap.min.css">
         <link rel="stylesheet" href="../_css/main.css">
-        <link rel="stylesheet" href="../_css/deep_learning_one_day_0924.css">
+        <link rel="stylesheet" href="../_css/ml_1125.css">
         <link rel="stylesheet" href="../_css/animations.css">
         <link rel="stylesheet" href="../_css/fonts.css">
         <script src="../_js/vendor/modernizr-2.6.2.min.js"></script>
@@ -139,19 +153,86 @@ $team = array(
         <![endif]-->
         <div id="box_wrapper">
             <?php include '../_template/menu.php';?>
-            <section id="mainslider"><?php include '../_template/slide.php';?></section>
+            <section id="mainslider"><div class="container" style="padding-top:80px;" ><!-- style="padding-top:80px;" -->
+    <div class="row">
+        <div class="col-md-12">
+            <img src="../_images/dsc2016xtaai2016.svg" class="img-responsive logoInline">
+            <div class="mainTitle">
+                <h2 class="small-title"><?php echo implode('<br/>',$title_rwd); ?></h2>
+                <h2 class="mt"><?php echo $main_title ?></h2>
+            </div>
+            <div class="maindate">
+                <h4 class="text-center">
+                    <i class="fa fa-calendar"></i> 日期: <?php echo $date_string; ?> &nbsp; &nbsp;
+                    <div class="fb-share-button" style="margin-top:15px;"
+                        data-href="http://datasci.tw<?php echo $_SERVER['REQUEST_URI']; ?>"
+                        data-layout="button_count">
+                    </div>
+                </h4>
+                <h4 class="text-center">
+                    <i class="fa fa-map-marker"></i> 地點: <?php echo $location_string;?>
+                </h4>
+                <?php
+                $today = time();
+                $reg_end = ( isset($deadline) AND $today > $deadline );
+                if ( isset($kktix_date) AND $today > $kktix_date )
+                {
+                    // $end_string = '已開放報名！';
+                    echo '<div class="ticket-container">';
+                    if ( $today > $event_date )
+                    {
+                        echo '<h4><i class="fa fa-check"></i> 活動已結束，請期待下一場系列活動！</h4>';
+                    }
+                    else if( $reg_end )
+                    {
+                        echo '<h4><i class="fa fa-check"></i> 報名已經截止，感謝大家的支持！</h4>';
+                    }else if( isset($ticket_full) ) 
+                    {
+                        echo '<h4><i class="fa fa-check"></i> 報名名額已額滿，感謝大家的支持！</h4>';
+                    }
+                    else
+                    {
+                        $prefix = ( $today > $reg_date ) ? '立即報名' : '預覽報名頁面';
+                ?>
+                    
+                        <a class="type-15" href="http://dsc.kktix.cc/events/<?php echo $kktix_link; ?>" target="_blank">
+                            <span><?php echo $prefix; ?> <i class="fa fa-arrow-circle-right"></i></span>
+                            <span></span>
+                        </a>
+                    
+                <?php
+                    }
+                    echo '</div>';
+                }else{
+                    
+                    $register_string = date('Y/n/j',$reg_date). ' (' . $weekdays[date('w', $reg_date)] . ')';
+                    if( isset($reg_time) ) { $register_string .= ' ' . $reg_time; }
+                    $register_string .= ' 開放報名！';
+                    echo '<div class="ticket-container"><h4><i class="fa fa-check"></i> '. $register_string .'</h4></div>';
+                }
+                ?>
+            </div>
+            <a href="/event/" style="position:absolute;top:0px;left:4%;display:block;width:24%;height:50%;background-color:transparent;"></a>
+        </div>
+    </div>
+</div>  
+    
+
+            </section>
             <section id="about_us"><?php include '../_template/about.php';?></section>
             <section id="schedule"><div  class="pic_section" ><?php include '../_template/schedule.php';?></div></section>
             <section id="speaker"><?php include '../_template/speaker.php';?></section>
             <section id="content" ><div class="grey_section" ><?php include '../_template/content.php';?></div></section>
             <section id="ticket"><?php include '../_template/ticket.php';?></section>
-            <section id="traffic" ><div class="grey_section" ><?php include '../_template/traffic.php';?></div></section>
+            <section id="traffic" >
+
+            <div class="grey_section" ><?php include '../_template/traffic_taai.php';?></div></section>
             <section id="team"><?php include '../_template/team.php';?></section>
             <section id="copyright" class="color_section">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12 text-center">
-                            <p> <a href="https://www.facebook.com/twdsconf" target="_blank" title="" data-toggle="tooltip" data-original-title="Facebook">find us on facebook</a></p>
+                            <p> <a style="font-size: 1.3em;" href="https://www.facebook.com/twdsconf" target="_blank" title="" data-toggle="tooltip" data-original-title="Facebook">find us on <img src="../_images/FB-f-Logo__blue_58.png" style="width: 1.6em;padding: 0px 3px;vertical-align: sub;"></a></p>
                             <p>&copy; Copyright <a href="/">2016 - 台灣資料科學年會</a> </p>
                         </div>
                     </div>

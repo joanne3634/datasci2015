@@ -1,0 +1,148 @@
+#header .navbar-brand {
+    padding: 20px 0px;
+    font-size: 24px;
+    max-width: none;
+}
+.caption-span{
+    font-size: 0.8em;
+}
+
+@media (max-width: 953px) {
+    #header .navbar-brand {
+        padding-top: 12px;
+        padding-bottom: 5px;
+        font-size: 21px;
+        max-width: 320px;
+    }
+    .mainTitle{
+        top: 55%;
+    }
+}
+
+@media (min-width: 768px) and ( max-width: 800px) {
+    #header .navbar-brand {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 767px) {
+    .mainTitle h2 {
+        margin: 18px 0 10px 0;
+    }
+}
+
+@media (min-width: 550px) {
+    .maindate > h4 {
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width: 550px) {
+    .mainTitle h2 {
+        margin: 12px 0 10px 0;
+    }
+}
+
+@media (min-width: 490px) {
+    .mainTitle > .small-title {
+        display: none;
+    }
+    .mainTitle > .mt {
+        display: block;
+    }
+}
+
+@media (max-width: 490px) {
+    .mainTitle {
+        background: #8dd2c8;
+        top: 50%;
+        font-size: 1.7em;
+        width: 85%;
+        left: 7.5%;
+    }
+    .mainTitle h2 {
+        margin: 0px 0 10px 0;
+    }
+    .mainTitle > .small-title {
+        display: block;
+    }
+    .mainTitle > .mt {
+        display: none;
+    }
+    .maindate {
+        padding-top: 40px;
+    }
+}
+
+@media (max-width: 420px) {
+    /* 議程文字大小 */
+    .pic_section {
+        font-size: 15px;
+    }
+    .pic_section h3 {
+        font-size: 20px;
+        line-height: 1.2em;
+    }
+    .maindate {
+        padding-top: 60px;
+    }
+    .maindate h4 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 375px) {
+    .mainTitle {
+        top: 45%;
+    }
+    #header .navbar-brand {
+        font-size: 18px;
+        padding: 12px 0px 5px 0px;
+        line-height: 20px;
+    }
+    .maindate h4 {
+        font-size: 14px;
+    }
+    .caption-span{
+        font-size: 0.7em;
+    }
+}
+
+@media (max-width: 320px) {
+    .mainTitle {
+        top: 40%;
+    }
+}
+
+#header {
+    position: fixed;
+}
+
+.pic_section,
+.grey_section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.color_section {
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+}
+ul.about_ul{
+    list-style: none;
+}
+ul.about_ul  li:before {
+    content: "\2022";
+    font-size: 24px;
+    line-height: 1;
+    position: relative;
+    top: 2px;
+    padding-right: 10px;
+    margin-left: -20px;
+    color: #ef8322;
+}
+a.map_link {
+    line-height: 1.5em;
+    word-break: break-all;
+    font-weight: normal;
+}

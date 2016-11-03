@@ -56,7 +56,7 @@
                 }
                 ?>
             </div>
-            <a href="/event/"style="position:absolute;top:0px;left:4%;display:block;width:24%;height:50%;background-color:transparent;"></a>
+            <a href="/event/" style="position:absolute;top:0px;left:4%;display:block;width:24%;height:50%;background-color:transparent;"></a>
         </div>
     </div>
 </div>  
