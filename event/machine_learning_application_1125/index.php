@@ -85,7 +85,7 @@ $speakers = array(
             '臺灣大學資訊工程系 / 教授',
         ),
         'info' => array(
-            'Prof. Shou-de Lin is currently a full professor in the CSIE department of National Taiwan University. He holds a BS in EE department from National Taiwan University, an MS-EE from the University of Michigan, and an MS in Computational Linguistics and PhD in Computer Science both from the University of Southern California. He leads the Machine Discovery and Social Network Mining Lab in NTU. Before joining NTU, he was a post-doctoral research fellow at the Los Alamos National Lab. Prof. Lin’s research includes the areas of machine learning and data mining, social network analysis, and natural language processing. His international recognition includes the best paper award in IEEE Web Intelligent conference 2003, Google Research Award in 2007, Microsoft research award in 2008, merit paper award in TAAI 2010, best paper award in ASONAM 2011, US Aerospace AFOSR/AOARD research award winner for 5 years. He is the all-time winners in ACM KDD Cup, leading or co-leading the NTU team to win 5 championships. He also leads an NTU research team to win WSDM Cup 2016. He has served as the senior PC for SIGKDD and area chair for ACL. He is currently the associate editor for International Journal on Social Network Mining, Journal of Information Science and Engineering, and International Journal of Computational Linguistics and Chinese Language Processing.',
+            '林守德老師擁有台灣大學電機工程學士學位、密西根大學電機學士學位、南加州大學計算語言學碩士學位和計算機科學博士學位，目前為國立臺灣大學資訊工程學系的教授暨台大的機器發明與社群網路探勘實驗室主持人，在加入台大之前，他是洛斯阿拉莫斯國家實驗室的博士後研究員。林教授的研究包括機器學習和資料探勘、社會網絡分析和自然語言處理等領域，他的國際認可包括2003 年 IEEE 網路智能會議最佳論文獎、2007 年 Google 研究獎、2008 年微軟研究獎、2010 年 TAAI 優秀論文獎、2011 年 ASONAM 最佳論文獎，以及連續5年獲得美國航空航天 AFOSR / AOARD 研究獎。他亦是 ACM KDD Cup 的常勝軍，領導或共同領導台大團隊贏得5次冠軍，今年也帶領一個台大的研究團隊贏得 2016 年 WSDM 盃。他曾擔任 SIGKDD 的高級程序委員及 ACL 的區域主席，目前是國際社會網絡探勘雜誌、資訊科學與工程學報和中文計算語言學期刊的副主編。',
         ),
     ),
 );
@@ -100,6 +100,11 @@ $team = array(
             'name' => '中央研究院資訊科學研究所',
             'href' => 'http://www.iis.sinica.edu.tw/',
             'image' => 'iis_s.png'
+        ),
+        array(
+            'name' => 'TAAI 2016',
+            'href' => 'http://www.cs.nthu.edu.tw/~taai2016/',
+            'image' => 'LOGO-nthu_solid_s.png'
         )
     ),
 );
@@ -151,7 +156,7 @@ $team = array(
             <section id="mainslider"><div class="container" style="padding-top:80px;" ><!-- style="padding-top:80px;" -->
     <div class="row">
         <div class="col-md-12">
-            <img src="../_images/dsc2016-series_main.svg" class="img-responsive logoInline">
+            <img src="../_images/dsc2016xtaai2016.svg" class="img-responsive logoInline">
             <div class="mainTitle">
                 <h2 class="small-title"><?php echo implode('<br/>',$title_rwd); ?></h2>
                 <h2 class="mt"><?php echo $main_title ?></h2>
@@ -227,7 +232,7 @@ $team = array(
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12 text-center">
-                            <p> <a href="https://www.facebook.com/twdsconf" target="_blank" title="" data-toggle="tooltip" data-original-title="Facebook">find us on facebook</a></p>
+                            <p> <a style="font-size: 1.3em;" href="https://www.facebook.com/twdsconf" target="_blank" title="" data-toggle="tooltip" data-original-title="Facebook">find us on <img src="../_images/FB-f-Logo__blue_58.png" style="width: 1.6em;padding: 0px 3px;vertical-align: sub;"></a></p>
                             <p>&copy; Copyright <a href="/">2016 - 台灣資料科學年會</a> </p>
                         </div>
                     </div>
