@@ -1,7 +1,8 @@
 <?php
 $title = '一天搞懂深度學習';
 // $title_rwd = array(  '視訊訊號處理與深度學習應用', '<span style="font-size:0.8em;">理論、賞析與實作</span>' );
-$caption = array('一天搞懂深度學習');
+$caption = array('DSC × TAAI 2016','<span style="font-size: 0.8em;">一天搞懂深度學習</span>');
+
 date_default_timezone_set('Asia/Taipei');
 $event_date = strtotime('2016-11-26 17:00:00');
 $weekdays = array('0' => '日', '1' => '一', '2' => '二', '3' => '三', '4' => '四', '5' => '五', '6' => '六');
@@ -125,7 +126,7 @@ $team = array(
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         <link rel="stylesheet" href="../_css/bootstrap.min.css">
         <link rel="stylesheet" href="../_css/main.css">
-        <link rel="stylesheet" href="../_css/deep_learning_one_day_0924.css">
+        <link rel="stylesheet" href="../_css/ml_1125.css">
         <link rel="stylesheet" href="../_css/animations.css">
         <link rel="stylesheet" href="../_css/fonts.css">
         <script src="../_js/vendor/modernizr-2.6.2.min.js"></script>
