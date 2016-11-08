@@ -1,7 +1,9 @@
 <?php
 $title = '一天搞懂深度學習';
+$main_title = '一天搞懂深度學習';
 // $title_rwd = array(  '視訊訊號處理與深度學習應用', '<span style="font-size:0.8em;">理論、賞析與實作</span>' );
-$caption = array('DSC × TAAI 2016','<span style="font-size: 0.8em;">一天搞懂深度學習</span>');
+$title_rwd = array('<span style="font-size:0.6em;">DSC × TAAI 2016</span>','<span style="font-size:0.8em;">一天搞懂深度學習</span>');
+$caption = array('DSC × TAAI 2016','<span style="font-size:0.8em;">一天搞懂深度學習</span>');
 
 date_default_timezone_set('Asia/Taipei');
 $event_date = strtotime('2016-11-26 17:00:00');
@@ -41,7 +43,7 @@ $about = array(
 
 $content = array(
     'DSC × TAAI 2016 特別福利' => array(
-        '報名此場次的與會者可以參加當天早上 <a href="http://www.cs.nthu.edu.tw/~taai2016/" target="_blank">TAAI 2016</a> 的 <a href="http://www.cs.nthu.edu.tw/~taai2016/keynote.html" target="_blank">Keynote Speech</a> —— Intercultural Collaboration as a Multi-Agent System。',
+        '報名此場次的與會者可以參加當天早上 <a href="http://www.cs.nthu.edu.tw/~taai2016/" target="_blank">TAAI 2016</a> 的 <a href="http://www.cs.nthu.edu.tw/~taai2016/keynote.html" target="_blank">Keynote Speech</a> —— Intercultural Collaboration as a Multi-Agent System (Speaker: Prof. Toru Ishida)。',
         '<a href="http://www.cs.nthu.edu.tw/~taai2016/" target="_blank">TAAI</a> 為全台灣一年一度的人工智慧學者聚集的場合，與會者們等同於擁有與所有 AI 學者交流的機會！',
         '當天 <a href="http://www.cs.nthu.edu.tw/~taai2016/" target="_blank">TAAI 2016</a> 會安排 AI 研究成果的海報展示，可讓與會者們進一步深入了解 AI 學者的研究成果。',
     ),
@@ -94,6 +96,11 @@ $team = array(
             'name' => '中央研究院資訊科學研究所',
             'href' => 'http://www.iis.sinica.edu.tw/',
             'image' => 'iis_s.png'
+        ),
+        array(
+            'name' => 'TAAI 2016',
+            'href' => 'http://www.cs.nthu.edu.tw/~taai2016/',
+            'image' => 'LOGO-nthu_solid_s.png'
         )
     ),
 );
@@ -126,7 +133,7 @@ $team = array(
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         <link rel="stylesheet" href="../_css/bootstrap.min.css">
         <link rel="stylesheet" href="../_css/main.css">
-        <link rel="stylesheet" href="../_css/ml_1125.css">
+        <link rel="stylesheet" href="../_css/dl_1126.css">
         <link rel="stylesheet" href="../_css/animations.css">
         <link rel="stylesheet" href="../_css/fonts.css">
         <script src="../_js/vendor/modernizr-2.6.2.min.js"></script>
@@ -142,7 +149,70 @@ $team = array(
         <![endif]-->
         <div id="box_wrapper">
             <?php include '../_template/menu.php';?>
-            <section id="mainslider"><?php include '../_template/slide.php';?></section>
+            <section id="mainslider"><div class="container" style="padding-top:80px;" ><!-- style="padding-top:80px;" -->
+    <div class="row">
+        <div class="col-md-12">
+            <img src="../_images/dsc2016xtaai2016.svg" class="img-responsive logoInline">
+            <div class="mainTitle">
+                <h2 class="small-title"><?php echo implode('<br/>',$title_rwd); ?></h2>
+                <h2 class="mt"><?php echo $main_title ?></h2>
+            </div>
+            <div class="maindate">
+                <h4 class="text-center">
+                    <i class="fa fa-calendar"></i> 日期: <?php echo $date_string; ?> &nbsp; &nbsp;
+                    <div class="fb-share-button" style="margin-top:15px;"
+                        data-href="http://datasci.tw<?php echo $_SERVER['REQUEST_URI']; ?>"
+                        data-layout="button_count">
+                    </div>
+                </h4>
+                <h4 class="text-center">
+                    <i class="fa fa-map-marker"></i> 地點: <?php echo $location_string;?>
+                </h4>
+                <?php
+                $today = time();
+                $reg_end = ( isset($deadline) AND $today > $deadline );
+                if ( isset($kktix_date) AND $today > $kktix_date )
+                {
+                    // $end_string = '已開放報名！';
+                    echo '<div class="ticket-container">';
+                    if ( $today > $event_date )
+                    {
+                        echo '<h4><i class="fa fa-check"></i> 活動已結束，請期待下一場系列活動！</h4>';
+                    }
+                    else if( $reg_end )
+                    {
+                        echo '<h4><i class="fa fa-check"></i> 報名已經截止，感謝大家的支持！</h4>';
+                    }else if( isset($ticket_full) ) 
+                    {
+                        echo '<h4><i class="fa fa-check"></i> 報名名額已額滿，感謝大家的支持！</h4>';
+                    }
+                    else
+                    {
+                        $prefix = ( $today > $reg_date ) ? '立即報名' : '預覽報名頁面';
+                ?>
+                    
+                        <a class="type-15" href="http://dsc.kktix.cc/events/<?php echo $kktix_link; ?>" target="_blank">
+                            <span><?php echo $prefix; ?> <i class="fa fa-arrow-circle-right"></i></span>
+                            <span></span>
+                        </a>
+                    
+                <?php
+                    }
+                    echo '</div>';
+                }else{
+                    
+                    $register_string = date('Y/n/j',$reg_date). ' (' . $weekdays[date('w', $reg_date)] . ')';
+                    if( isset($reg_time) ) { $register_string .= ' ' . $reg_time; }
+                    $register_string .= ' 開放報名！';
+                    echo '<div class="ticket-container"><h4><i class="fa fa-check"></i> '. $register_string .'</h4></div>';
+                }
+                ?>
+            </div>
+            <a href="/event/" style="position:absolute;top:0px;left:4%;display:block;width:24%;height:50%;background-color:transparent;"></a>
+        </div>
+    </div>
+</div>  
+    </section>
             <section id="about_us"><?php include '../_template/about.php';?></section>
             <section id="schedule"><div  class="pic_section" ><?php include '../_template/schedule.php';?></div></section>
             <section id="speaker"><?php include '../_template/speaker.php';?></section>
@@ -154,7 +224,7 @@ $team = array(
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12 text-center">
-                            <p> <a href="https://www.facebook.com/twdsconf" target="_blank" title="" data-toggle="tooltip" data-original-title="Facebook">find us on facebook</a></p>
+                            <p> <a style="font-size: 1.3em;" href="https://www.facebook.com/twdsconf" target="_blank" title="" data-toggle="tooltip" data-original-title="Facebook">find us on <img src="../_images/FB-f-Logo__blue_58.png" style="width: 1.6em;padding: 0px 3px;vertical-align: sub;"></a></p>
                             <p>&copy; Copyright <a href="/">2016 - 台灣資料科學年會</a> </p>
                         </div>
                     </div>
