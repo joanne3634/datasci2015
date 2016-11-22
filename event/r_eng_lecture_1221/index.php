@@ -1,27 +1,25 @@
 <?php
-$title = '星火燎原 - Spark 機器學習初探';
+$title = 'Data exploration with modern R';
 // $title_rwd = array(  '視訊訊號處理與深度學習應用', '<span style="font-size:0.8em;">理論、賞析與實作</span>' );
-$caption = array('星火燎原 - Spark 機器學習初探');
+$caption = array('Data exploration with modern R');
 date_default_timezone_set('Asia/Taipei');
-$event_date = strtotime('2016-12-18 17:00:00');
+$event_date = strtotime('2016-12-21 17:00:00');
 $weekdays = array('0' => '日', '1' => '一', '2' => '二', '3' => '三', '4' => '四', '5' => '五', '6' => '六');
 $date_string = date('Y/n/j', $event_date) . ' (' . $weekdays[date('w', $event_date)] . ')';
 $location_string = '中央研究院人文社會科學館 第二會議室';
 
-$kktix_link = 'series-events-1218';
-$kktix_date = strtotime('2016-11-27 16:00:00');
-$reg_date = strtotime('2016-11-28 12:00:00');
+$kktix_link = 'series-events-1221';
+$kktix_date = strtotime('2016-12-11 16:00:00');
+$reg_date = strtotime('2016-12-12 12:00:00');
 $reg_time = '中午 12:00';
-$deadline = strtotime('2016-12-06 12:00:00');
-$price = 2480;
+$deadline = strtotime('2016-12-16 12:00:00');
+$price = 0;
 // $ticket_full = true;
 
 $about = array(
-    'title' => '星火燎原 - Spark 機器學習初探',
+    'title' => 'Data exploration with modern R',
     'content' => array(
-    '此課程專為 Spark 入門者設計，在六小時帶您從無到有建置 Spark 開發環境，並以實作方式帶領您了解 Spark 機器學習函式庫 (MLlib) 的應用及開發。課程實作將以 Spark 核心之實作語言 - Scala 為主，搭配 Scala IDE eclipse 及相關 Library 建置本機開發環境，透過 IDE 強大的開發及偵錯功能加速開發流程；並介紹如何佈置至 Spark 平台，透過 Spark-submit 執行資料分析工作。',
-    '本課程涵蓋機器學習中最常使用之分類、迴歸及分群方法，在本課程中您將會了解到如何操作 Spark 核心資料集 - Resilient Distributed Dataset (RDD) 取得資料的概括統計量 (summary statistics)；並了解決策樹演算法 (Decision Tree)、最小平方法 (Linear least squares) 及 K-Means 演算法如何應用於租借量分析預測及網頁分類等情境。',
-    '歡迎對 Spark 感興趣，卻不知從何下手；或想快速的對 Spark 機器學習有初步的了解的您參與！',
+    'Exploratory data analysis is the process of quickly looking at data, formulating hypotheses, and testing those hypotheses. In practice, two of the most important components of this process are transforming data and visualizing it. We transform data because it rarely comes in exactly the right format for our analysis. We visualize the data so that we can use our built-in pattern recognition systems —— our eyes —— to efficiently look for patterns. This tutorial will be a hands-on, practical introduction to using R for data exploration, with an emphasis on data transformation and visualization. I will focus on using modern R packages like ggplot2, dplyr, and tidyr for this tutorial.',
     )
 );
 
@@ -35,8 +33,11 @@ $content = array(
 
 $content = array(
     '學員基本要求' => array(
-        '本課程針對對 Apache Spark 平台有興趣之初學者。有撰寫 Java、C# 或 python 等物件導向或函式型程式語⾔經驗者尤佳。',
-        '因課程搭配實作，會有 Spark 開發環境的建置，請學員⾃備筆記型電腦 (記憶體建議 4GB 以上，8GB 以上者尤佳)。'
+        'Attendees should bring a laptop computer, and before arriving, should have installed the following:<br>
+        - R 3.2.0 or higher (<a href="https://cloud.r-project.org/" target="_blank">https://cloud.r-project.org/</a>)<br>
+        - RStudio 1.0 or higher (<a href="https://www.rstudio.com/products/rstudio/download/" target="_blank">https://www.rstudio.com/products/rstudio/download/</a>). This is not stricly necessary, but it is highly recommended, especially for new users.<br>
+        - The R packages ggplot2, dplyr, and tidyr. The easiest way to install all of these is to run the following in R: install.packages("tidyverse")',
+        'The tutorial will be delivered in English.',
     ),
     '退票須知' => array(
         '本活動委由 <a href="https://kktix.com/" target="_blank">KKTIX</a> 代為處理退票退款事宜。',
@@ -46,30 +47,27 @@ $content = array(
 );
 
 $schedule = array(
-    '9:00 - 9:30' => array('title' => '報到'),
-    '9:30 - 10:30' => array('title' => '入門及暖身 - Spark 介紹及環境建置'),
-    '10:30 - 10:50' => array('title' => '茶點時間'),
-    '10:50 - 12:30' => array('title' => '開始蹲馬步 - RDD (Resilient Distributed Dataset) 操作及 Scala 程式開發佈署'),
-    '12:30 - 13:20' => array('title' => '午餐'),
-    '13:20 - 15:00' => array('title' => '練功及實戰 - Spark MLlib 分群及分類演算法案例實作'),
-    '15:00 - 15:20' => array('title' => '茶點時間'),
-    '15:20 - 17:00' => array('title' => '練功及實戰 - Spark MLlib 迴歸演算法案例實作、實戰經驗分享')
+    '14:00 - 15:20' => array('title' => 'Introduction to data analysis with R'),
+    '15:20 - 15:40' => array('title' => 'Tea Break'),
+    '15:40 - 17:00' => array('title' => 'Exploring data with visualization'),
 );
 
 $speakers = array(
-    'helen' => array(
+    'winston' => array(
         'detail' => true,
-        'image' => 'yclee.png',
-        'name' => '李泳泉',
+        'image' => 'winston.png',
+        'name' => 'Winston Chang',
         'suffix' => '',
-        'engn' => '(Yung-chuan Lee)',
+        'engn' => '',
         'title' => array(
-            '鋼鐵產業龍頭資訊處 / 工程師',
+            'RStudio / Software Engineer',
         ),
         'info' => array(
-            '畢業於國立台灣師範大學資教所，受過完整師資訓練，一個轉念進入程式猿領域至今即將邁入第十六年。菜鳥時期常被指派救火，學習領域跨足 JAVA、.NET，對 Web 程式開發及 Code Security 亦是略懂略懂。兩年前因緣際會接觸大數據領域；身為資深技術人員理所當然先學習了 Hadoop 及 Spark，Spark 的高效能及簡易性成為個人開發首選，倚重 Spark 提供的強大運算能力及內建機器學習玩轉數據，今年 7 月也有幸得到 EHC Hadoop 佈署大賽季軍；目前仍在持續的深入學習 Spark 中。',
+            'Winston Chang is a software engineer at RStudio and is the author of the R Graphics Cookbook, published by O’Reilly. He has a Ph.D. in Psychology from Northwestern University. He has developed and contributed to R packages such as R6, profvis, shiny, ggplot2, and devtools.
+',
         ),
-    ),    
+    ),
+
 );
 $team = array(
     '主辦單位' => array(
