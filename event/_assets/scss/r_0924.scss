@@ -270,6 +270,14 @@ ul.about_ul li:before {
     margin-left: -20px;
     color: #ef8322;
 }
+.widget_trafic ul ul li ul li:before {
+    font-family: FontAwesome;
+    content: '\f00c';
+    font-size: 14px;
+    top: -1px;
+    padding-right: 12px;
+    margin-left: -27px;
+}
 ul.list2{
     font-size: 21px;
 }

@@ -33,10 +33,12 @@ $content = array(
 
 $content = array(
     '學員基本要求' => array(
-        'Attendees should bring a laptop computer, and before arriving, should have installed the following:<br>
-        - R 3.2.0 or higher (<a href="https://cloud.r-project.org/" target="_blank">https://cloud.r-project.org/</a>)<br>
-        - RStudio 1.0 or higher (<a href="https://www.rstudio.com/products/rstudio/download/" target="_blank">https://www.rstudio.com/products/rstudio/download/</a>). This is not stricly necessary, but it is highly recommended, especially for new users.<br>
-        - The R packages ggplot2, dplyr, and tidyr. The easiest way to install all of these is to run the following in R: install.packages("tidyverse")',
+        'Attendees should bring a laptop computer, and before arriving, should have installed the following:
+        <ul class="about_ul">
+            <li>R 3.2.0 or higher (<a href="https://cloud.r-project.org/" target="_blank">https://cloud.r-project.org/</a>)</li>
+            <li>RStudio 1.0 or higher (<a href="https://www.rstudio.com/products/rstudio/download/" target="_blank">https://www.rstudio.com/products/rstudio/download/</a>). This is not stricly necessary, but it is highly recommended, especially for new users.</li>
+            <li>The R packages ggplot2, dplyr, and tidyr. The easiest way to install all of these is to run the following in R: install.packages("tidyverse")</li>
+        </ul>',
         'The tutorial will be delivered in English.',
     ),
     '退票須知' => array(
